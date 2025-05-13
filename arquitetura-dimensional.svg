@@ -1,0 +1,77 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Título -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1E3A8A">Arquitetura Dimensional HEALTH/HEALTH</text>
+  
+  <!-- Descrição -->
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">Representação do Espaço Vetorial da Mente ℳ = ℳₑₘₒcᵢₒₙₐₗ ⊕ ℳcₒₙgᵢₜᵢᵥₐ ⊕ ℳₐᵤₜₒₙₒₘᵢₐ</text>
+  
+  <!-- Círculos Concêntricos do Radar -->
+  <circle cx="400" cy="320" r="240" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="400" cy="320" r="180" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="400" cy="320" r="120" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="400" cy="320" r="60" fill="none" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Eixos do Radar -->
+  <!-- Valência Emocional -->
+  <line x1="400" y1="320" x2="400" y2="80" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Excitação Emocional -->
+  <line x1="400" y1="320" x2="607" y2="200" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Dominância Emocional -->
+  <line x1="400" y1="320" x2="607" y2="440" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Intensidade Afetiva -->
+  <line x1="400" y1="320" x2="400" y2="560" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Complexidade Sintática -->
+  <line x1="400" y1="320" x2="193" y2="440" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Coerência Narrativa -->
+  <line x1="400" y1="320" x2="193" y2="200" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Flexibilidade Cognitiva -->
+  <line x1="400" y1="320" x2="270" y2="120" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Dissonância Cognitiva -->
+  <line x1="400" y1="320" x2="530" y2="120" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Perspectiva Temporal -->
+  <line x1="400" y1="320" x2="270" y2="520" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Autocontrole -->
+  <line x1="400" y1="320" x2="530" y2="520" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Linha de Radar Dimensional - Estado Atual -->
+  <path d="M 400 140 L 547 230 L 547 400 L 400 480 L 253 400 L 253 230 L 310 160 L 490 160 L 310 480 L 490 480 Z" fill="rgba(59, 130, 246, 0.2)" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Pontos do Radar -->
+  <circle cx="400" cy="140" r="6" fill="#1E3A8A"/>
+  <circle cx="547" cy="230" r="6" fill="#1E3A8A"/>
+  <circle cx="547" cy="400" r="6" fill="#1E3A8A"/>
+  <circle cx="400" cy="480" r="6" fill="#1E3A8A"/>
+  <circle cx="253" cy="400" r="6" fill="#065F46"/>
+  <circle cx="253" cy="230" r="6" fill="#065F46"/>
+  <circle cx="310" cy="160" r="6" fill="#065F46"/>
+  <circle cx="490" cy="160" r="6" fill="#065F46"/>
+  <circle cx="310" cy="480" r="6" fill="#7E1D5F"/>
+  <circle cx="490" cy="480" r="6" fill="#7E1D5F"/>
+  
+  <!-- Rótulos das Dimensões -->
+  <!-- Dimensão Emocional -->
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1E3A8A">Valência Emocional (v₁)</text>
+  <text x="627" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#1E3A8A">Excitação Emocional (v₂)</text>
+  <text x="627" y="440" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#1E3A8A">Dominância Emocional (v₃)</text>
+  <text x="400" y="580" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1E3A8A">Intensidade Afetiva (v₄)</text>
+  
+  <!-- Dimensão Cognitiva -->
+  <text x="173" y="440" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#065F46">Complexidade Sintática (v₅)</text>
+  <text x="173" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#065F46">Coerência Narrativa (v₆)</text>
+  <text x="250" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#065F46">Flexibilidade Cognitiva (v₇)</text>
+  <text x="550" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#065F46">Dissonância Cognitiva (v₈)</text>
+  
+  <!-- Dimensão Autonomia -->
+  <text x="250" y="540" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#7E1D5F">Perspectiva Temporal (v₉)</text>
+  <text x="550" y="540" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#7E1D5F">Autocontrole (v₁₀)</text>
+  
+  <!-- Legendas -->
+  <rect x="100" y="30" width="16" height="16" fill="rgba(59, 130, 246, 0.2)" stroke="#3B82F6" stroke-width="2"/>
+  <text x="126" y="43" font-family="Arial, sans-serif" font-size="14" fill="#1E3A8A">Dimensão Emocional</text>
+  
+  <rect x="280" y="30" width="16" height="16" fill="rgba(16, 185, 129, 0.2)" stroke="#065F46" stroke-width="2"/>
+  <text x="306" y="43" font-family="Arial, sans-serif" font-size="14" fill="#065F46">Dimensão Cognitiva</text>
+  
+  <rect x="460" y="30" width="16" height="16" fill="rgba(236, 72, 153, 0.2)" stroke="#7E1D5F" stroke-width="2"/>
+  <text x="486" y="43" font-family="Arial, sans-serif" font-size="14" fill="#7E1D5F">Dimensão Autonomia</text>
+</svg>

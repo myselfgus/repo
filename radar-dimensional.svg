@@ -1,0 +1,72 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo e título -->
+  <rect width="800" height="600" fill="#f8fafc" rx="5" ry="5"/>
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#0f172a">Radar Dimensional HEALTH/HEALTH</text>
+  
+  <!-- Linhas de referência do radar -->
+  <circle cx="400" cy="300" r="50" fill="none" stroke="#64748b" stroke-width="1" stroke-dasharray="5,5"/>
+  <circle cx="400" cy="300" r="100" fill="none" stroke="#64748b" stroke-width="1" stroke-dasharray="5,5"/>
+  <circle cx="400" cy="300" r="150" fill="none" stroke="#64748b" stroke-width="1" stroke-dasharray="5,5"/>
+  <circle cx="400" cy="300" r="200" fill="none" stroke="#64748b" stroke-width="1" stroke-dasharray="5,5"/>
+  <circle cx="400" cy="300" r="250" fill="none" stroke="#64748b" stroke-width="1"/>
+  
+  <!-- Eixos do radar -->
+  <!-- Dimensão Emocional (Azul) -->
+  <line x1="400" y1="300" x2="400" y2="50" stroke="#1E3A8A" stroke-width="2"/>
+  <line x1="400" y1="300" x2="615.47" y2="192.82" stroke="#1E3A8A" stroke-width="2"/>
+  <line x1="400" y1="300" x2="496.41" y2="496.41" stroke="#1E3A8A" stroke-width="2"/>
+  <line x1="400" y1="300" x2="184.53" y2="192.82" stroke="#1E3A8A" stroke-width="2"/>
+  
+  <!-- Dimensão Cognitiva (Verde) -->
+  <line x1="400" y1="300" x2="303.59" y2="496.41" stroke="#065F46" stroke-width="2"/>
+  <line x1="400" y1="300" x2="565.69" y2="434.31" stroke="#065F46" stroke-width="2"/>
+  <line x1="400" y1="300" x2="234.31" y2="434.31" stroke="#065F46" stroke-width="2"/>
+  <line x1="400" y1="300" x2="550" y2="300" stroke="#065F46" stroke-width="2"/>
+  
+  <!-- Dimensão Autonomia (Roxo) -->
+  <line x1="400" y1="300" x2="250" y2="300" stroke="#7E1D5F" stroke-width="2"/>
+  <line x1="400" y1="300" x2="400" y2="550" stroke="#7E1D5F" stroke-width="2"/>
+  
+  <!-- Rótulos das dimensões -->
+  <!-- Dimensão Emocional -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#1E3A8A">Valência Emocional (v₁)</text>
+  <text x="625" y="185" text-anchor="start" font-family="Arial" font-size="12" fill="#1E3A8A">Excitação Emocional (v₂)</text>
+  <text x="506" y="506" text-anchor="middle" font-family="Arial" font-size="12" fill="#1E3A8A">Dominância Emocional (v₃)</text>
+  <text x="175" y="185" text-anchor="end" font-family="Arial" font-size="12" fill="#1E3A8A">Intensidade Afetiva (v₄)</text>
+  
+  <!-- Dimensão Cognitiva -->
+  <text x="293" y="506" text-anchor="middle" font-family="Arial" font-size="12" fill="#065F46">Complexidade Sintática (v₅)</text>
+  <text x="575" y="444" text-anchor="start" font-family="Arial" font-size="12" fill="#065F46">Coerência Narrativa (v₆)</text>
+  <text x="224" y="444" text-anchor="end" font-family="Arial" font-size="12" fill="#065F46">Flexibilidade Cognitiva (v₇)</text>
+  <text x="560" y="300" text-anchor="start" font-family="Arial" font-size="12" fill="#065F46">Dissonância Cognitiva (v₈)</text>
+  
+  <!-- Dimensão Autonomia -->
+  <text x="240" y="300" text-anchor="end" font-family="Arial" font-size="12" fill="#7E1D5F">Perspectiva Temporal (v₉)</text>
+  <text x="400" y="560" text-anchor="middle" font-family="Arial" font-size="12" fill="#7E1D5F">Autocontrole (v₁₀)</text>
+  
+  <!-- Perfil dimensional (exemplo) -->
+  <polygon points="400,100 540,220 460,430 250,220 350,150 260,450 520,380 320,380 300,320 400,480" 
+           fill="rgba(59, 130, 246, 0.2)" stroke="rgba(59, 130, 246, 0.7)" stroke-width="2.5"/>
+  
+  <!-- Pontos do perfil -->
+  <circle cx="400" cy="100" r="5" fill="#1E3A8A"/>
+  <circle cx="540" cy="220" r="5" fill="#1E3A8A"/>
+  <circle cx="460" cy="430" r="5" fill="#1E3A8A"/>
+  <circle cx="250" cy="220" r="5" fill="#1E3A8A"/>
+  <circle cx="350" cy="150" r="5" fill="#065F46"/>
+  <circle cx="260" cy="450" r="5" fill="#065F46"/>
+  <circle cx="520" cy="380" r="5" fill="#065F46"/>
+  <circle cx="320" cy="380" r="5" fill="#065F46"/>
+  <circle cx="300" cy="320" r="5" fill="#7E1D5F"/>
+  <circle cx="400" cy="480" r="5" fill="#7E1D5F"/>
+  
+  <!-- Legenda -->
+  <rect x="600" y="510" width="15" height="15" fill="rgba(30, 58, 138, 0.3)" stroke="rgba(30, 58, 138, 0.8)" stroke-width="1"/>
+  <text x="625" y="523" font-family="Arial" font-size="12" fill="#1E3A8A">Dimensão Emocional</text>
+  
+  <rect x="600" y="535" width="15" height="15" fill="rgba(6, 95, 70, 0.3)" stroke="rgba(6, 95, 70, 0.8)" stroke-width="1"/>
+  <text x="625" y="548" font-family="Arial" font-size="12" fill="#065F46">Dimensão Cognitiva</text>
+  
+  <rect x="600" y="560" width="15" height="15" fill="rgba(126, 29, 95, 0.3)" stroke="rgba(126, 29, 95, 0.8)" stroke-width="1"/>
+  <text x="625" y="573" font-family="Arial" font-size="12" fill="#7E1D5F">Dimensão Autonomia</text>
+</svg>

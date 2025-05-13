@@ -1,0 +1,80 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Título -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1E3A8A">GenAIScript: Interface de Conhecimento Dimensional</text>
+  
+  <!-- Estrutura Principal -->
+  <rect x="100" y="70" width="600" height="100" rx="5" fill="#EFF6FF" stroke="#1E40AF" stroke-width="2"/>
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1E40AF">.genai.mts</text>
+  <text x="400" y="145" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1E40AF">Ponto de entrada principal para comandos</text>
+  
+  <!-- Módulos Principais -->
+  <rect x="100" y="200" width="280" height="80" rx="5" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+  <text x="240" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1E3A8A">health-health-commands.mts</text>
+  <text x="240" y="260" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1E3A8A">Bridge de Comandos</text>
+  
+  <rect x="420" y="200" width="280" height="80" rx="5" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+  <text x="560" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1E3A8A">health-health-knowledge.mts</text>
+  <text x="560" y="260" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1E3A8A">Assistente de Conhecimento</text>
+  
+  <!-- Componentes de Comandos e Consultas -->
+  <rect x="100" y="320" width="280" height="200" rx="5" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="2"/>
+  <text x="240" y="345" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#64748B">Comandos Prefixados $</text>
+  
+  <!-- Lista de Comandos -->
+  <rect x="120" y="360" width="240" height="30" rx="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <text x="240" y="380" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">$fundamentos: [consulta]</text>
+  
+  <rect x="120" y="395" width="240" height="30" rx="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <text x="240" y="415" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">$dimensoes: [consulta]</text>
+  
+  <rect x="120" y="430" width="240" height="30" rx="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <text x="240" y="450" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">$visualizacao: [consulta]</text>
+  
+  <rect x="120" y="465" width="240" height="30" rx="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <text x="240" y="485" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">$exemplo: [descrição]</text>
+  
+  <!-- Funções de Conhecimento -->
+  <rect x="420" y="320" width="280" height="200" rx="5" fill="#F3F4F6" stroke="#9CA3AF" stroke-width="2"/>
+  <text x="560" y="345" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#64748B">Funções Especializadas</text>
+  
+  <rect x="440" y="360" width="240" height="30" rx="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <text x="560" y="380" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">explicarFundamentos()</text>
+  
+  <rect x="440" y="395" width="240" height="30" rx="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <text x="560" y="415" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">explicarDimensoes()</text>
+  
+  <rect x="440" y="430" width="240" height="30" rx="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <text x="560" y="450" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">explicarVisualizacao()</text>
+  
+  <rect x="440" y="465" width="240" height="30" rx="3" fill="#E5E7EB" stroke="#9CA3AF" stroke-width="1"/>
+  <text x="560" y="485" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748B">gerarExemplos()</text>
+  
+  <!-- Conexões -->
+  <line x1="240" y1="170" x2="240" y2="200" stroke="#64748B" stroke-width="2"/>
+  <polygon points="240,200 235,190 245,190" fill="#64748B"/>
+  
+  <line x1="560" y1="170" x2="560" y2="200" stroke="#64748B" stroke-width="2"/>
+  <polygon points="560,200 555,190 565,190" fill="#64748B"/>
+  
+  <line x1="240" y1="280" x2="240" y2="320" stroke="#64748B" stroke-width="2"/>
+  <polygon points="240,320 235,310 245,310" fill="#64748B"/>
+  
+  <line x1="560" y1="280" x2="560" y2="320" stroke="#64748B" stroke-width="2"/>
+  <polygon points="560,320 555,310 565,310" fill="#64748B"/>
+  
+  <!-- Conexão entre módulos -->
+  <path d="M 380 240 C 390 240, 390 240, 420 240" stroke="#64748B" stroke-width="2" fill="none"/>
+  <polygon points="420,240 410,235 410,245" fill="#64748B"/>
+  
+  <!-- Exemplo de Código e Saída -->
+  <rect x="100" y="540" width="280" height="50" rx="5" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  <text x="110" y="560" font-family="monospace" font-size="12" fill="#92400E">$dimensoes: Explique a Valência Emocional</text>
+  <text x="110" y="580" font-family="monospace" font-size="12" fill="#92400E">e seus correlatos neurobiológicos</text>
+  
+  <path d="M 390 565 L 420 565" stroke="#64748B" stroke-width="2" fill="none"/>
+  <polygon points="420,565 410,560 410,570" fill="#64748B"/>
+  
+  <rect x="420" y="540" width="280" height="50" rx="5" fill="#D1FAE5" stroke="#10B981" stroke-width="2"/>
+  <text x="430" y="560" font-family="monospace" font-size="10" fill="#065F46">// Resposta estruturada sobre Valência</text>
+  <text x="430" y="575" font-family="monospace" font-size="10" fill="#065F46">// Emocional e bases neurobiológicas</text>
+</svg>

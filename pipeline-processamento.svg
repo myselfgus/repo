@@ -1,0 +1,132 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo e título -->
+  <rect width="800" height="600" fill="#f8fafc" rx="5" ry="5"/>
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#0f172a">Pipeline de Processamento HEALTH/HEALTH</text>
+  
+  <!-- Retângulos de fundo para as fases -->
+  <rect x="50" y="100" width="700" height="80" rx="10" ry="10" fill="#EFF6FF" stroke="#1E3A8A" stroke-width="2"/>
+  <rect x="50" y="220" width="700" height="80" rx="10" ry="10" fill="#ECFDF5" stroke="#065F46" stroke-width="2"/>
+  <rect x="50" y="340" width="700" height="80" rx="10" ry="10" fill="#FDF2F8" stroke="#7E1D5F" stroke-width="2"/>
+  <rect x="50" y="460" width="700" height="80" rx="10" ry="10" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+  
+  <!-- Conectores verticais -->
+  <line x1="120" y1="180" x2="120" y2="220" stroke="#64748b" stroke-width="2"/>
+  <line x1="290" y1="180" x2="290" y2="220" stroke="#64748b" stroke-width="2"/>
+  <line x1="460" y1="180" x2="460" y2="220" stroke="#64748b" stroke-width="2"/>
+  <line x1="630" y1="180" x2="630" y2="220" stroke="#64748b" stroke-width="2"/>
+  
+  <line x1="120" y1="300" x2="120" y2="340" stroke="#64748b" stroke-width="2"/>
+  <line x1="290" y1="300" x2="290" y2="340" stroke="#64748b" stroke-width="2"/>
+  <line x1="460" y1="300" x2="460" y2="340" stroke="#64748b" stroke-width="2"/>
+  <line x1="630" y1="300" x2="630" y2="340" stroke="#64748b" stroke-width="2"/>
+  
+  <line x1="120" y1="420" x2="120" y2="460" stroke="#64748b" stroke-width="2"/>
+  <line x1="290" y1="420" x2="290" y2="460" stroke="#64748b" stroke-width="2"/>
+  <line x1="460" y1="420" x2="460" y2="460" stroke="#64748b" stroke-width="2"/>
+  <line x1="630" y1="420" x2="630" y2="460" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Títulos das fases -->
+  <text x="400" y="90" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#1E3A8A">Captura e Transcrição</text>
+  <text x="400" y="210" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#065F46">Processamento Linguístico</text>
+  <text x="400" y="330" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#7E1D5F">Análise Dimensional</text>
+  <text x="400" y="450" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#F59E0B">Visualização e Documentação</text>
+  
+  <!-- Ícones e etapas na Fase 1 -->
+  <circle cx="120" cy="140" r="25" fill="#BFDBFE" stroke="#1E3A8A" stroke-width="1.5"/>
+  <text x="120" y="144" text-anchor="middle" font-family="Arial" font-size="14" fill="#1E3A8A">1</text>
+  <text x="120" y="175" text-anchor="middle" font-family="Arial" font-size="12" fill="#1E3A8A">Gravação</text>
+  
+  <circle cx="290" cy="140" r="25" fill="#BFDBFE" stroke="#1E3A8A" stroke-width="1.5"/>
+  <text x="290" y="144" text-anchor="middle" font-family="Arial" font-size="14" fill="#1E3A8A">2</text>
+  <text x="290" y="175" text-anchor="middle" font-family="Arial" font-size="12" fill="#1E3A8A">Transcrição</text>
+  
+  <circle cx="460" cy="140" r="25" fill="#BFDBFE" stroke="#1E3A8A" stroke-width="1.5"/>
+  <text x="460" y="144" text-anchor="middle" font-family="Arial" font-size="14" fill="#1E3A8A">3</text>
+  <text x="460" y="175" text-anchor="middle" font-family="Arial" font-size="12" fill="#1E3A8A">Edição</text>
+  
+  <circle cx="630" cy="140" r="25" fill="#BFDBFE" stroke="#1E3A8A" stroke-width="1.5"/>
+  <text x="630" y="144" text-anchor="middle" font-family="Arial" font-size="14" fill="#1E3A8A">4</text>
+  <text x="630" y="175" text-anchor="middle" font-family="Arial" font-size="12" fill="#1E3A8A">Validação</text>
+  
+  <!-- Ícones e etapas na Fase 2 -->
+  <circle cx="120" cy="260" r="25" fill="#BFDBFE" stroke="#065F46" stroke-width="1.5"/>
+  <text x="120" y="264" text-anchor="middle" font-family="Arial" font-size="14" fill="#065F46">5</text>
+  <text x="120" y="295" text-anchor="middle" font-family="Arial" font-size="12" fill="#065F46">Morfossintática</text>
+  
+  <circle cx="290" cy="260" r="25" fill="#BFDBFE" stroke="#065F46" stroke-width="1.5"/>
+  <text x="290" y="264" text-anchor="middle" font-family="Arial" font-size="14" fill="#065F46">6</text>
+  <text x="290" y="295" text-anchor="middle" font-family="Arial" font-size="12" fill="#065F46">Semântica</text>
+  
+  <circle cx="460" cy="260" r="25" fill="#BFDBFE" stroke="#065F46" stroke-width="1.5"/>
+  <text x="460" y="264" text-anchor="middle" font-family="Arial" font-size="14" fill="#065F46">7</text>
+  <text x="460" y="295" text-anchor="middle" font-family="Arial" font-size="12" fill="#065F46">Pragmática</text>
+  
+  <circle cx="630" cy="260" r="25" fill="#BFDBFE" stroke="#065F46" stroke-width="1.5"/>
+  <text x="630" y="264" text-anchor="middle" font-family="Arial" font-size="14" fill="#065F46">8</text>
+  <text x="630" y="295" text-anchor="middle" font-family="Arial" font-size="12" fill="#065F46">NER</text>
+  
+  <!-- Ícones e etapas na Fase 3 -->
+  <circle cx="120" cy="380" r="25" fill="#BFDBFE" stroke="#7E1D5F" stroke-width="1.5"/>
+  <text x="120" y="384" text-anchor="middle" font-family="Arial" font-size="14" fill="#7E1D5F">9</text>
+  <text x="120" y="415" text-anchor="middle" font-family="Arial" font-size="12" fill="#7E1D5F">Extração</text>
+  
+  <circle cx="290" cy="380" r="25" fill="#BFDBFE" stroke="#7E1D5F" stroke-width="1.5"/>
+  <text x="290" y="384" text-anchor="middle" font-family="Arial" font-size="14" fill="#7E1D5F">10</text>
+  <text x="290" y="415" text-anchor="middle" font-family="Arial" font-size="12" fill="#7E1D5F">Validação</text>
+  
+  <circle cx="460" cy="380" r="25" fill="#BFDBFE" stroke="#7E1D5F" stroke-width="1.5"/>
+  <text x="460" y="384" text-anchor="middle" font-family="Arial" font-size="14" fill="#7E1D5F">11</text>
+  <text x="460" y="415" text-anchor="middle" font-family="Arial" font-size="12" fill="#7E1D5F">Trajetória</text>
+  
+  <circle cx="630" cy="380" r="25" fill="#BFDBFE" stroke="#7E1D5F" stroke-width="1.5"/>
+  <text x="630" y="384" text-anchor="middle" font-family="Arial" font-size="14" fill="#7E1D5F">12</text>
+  <text x="630" y="415" text-anchor="middle" font-family="Arial" font-size="12" fill="#7E1D5F">Enriquecimento</text>
+  
+  <!-- Ícones e etapas na Fase 4 -->
+  <circle cx="120" cy="500" r="25" fill="#BFDBFE" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="120" y="504" text-anchor="middle" font-family="Arial" font-size="14" fill="#F59E0B">13</text>
+  <text x="120" y="535" text-anchor="middle" font-family="Arial" font-size="12" fill="#F59E0B">Radar</text>
+  
+  <circle cx="290" cy="500" r="25" fill="#BFDBFE" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="290" y="504" text-anchor="middle" font-family="Arial" font-size="14" fill="#F59E0B">14</text>
+  <text x="290" y="535" text-anchor="middle" font-family="Arial" font-size="12" fill="#F59E0B">RCD</text>
+  
+  <circle cx="460" cy="500" r="25" fill="#BFDBFE" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="460" y="504" text-anchor="middle" font-family="Arial" font-size="14" fill="#F59E0B">15</text>
+  <text x="460" y="535" text-anchor="middle" font-family="Arial" font-size="12" fill="#F59E0B">SOAP</text>
+  
+  <circle cx="630" cy="500" r="25" fill="#BFDBFE" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="630" y="504" text-anchor="middle" font-family="Arial" font-size="14" fill="#F59E0B">16</text>
+  <text x="630" y="535" text-anchor="middle" font-family="Arial" font-size="12" fill="#F59E0B">Persistência</text>
+  
+  <!-- Conexão com Runtime Euleriano -->
+  <rect x="50" y="560" width="700" height="30" rx="5" ry="5" fill="#E0E7FF" stroke="#312E81" stroke-width="1.5"/>
+  <text x="400" y="580" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#312E81">Runtime Euleriano IREAJE.cloud</text>
+  
+  <!-- Conectores verticais para Runtime -->
+  <line x1="120" y1="540" x2="120" y2="560" stroke="#64748b" stroke-width="2"/>
+  <line x1="290" y1="540" x2="290" y2="560" stroke="#64748b" stroke-width="2"/>
+  <line x1="460" y1="540" x2="460" y2="560" stroke="#64748b" stroke-width="2"/>
+  <line x1="630" y1="540" x2="630" y2="560" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Tecnologias -->
+  <text x="185" y="140" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Interface Web/Mobile</text>
+  <text x="355" y="140" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Whisper (OpenAI)</text>
+  <text x="525" y="140" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Editor Interativo</text>
+  <text x="695" y="140" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Controle Qualidade</text>
+  
+  <text x="185" y="260" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">SpaCy/NLTK</text>
+  <text x="355" y="260" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Análise de Campos</text>
+  <text x="525" y="260" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Análise Discursiva</text>
+  <text x="695" y="260" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Extração Especializada</text>
+  
+  <text x="185" y="380" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Claude (Anthropic)</text>
+  <text x="355" y="380" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Revisão Especialista</text>
+  <text x="525" y="380" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Análise Temporal</text>
+  <text x="695" y="380" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">VORON/Contexto</text>
+  
+  <text x="185" y="500" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Chart.js/D3.js</text>
+  <text x="355" y="500" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Doc. Dimensional</text>
+  <text x="525" y="500" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">Integração EMR</text>
+  <text x="695" y="500" text-anchor="start" font-family="Arial" font-size="10" fill="#64748b">VIDIRIA Data Lake</text>
+</svg>

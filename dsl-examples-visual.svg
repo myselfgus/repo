@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradientes para DSLs -->
+    <linearGradient id="ajeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    
+    <linearGradient id="ireGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    
+    <linearGradient id="eGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7e1d5f" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    
+    <!-- Filtros -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+    
+    <!-- Código de sintaxe -->
+    <filter id="codeBg" x="-10%" y="-10%" width="120%" height="120%">
+      <feFlood flood-color="#0f172a" flood-opacity="0.05" result="bg" />
+      <feComposite in="bg" in2="SourceGraphic" operator="over" />
+    </filter>
+    
+    <!-- Marcadores para conexões -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+    </marker>
+  </defs>
+  
+  <!-- Fundo -->
+  <rect width="800" height="600" fill="url(#bgGradient)" rx="10" ry="10" />
+  
+  <!-- Título -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0f172a">
+    Exemplos Visuais de DSLs
+  </text>
+  <text x="400" y="65" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#334155">
+    Linguagens de Domínio Específico do IREAJE.cloud
+  </text>
+  
+  <!-- Seção .aje (Actions & Journey Events) -->
+  <g transform="translate(40, 100)">
+    <rect width="220" height="30" rx="5" ry="5" fill="url(#ajeGradient)" filter="url(#dropShadow)" />
+    <text x="110" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      .aje (Actions & Journey Events)
+    </text>
+    
+    <rect x="0" y="40" width="220" height="150" rx="5" ry="5" fill="white" stroke="#e2e8f0" stroke-width="1" filter="url(#codeBg)" />
+    
+    <!-- Código .aje -->
+    <text x="10" y="60" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      Re{RegisterSymptom}.aje:{
+    </text>
+    <text x="10" y="80" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;"Symptom": "Chest pain",
+    </text>
+    <text x="10" y="100" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;"Duration": "2 days",
+    </text>
+    <text x="10" y="120" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;"Intensity": "Moderate",
+    </text>
+    <text x="10" y="140" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;"Timestamp": "2025-04-26T10:15:30Z",
+    </text>
+    <text x="10" y="160" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;"ContextId": "consultation-123"
+    </text>
+    <text x="10" y="180" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      }
+    </text>
+    
+    <!-- Descrição -->
+    <rect x="0" y="200" width="220" height="120" rx="5" ry="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1" />
+    <text x="10" y="220" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f172a">Características:</text>
+    <text x="10" y="240" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Formato JSON estruturado</text>
+    <text x="10" y="260" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Registra eventos discretos</text>
+    <text x="10" y="280" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Formato: Re{Tipo}.aje:{dados}</text>
+    <text x="10" y="300" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Utilizado para capturar</text>
+    <text x="10" y="315" font-family="Arial, sans-serif" font-size="12" fill="#334155">&nbsp;&nbsp;observações clínicas</text>
+  </g>
+  
+  <!-- Seção .ire (Intelligent Relational Events) -->
+  <g transform="translate(290, 100)">
+    <rect width="220" height="30" rx="5" ry="5" fill="url(#ireGradient)" filter="url(#dropShadow)" />
+    <text x="110" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      .ire (Intelligent Relational Events)
+    </text>
+    
+    <rect x="0" y="40" width="220" height="200" rx="5" ry="5" fill="white" stroke="#e2e8f0" stroke-width="1" filter="url(#codeBg)" />
+    
+    <!-- Código .ire -->
+    <text x="10" y="60" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      MonitorarEvento.ire:{
+    </text>
+    <text x="10" y="80" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;"NomeFluxo": "MonitoramentoSintomas",
+    </text>
+    <text x="10" y="100" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;"CorrelacoesDetectadas": [
+    </text>
+    <text x="10" y="120" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;&nbsp;&nbsp;"RegisterSymptom", 
+    </text>
+    <text x="10" y="140" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;&nbsp;&nbsp;"IntensityChange",
+    </text>
+    <text x="10" y="160" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;&nbsp;&nbsp;"NewMedication"
+    </text>
+    <text x="10" y="180" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;],
+    </text>
+    <text x="10" y="200" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;"NivelCriticidade": "Médio",
+    </text>
+    <text x="10" y="220" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;"Persistencia": "30Dias"
+    </text>
+    <text x="10" y="240" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      }
+    </text>
+    
+    <!-- Descrição -->
+    <rect x="0" y="250" width="220" height="120" rx="5" ry="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1" />
+    <text x="10" y="270" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f172a">Características:</text>
+    <text x="10" y="290" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Define correlações de eventos</text>
+    <text x="10" y="310" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Monitora padrões significativos</text>
+    <text x="10" y="330" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Formato: [Nome].ire:{monitor}</text>
+    <text x="10" y="350" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Aciona ações automatizadas</text>
+  </g>
+  
+  <!-- Seção .e (Eulerian Runtime Language) -->
+  <g transform="translate(540, 100)">
+    <rect width="220" height="30" rx="5" ry="5" fill="url(#eGradient)" filter="url(#dropShadow)" />
+    <text x="110" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      .e (Eulerian Runtime Language)
+    </text>
+    
+    <rect x="0" y="40" width="220" height="200" rx="5" ry="5" fill="white" stroke="#e2e8f0" stroke-width="1" filter="url(#codeBg)" />
+    
+    <!-- Código .e -->
+    <text x="10" y="60" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      Fluxo: ProcessamentoConsultaClínica
+    </text>
+    <text x="10" y="80" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      Inicio: IniciarConsulta
+    </text>
+    <text x="10" y="100" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      Sequencia:
+    </text>
+    <text x="10" y="120" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;- CapturarNarrativa
+    </text>
+    <text x="10" y="140" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;- TranscreverÁudio
+    </text>
+    <text x="10" y="160" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;- AnalisarDimensional
+    </text>
+    <text x="10" y="180" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;- GerarVisualizaçãoRadar
+    </text>
+    <text x="10" y="200" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      PoliticaVisita: PercorrerUnico
+    </text>
+    <text x="10" y="220" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      CondicoesInterrupcao:
+    </text>
+    <text x="10" y="240" font-family="Consolas, monospace" font-size="12" fill="#0f172a">
+      &nbsp;&nbsp;- ErroTranscrição
+    </text>
+    
+    <!-- Descrição -->
+    <rect x="0" y="250" width="220" height="120" rx="5" ry="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1" />
+    <text x="10" y="270" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f172a">Características:</text>
+    <text x="10" y="290" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Define fluxos de execução</text>
+    <text x="10" y="310" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Formato YAML ou JSON</text>
+    <text x="10" y="330" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Define sequências, condições</text>
+    <text x="10" y="350" font-family="Arial, sans-serif" font-size="12" fill="#334155">• Orquestra processos clínicos</text>
+  </g>
+  
+  <!-- Diagrama de Integração -->
+  <g transform="translate(150, 430)">
+    <rect width="500" height="150" rx="10" ry="10" fill="white" stroke="#64748b" stroke-width="1" />
+    
+    <text x="250" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#0f172a">
+      Integração das DSLs no Runtime Euleriano
+    </text>
+    
+    <line x1="50" y1="40" x2="450" y2="40" stroke="#64748b" stroke-width="1" />
+    
+    <!-- Representação de Integração -->
+    <!-- Componente .aje -->
+    <rect x="80" y="70" width="80" height="40" rx="5" ry="5" fill="url(#ajeGradient)" opacity="0.8" />
+    <text x="120" y="95" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      .aje
+    </text>
+    
+    <!-- Componente .ire -->
+    <rect x="210" y="70" width="80" height="40" rx="5" ry="5" fill="url(#ireGradient)" opacity="0.8" />
+    <text x="250" y="95" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      .ire
+    </text>
+    
+    <!-- Componente .e -->
+    <rect x="340" y="70" width="80" height="40" rx="5" ry="5" fill="url(#eGradient)" opacity="0.8" />
+    <text x="380" y="95" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      .e
+    </text>
+    
+    <!-- Runtime Euleriano -->
+    <rect x="175" y="140" width="150" height="40" rx="5" ry="5" fill="#64748b" />
+    <text x="250" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      Runtime Euleriano
+    </text>
+    
+    <!-- Conexões -->
+    <line x1="120" y1="110" x2="200" y2="140" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrowhead)" />
+    <line x1="250" y1="110" x2="250" y2="140" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrowhead)" />
+    <line x1="380" y1="110" x2="300" y2="140" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrowhead)" />
+    
+    <line x1="200" y1="110" x2="160" y2="110" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrowhead)" />
+    <line x1="300" y1="110" x2="340" y2="110" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  </g>
+  
+  <!-- Comparação com GenAIScript -->
+  <g transform="translate(400, 435)" opacity="0.9">
+    <rect width="170" height="140" rx="8" ry="8" fill="#f1f5f9" stroke="#3b82f6" stroke-width="1" />
+    
+    <text x="85" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0f172a">
+      GenAIScript
+    </text>
+    
+    <line x1="20" y1="35" x2="150" y2="35" stroke="#3b82f6" stroke-width="1" />
+    
+    <text x="85" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#334155">
+      Interface de Acesso
+    </text>
+    
+    <!-- Exemplo de Comando GenAIScript -->
+    <rect x="20" y="65" width="130" height="60" rx="5" ry="5" fill="white" stroke="#3b82f6" stroke-width="1" filter="url(#codeBg)" />
+    <text x="30" y="85" font-family="Consolas, monospace" font-size="11" fill="#0f172a">
+      $dimensoes: Valência
+    </text>
+    <text x="30" y="105" font-family="Consolas, monospace" font-size="11" fill="#0f172a">
+      $visualizacao: Radar
+    </text>
+    <text x="30" y="125" font-family="Consolas, monospace" font-size="11" fill="#0f172a">
+      $exemplo: Ansiedade
+    </text>
+  </g>
+</svg>
