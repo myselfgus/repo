@@ -1,0 +1,114 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definição de gradientes -->
+  <defs>
+    <linearGradient id="gradientDist" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="gradientReg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="gradientTraj" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7E1D5F" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="gradientVet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <linearGradient id="gradientInf" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7F1D1D" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748B" />
+    </marker>
+  </defs>
+  
+  <!-- Título do diagrama -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Validações Matemáticas do HH</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Formalização Rigorosa para Kernel Dimensional</text>
+  
+  <!-- Definição do Espaço Dimensional -->
+  <rect x="50" y="100" width="900" height="80" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="130" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Definição do Espaço Dimensional ℳ</text>
+  <text x="500" y="160" font-family="Arial" font-size="16" text-anchor="middle" font-family="monospace">E ∈ ℳ, E = (e₁, e₂, e₃, ..., e₁₀), ℳ = ℳₑₘₒcᵢₒₙₐₗ ⊕ ℳcₒₙgᵢₜᵢᵥₐ ⊕ ℳₐᵤₜₒₙₒₘᵢₐ</text>
+  
+  <!-- Métricas dimensionais - Distância e Similaridade -->
+  <rect x="50" y="200" width="440" height="180" rx="10" fill="url(#gradientDist)" opacity="0.8"/>
+  <text x="270" y="230" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Distância e Similaridade</text>
+  <text x="270" y="260" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-family="monospace">d(E₁, E₂) = √(Σᵢ(e₁ᵢ - e₂ᵢ)²)</text>
+  <text x="270" y="290" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Distância Euclidiana entre estados mentais</text>
+  
+  <text x="270" y="320" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-family="monospace">s(E₁, E₂) = cos(E₁, E₂) = (E₁·E₂)/(||E₁||·||E₂||)</text>
+  <text x="270" y="350" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Similaridade por cosseno entre estados</text>
+  
+  <!-- Regiões Clínicas -->
+  <rect x="510" y="200" width="440" height="180" rx="10" fill="url(#gradientReg)" opacity="0.8"/>
+  <text x="730" y="230" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Regiões Clínicas</text>
+  <text x="730" y="260" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-family="monospace">R = {E ∈ ℳ | P(E) = true}</text>
+  <text x="730" y="290" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Definição de regiões por predicados</text>
+  
+  <text x="730" y="320" font-family="Arial" font-size="14" text-anchor="middle" fill="white" font-family="monospace">R_depressivo = {E ∈ ℳ | (v₁ < -3) ∧ (v₄ > 7) ∧ (v₉[passado] > v₉[futuro])}</text>
+  <text x="730" y="350" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Exemplo: Região depressiva do espaço mental</text>
+  
+  <!-- Trajetórias -->
+  <rect x="50" y="400" width="440" height="180" rx="10" fill="url(#gradientTraj)" opacity="0.8"/>
+  <text x="270" y="430" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Trajetórias</text>
+  <text x="270" y="460" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-family="monospace">γ: [a,b] → ℳ, t ↦ γ(t)</text>
+  <text x="270" y="490" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Definição funcional de trajetória no tempo</text>
+  
+  <text x="270" y="520" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-family="monospace">v(t) = dγ/dt</text>
+  <text x="270" y="550" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Velocidade de mudança (derivada da trajetória)</text>
+  
+  <!-- Campo Vetorial Terapêutico -->
+  <rect x="510" y="400" width="440" height="180" rx="10" fill="url(#gradientVet)" opacity="0.8"/>
+  <text x="730" y="430" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Campo Vetorial Terapêutico</text>
+  <text x="730" y="460" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-family="monospace">V: ℳ → T(ℳ)</text>
+  <text x="730" y="490" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Mapeamento para o espaço tangente</text>
+  
+  <text x="730" y="520" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-family="monospace">dE/dt = V(E)</text>
+  <text x="730" y="550" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Equação diferencial de mudança terapêutica</text>
+  
+  <!-- Inferência Bayesiana -->
+  <rect x="200" y="600" width="600" height="80" rx="10" fill="url(#gradientInf)" opacity="0.8"/>
+  <text x="500" y="630" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Inferência Bayesiana</text>
+  <text x="500" y="660" font-family="Arial" font-size="16" text-anchor="middle" fill="white" font-family="monospace">P(E|D) = P(D|E)·P(E)/P(D)</text>
+  <text x="140" y="660" font-family="Arial" font-size="14" text-anchor="start" fill="white">Posterior:</text>
+  <text x="860" y="660" font-family="Arial" font-size="14" text-anchor="end" fill="white">Probabilidade de um estado dados os indicadores</text>
+  
+  <!-- Valores específicos -->
+  <rect x="50" y="100" width="170" height="80" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="135" y="140" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Valores Típicos</text>
+  <text x="135" y="165" font-family="Arial" font-size="12" text-anchor="middle">Valência [-5, +5]</text>
+  
+  <!-- Ilustrações das fórmulas e seus significados -->
+  <!-- Visualização simples de distância -->
+  <circle cx="170" y="340" r="10" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="2"/>
+  <circle cx="220" y="365" r="10" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="2"/>
+  <line x1="170" y1="340" x2="220" y2="365" stroke="#1E3A8A" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <text x="195" y="370" font-family="Arial" font-size="12" text-anchor="middle" fill="#1E3A8A">d(E₁, E₂)</text>
+  
+  <!-- Visualização simples de região clínica -->
+  <path d="M630,350 Q680,330 730,350 Q780,370 730,390 Q680,410 630,390 Q580,370 630,350 Z" 
+        fill="#F8FAFC" fill-opacity="0.3" stroke="#065F46" stroke-width="1.5"/>
+  <text x="680" y="375" font-family="Arial" font-size="12" text-anchor="middle" fill="#065F46">R</text>
+  
+  <!-- Visualização simples de trajetória -->
+  <path d="M200,500 Q230,520 260,510 Q290,500 320,520 Q350,540 380,520" 
+        fill="none" stroke="#7E1D5F" stroke-width="2.5"/>
+  <text x="290" y="550" font-family="Arial" font-size="12" text-anchor="middle" fill="#7E1D5F">γ(t)</text>
+  
+  <!-- Visualização simples de campo vetorial -->
+  <circle cx="670" y="520" r="5" fill="#F8FAFC" stroke="#92400E" stroke-width="1.5"/>
+  <line x1="670" y1="520" x2="690" y2="500" stroke="#92400E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <circle cx="710" y="540" r="5" fill="#F8FAFC" stroke="#92400E" stroke-width="1.5"/>
+  <line x1="710" y1="540" x2="730" y2="520" stroke="#92400E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <circle cx="750" y="510" r="5" fill="#F8FAFC" stroke="#92400E" stroke-width="1.5"/>
+  <line x1="750" y1="510" x2="770" y2="525" stroke="#92400E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <circle cx="790" y="530" r="5" fill="#F8FAFC" stroke="#92400E" stroke-width="1.5"/>
+  <line x1="790" y1="530" x2="800" y2="510" stroke="#92400E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <text x="740" y="570" font-family="Arial" font-size="12" text-anchor="middle" fill="#92400E">V(E)</text>
+</svg>

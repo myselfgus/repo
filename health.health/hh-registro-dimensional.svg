@@ -1,0 +1,170 @@
+<svg viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definição de gradientes -->
+  <defs>
+    <linearGradient id="gradientNarrativa" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="gradientDimensional" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="gradientTrajetoria" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7E1D5F" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="gradientIntegrativa" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9D174D" />
+      <stop offset="100%" stop-color="#E879F9" />
+    </linearGradient>
+    <linearGradient id="gradientTerapeutica" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748B" />
+    </marker>
+  </defs>
+  
+  <!-- Título do diagrama -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Registro Clínico Dimensional (RCD)</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Estrutura do Formato Documental HH</text>
+  
+  <!-- Ícone do documento -->
+  <rect x="450" y="90" width="100" height="130" rx="5" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <line x1="480" y1="90" x2="480" y2="220" stroke="#0F172A" stroke-width="1"/>
+  <line x1="510" y1="90" x2="510" y2="220" stroke="#0F172A" stroke-width="1"/>
+  <line x1="450" y1="125" x2="550" y2="125" stroke="#0F172A" stroke-width="1"/>
+  <line x1="450" y1="160" x2="550" y2="160" stroke="#0F172A" stroke-width="1"/>
+  <line x1="450" y1="195" x2="550" y2="195" stroke="#0F172A" stroke-width="1"/>
+  
+  <!-- Linha conectora para início das seções -->
+  <line x1="500" y1="220" x2="500" y2="250" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Estrutura central - título -->
+  <rect x="300" y="250" width="400" height="50" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="280" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Estrutura do RCD</text>
+  
+  <!-- Linhas conectoras para as 5 seções -->
+  <line x1="500" y1="300" x2="500" y2="330" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="330" x2="100" y2="330" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="330" x2="300" y2="330" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="330" x2="700" y2="330" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="330" x2="900" y2="330" stroke="#64748B" stroke-width="2"/>
+  
+  <line x1="100" y1="330" x2="100" y2="350" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="300" y1="330" x2="300" y2="350" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="330" x2="500" y2="350" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="700" y1="330" x2="700" y2="350" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="900" y1="330" x2="900" y2="350" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Seção 1: Narrativa -->
+  <rect x="20" y="350" width="160" height="50" rx="10" fill="url(#gradientNarrativa)" opacity="0.8"/>
+  <text x="100" y="380" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">1. Narrativa</text>
+  
+  <rect x="20" y="410" width="160" height="180" rx="10" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="2"/>
+  <text x="100" y="435" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#1E3A8A">Captura fenomenológica</text>
+  
+  <rect x="30" y="450" width="140" height="35" rx="5" fill="#3B82F6" opacity="0.3"/>
+  <text x="100" y="472" font-family="Arial" font-size="12" text-anchor="middle">Expressão Ipsissima</text>
+  
+  <rect x="30" y="495" width="140" height="35" rx="5" fill="#3B82F6" opacity="0.3"/>
+  <text x="100" y="517" font-family="Arial" font-size="12" text-anchor="middle">Contexto Experiencial</text>
+  
+  <rect x="30" y="540" width="140" height="35" rx="5" fill="#3B82F6" opacity="0.3"/>
+  <text x="100" y="562" font-family="Arial" font-size="12" text-anchor="middle">Marcadores Corporais</text>
+  
+  <!-- Seta conectora de seção 1 -->
+  <line x1="100" y1="400" x2="100" y2="410" stroke="#1E3A8A" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Seção 2: Dimensionalização -->
+  <rect x="220" y="350" width="160" height="50" rx="10" fill="url(#gradientDimensional)" opacity="0.8"/>
+  <text x="300" y="380" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">2. Dimensionalização</text>
+  
+  <rect x="220" y="410" width="160" height="180" rx="10" fill="#F8FAFC" stroke="#065F46" stroke-width="2"/>
+  <text x="300" y="435" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#065F46">Mapeamento vetorial</text>
+  
+  <rect x="230" y="450" width="140" height="35" rx="5" fill="#10B981" opacity="0.3"/>
+  <text x="300" y="472" font-family="Arial" font-size="12" text-anchor="middle">Perfil Emocional</text>
+  
+  <rect x="230" y="495" width="140" height="35" rx="5" fill="#10B981" opacity="0.3"/>
+  <text x="300" y="517" font-family="Arial" font-size="12" text-anchor="middle">Perfil Cognitivo</text>
+  
+  <rect x="230" y="540" width="140" height="35" rx="5" fill="#10B981" opacity="0.3"/>
+  <text x="300" y="562" font-family="Arial" font-size="12" text-anchor="middle">Perfil de Autonomia</text>
+  
+  <!-- Seta conectora de seção 2 -->
+  <line x1="300" y1="400" x2="300" y2="410" stroke="#065F46" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Seção 3: Trajetória -->
+  <rect x="420" y="350" width="160" height="50" rx="10" fill="url(#gradientTrajetoria)" opacity="0.8"/>
+  <text x="500" y="380" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">3. Trajetória</text>
+  
+  <rect x="420" y="410" width="160" height="180" rx="10" fill="#F8FAFC" stroke="#7E1D5F" stroke-width="2"/>
+  <text x="500" y="435" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#7E1D5F">Análise dinâmica</text>
+  
+  <rect x="430" y="450" width="140" height="35" rx="5" fill="#EC4899" opacity="0.3"/>
+  <text x="500" y="472" font-family="Arial" font-size="12" text-anchor="middle">Vetor de Mudança</text>
+  
+  <rect x="430" y="495" width="140" height="35" rx="5" fill="#EC4899" opacity="0.3"/>
+  <text x="500" y="517" font-family="Arial" font-size="12" text-anchor="middle">Pontos Críticos</text>
+  
+  <rect x="430" y="540" width="140" height="35" rx="5" fill="#EC4899" opacity="0.3"/>
+  <text x="500" y="562" font-family="Arial" font-size="12" text-anchor="middle">Recursos Adaptativos</text>
+  
+  <!-- Seta conectora de seção 3 -->
+  <line x1="500" y1="400" x2="500" y2="410" stroke="#7E1D5F" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Seção 4: Análise Integrativa -->
+  <rect x="620" y="350" width="160" height="50" rx="10" fill="url(#gradientIntegrativa)" opacity="0.8"/>
+  <text x="700" y="380" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">4. Análise Integrativa</text>
+  
+  <rect x="620" y="410" width="160" height="180" rx="10" fill="#F8FAFC" stroke="#9D174D" stroke-width="2"/>
+  <text x="700" y="435" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#9D174D">Síntese clínica</text>
+  
+  <rect x="630" y="450" width="140" height="35" rx="5" fill="#E879F9" opacity="0.3"/>
+  <text x="700" y="472" font-family="Arial" font-size="12" text-anchor="middle">Posição no Espaço Vetorial</text>
+  
+  <rect x="630" y="495" width="140" height="35" rx="5" fill="#E879F9" opacity="0.3"/>
+  <text x="700" y="517" font-family="Arial" font-size="12" text-anchor="middle">Análise de Padrões</text>
+  
+  <rect x="630" y="540" width="140" height="35" rx="5" fill="#E879F9" opacity="0.3"/>
+  <text x="700" y="562" font-family="Arial" font-size="12" text-anchor="middle">Hipótese Sistêmica</text>
+  
+  <!-- Seta conectora de seção 4 -->
+  <line x1="700" y1="400" x2="700" y2="410" stroke="#9D174D" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Seção 5: Resposta Terapêutica -->
+  <rect x="820" y="350" width="160" height="50" rx="10" fill="url(#gradientTerapeutica)" opacity="0.8"/>
+  <text x="900" y="380" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">5. Resposta Terapêutica</text>
+  
+  <rect x="820" y="410" width="160" height="180" rx="10" fill="#F8FAFC" stroke="#92400E" stroke-width="2"/>
+  <text x="900" y="435" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#92400E">Intervenção dimensional</text>
+  
+  <rect x="830" y="450" width="140" height="35" rx="5" fill="#F59E0B" opacity="0.3"/>
+  <text x="900" y="472" font-family="Arial" font-size="12" text-anchor="middle">Alvos Dimensionais</text>
+  
+  <rect x="830" y="495" width="140" height="35" rx="5" fill="#F59E0B" opacity="0.3"/>
+  <text x="900" y="517" font-family="Arial" font-size="12" text-anchor="middle">Intervenções Específicas</text>
+  
+  <rect x="830" y="540" width="140" height="35" rx="5" fill="#F59E0B" opacity="0.3"/>
+  <text x="900" y="562" font-family="Arial" font-size="12" text-anchor="middle">Plano Longitudinal</text>
+  
+  <!-- Seta conectora de seção 5 -->
+  <line x1="900" y1="400" x2="900" y2="410" stroke="#92400E" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Linhas para integração final -->
+  <line x1="100" y1="590" x2="100" y2="610" stroke="#64748B" stroke-width="2"/>
+  <line x1="300" y1="590" x2="300" y2="610" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="590" x2="500" y2="610" stroke="#64748B" stroke-width="2"/>
+  <line x1="700" y1="590" x2="700" y2="610" stroke="#64748B" stroke-width="2"/>
+  <line x1="900" y1="590" x2="900" y2="610" stroke="#64748B" stroke-width="2"/>
+  
+  <line x1="100" y1="610" x2="900" y2="610" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="610" x2="500" y2="630" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Base final -->
+  <rect x="350" y="630" width="300" height="40" rx="10" fill="#0F172A" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="655" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Documento Clínico HH Completo</text>
+</svg>

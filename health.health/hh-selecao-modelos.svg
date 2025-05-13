@@ -1,0 +1,126 @@
+<svg viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definição de gradientes -->
+  <defs>
+    <linearGradient id="gradientInput" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="gradientDecisao" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="gradientModelos" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7E1D5F" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="gradientMetricas" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748B" />
+    </marker>
+  </defs>
+  
+  <!-- Título do diagrama -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Framework de Decisão para Seleção de Modelos</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Otimização de Agentes IA para Processamento HH</text>
+  
+  <!-- Input Inicial -->
+  <rect x="350" y="100" width="300" height="70" rx="10" fill="url(#gradientInput)" opacity="0.8"/>
+  <text x="500" y="130" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Classificação da Tarefa</text>
+  <text x="500" y="155" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Tipo, Complexidade, Urgência, Domínio</text>
+  
+  <!-- Motor de Decisão -->
+  <rect x="200" y="220" width="600" height="100" rx="10" fill="url(#gradientDecisao)" opacity="0.8"/>
+  <text x="500" y="250" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="white">Motor de Decisão</text>
+  <text x="500" y="280" font-family="Arial" font-size="16" text-anchor="middle" fill="white">Análise Bayesiana de Desempenho por Modelo</text>
+  <text x="500" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="white">P(sucesso|modelo,tarefa) ∝ P(tarefa|modelo) × P(modelo)</text>
+  
+  <!-- Modelos de IA -->
+  <rect x="50" y="370" width="900" height="180" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="395" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Modelos Especializados</text>
+  
+  <!-- Open AI -->
+  <rect x="70" y="420" width="160" height="110" rx="10" fill="url(#gradientModelos)" opacity="0.8"/>
+  <text x="150" y="445" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">OpenAI GPT-4o</text>
+  <rect x="80" y="460" width="140" height="60" rx="5" fill="#F8FAFC" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+  <text x="150" y="475" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Pontos Fortes:</text>
+  <text x="150" y="495" font-family="Arial" font-size="10" text-anchor="middle" fill="white">• Compreensão Contextual</text>
+  <text x="150" y="510" font-family="Arial" font-size="10" text-anchor="middle" fill="white">• Análise de Narrativa</text>
+  
+  <!-- Claude -->
+  <rect x="250" y="420" width="160" height="110" rx="10" fill="url(#gradientModelos)" opacity="0.8"/>
+  <text x="330" y="445" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Claude 3.5 Sonnet</text>
+  <rect x="260" y="460" width="140" height="60" rx="5" fill="#F8FAFC" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+  <text x="330" y="475" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Pontos Fortes:</text>
+  <text x="330" y="495" font-family="Arial" font-size="10" text-anchor="middle" fill="white">• Nuance Fenomenológica</text>
+  <text x="330" y="510" font-family="Arial" font-size="10" text-anchor="middle" fill="white">• Extração Dimensional</text>
+  
+  <!-- DeepSeek / MAI -->
+  <rect x="430" y="420" width="160" height="110" rx="10" fill="url(#gradientModelos)" opacity="0.8"/>
+  <text x="510" y="445" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">DeepSeek / MAI</text>
+  <rect x="440" y="460" width="140" height="60" rx="5" fill="#F8FAFC" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+  <text x="510" y="475" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Pontos Fortes:</text>
+  <text x="510" y="495" font-family="Arial" font-size="10" text-anchor="middle" fill="white">• Cálculos Matemáticos</text>
+  <text x="510" y="510" font-family="Arial" font-size="10" text-anchor="middle" fill="white">• Análise Vetorial</text>
+  
+  <!-- Phi-4 -->
+  <rect x="610" y="420" width="160" height="110" rx="10" fill="url(#gradientModelos)" opacity="0.8"/>
+  <text x="690" y="445" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Phi-4</text>
+  <rect x="620" y="460" width="140" height="60" rx="5" fill="#F8FAFC" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+  <text x="690" y="475" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Pontos Fortes:</text>
+  <text x="690" y="495" font-family="Arial" font-size="10" text-anchor="middle" fill="white">• Eficiência Computacional</text>
+  <text x="690" y="510" font-family="Arial" font-size="10" text-anchor="middle" fill="white">• Transcrição Rápida</text>
+  
+  <!-- Cohere -->
+  <rect x="790" y="420" width="140" height="110" rx="10" fill="url(#gradientModelos)" opacity="0.8"/>
+  <text x="860" y="445" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Cohere</text>
+  <rect x="800" y="460" width="120" height="60" rx="5" fill="#F8FAFC" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+  <text x="860" y="475" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Pontos Fortes:</text>
+  <text x="860" y="495" font-family="Arial" font-size="10" text-anchor="middle" fill="white">• Embeddings Precisos</text>
+  <text x="860" y="510" font-family="Arial" font-size="10" text-anchor="middle" fill="white">• Busca Semântica</text>
+  
+  <!-- Métricas de Performance -->
+  <rect x="200" y="570" width="600" height="60" rx="10" fill="url(#gradientMetricas)" opacity="0.8"/>
+  <text x="500" y="600" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Métricas de Performance e Feedback Loop</text>
+  <text x="500" y="620" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Precisão • Latência • Custo • Alinhamento Dimensional</text>
+  
+  <!-- Linhas de conexão -->
+  <line x1="500" y1="170" x2="500" y2="220" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Conectores para os modelos -->
+  <line x1="350" y1="320" x2="150" y2="420" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="425" y1="320" x2="330" y2="420" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="320" x2="510" y2="420" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="575" y1="320" x2="690" y2="420" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="650" y1="320" x2="860" y2="420" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Linhas de feedback -->
+  <line x1="150" y1="530" x2="240" y2="570" stroke="#F59E0B" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <line x1="330" y1="530" x2="350" y2="570" stroke="#F59E0B" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <line x1="510" y1="530" x2="500" y2="570" stroke="#F59E0B" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <line x1="690" y1="530" x2="650" y2="570" stroke="#F59E0B" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <line x1="860" y1="530" x2="760" y2="570" stroke="#F59E0B" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Feedback loop para decisão -->
+  <path d="M200,600 L50,600 L50,270 L200,270" 
+        fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Matriz de Decisão (simplificada) -->
+  <rect x="650" y="125" width="300" height="120" rx="5" fill="#F8FAFC" stroke="#0F172A" stroke-width="1"/>
+  <text x="800" y="145" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Regras de Decisão (Exemplos)</text>
+  
+  <line x1="670" y1="160" x2="930" y2="160" stroke="#0F172A" stroke-width="1"/>
+  <text x="690" y="175" font-family="Arial" font-size="10" text-anchor="start">Análise Narrativa</text>
+  <text x="870" y="175" font-family="Arial" font-size="10" text-anchor="start">OpenAI/Claude</text>
+  
+  <line x1="670" y1="185" x2="930" y2="185" stroke="#0F172A" stroke-width="1"/>
+  <text x="690" y="200" font-family="Arial" font-size="10" text-anchor="start">Processamento Vetorial</text>
+  <text x="870" y="200" font-family="Arial" font-size="10" text-anchor="start">DeepSeek</text>
+  
+  <line x1="670" y1="210" x2="930" y2="210" stroke="#0F172A" stroke-width="1"/>
+  <text x="690" y="225" font-family="Arial" font-size="10" text-anchor="start">Transcrição de Alta Velocidade</text>
+  <text x="870" y="225" font-family="Arial" font-size="10" text-anchor="start">Phi-4</text>
+</svg>

@@ -1,0 +1,276 @@
+{
+  "flow_id": "mcp_webclient_implementation_flow",
+  "version": "1.0",
+  "description": "Fluxo de implementação do MCP WebClient com integração Azure",
+  "timestamps": {
+    "created": "2025-05-04T00:00:00Z",
+    "updated": "2025-05-04T00:00:00Z"
+  },
+  "status": "defined",
+  
+  "phases": [
+    {
+      "phase_id": "preparation",
+      "name": "Preparação do Ambiente",
+      "description": "Configuração inicial do ambiente de desenvolvimento",
+      "steps": [
+        {
+          "step_id": "p1",
+          "name": "Instalação de Ferramentas",
+          "description": "Instalar Python, Node.js, Git e outras ferramentas necessárias",
+          "dependencies": [],
+          "output": "Ambiente de desenvolvimento configurado",
+          "status": "pending"
+        },
+        {
+          "step_id": "p2",
+          "name": "Configuração Azure",
+          "description": "Login e configuração da CLI Azure",
+          "dependencies": ["p1"],
+          "output": "Acesso configurado aos recursos Azure",
+          "status": "pending"
+        },
+        {
+          "step_id": "p3",
+          "name": "Criação da Estrutura de Projeto",
+          "description": "Criar diretórios e arquivos iniciais do projeto",
+          "dependencies": ["p1"],
+          "output": "Estrutura de diretórios criada",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "phase_id": "backend",
+      "name": "Implementação do Backend",
+      "description": "Configuração e implementação dos servidores MCP",
+      "steps": [
+        {
+          "step_id": "b1",
+          "name": "Configuração do Azure MCP Server",
+          "description": "Clonar e configurar o repositório Azure MCP",
+          "dependencies": ["p2", "p3"],
+          "output": "Servidor Azure MCP preparado",
+          "status": "pending"
+        },
+        {
+          "step_id": "b2",
+          "name": "Configuração do Filesystem MCP",
+          "description": "Configurar servidor MCP para pasta 'contexto'",
+          "dependencies": ["p3"],
+          "output": "Servidor Filesystem MCP preparado",
+          "status": "pending"
+        },
+        {
+          "step_id": "b3",
+          "name": "Implementação do MCP Agregador",
+          "description": "Criar servidor agregador para gerenciar todos os servidores MCP",
+          "dependencies": ["b1", "b2"],
+          "output": "Agregador MCP implementado",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "phase_id": "frontend",
+      "name": "Desenvolvimento do Frontend",
+      "description": "Implementação da interface web com Chainlit",
+      "steps": [
+        {
+          "step_id": "f1",
+          "name": "Configuração do Ambiente Chainlit",
+          "description": "Instalar dependências e configurar ambiente para Chainlit",
+          "dependencies": ["p3"],
+          "output": "Ambiente Chainlit configurado",
+          "status": "pending"
+        },
+        {
+          "step_id": "f2",
+          "name": "Implementação da Interface Web",
+          "description": "Criar aplicação Chainlit com layouts e recursos de UI",
+          "dependencies": ["f1"],
+          "output": "Interface web responsiva implementada",
+          "status": "pending"
+        },
+        {
+          "step_id": "f3",
+          "name": "Integração OAuth",
+          "description": "Implementar autenticação via Azure AD e GitHub",
+          "dependencies": ["f2"],
+          "output": "Sistema de autenticação implementado",
+          "status": "pending"
+        },
+        {
+          "step_id": "f4",
+          "name": "Integração com MCP Servers",
+          "description": "Conectar frontend Chainlit aos servidores MCP",
+          "dependencies": ["f2", "b3"],
+          "output": "Comunicação entre frontend e servidores MCP estabelecida",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "phase_id": "integration",
+      "name": "Integração com Serviços Azure",
+      "description": "Conexão com recursos Azure existentes",
+      "steps": [
+        {
+          "step_id": "i1",
+          "name": "Configuração Azure Blob Storage",
+          "description": "Conectar ao Blob Storage com dados existentes",
+          "dependencies": ["b1", "f4"],
+          "output": "Acesso ao Blob Storage configurado",
+          "status": "pending"
+        },
+        {
+          "step_id": "i2",
+          "name": "Integração com Azure AI Foundry",
+          "description": "Configurar conexão com modelos implantados no Azure AI Foundry",
+          "dependencies": ["f4"],
+          "output": "Conexão com modelos AI estabelecida",
+          "status": "pending"
+        },
+        {
+          "step_id": "i3",
+          "name": "Configuração Azure Cosmos DB",
+          "description": "Configurar banco de dados para histórico de conversas",
+          "dependencies": ["b1", "f4"],
+          "output": "Sistema de persistência de histórico implementado",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "phase_id": "deployment",
+      "name": "Implantação e Teste",
+      "description": "Implantação da solução no Azure",
+      "steps": [
+        {
+          "step_id": "d1",
+          "name": "Criação do Container Docker",
+          "description": "Criar imagem Docker com todos os componentes",
+          "dependencies": ["b3", "f4", "i2", "i3"],
+          "output": "Imagem Docker criada",
+          "status": "pending"
+        },
+        {
+          "step_id": "d2",
+          "name": "Provisionamento de Recursos Azure",
+          "description": "Criar recursos necessários para hospedagem",
+          "dependencies": ["p2"],
+          "output": "Recursos Azure provisionados",
+          "status": "pending"
+        },
+        {
+          "step_id": "d3",
+          "name": "Implantação da Aplicação",
+          "description": "Implantar container no Azure App Service",
+          "dependencies": ["d1", "d2"],
+          "output": "Aplicação implantada no Azure",
+          "status": "pending"
+        },
+        {
+          "step_id": "d4",
+          "name": "Teste de Integração",
+          "description": "Verificar funcionamento completo do sistema",
+          "dependencies": ["d3"],
+          "output": "Sistema funcionando corretamente",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "phase_id": "operation",
+      "name": "Operação e Manutenção",
+      "description": "Monitoramento e manutenção do sistema em produção",
+      "steps": [
+        {
+          "step_id": "o1",
+          "name": "Configuração de Monitoramento",
+          "description": "Implementar sistema de logs e alertas",
+          "dependencies": ["d4"],
+          "output": "Sistema de monitoramento configurado",
+          "status": "pending"
+        },
+        {
+          "step_id": "o2",
+          "name": "Verificação de Sincronização",
+          "description": "Monitorar sincronização entre pasta contexto e Azure Blob",
+          "dependencies": ["d4"],
+          "output": "Sincronização funcionando corretamente",
+          "status": "pending"
+        },
+        {
+          "step_id": "o3",
+          "name": "Atualizações Periódicas",
+          "description": "Processo para atualizar componentes quando necessário",
+          "dependencies": ["o1"],
+          "output": "Procedimento de atualização definido",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  
+  "transitions": [
+    {
+      "from": "preparation",
+      "to": "backend",
+      "conditions": [
+        "Todas as etapas de preparação concluídas",
+        "Ambiente configurado corretamente"
+      ]
+    },
+    {
+      "from": "preparation",
+      "to": "frontend",
+      "conditions": [
+        "Ambiente de desenvolvimento configurado",
+        "Estrutura de diretórios criada"
+      ]
+    },
+    {
+      "from": "backend",
+      "to": "integration",
+      "conditions": [
+        "Todos os servidores MCP configurados e funcionando",
+        "MCP Agregador implementado"
+      ]
+    },
+    {
+      "from": "frontend",
+      "to": "integration",
+      "conditions": [
+        "Interface web implementada",
+        "Sistema de autenticação funcionando"
+      ]
+    },
+    {
+      "from": "integration",
+      "to": "deployment",
+      "conditions": [
+        "Conexões com todos os serviços Azure estabelecidas",
+        "Testes locais bem-sucedidos"
+      ]
+    },
+    {
+      "from": "deployment",
+      "to": "operation",
+      "conditions": [
+        "Aplicação implantada com sucesso",
+        "Testes de integração bem-sucedidos"
+      ]
+    }
+  ],
+  
+  "expected_outcomes": {
+    "primary": "MCP WebClient funcional acessível de qualquer dispositivo, integrado com recursos Azure existentes",
+    "secondary": [
+      "Contextualização contínua de projetos via sincronização automática",
+      "Interface natural para interação com projetos",
+      "Funcionalidades de terminal para tarefas avançadas",
+      "Sistema de autenticação seguro via OAuth"
+    ]
+  }
+}

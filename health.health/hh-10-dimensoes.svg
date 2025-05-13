@@ -1,0 +1,121 @@
+<svg viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definição de gradientes -->
+  <defs>
+    <linearGradient id="gradientEmocional" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="gradientCognitivo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="gradientAutonomia" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7E1D5F" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748B" />
+    </marker>
+  </defs>
+  
+  <!-- Título do diagrama -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Processamento das 10 Dimensões HEALTH/HEALTH</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Espaço Vetorial da Mente</text>
+  
+  <!-- Entrada de dados -->
+  <rect x="350" y="90" width="300" height="50" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="122" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Entrada: Transcrição Enriquecida</text>
+  
+  <!-- Seta para pipeline de processamento -->
+  <line x1="500" y1="140" x2="500" y2="165" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Pipeline de Processamento -->
+  <rect x="250" y="165" width="500" height="60" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="195" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Pipeline de Processamento Linguístico-Fenomenológico</text>
+  <text x="500" y="215" font-family="Arial" font-size="14" text-anchor="middle">Análise Sintática • Semântica • Pragmática • Fenomenológica</text>
+  
+  <!-- Seta para as três dimensões -->
+  <line x1="500" y1="225" x2="500" y2="250" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Divisão em três metadimensões -->
+  <rect x="50" y="250" width="900" height="50" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="280" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Framework de Extração Dimensional</text>
+  
+  <!-- Setas para as três colunas -->
+  <line x1="200" y1="300" x2="200" y2="325" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="300" x2="500" y2="325" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="800" y1="300" x2="800" y2="325" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Metadimensão Emocional -->
+  <rect x="50" y="325" width="300" height="50" rx="10" fill="url(#gradientEmocional)" opacity="0.8"/>
+  <text x="200" y="355" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Dimensão Emocional</text>
+  
+  <!-- Metadimensão Cognitiva -->
+  <rect x="350" y="325" width="300" height="50" rx="10" fill="url(#gradientCognitivo)" opacity="0.8"/>
+  <text x="500" y="355" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Dimensão Cognitiva</text>
+  
+  <!-- Metadimensão Autonomia -->
+  <rect x="650" y="325" width="300" height="50" rx="10" fill="url(#gradientAutonomia)" opacity="0.8"/>
+  <text x="800" y="355" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Dimensão Autonomia</text>
+  
+  <!-- Setas para subdimensões -->
+  <line x1="200" y1="375" x2="200" y2="400" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="375" x2="500" y2="400" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="800" y1="375" x2="800" y2="400" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Dimensões Emocionais -->
+  <rect x="50" y="400" width="300" height="180" rx="10" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="2"/>
+  <text x="200" y="425" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#1E3A8A">Subdimensões Emocionais</text>
+  
+  <rect x="70" y="435" width="260" height="30" rx="5" fill="#3B82F6" opacity="0.6"/>
+  <text x="200" y="455" font-family="Arial" font-size="14" text-anchor="middle" fill="white">v₁ - Valência Emocional (-5 a +5)</text>
+  
+  <rect x="70" y="475" width="260" height="30" rx="5" fill="#3B82F6" opacity="0.6"/>
+  <text x="200" y="495" font-family="Arial" font-size="14" text-anchor="middle" fill="white">v₂ - Excitação Emocional (0-10)</text>
+  
+  <rect x="70" y="515" width="260" height="30" rx="5" fill="#3B82F6" opacity="0.6"/>
+  <text x="200" y="535" font-family="Arial" font-size="14" text-anchor="middle" fill="white">v₃ - Dominância Emocional (0-10)</text>
+  
+  <rect x="70" y="555" width="260" height="30" rx="5" fill="#3B82F6" opacity="0.6"/>
+  <text x="200" y="575" font-family="Arial" font-size="14" text-anchor="middle" fill="white">v₄ - Intensidade Afetiva (0-10)</text>
+  
+  <!-- Dimensões Cognitivas -->
+  <rect x="350" y="400" width="300" height="180" rx="10" fill="#F8FAFC" stroke="#065F46" stroke-width="2"/>
+  <text x="500" y="425" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#065F46">Subdimensões Cognitivas</text>
+  
+  <rect x="370" y="435" width="260" height="30" rx="5" fill="#10B981" opacity="0.6"/>
+  <text x="500" y="455" font-family="Arial" font-size="14" text-anchor="middle" fill="white">v₅ - Complexidade Sintática (0-10)</text>
+  
+  <rect x="370" y="475" width="260" height="30" rx="5" fill="#10B981" opacity="0.6"/>
+  <text x="500" y="495" font-family="Arial" font-size="14" text-anchor="middle" fill="white">v₆ - Coerência Narrativa (0-10)</text>
+  
+  <rect x="370" y="515" width="260" height="30" rx="5" fill="#10B981" opacity="0.6"/>
+  <text x="500" y="535" font-family="Arial" font-size="14" text-anchor="middle" fill="white">v₇ - Flexibilidade Cognitiva (0-10)</text>
+  
+  <rect x="370" y="555" width="260" height="30" rx="5" fill="#10B981" opacity="0.6"/>
+  <text x="500" y="575" font-family="Arial" font-size="14" text-anchor="middle" fill="white">v₈ - Dissonância Cognitiva (0-10)</text>
+  
+  <!-- Dimensões Autonomia -->
+  <rect x="650" y="400" width="300" height="180" rx="10" fill="#F8FAFC" stroke="#7E1D5F" stroke-width="2"/>
+  <text x="800" y="425" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#7E1D5F">Subdimensões Autonomia</text>
+  
+  <rect x="670" y="455" width="260" height="40" rx="5" fill="#EC4899" opacity="0.6"/>
+  <text x="800" y="475" font-family="Arial" font-size="14" text-anchor="middle" fill="white">v₉ - Perspectiva Temporal</text>
+  <text x="800" y="495" font-family="Arial" font-size="12" text-anchor="middle" fill="white">[passado, presente, futuro] (0-10)</text>
+  
+  <rect x="670" y="515" width="260" height="30" rx="5" fill="#EC4899" opacity="0.6"/>
+  <text x="800" y="535" font-family="Arial" font-size="14" text-anchor="middle" fill="white">v₁₀ - Autocontrole (0-10)</text>
+  
+  <!-- Setas para integração -->
+  <line x1="200" y1="580" x2="200" y2="600" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="580" x2="500" y2="600" stroke="#64748B" stroke-width="2"/>
+  <line x1="800" y1="580" x2="800" y2="600" stroke="#64748B" stroke-width="2"/>
+  <line x1="200" y1="600" x2="500" y2="600" stroke="#64748B" stroke-width="2"/>
+  <line x1="800" y1="600" x2="500" y2="600" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="600" x2="500" y2="620" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Resultado: Vetor Dimensional -->
+  <rect x="300" y="620" width="400" height="40" rx="10" fill="#0F172A" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="645" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Vetor Dimensional: E = (e₁, e₂, e₃, ..., e₁₀)</text>
+</svg>

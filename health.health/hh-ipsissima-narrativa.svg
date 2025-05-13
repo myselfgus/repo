@@ -1,0 +1,108 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definição de gradientes -->
+  <defs>
+    <linearGradient id="gradientCaptura" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="gradientAnalise" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="gradientInterpretacao" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7E1D5F" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748B" />
+    </marker>
+  </defs>
+  
+  <!-- Título do diagrama -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Ipsissima Narrativa e Análise Narrativa</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Captura e Processamento da Experiência Fenomenológica</text>
+  
+  <!-- Seção Superior: Captura da Narrativa -->
+  <rect x="150" y="100" width="700" height="80" rx="10" fill="url(#gradientCaptura)" opacity="0.8"/>
+  <text x="500" y="130" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="white">Captura da Narrativa Ipsissima</text>
+  <text x="500" y="155" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Transcrição Fenomenologicamente Enriquecida (TFE)</text>
+  
+  <!-- Linha de conexão -->
+  <line x1="500" y1="180" x2="500" y2="215" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Componentes da Narrativa -->
+  <rect x="100" y="215" width="800" height="85" rx="10" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="2"/>
+  <text x="500" y="240" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#1E3A8A">Componentes da Narrativa Ipsissima</text>
+  
+  <rect x="120" y="255" width="230" height="30" rx="5" fill="#3B82F6" opacity="0.3"/>
+  <text x="235" y="275" font-family="Arial" font-size="14" text-anchor="middle">Palavras Exatas do Paciente</text>
+  
+  <rect x="380" y="255" width="230" height="30" rx="5" fill="#3B82F6" opacity="0.3"/>
+  <text x="495" y="275" font-family="Arial" font-size="14" text-anchor="middle">Anotações Temporais Precisas</text>
+  
+  <rect x="640" y="255" width="240" height="30" rx="5" fill="#3B82F6" opacity="0.3"/>
+  <text x="760" y="275" font-family="Arial" font-size="14" text-anchor="middle">Elementos Paralinguísticos</text>
+  
+  <!-- Linha de conexão -->
+  <line x1="500" y1="300" x2="500" y2="340" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Seção de Análise -->
+  <rect x="150" y="340" width="700" height="80" rx="10" fill="url(#gradientAnalise)" opacity="0.8"/>
+  <text x="500" y="370" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="white">Análise Narrativa</text>
+  <text x="500" y="395" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Processamento Linguístico-Fenomenológico</text>
+  
+  <!-- Linha de conexão para análises específicas -->
+  <line x1="500" y1="420" x2="500" y2="440" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="440" x2="250" y2="440" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="440" x2="750" y2="440" stroke="#64748B" stroke-width="2"/>
+  <line x1="250" y1="440" x2="250" y2="460" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="750" y1="440" x2="750" y2="460" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Análise Estrutural -->
+  <rect x="100" y="460" width="300" height="120" rx="10" fill="#F8FAFC" stroke="#065F46" stroke-width="2"/>
+  <text x="250" y="485" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#065F46">Análise Estrutural</text>
+  
+  <rect x="120" y="495" width="260" height="25" rx="5" fill="#10B981" opacity="0.3"/>
+  <text x="250" y="512" font-family="Arial" font-size="12" text-anchor="middle">Complexidade Sintática</text>
+  
+  <rect x="120" y="525" width="260" height="25" rx="5" fill="#10B981" opacity="0.3"/>
+  <text x="250" y="542" font-family="Arial" font-size="12" text-anchor="middle">Padrões de Subordinação</text>
+  
+  <rect x="120" y="555" width="260" height="25" rx="5" fill="#10B981" opacity="0.3"/>
+  <text x="250" y="572" font-family="Arial" font-size="12" text-anchor="middle">Diversidade Vocabular</text>
+  
+  <!-- Análise de Conteúdo -->
+  <rect x="600" y="460" width="300" height="120" rx="10" fill="#F8FAFC" stroke="#065F46" stroke-width="2"/>
+  <text x="750" y="485" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#065F46">Análise de Conteúdo</text>
+  
+  <rect x="620" y="495" width="260" height="25" rx="5" fill="#10B981" opacity="0.3"/>
+  <text x="750" y="512" font-family="Arial" font-size="12" text-anchor="middle">Coerência Narrativa</text>
+  
+  <rect x="620" y="525" width="260" height="25" rx="5" fill="#10B981" opacity="0.3"/>
+  <text x="750" y="542" font-family="Arial" font-size="12" text-anchor="middle">Campos Semânticos Recorrentes</text>
+  
+  <rect x="620" y="555" width="260" height="25" rx="5" fill="#10B981" opacity="0.3"/>
+  <text x="750" y="572" font-family="Arial" font-size="12" text-anchor="middle">Estruturas Metafóricas</text>
+  
+  <!-- Resultado Final: Interpretação -->
+  <line x1="250" y1="580" x2="250" y2="600" stroke="#64748B" stroke-width="2"/>
+  <line x1="750" y1="580" x2="750" y2="600" stroke="#64748B" stroke-width="2"/>
+  <line x1="250" y1="600" x2="750" y2="600" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="600" x2="500" y2="625" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <rect x="300" y="625" width="400" height="40" rx="10" fill="url(#gradientInterpretacao)" opacity="0.8"/>
+  <text x="500" y="650" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Interpretação Dimensional</text>
+  
+  <!-- Exemplo de narrativa - balão de diálogo estilizado -->
+  <rect x="50" y="140" width="220" height="70" rx="15" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="2"/>
+  <polygon points="75,210 90,175 110,175" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="2"/>
+  <text x="160" y="165" font-family="Arial" font-size="12" text-anchor="middle" font-style="italic" fill="#0F172A">"Eu sinto como se estivesse...</text>
+  <text x="160" y="185" font-family="Arial" font-size="12" text-anchor="middle" font-style="italic" fill="#0F172A">...não sei explicar" [pausa: 2.3s]</text>
+  
+  <!-- Exemplo de conversão para forma dimensional - balão de processo -->
+  <rect x="730" y="370" width="220" height="70" rx="15" fill="#F8FAFC" stroke="#065F46" stroke-width="2"/>
+  <polygon points="925,320 870,370 850,350" fill="#F8FAFC" stroke="#065F46" stroke-width="2"/>
+  <text x="840" y="395" font-family="Arial" font-size="12" text-anchor="middle" fill="#065F46">v₆: Coerência Narrativa = 3/10</text>
+  <text x="840" y="415" font-family="Arial" font-size="12" text-anchor="middle" fill="#065F46">v₈: Dissonância Cognitiva = 7/10</text>
+</svg>

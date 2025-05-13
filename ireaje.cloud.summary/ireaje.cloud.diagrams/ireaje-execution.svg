@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="580" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="580" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Fluxo de Execução Euleriano do IREAJE.NET</text>
+  
+  <!-- Execution Context Container -->
+  <rect x="50" y="70" width="700" height="60" rx="10" ry="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+  <text x="400" y="105" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Contexto de Execução</text>
+  
+  <!-- Execution Steps Container -->
+  <rect x="50" y="160" width="700" height="330" rx="10" ry="10" fill="#f1f3f4" stroke="#555" stroke-width="1"/>
+  
+  <!-- Starting Node -->
+  <circle cx="100" cy="250" r="30" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="100" y="255" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Início</text>
+  
+  <!-- Step 1 -->
+  <rect x="180" y="220" width="120" height="60" rx="8" ry="8" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="240" y="255" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Passo 1</text>
+  <text x="240" y="275" font-family="Arial" font-size="12" text-anchor="middle">AnalisarMetadados</text>
+  
+  <!-- Step 2 -->
+  <rect x="350" y="220" width="120" height="60" rx="8" ry="8" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="410" y="255" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Passo 2</text>
+  <text x="410" y="275" font-family="Arial" font-size="12" text-anchor="middle">ExtrairConteúdo</text>
+  
+  <!-- Decision Point -->
+  <polygon points="520,220 550,250 520,280 490,250" fill="#ffe0b2" stroke="#fb8c00" stroke-width="2"/>
+  <text x="520" y="255" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Decisão</text>
+  
+  <!-- Step 3A -->
+  <rect x="450" y="330" width="120" height="60" rx="8" ry="8" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="510" y="365" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Passo 3A</text>
+  <text x="510" y="385" font-family="Arial" font-size="12" text-anchor="middle">Sumarização</text>
+  
+  <!-- Step 3B -->
+  <rect x="600" y="220" width="120" height="60" rx="8" ry="8" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+  <text x="660" y="255" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Passo 3B</text>
+  <text x="660" y="275" font-family="Arial" font-size="12" text-anchor="middle">Classificação</text>
+  
+  <!-- Ending Node -->
+  <circle cx="650" cy="400" r="30" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2"/>
+  <text x="650" y="405" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Fim</text>
+  
+  <!-- Flow Arrows -->
+  <path d="M130,250 L180,250" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M300,250 L350,250" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M470,250 L490,250" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M520,280 L520,330 L510,330" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M550,250 L600,250" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M510,390 L650,390 L650,370" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M660,280 L660,390 L680,390" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  
+  <!-- Context Update Arrows -->
+  <path d="M240,220 L240,160" stroke="#555" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M410,220 L410,160" stroke="#555" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M520,220 L520,160" stroke="#555" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M660,220 L660,160" stroke="#555" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" fill="none"/>
+  
+  <!-- Azure Service Integration -->
+  <rect x="100" y="440" width="600" height="90" rx="10" ry="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="400" y="465" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Integração com Serviços Azure</text>
+  
+  <!-- Service Icons -->
+  <rect x="150" y="480" width="100" height="35" rx="5" ry="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <text x="200" y="503" font-family="Arial" font-size="12" text-anchor="middle">Azure OpenAI</text>
+  
+  <rect x="300" y="480" width="100" height="35" rx="5" ry="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <text x="350" y="503" font-family="Arial" font-size="12" text-anchor="middle">Cosmos DB</text>
+  
+  <rect x="450" y="480" width="100" height="35" rx="5" ry="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <text x="500" y="503" font-family="Arial" font-size="12" text-anchor="middle">Cognitive Search</text>
+  
+  <!-- Service Integration Arrows -->
+  <path d="M240,280 L240,480" stroke="#555" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  <path d="M410,280 L350,480" stroke="#555" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  <path d="M510,390 L500,480" stroke="#555" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  
+  <!-- Eulerian Properties -->
+  <text x="150" y="190" font-family="Arial" font-size="14" text-anchor="start" font-weight="bold">Propriedades Eulerianas:</text>
+  <text x="350" y="190" font-family="Arial" font-size="12" text-anchor="start">• Cada nó visitado exatamente uma vez</text>
+  <text x="600" y="190" font-family="Arial" font-size="12" text-anchor="start">• Política de Visita: PercorrerUnico</text>
+</svg>

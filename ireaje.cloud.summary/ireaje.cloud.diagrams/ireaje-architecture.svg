@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Arquitetura do IREAJE.NET Runtime</text>
+  
+  <!-- User Interface Container -->
+  <rect x="50" y="90" width="700" height="100" rx="10" ry="10" fill="#e1f5fe" stroke="#0288d1" stroke-width="2"/>
+  <text x="400" y="120" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Interface do Usuário (GoPilot Client)</text>
+  <text x="400" y="160" font-family="Arial" font-size="14" text-anchor="middle">ASP.NET Core / Blazor WebAssembly</text>
+  
+  <!-- IREAJE Runtime Container -->
+  <rect x="50" y="240" width="700" height="160" rx="10" ry="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="400" y="270" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Runtime Euleriano IREAJE.NET (Middleware)</text>
+  
+  <!-- DSL Parsers Container -->
+  <rect x="80" y="290" width="200" height="90" rx="5" ry="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="180" y="315" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Parsers DSL</text>
+  <text x="180" y="340" font-family="Arial" font-size="12" text-anchor="middle">.aje (Eventos)</text>
+  <text x="180" y="360" font-family="Arial" font-size="12" text-anchor="middle">.ire (Correlações)</text>
+  <text x="180" y="380" font-family="Arial" font-size="12" text-anchor="middle">.e (Fluxos Eulerianos)</text>
+  
+  <!-- Execution Runtime Container -->
+  <rect x="320" y="290" width="200" height="90" rx="5" ry="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="420" y="315" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Execution Runtime</text>
+  <text x="420" y="340" font-family="Arial" font-size="12" text-anchor="middle">Orquestrador de Fluxos</text>
+  <text x="420" y="360" font-family="Arial" font-size="12" text-anchor="middle">Handlers de Operações</text>
+  <text x="420" y="380" font-family="Arial" font-size="12" text-anchor="middle">Gestão de Contexto</text>
+  
+  <!-- Monitoring System Container -->
+  <rect x="560" y="290" width="160" height="90" rx="5" ry="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="640" y="315" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Monitoramento</text>
+  <text x="640" y="340" font-family="Arial" font-size="12" text-anchor="middle">Detecção de Padrões</text>
+  <text x="640" y="360" font-family="Arial" font-size="12" text-anchor="middle">Ações Automatizadas</text>
+  <text x="640" y="380" font-family="Arial" font-size="12" text-anchor="middle">Eventos Inteligentes</text>
+  
+  <!-- Azure Services Container -->
+  <rect x="50" y="450" width="700" height="100" rx="10" ry="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="400" y="480" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Serviços Azure</text>
+  
+  <!-- Azure Service Icons -->
+  <rect x="90" y="500" width="100" height="30" rx="5" ry="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <text x="140" y="520" font-family="Arial" font-size="12" text-anchor="middle">Azure OpenAI</text>
+  
+  <rect x="215" y="500" width="100" height="30" rx="5" ry="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <text x="265" y="520" font-family="Arial" font-size="12" text-anchor="middle">Cosmos DB</text>
+  
+  <rect x="340" y="500" width="100" height="30" rx="5" ry="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <text x="390" y="520" font-family="Arial" font-size="12" text-anchor="middle">AI Search</text>
+  
+  <rect x="465" y="500" width="100" height="30" rx="5" ry="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <text x="515" y="520" font-family="Arial" font-size="12" text-anchor="middle">Azure Functions</text>
+  
+  <rect x="590" y="500" width="100" height="30" rx="5" ry="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <text x="640" y="520" font-family="Arial" font-size="12" text-anchor="middle">Azure AD</text>
+  
+  <!-- Connector Arrows -->
+  <!-- UI to Runtime -->
+  <path d="M400,190 L400,240" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <text x="415" y="220" font-family="Arial" font-size="12">Eventos .aje</text>
+  
+  <!-- Runtime to UI -->
+  <path d="M350,240 L350,190" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <text x="315" y="220" font-family="Arial" font-size="12">Respostas</text>
+  
+  <!-- Runtime to Azure -->
+  <path d="M400,400 L400,450" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <text x="420" y="430" font-family="Arial" font-size="12">Chamadas de Serviço</text>
+  
+  <!-- Azure to Runtime -->
+  <path d="M350,450 L350,400" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <text x="300" y="430" font-family="Arial" font-size="12">Resultados</text>
+  
+  <!-- Parser to Execution Runtime -->
+  <path d="M280,335 L320,335" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  
+  <!-- Execution Runtime to Monitoring -->
+  <path d="M520,335 L560,335" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  
+  <!-- Monitoring to Execution Runtime (Feedback) -->
+  <path d="M560,355 L520,355" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  
+  <!-- Legend -->
+  <rect x="600" y="60" width="120" height="15" fill="#e1f5fe" stroke="#0288d1" stroke-width="1"/>
+  <text x="730" y="72" font-family="Arial" font-size="12" text-anchor="start">Interface</text>
+  
+  <rect x="600" y="85" width="120" height="15" fill="#e8f5e9" stroke="#388e3c" stroke-width="1"/>
+  <text x="730" y="97" font-family="Arial" font-size="12" text-anchor="start">Runtime</text>
+  
+  <rect x="600" y="110" width="120" height="15" fill="#e3f2fd" stroke="#1976d2" stroke-width="1"/>
+  <text x="730" y="122" font-family="Arial" font-size="12" text-anchor="start">Serviços Cloud</text>
+</svg>

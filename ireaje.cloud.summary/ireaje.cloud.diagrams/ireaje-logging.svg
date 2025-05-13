@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Sistema de Logging do IREAJE.NET</text>
+
+  <!-- Logger Service Box -->
+  <rect x="50" y="80" width="700" height="120" rx="10" ry="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+  <text x="400" y="110" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Logger Service</text>
+  
+  <!-- Category Icons -->
+  <rect x="100" y="130" width="120" height="50" rx="5" ry="5" fill="#c5cae9" stroke="#3f51b5" stroke-width="1"/>
+  <text x="160" y="155" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">[Evento]</text>
+  <text x="160" y="175" font-family="Arial" font-size="12" text-anchor="middle">Input do usuário</text>
+  
+  <rect x="250" y="130" width="120" height="50" rx="5" ry="5" fill="#c5cae9" stroke="#3f51b5" stroke-width="1"/>
+  <text x="310" y="155" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">[Ação]</text>
+  <text x="310" y="175" font-family="Arial" font-size="12" text-anchor="middle">Resposta do sistema</text>
+  
+  <rect x="400" y="130" width="120" height="50" rx="5" ry="5" fill="#c5cae9" stroke="#3f51b5" stroke-width="1"/>
+  <text x="460" y="155" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">[Resposta]</text>
+  <text x="460" y="175" font-family="Arial" font-size="12" text-anchor="middle">Info. entregue</text>
+  
+  <rect x="550" y="130" width="120" height="50" rx="5" ry="5" fill="#c5cae9" stroke="#3f51b5" stroke-width="1"/>
+  <text x="610" y="155" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">[Conclusão]</text>
+  <text x="610" y="175" font-family="Arial" font-size="12" text-anchor="middle">Próximo passo</text>
+  
+  <!-- Log Format Containers -->
+  <rect x="50" y="220" width="160" height="280" rx="10" ry="10" fill="#ffecb3" stroke="#ffa000" stroke-width="2"/>
+  <text x="130" y="250" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Formato Humano</text>
+  <text x="130" y="270" font-family="Arial" font-size="14" text-anchor="middle">(.md)</text>
+  
+  <rect x="230" y="220" width="160" height="280" rx="10" ry="10" fill="#fff8e1" stroke="#ffa000" stroke-width="2"/>
+  <text x="310" y="250" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Formato .aje</text>
+  <text x="310" y="270" font-family="Arial" font-size="14" text-anchor="middle">(Eventos)</text>
+  
+  <rect x="410" y="220" width="160" height="280" rx="10" ry="10" fill="#e1f5fe" stroke="#0288d1" stroke-width="2"/>
+  <text x="490" y="250" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Formato .ire</text>
+  <text x="490" y="270" font-family="Arial" font-size="14" text-anchor="middle">(Correlações)</text>
+  
+  <rect x="590" y="220" width="160" height="280" rx="10" ry="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="670" y="250" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Formato .e</text>
+  <text x="670" y="270" font-family="Arial" font-size="14" text-anchor="middle">(Fluxos)</text>
+  
+  <!-- Example Code in each format -->
+  <rect x="60" y="290" width="140" height="190" rx="5" ry="5" fill="#fff" stroke="#ffa000" stroke-width="1"/>
+  <text x="70" y="310" font-family="Courier New" font-size="10" xml:space="preserve"># Log 01 - 2025-04-26
+
+## [Evento] Login
+Usuário fez login no 
+sistema às 10:15.
+
+## [Ação] Autenticação
+Verificação de
+credenciais realizada
+com sucesso.</text>
+  
+  <rect x="240" y="290" width="140" height="190" rx="5" ry="5" fill="#fff" stroke="#ffa000" stroke-width="1"/>
+  <text x="250" y="310" font-family="Courier New" font-size="10" xml:space="preserve">Re{UserLogin}.aje:{
+  "Username": "user123",
+  "Timestamp": 
+    "2025-04-26T10:15:30Z",
+  "Method": "OAuth",
+  "ContextId": "sess-456",
+  "Device": "Mobile"
+}</text>
+  
+  <rect x="420" y="290" width="140" height="190" rx="5" ry="5" fill="#fff" stroke="#0288d1" stroke-width="1"/>
+  <text x="430" y="310" font-family="Courier New" font-size="10" xml:space="preserve">MonitorarEvento.ire:{
+  "NomeFluxo": "Segurança",
+  "CorrelacoesDetectadas":
+    ["LoginFalha", 
+     "TentativaRepetida"],
+  "AcoesAutomatizadas":
+    ["BloquearTemporario"]
+}</text>
+  
+  <rect x="600" y="290" width="140" height="190" rx="5" ry="5" fill="#fff" stroke="#388e3c" stroke-width="1"/>
+  <text x="610" y="310" font-family="Courier New" font-size="10" xml:space="preserve">Fluxo: SessionLogin
+Inicio: UserLogin
+Sequencia:
+  - VerificarCredenciais
+  - CarregarPerfil
+  - RegistrarSessao
+  - RedirecionarHome
+PoliticaVisita: 
+  PercorrerUnico</text>
+  
+  <!-- Storage & Export Container -->
+  <rect x="50" y="520" width="700" height="60" rx="10" ry="10" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+  <text x="400" y="550" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Armazenamento, Exportação e Consolidação</text>
+  <text x="400" y="570" font-family="Arial" font-size="14" text-anchor="middle">Cosmos DB, JSON, Visualização de Grafo</text>
+
+  <!-- Arrows -->
+  <path d="M160,200 L130,220" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M310,200 L310,220" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M460,200 L490,220" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M610,200 L670,220" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  
+  <path d="M130,500 L130,520" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M310,500 L310,520" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M490,500 L490,520" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M670,500 L670,520" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)" fill="none"/>
+  
+  <!-- Correlation Arrows -->
+  <path d="M400,400 L370,400" stroke="#555" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M420,400 L450,400" stroke="#555" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" fill="none"/>
+  <path d="M570,360 L600,360" stroke="#555" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" fill="none"/>
+</svg>

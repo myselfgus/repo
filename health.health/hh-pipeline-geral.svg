@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definição de gradientes -->
+  <defs>
+    <linearGradient id="gradientEmocional" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="gradientCognitivo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="gradientAutonomia" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7E1D5F" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="gradientProcessamento" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748B" />
+    </marker>
+  </defs>
+  
+  <!-- Título do diagrama -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">HEALTH/HEALTH - Pipeline Geral</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Visualização INtegrativa TRAjetorial</text>
+  
+  <!-- Caixa de Fundamentação -->
+  <rect x="50" y="100" width="900" height="80" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="145" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Fundamentos Epistemológicos</text>
+  <text x="500" y="165" font-family="Arial" font-size="14" text-anchor="middle">Materialismo Existencial • Ruptura Paradigmática • Crítica aos Sistemas Categoriais</text>
+  
+  <!-- Seta conectora -->
+  <line x1="500" y1="180" x2="500" y2="210" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Camada de Arquitetura Dimensional -->
+  <rect x="50" y="210" width="900" height="100" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="240" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Arquitetura Dimensional</text>
+  
+  <!-- Dimensões -->
+  <rect x="90" y="250" width="250" height="40" rx="5" fill="url(#gradientEmocional)" opacity="0.8"/>
+  <text x="215" y="275" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Dimensão Emocional (v₁-v₄)</text>
+  
+  <rect x="370" y="250" width="250" height="40" rx="5" fill="url(#gradientCognitivo)" opacity="0.8"/>
+  <text x="495" y="275" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Dimensão Cognitiva (v₅-v₈)</text>
+  
+  <rect x="650" y="250" width="250" height="40" rx="5" fill="url(#gradientAutonomia)" opacity="0.8"/>
+  <text x="775" y="275" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Dimensão Autonomia (v₉-v₁₀)</text>
+  
+  <!-- Seta conectora -->
+  <line x1="500" y1="310" x2="500" y2="340" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Camada de Captura e Processamento -->
+  <rect x="50" y="340" width="900" height="80" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="370" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Arquitetura de Captura, Processamento e Armazenamento</text>
+  <text x="500" y="395" font-family="Arial" font-size="14" text-anchor="middle">Captura Multimodal • Processamento Linguístico-Fenomenológico • Armazenamento Vetorial</text>
+  
+  <!-- Setas conectoras tri-direcionais -->
+  <line x1="350" y1="420" x2="350" y2="450" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="420" x2="500" y2="450" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="650" y1="420" x2="650" y2="450" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Camada Inferior Tripla -->
+  <rect x="50" y="450" width="250" height="80" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="175" y="480" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Sistema de</text>
+  <text x="175" y="500" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Visualização Avançada</text>
+  
+  <rect x="320" y="450" width="360" height="80" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="480" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Motor Analítico Preditivo</text>
+  <text x="500" y="500" font-family="Arial" font-size="14" text-anchor="middle">Análise Trajetorial • Pontos Críticos • Predição</text>
+  
+  <rect x="700" y="450" width="250" height="80" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="825" y="480" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Interoperabilidade</text>
+  <text x="825" y="500" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">e Integração</text>
+  
+  <!-- Seta final para base -->
+  <line x1="500" y1="530" x2="500" y2="560" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Base de Governança -->
+  <rect x="200" y="560" width="600" height="40" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="585" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Arquitetura de Governança e Conformidade</text>
+</svg>

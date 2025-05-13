@@ -1,0 +1,137 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definição de gradientes -->
+  <defs>
+    <linearGradient id="gradientProcessos" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+    <linearGradient id="gradientLinguistico" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="gradientPreditivo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="gradientClinicos" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7E1D5F" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748B" />
+    </marker>
+  </defs>
+  
+  <!-- Título do diagrama -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Processos Paralelos de Análise HEALTH/HEALTH</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Arquitetura de Análise Multiprocessual</text>
+  
+  <!-- Entrada de dados -->
+  <rect x="350" y="90" width="300" height="50" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="122" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Transcrição e Vetor Dimensional</text>
+  
+  <!-- Hub central de processamento -->
+  <circle cx="500" cy="200" r="60" fill="url(#gradientProcessos)" opacity="0.8"/>
+  <text x="500" y="190" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Motor</text>
+  <text x="500" y="210" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Analítico</text>
+  <text x="500" y="230" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Processamento Paralelo</text>
+  
+  <!-- Linha conectora do input para o hub -->
+  <line x1="500" y1="140" x2="500" y2="140" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Processos de Análise Linguística -->
+  <g id="analise-linguistica">
+    <rect x="50" y="280" width="250" height="200" rx="10" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="2"/>
+    <text x="175" y="305" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#1E3A8A">Análise Linguística</text>
+    
+    <rect x="70" y="320" width="210" height="30" rx="5" fill="#3B82F6" opacity="0.6"/>
+    <text x="175" y="340" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Análise Sintática</text>
+    
+    <rect x="70" y="360" width="210" height="30" rx="5" fill="#3B82F6" opacity="0.6"/>
+    <text x="175" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Análise Semântica</text>
+    
+    <rect x="70" y="400" width="210" height="30" rx="5" fill="#3B82F6" opacity="0.6"/>
+    <text x="175" y="420" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Análise Pragmática</text>
+    
+    <rect x="70" y="440" width="210" height="30" rx="5" fill="#3B82F6" opacity="0.6"/>
+    <text x="175" y="460" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Análise de Atos de Fala</text>
+  </g>
+  
+  <!-- Linha conectora do hub para análise linguística -->
+  <line x1="454" y1="246" x2="175" y2="280" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <!-- Linha de retorno -->
+  <line x1="175" y1="480" x2="175" y2="500" stroke="#64748B" stroke-width="2"/>
+  <line x1="175" y1="500" x2="360" y2="500" stroke="#64748B" stroke-width="2"/>
+  <line x1="360" y1="500" x2="450" y2="246" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Processos de Análise Preditiva -->
+  <g id="analise-preditiva">
+    <rect x="375" y="280" width="250" height="200" rx="10" fill="#F8FAFC" stroke="#065F46" stroke-width="2"/>
+    <text x="500" y="305" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#065F46">Análise Preditiva</text>
+    
+    <rect x="395" y="320" width="210" height="30" rx="5" fill="#10B981" opacity="0.6"/>
+    <text x="500" y="340" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Detecção de Pontos Críticos</text>
+    
+    <rect x="395" y="360" width="210" height="30" rx="5" fill="#10B981" opacity="0.6"/>
+    <text x="500" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Análise de Consistência</text>
+    
+    <rect x="395" y="400" width="210" height="30" rx="5" fill="#10B981" opacity="0.6"/>
+    <text x="500" y="420" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Predição de Trajetórias</text>
+    
+    <rect x="395" y="440" width="210" height="30" rx="5" fill="#10B981" opacity="0.6"/>
+    <text x="500" y="460" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Análise de Risco</text>
+  </g>
+  
+  <!-- Linha conectora do hub para análise preditiva -->
+  <line x1="500" y1="260" x2="500" y2="280" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <!-- Linha de retorno -->
+  <line x1="500" y1="480" x2="500" y2="500" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="500" x2="500" y2="246" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Processos de Análise Clínica -->
+  <g id="analise-clinica">
+    <rect x="700" y="280" width="250" height="200" rx="10" fill="#F8FAFC" stroke="#7E1D5F" stroke-width="2"/>
+    <text x="825" y="305" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#7E1D5F">Análise Clínica</text>
+    
+    <rect x="720" y="320" width="210" height="30" rx="5" fill="#EC4899" opacity="0.6"/>
+    <text x="825" y="340" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Análise de Rede Social</text>
+    
+    <rect x="720" y="360" width="210" height="30" rx="5" fill="#EC4899" opacity="0.6"/>
+    <text x="825" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Estratificação Dimensional</text>
+    
+    <rect x="720" y="400" width="210" height="30" rx="5" fill="#EC4899" opacity="0.6"/>
+    <text x="825" y="420" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Accountability Terapêutica</text>
+    
+    <rect x="720" y="440" width="210" height="30" rx="5" fill="#EC4899" opacity="0.6"/>
+    <text x="825" y="460" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Quality of Life & Care Pathway</text>
+  </g>
+  
+  <!-- Linha conectora do hub para análise clínica -->
+  <line x1="546" y1="246" x2="825" y2="280" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <!-- Linha de retorno -->
+  <line x1="825" y1="480" x2="825" y2="500" stroke="#64748B" stroke-width="2"/>
+  <line x1="825" y1="500" x2="640" y2="500" stroke="#64748B" stroke-width="2"/>
+  <line x1="640" y1="500" x2="550" y2="246" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Resultados Integrados -->
+  <rect x="200" y="570" width="600" height="90" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="595" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Resultados Integrados</text>
+  
+  <rect x="220" y="610" width="170" height="30" rx="5" fill="#3B82F6" opacity="0.4"/>
+  <text x="305" y="630" font-family="Arial" font-size="14" text-anchor="middle">Padrões Linguísticos</text>
+  
+  <rect x="410" y="610" width="170" height="30" rx="5" fill="#10B981" opacity="0.4"/>
+  <text x="495" y="630" font-family="Arial" font-size="14" text-anchor="middle">Previsões Dimensionais</text>
+  
+  <rect x="600" y="610" width="180" height="30" rx="5" fill="#EC4899" opacity="0.4"/>
+  <text x="690" y="630" font-family="Arial" font-size="14" text-anchor="middle">Recomendações Clínicas</text>
+  
+  <!-- Linha conectora de resultados -->
+  <line x1="500" y1="260" x2="500" y2="530" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="530" x2="500" y2="570" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Ciclo de Feedback -->
+  <path d="M500,660 C450,675 450,685 500,700 C550,685 550,675 500,660" stroke="#F59E0B" stroke-width="2" fill="none" />
+  <text x="500" y="685" font-family="Arial" font-size="12" text-anchor="middle" fill="#F59E0B" font-weight="bold">Ciclo de Feedback Contínuo</text>
+</svg>

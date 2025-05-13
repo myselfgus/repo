@@ -1,0 +1,255 @@
+# FRAMEWORK DE DOCUMENTAÇÃO CLÍNICA INTEGRADA
+*Modelo unificado de visualização para análise clínica psiquiátrica*
+
+## 1. DADOS DE IDENTIFICAÇÃO E CONTEXTO
+
+```markdown
+## IDENTIFICAÇÃO
+- **Paciente**: [NOME COMPLETO]
+- **Idade**: [IDADE] anos
+- **Data da sessão**: [DATA]
+- **Sessão nº**: [NÚMERO]
+- **Local**: [INSTITUIÇÃO/CONSULTÓRIO]
+- **Médico responsável**: [NOME] ([CRM])
+
+## CONTEXTO DA SESSÃO
+- **Tipo de consulta**: [INICIAL/RETORNO/EMERGÊNCIA]
+- **Queixa principal**: [QUEIXA EM POUCAS PALAVRAS]
+- **Medicações atuais**: [LISTA DE MEDICAÇÕES EM USO]
+- **Exames recentes**: [EXAMES RELEVANTES]
+```
+
+## 2. SOAP MÉDICO ESTRUTURADO
+*Registro padronizado para prontuário eletrônico*
+
+```markdown
+### S (SUBJETIVO)
+Relato do paciente com **marcadores visuais** para elementos-chave. Deve incluir **sintomas reportados**, **percepções subjetivas**, **cronologia** dos sintomas, **impacto funcional** e **contexto social**. Integrar citações diretas relevantes. Apresentado em um único parágrafo para facilitar a inclusão em e-SUS e outros sistemas de prontuário eletrônico.
+
+### O (OBJETIVO)
+Achados objetivos com **marcadores visuais** para categorias-chave: **exame mental**, **apresentação**, **psicomotricidade**, **fala**, **humor**, **afeto**, **funções cognitivas**, **juízo crítico**, **insight**, **resultados de testes aplicados**, **parâmetros biológicos** quando pertinentes. Também em um único parágrafo contínuo.
+
+### A (AVALIAÇÃO)
+Avaliação clínica com **marcadores visuais** para **diagnósticos principais** (CID-11), **diagnósticos diferenciais**, **fatores complicadores**, **fatores de risco**, **avaliação dimensional HEALTH/HEALTH** em formato compacto, **análise trajetorial** resumida, e **grau de comprometimento funcional**. Manter em um único parágrafo para sistemas de prontuário.
+
+### P (PLANO)
+Plano terapêutico com **marcadores visuais** para **intervenções farmacológicas**, **intervenções psicossociais**, **encaminhamentos**, **solicitação de exames**, **ajustes de dose**, **alvos dimensionais prioritários**, **metas de curto prazo**, **orientações específicas** e **data de retorno**. Estruturado em um único parágrafo.
+```
+
+## 3. STAMP CLÍNICO DETALHADO
+*Estrutura complementar para análise aprofundada*
+
+```markdown
+## STAMP CLÍNICO
+
+### S - Subjective/Status
+- **Estado atual**: [Descrição concisa do estado atual do paciente]
+- **Autorrelato principal**: [Principais elementos subjetivos relatados]
+- **Mudanças desde última consulta**: [Alterações reportadas]
+- **Autoavaliação do paciente**: [Como o paciente avalia sua condição]
+
+### T - Take
+- **Biomarcadores ativos**: [Características observáveis e mensuráveis]
+  - **Linguísticos**: [Alterações na linguagem, padrões de fala]
+  - **Comportamentais**: [Padrões de comportamento observáveis]
+  - **Fisiológicos**: [Indicadores fisiológicos quando disponíveis]
+- **Métricas objetivas**: [Escalas, medidas quantitativas]
+- **Alertas relevantes**: [Sinais que merecem atenção imediata]
+
+### A - Assessment
+- **Análise integrada**: [Interpretação clínica dos dados]
+- **Estratificação de risco**: [Níveis de risco identificados]
+  - Suicídio: [0-4]
+  - Autoagressão: [0-4]
+  - Heteroagressão: [0-4]
+  - Funcionalidade: [0-4]
+- **Correlações clínicas**: [Padrões observados e significados]
+
+### M - Mental State
+- **Exame mental estruturado**: [Detalhamento completo]
+- **Avaliação cognitiva**: [Funções cognitivas específicas]
+- **Estado afetivo**: [Detalhamento do estado afetivo]
+- **Análise de rede**: [Relações entre sintomas e experiências]
+
+### P - Plan
+- **Modelos preditivos**: [Prognóstico baseado em trajetórias]
+- **Otimização terapêutica**: [Estratégias para melhorar resultados]
+- **Monitoramento evolutivo**: [Elementos a serem monitorados]
+- **Desfechos esperados**: [Resultados esperados das intervenções]
+```
+
+## 4. ANÁLISE DIMENSIONAL HEALTH/HEALTH
+*Mapeamento vetorial da experiência subjetiva*
+
+```markdown
+## ANÁLISE DIMENSIONAL HEALTH/HEALTH
+
+### Dimensão Emocional
+- **Valência**: [-5 a +5] - [Descrição qualitativa]
+- **Excitação**: [0-10] - [Descrição qualitativa]
+- **Dominância**: [0-10] - [Descrição qualitativa]
+- **Intensidade**: [0-10] - [Descrição qualitativa]
+
+### Dimensão Cognitiva
+- **Complexidade**: [0-10] - [Descrição qualitativa]
+- **Coerência**: [0-10] - [Descrição qualitativa]
+- **Flexibilidade**: [0-10] - [Descrição qualitativa]
+- **Dissonância**: [0-10] - [Descrição qualitativa]
+
+### Dimensão Autonomia
+- **Perspectiva Temporal**: [passado, presente, futuro] - [Descrição qualitativa]
+- **Autocontrole**: [0-10] - [Descrição qualitativa]
+
+### Visualização Dimensional
+- [Representação visual dos valores dimensionais em gráfico radar ou similar]
+
+### Trajetória Evolutiva
+- **Padrão trajetorial**: [Identificação do padrão predominante]
+- **Pontos críticos**: [Momentos de transição significativa]
+- **Previsão de curso**: [Tendência esperada baseada na trajetória]
+```
+
+## 5. ANÁLISE NARRATIVA ESTRUTURADA
+*Interpretação fenomenológica da experiência relatada*
+
+```markdown
+## ANÁLISE NARRATIVA
+
+### Estrutura Narrativa
+- **Temas centrais**: [Temas recorrentes e significativos]
+- **Elementos simbólicos**: [Metáforas, símbolos e imagens significativas]
+- **Padrões temporais**: [Organização temporal da narrativa]
+
+### Interpretação
+- **Significados emergentes**: [Interpretação dos conteúdos relatados]
+- **Recursos adaptativos**: [Capacidades e mecanismos identificados]
+- **Desafios identificados**: [Obstáculos para mudança terapêutica]
+
+### Ipsissima Narrativa
+> [Citações textuais relevantes do discurso do paciente]
+
+### Formulação Integrativa
+"[Síntese compreensiva em uma frase condensada]"
+```
+
+## 6. ANÁLISE LINGUÍSTICA APROFUNDADA
+*Estudo das características do discurso*
+
+```markdown
+## ANÁLISE LINGUÍSTICA
+
+### Análise Semântica
+- **Campos semânticos predominantes**: [Categorias semânticas recorrentes]
+- **Densidade conceitual**: [Complexidade dos conceitos utilizados]
+- **Evolução temática**: [Transformação dos temas ao longo do discurso]
+- **Padrões metafóricos**: [Estruturas metafóricas recorrentes]
+
+### Análise Sintática
+- **Complexidade estrutural**: [Nível de elaboração das construções]
+- **Temporalidade verbal**: [Tempos verbais predominantes]
+- **Padrões de subordinação**: [Estruturas subordinativas utilizadas]
+- **Marcadores discursivos**: [Conectores e organizadores textuais]
+
+### Análise Pragmática
+- **Atos de fala predominantes**: [Assertivos, diretivos, expressivos, etc.]
+- **Estratégias de polidez**: [Formas de mitigação e hedges]
+- **Pressuposições e implicaturas**: [Conteúdos implícitos]
+- **Posicionamento intersubjetivo**: [Relação estabelecida com interlocutor]
+```
+
+## 7. ANÁLISE PREDITIVA E PROGNÓSTICA
+*Elementos de previsão e monitoramento*
+
+```markdown
+## ANÁLISE PREDITIVA
+
+### Fatores de Risco e Proteção
+- **Fatores de risco atuais**: [Elementos que aumentam vulnerabilidade]
+- **Fatores de proteção ativos**: [Recursos que promovem resiliência]
+- **Pontos de alavancagem**: [Áreas de maior potencial de mudança]
+
+### Previsão de Resposta Terapêutica
+- **Responsividade farmacológica estimada**: [Alta/Média/Baixa]
+- **Responsividade psicoterapêutica estimada**: [Alta/Média/Baixa]
+- **Janela terapêutica ótima**: [Momento ideal para intervenções específicas]
+
+### Monitoramento Clínico
+- **Marcadores de progresso**: [Indicadores de melhora a monitorar]
+- **Sinais de alerta**: [Indicadores de agravamento a monitorar]
+- **Frequência de avaliação recomendada**: [Intervalos sugeridos]
+```
+
+## 8. PLANO TERAPÊUTICO INTEGRADO
+*Síntese das intervenções recomendadas*
+
+```markdown
+## PLANO TERAPÊUTICO INTEGRADO
+
+### Farmacoterapia
+- **Medicações atuais**: [Lista com doses e esquema]
+- **Alterações propostas**: [Mudanças, adições, retiradas]
+- **Justificativa técnica**: [Fundamentação para alterações]
+- **Titulação/Desmame**: [Esquema detalhado quando aplicável]
+- **Manejo de efeitos colaterais**: [Orientações específicas]
+
+### Intervenções Psicossociais
+- **Modalidades recomendadas**: [Tipos de intervenção]
+- **Alvos terapêuticos específicos**: [Objetivos para cada intervenção]
+- **Frequência e duração**: [Cronograma sugerido]
+- **Técnicas específicas**: [Abordagens recomendadas]
+
+### Intervenções Dimensionais
+- **Dimensão Emocional**: [Estratégias específicas]
+- **Dimensão Cognitiva**: [Estratégias específicas]
+- **Dimensão Autonomia**: [Estratégias específicas]
+
+### Cronograma Terapêutico
+- **Curto prazo (2-4 semanas)**: [Objetivos e intervenções]
+- **Médio prazo (1-3 meses)**: [Objetivos e intervenções]
+- **Longo prazo (3+ meses)**: [Objetivos e intervenções]
+```
+
+## 9. INFORMAÇÕES COMPLEMENTARES
+*Elementos administrativos e metadados*
+
+```markdown
+## INFORMAÇÕES COMPLEMENTARES
+
+### Informações Metodológicas
+- **Documentação consentida**: Elaborada com consentimento informado do paciente
+- **Processamento técnico**: [Detalhes sobre processamento de áudio/transcrição]
+- **Frameworks utilizados**: [HEALTH/HEALTH, SOAP, STAMP, etc.]
+- **Revisão clínica**: [Responsável pela validação]
+
+### Contato Profissional
+- **Médico responsável**: [Nome completo] - [CRM]
+- **Especialidade**: [Especialidade médica]
+- **Contatos**: [Telefone], [Email]
+- **Instituição**: [Nome da instituição]
+
+### Anexos
+- **Escalas aplicadas**: [Resultados de instrumentos padronizados]
+- **Exames relevantes**: [Resumo de resultados importantes]
+- **Documentos complementares**: [Referências a outros documentos]
+```
+
+## NOTAS DE IMPLEMENTAÇÃO
+
+Este framework de documentação foi projetado para ser:
+
+1. **Modular**: Permite selecionar apenas as seções relevantes para cada caso
+2. **Flexível**: Adaptável a diferentes contextos clínicos e necessidades
+3. **Integrativo**: Combina múltiplas perspectivas teóricas e metodológicas
+4. **Prático**: Fornece formatos específicos para uso em sistemas eletrônicos
+5. **Completo**: Abrange aspectos objetivos, subjetivos, técnicos e prognósticos
+
+Para implementação eficiente, recomenda-se:
+- Desenvolver templates digitais pré-formatados para cada seção
+- Criar versões simplificadas para uso rotineiro e versões completas para casos complexos
+- Estabelecer hierarquia visual clara para facilitar leitura rápida
+- Incorporar elementos visuais (gráficos, diagramas) para representação dimensional
+- Manter consistência terminológica entre as diferentes seções
+
+---
+
+© 2025 - Dr. Gustavo Mendes e Silva - CRM 218133/SP

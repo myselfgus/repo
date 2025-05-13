@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Linguagens DSL do IREAJE.NET</text>
+  
+  <!-- Sections Container -->
+  <rect x="50" y="70" width="700" height="490" rx="10" ry="10" fill="#f1f3f4" stroke="#555" stroke-width="1"/>
+  
+  <!-- .aje Section -->
+  <rect x="70" y="90" width="660" height="140" rx="8" ry="8" fill="#ffecb3" stroke="#ffa000" stroke-width="2"/>
+  <text x="400" y="115" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">.aje (Action & Journey Events)</text>
+  <text x="400" y="140" font-family="Arial" font-size="14" text-anchor="middle">Registro de Eventos e Ações</text>
+  
+  <!-- .aje Example -->
+  <rect x="100" y="160" width="600" height="60" rx="5" ry="5" fill="#fff8e1" stroke="#ffa000" stroke-width="1"/>
+  <text x="110" y="175" font-family="Courier New" font-size="12" xml:space="preserve">Re{RegisterSymptom}.aje:{
+  "Symptom": "Chest pain",
+  "Duration": "2 days",
+  "Intensity": "Moderate",
+  "Timestamp": "2025-04-26T10:15:30Z"
+}</text>
+  
+  <!-- .ire Section -->
+  <rect x="70" y="250" width="660" height="140" rx="8" ry="8" fill="#b3e5fc" stroke="#0288d1" stroke-width="2"/>
+  <text x="400" y="275" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">.ire (Intelligent Relational Events)</text>
+  <text x="400" y="300" font-family="Arial" font-size="14" text-anchor="middle">Monitoramento de Correlações e Respostas Automáticas</text>
+  
+  <!-- .ire Example -->
+  <rect x="100" y="320" width="600" height="60" rx="5" ry="5" fill="#e1f5fe" stroke="#0288d1" stroke-width="1"/>
+  <text x="110" y="335" font-family="Courier New" font-size="12" xml:space="preserve">MonitorarEvento.ire:{
+  "NomeFluxo": "MonitoramentoSistema",
+  "CorrelacoesDetectadas": ["ErroAutenticacao", "TentativaAcessoRepetida"],
+  "AcoesAutomatizadas": ["RegistrarLog", "NotificarAdmin"]
+}</text>
+  
+  <!-- .e Section -->
+  <rect x="70" y="410" width="660" height="140" rx="8" ry="8" fill="#c8e6c9" stroke="#388e3c" stroke-width="2"/>
+  <text x="400" y="435" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">.e (Eulerian Runtime Language)</text>
+  <text x="400" y="460" font-family="Arial" font-size="14" text-anchor="middle">Definição de Fluxos de Execução</text>
+  
+  <!-- .e Example -->
+  <rect x="100" y="480" width="600" height="60" rx="5" ry="5" fill="#e8f5e9" stroke="#388e3c" stroke-width="1"/>
+  <text x="110" y="495" font-family="Courier New" font-size="12" xml:space="preserve">Fluxo: ProcessamentoDocumentoInteligente
+Inicio: ReceberDocumento
+Sequencia:
+  - AnalisarMetadados
+  - ExtrairConteudo
+  - ClassificarDocumento</text>
+  
+  <!-- Language Interconnection Arrows -->
+  <path d="M250,230 L200,250" stroke="#555" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M550,230 L600,250" stroke="#555" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M250,390 L200,410" stroke="#555" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M550,390 L600,410" stroke="#555" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Descriptions -->
+  <text x="730" y="180" font-family="Arial" font-size="12" text-anchor="end" font-style="italic">Captura eventos do usuário</text>
+  <text x="730" y="200" font-family="Arial" font-size="12" text-anchor="end" font-style="italic">e ações do sistema</text>
+  
+  <text x="730" y="340" font-family="Arial" font-size="12" text-anchor="end" font-style="italic">Detecta padrões</text>
+  <text x="730" y="360" font-family="Arial" font-size="12" text-anchor="end" font-style="italic">e correlações</text>
+  
+  <text x="730" y="500" font-family="Arial" font-size="12" text-anchor="end" font-style="italic">Define fluxos</text>
+  <text x="730" y="520" font-family="Arial" font-size="12" text-anchor="end" font-style="italic">de execução eulerianos</text>
+</svg>

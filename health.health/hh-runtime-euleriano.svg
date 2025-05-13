@@ -1,0 +1,136 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definição de gradientes -->
+  <defs>
+    <linearGradient id="gradientRuntime" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="gradientHandler" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="gradientModel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7E1D5F" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="gradientFlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#92400E" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748B" />
+    </marker>
+  </defs>
+  
+  <!-- Título do diagrama -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Runtime Euleriano e Sistema de Handlers HH</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Arquitetura Multi-Agente para Processamento Dimensional</text>
+  
+  <!-- Kernel Central -->
+  <rect x="400" y="100" width="200" height="100" rx="10" fill="url(#gradientRuntime)" opacity="0.9"/>
+  <text x="500" y="140" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="white">Kernel Euleriano</text>
+  <text x="500" y="165" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Orquestrador de Fluxo</text>
+  
+  <!-- Layer de Handlers -->
+  <rect x="250" y="250" width="500" height="80" rx="10" fill="url(#gradientHandler)" opacity="0.8"/>
+  <text x="500" y="280" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Sistema de Handlers Especializados</text>
+  <text x="500" y="305" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Roteamento, Processamento e Transformação de Dados</text>
+  
+  <!-- Agentes especializados -->
+  <rect x="100" y="400" width="150" height="70" rx="10" fill="url(#gradientModel)" opacity="0.8"/>
+  <text x="175" y="430" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">OpenAI GPT-4o</text>
+  <text x="175" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Análise de Narrativa</text>
+  
+  <rect x="275" y="400" width="150" height="70" rx="10" fill="url(#gradientModel)" opacity="0.8"/>
+  <text x="350" y="430" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Claude 3.5 Sonnet</text>
+  <text x="350" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Extração Dimensional</text>
+  
+  <rect x="450" y="400" width="150" height="70" rx="10" fill="url(#gradientModel)" opacity="0.8"/>
+  <text x="525" y="430" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">DeepSeek / MAI</text>
+  <text x="525" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Cálculos Vetoriais</text>
+  
+  <rect x="625" y="400" width="150" height="70" rx="10" fill="url(#gradientModel)" opacity="0.8"/>
+  <text x="700" y="430" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Phi-4</text>
+  <text x="700" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Transcrição Eficiente</text>
+  
+  <rect x="800" y="400" width="150" height="70" rx="10" fill="url(#gradientModel)" opacity="0.8"/>
+  <text x="875" y="430" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Cohere</text>
+  <text x="875" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Embeddings e Busca</text>
+  
+  <!-- Conectores Kernel para Handlers -->
+  <line x1="500" y1="200" x2="500" y2="250" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Conectores Handlers para Agentes -->
+  <line x1="320" y1="330" x2="175" y2="400" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="330" x2="350" y2="400" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="330" x2="525" y2="400" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="600" y1="330" x2="700" y2="400" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="680" y1="330" x2="875" y2="400" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Canal de Feedback -->
+  <path d="M175,470 L175,520 Q175,540 195,540 L805,540 Q825,540 825,520 L825,470" 
+        fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="500" y="555" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#F59E0B">Canal de Feedback e Otimização de Modelo</text>
+  
+  <!-- Adaptadores para Handler -->
+  <path d="M175,400 L175,370 Q175,350 195,350 L280,350" 
+        fill="none" stroke="#64748B" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <path d="M350,400 L350,370 Q350,350 350,350 L380,350" 
+        fill="none" stroke="#64748B" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <path d="M525,400 L525,370 Q525,350 525,350 L500,350" 
+        fill="none" stroke="#64748B" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <path d="M700,400 L700,370 Q700,350 680,350 L620,350" 
+        fill="none" stroke="#64748B" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <path d="M875,400 L875,370 Q875,350 855,350 L720,350" 
+        fill="none" stroke="#64748B" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Componentes específicos dos Handlers -->
+  <rect x="270" y="320" width="80" height="35" rx="5" fill="#F8FAFC" stroke="#065F46" stroke-width="1.5"/>
+  <text x="310" y="342" font-family="Arial" font-size="12" text-anchor="middle" fill="#065F46">NarrativaHandler</text>
+  
+  <rect x="370" y="320" width="80" height="35" rx="5" fill="#F8FAFC" stroke="#065F46" stroke-width="1.5"/>
+  <text x="410" y="342" font-family="Arial" font-size="12" text-anchor="middle" fill="#065F46">DimensionalHandler</text>
+  
+  <rect x="470" y="320" width="80" height="35" rx="5" fill="#F8FAFC" stroke="#065F46" stroke-width="1.5"/>
+  <text x="510" y="342" font-family="Arial" font-size="12" text-anchor="middle" fill="#065F46">VetorialHandler</text>
+  
+  <rect x="570" y="320" width="80" height="35" rx="5" fill="#F8FAFC" stroke="#065F46" stroke-width="1.5"/>
+  <text x="610" y="342" font-family="Arial" font-size="12" text-anchor="middle" fill="#065F46">TranscriçãoHandler</text>
+  
+  <rect x="670" y="320" width="80" height="35" rx="5" fill="#F8FAFC" stroke="#065F46" stroke-width="1.5"/>
+  <text x="710" y="342" font-family="Arial" font-size="12" text-anchor="middle" fill="#065F46">EmbeddingHandler</text>
+  
+  <!-- Componentes específicos do Kernel -->
+  <rect x="420" y="120" width="75" height="30" rx="5" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="1.5"/>
+  <text x="457.5" y="140" font-family="Arial" font-size="12" text-anchor="middle" fill="#1E3A8A">Scheduler</text>
+  
+  <rect x="505" y="120" width="75" height="30" rx="5" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="1.5"/>
+  <text x="542.5" y="140" font-family="Arial" font-size="12" text-anchor="middle" fill="#1E3A8A">Dispatcher</text>
+  
+  <!-- Legenda -->
+  <rect x="100" y="130" width="200" height="130" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="1"/>
+  <text x="200" y="155" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Configuração Euleriana</text>
+  
+  <rect x="115" y="170" width="15" height="15" rx="2" fill="url(#gradientRuntime)" opacity="0.8"/>
+  <text x="180" y="183" font-family="Arial" font-size="12" text-anchor="start">Kernel Orquestrador</text>
+  
+  <rect x="115" y="195" width="15" height="15" rx="2" fill="url(#gradientHandler)" opacity="0.8"/>
+  <text x="180" y="208" font-family="Arial" font-size="12" text-anchor="start">Handlers de Domínio</text>
+  
+  <rect x="115" y="220" width="15" height="15" rx="2" fill="url(#gradientModel)" opacity="0.8"/>
+  <text x="180" y="233" font-family="Arial" font-size="12" text-anchor="start">Agentes de Modelo</text>
+  
+  <line x1="120" y1="245" x2="135" y2="245" stroke="#F59E0B" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="180" y="248" font-family="Arial" font-size="12" text-anchor="start">Canal de Feedback</text>
+  
+  <!-- Framework matemático -->
+  <rect x="700" y="130" width="230" height="130" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="1"/>
+  <text x="815" y="155" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Framework Matemático</text>
+  
+  <text x="815" y="180" font-family="Arial" font-size="12" text-anchor="middle" font-family="monospace">f(t+Δt) = f(t) + Δt * F(f(t), t)</text>
+  <text x="815" y="200" font-family="Arial" font-size="12" text-anchor="middle">Avanço do Estado no Runtime</text>
+  
+  <text x="815" y="225" font-family="Arial" font-size="12" text-anchor="middle" font-family="monospace">H(S) ⟼ A(S) → S'</text>
+  <text x="815" y="245" font-family="Arial" font-size="12" text-anchor="middle">Handler H aplica Agente A ao Estado S</text>
+</svg>

@@ -1,0 +1,141 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definições de gradientes e estilos -->
+  <defs>
+    <linearGradient id="blob-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0078D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#50E6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="folder-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#107C10;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66BB6A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mcp-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5B2C6F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8E44AD;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="foundry-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E74C3C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5B7B1;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    <marker id="sync-arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#107C10" />
+    </marker>
+  </defs>
+
+  <!-- Título -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" font-weight="bold">Integração com Pasta Contexto e Fluxo de Trabalho</text>
+  
+  <!-- Desktop e Pasta Contexto -->
+  <rect x="100" y="100" width="250" height="180" rx="10" ry="10" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+  <text x="225" y="125" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold">Seu Desktop</text>
+  
+  <rect x="125" y="150" width="200" height="100" rx="10" ry="10" fill="url(#folder-gradient)" filter="url(#shadow)"/>
+  <text x="225" y="200" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white" font-weight="bold">Pasta "contexto"</text>
+  <text x="225" y="225" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Sincronização Automática</text>
+
+  <!-- Azure Cloud -->
+  <rect x="500" y="100" width="300" height="350" rx="10" ry="10" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+  <text x="650" y="125" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold">Azure Cloud</text>
+  
+  <!-- Azure Blob Storage -->
+  <rect x="550" y="150" width="200" height="80" rx="10" ry="10" fill="url(#blob-gradient)" filter="url(#shadow)"/>
+  <text x="650" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white" font-weight="bold">Azure Blob Storage</text>
+  <text x="650" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Armazenamento de Documentos</text>
+  
+  <!-- Azure Vectors -->
+  <rect x="550" y="250" width="200" height="80" rx="10" ry="10" fill="url(#blob-gradient)" filter="url(#shadow)"/>
+  <text x="650" y="290" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white" font-weight="bold">Vetores no Azure</text>
+  <text x="650" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Dados Vetorizados</text>
+  
+  <!-- Azure AI Foundry -->
+  <rect x="550" y="350" width="200" height="80" rx="10" ry="10" fill="url(#foundry-gradient)" filter="url(#shadow)"/>
+  <text x="650" y="390" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white" font-weight="bold">Azure AI Foundry</text>
+  <text x="650" y="410" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Modelos Implantados</text>
+  
+  <!-- MCP WebClient -->
+  <rect x="300" y="350" width="250" height="120" rx="10" ry="10" fill="url(#mcp-gradient)" filter="url(#shadow)"/>
+  <text x="425" y="400" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="white" font-weight="bold">MCP WebClient</text>
+  <text x="425" y="430" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Servidor Web Responsivo</text>
+  
+  <!-- Dispositivos -->
+  <rect x="100" y="350" width="150" height="120" rx="10" ry="10" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+  <text x="175" y="370" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Seus Dispositivos</text>
+  
+  <rect x="120" y="390" width="110" height="30" rx="5" ry="5" fill="#6264A7" filter="url(#shadow)"/>
+  <text x="175" y="410" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Desktop</text>
+  
+  <rect x="120" y="430" width="110" height="30" rx="5" ry="5" fill="#6264A7" filter="url(#shadow)"/>
+  <text x="175" y="450" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Mobile</text>
+  
+  <!-- Servidores MCP -->
+  <rect x="300" y="125" width="170" height="175" rx="10" ry="10" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+  <text x="385" y="145" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">Servidores MCP</text>
+  
+  <rect x="320" y="165" width="130" height="35" rx="5" ry="5" fill="#5B2C6F" filter="url(#shadow)"/>
+  <text x="385" y="187" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Azure MCP</text>
+  
+  <rect x="320" y="210" width="130" height="35" rx="5" ry="5" fill="#5B2C6F" filter="url(#shadow)"/>
+  <text x="385" y="232" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Filesystem MCP</text>
+  
+  <rect x="320" y="255" width="130" height="35" rx="5" ry="5" fill="#5B2C6F" filter="url(#shadow)"/>
+  <text x="385" y="277" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Terminal MCP</text>
+  
+  <!-- Conexões -->
+  <!-- Sincronização Pasta -> Blob -->
+  <path d="M 325 200 C 400 200, 450 175, 550 190" stroke="#107C10" stroke-width="3" fill="none" stroke-dasharray="5,5" marker-end="url(#sync-arrowhead)"/>
+  <text x="425" y="175" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#107C10">Sincronização Automática</text>
+  
+  <!-- Blob -> Vetores -->
+  <line x1="650" y1="230" x2="650" y2="250" stroke="#0078D4" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="675" y="240" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Vetorização</text>
+  
+  <!-- MCP WebClient -> Servidores MCP -->
+  <path d="M 425 350 C 425 325, 385 310, 385 300" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="430" y="320" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Utiliza</text>
+  
+  <!-- Servidores MCP -> Recursos -->
+  <path d="M 450 200 C 500 200, 525 190, 550 190" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 450 225 C 500 225, 525 275, 550 290" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 450 270 C 500 270, 525 380, 550 390" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Servidores MCP -> Pasta -->
+  <path d="M 320 225 C 300 225, 300 200, 325 200" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Dispositivos -> MCP WebClient -->
+  <line x1="250" y1="410" x2="300" y2="410" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="275" y="400" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">Acessa</text>
+  
+  <!-- Fluxo de trabalho -->
+  <rect x="100" y="500" width="700" height="80" rx="10" ry="10" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+  <text x="450" y="525" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold">Fluxo de Trabalho Contínuo</text>
+  
+  <!-- Etapas de fluxo -->
+  <rect x="120" y="540" width="120" height="30" rx="5" ry="5" fill="#3498DB" filter="url(#shadow)"/>
+  <text x="180" y="560" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Edita Arquivos</text>
+  
+  <line x1="240" y1="555" x2="260" y2="555" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <rect x="260" y="540" width="120" height="30" rx="5" ry="5" fill="#3498DB" filter="url(#shadow)"/>
+  <text x="320" y="560" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Sincronização</text>
+  
+  <line x1="380" y1="555" x2="400" y2="555" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <rect x="400" y="540" width="120" height="30" rx="5" ry="5" fill="#3498DB" filter="url(#shadow)"/>
+  <text x="460" y="560" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Acesso via MCP</text>
+  
+  <line x1="520" y1="555" x2="540" y2="555" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <rect x="540" y="540" width="120" height="30" rx="5" ry="5" fill="#3498DB" filter="url(#shadow)"/>
+  <text x="600" y="560" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">IA Contextualizada</text>
+  
+  <line x1="660" y1="555" x2="680" y2="555" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Curva de volta para o início -->
+  <path d="M 680 555 C 700 555, 700 575, 100 575, 100 555, 100 555, 120 555" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+</svg>

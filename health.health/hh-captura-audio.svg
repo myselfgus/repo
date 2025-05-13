@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definição de gradientes e estilos -->
+  <defs>
+    <linearGradient id="gradientAudio" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="gradientTranscricao" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="gradientProcessamento" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7E1D5F" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+    refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748B" />
+    </marker>
+  </defs>
+  
+  <!-- Título do diagrama -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Pipeline de Captura de Áudio e Transcrição</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Transcrição Fenomenologicamente Enriquecida (TFE)</text>
+  
+  <!-- Ícone de microfone no topo -->
+  <circle cx="500" cy="120" r="30" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <path d="M490,110 L490,130 L510,130 L510,110 Z M485,130 C485,140 490,145 500,145 C510,145 515,140 515,130 L515,115 M500,145 L500,155 M485,155 L515,155" stroke="#0F172A" stroke-width="3" fill="none"/>
+  
+  <!-- Fluxo principal -->
+  <line x1="500" y1="155" x2="500" y2="180" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Núcleo de Captura de Áudio -->
+  <rect x="300" y="180" width="400" height="80" rx="10" fill="url(#gradientAudio)" opacity="0.8"/>
+  <text x="500" y="210" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Núcleo de Captura de Áudio</text>
+  <text x="500" y="235" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Gravação Multicanal de Alta Fidelidade (≥48kHz, 24-bit)</text>
+  
+  <!-- Próxima etapa -->
+  <line x1="500" y1="260" x2="500" y2="290" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Sistema de Redundância -->
+  <rect x="300" y="290" width="400" height="70" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="500" y="320" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Sistema de Redundância e Preservação</text>
+  <text x="500" y="340" font-family="Arial" font-size="14" text-anchor="middle">Armazenamento Redundante • Validação de Integridade</text>
+  
+  <!-- Próxima etapa -->
+  <line x1="500" y1="360" x2="500" y2="390" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Transcrição Neural -->
+  <rect x="300" y="390" width="400" height="70" rx="10" fill="url(#gradientTranscricao)" opacity="0.8"/>
+  <text x="500" y="420" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Transcrição Neural Adaptativa</text>
+  <text x="500" y="440" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Transformers Específicos para Contexto Clínico • WER ≤5%</text>
+  
+  <!-- Próxima etapa - Bifurcação -->
+  <line x1="500" y1="460" x2="500" y2="475" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="475" x2="350" y2="475" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="475" x2="650" y2="475" stroke="#64748B" stroke-width="2"/>
+  <line x1="350" y1="475" x2="350" y2="490" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="650" y1="475" x2="650" y2="490" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Anotação Temporal e Paralinguística -->
+  <rect x="150" y="490" width="400" height="70" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="350" y="520" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Anotação Temporal Precisa</text>
+  <text x="350" y="540" font-family="Arial" font-size="14" text-anchor="middle">Timestamping de Palavras • Marcação de Pausas</text>
+  
+  <rect x="600" y="490" width="250" height="70" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="2"/>
+  <text x="725" y="520" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Anotação Paralinguística</text>
+  <text x="725" y="540" font-family="Arial" font-size="14" text-anchor="middle">Prosódia • Vocalizações</text>
+  
+  <!-- Junção final -->
+  <line x1="350" y1="560" x2="350" y2="580" stroke="#64748B" stroke-width="2"/>
+  <line x1="725" y1="560" x2="725" y2="580" stroke="#64748B" stroke-width="2"/>
+  <line x1="350" y1="580" x2="500" y2="580" stroke="#64748B" stroke-width="2"/>
+  <line x1="725" y1="580" x2="500" y2="580" stroke="#64748B" stroke-width="2"/>
+  <line x1="500" y1="580" x2="500" y2="595" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Resultado Final -->
+  <rect x="300" y="595" width="400" height="45" rx="10" fill="url(#gradientProcessamento)" opacity="0.8"/>
+  <text x="500" y="623" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="white">Transcrição Fenomenologicamente Enriquecida (TFE)</text>
+  
+  <!-- Módulos Complementares -->
+  <rect x="50" y="250" width="200" height="125" rx="10" fill="#F8FAFC" stroke="#F59E0B" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="150" y="275" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#0F172A">Módulos Complementares</text>
+  <text x="150" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="#0F172A">• Captura Visual</text>
+  <text x="150" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#0F172A">• Sensores Ambientais</text>
+  <text x="150" y="350" font-family="Arial" font-size="14" text-anchor="middle" fill="#0F172A">• Interface Wearables</text>
+  
+  <!-- Seta lateral -->
+  <line x1="250" y1="300" x2="290" y2="300" stroke="#F59E0B" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+</svg>
