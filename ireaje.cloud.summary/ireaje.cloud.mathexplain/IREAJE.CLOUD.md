@@ -1,15 +1,14 @@
-
-**Manual de Integração do Runtime Euleriano IREAJE.NET no (qualquer frontend)**
+**Manual de Integração do Runtime Euleriano IREAJE.CLOUD no (qualquer frontend)**
 
 
 
 **Visão Geral da Arquitetura**
 
 
-O Web Client é uma aplicação web (ASP.NET Core/Blazor WebAssembly) que interage com um Runtime Euleriano IREAJE.NET para orquestrar fluxos entre o front-end e serviços de cloud (Azure e OpenAI). A arquitetura integra três DSLs – .aje, .ire e .e – no backend como um middleware central (no MCP Core) responsável por conectar usuários e serviços de forma bidirecional. Em alto nível, os componentes são:
+O Web Client é uma aplicação web (ASP.NET Core/Blazor WebAssembly) que interage com um Runtime Euleriano IREAJE.CLOUD para orquestrar fluxos entre o front-end e serviços de cloud (Azure e OpenAI). A arquitetura integra três DSLs – .aje, .ire e .e – no backend como um middleware central (no MCP Core) responsável por conectar usuários e serviços de forma bidirecional. Em alto nível, os componentes são:
 
 - Interface do Usuário (GoPilot Client): Aplicação ASP.NET Core ou Blazor WASM onde o usuário interage. Envia eventos e solicitações ao backend e exibe resultados ou notificações.
-- Runtime Euleriano IREAJE.NET (Middleware): Núcleo em .NET integrado ao servidor web, contendo parsers para as linguagens .aje, .ire e .e, e um orquestrador de execução (ExecutionRuntime). Recebe eventos do front-end, interpreta fluxos (.e) e invoca serviços conforme definido pelas linguagens DSL.
+- Runtime Euleriano IREAJE.CLOUD (Middleware): Núcleo em .NET integrado ao servidor web, contendo parsers para as linguagens .aje, .ire e .e, e um orquestrador de execução (ExecutionRuntime). Recebe eventos do front-end, interpreta fluxos (.e) e invoca serviços conforme definido pelas linguagens DSL.
 - Serviços Azure: Conjunto de serviços cloud conectados pelo runtime para executar tarefas de IA e persistência:
 
     - Azure OpenAI Service: Geração de texto, sumarização ou outras operações de LLM.
@@ -22,7 +21,7 @@ O Web Client é uma aplicação web (ASP.NET Core/Blazor WebAssembly) que intera
 - Autenticação e Segurança: Integração com Microsoft Entra ID (Azure AD) para autenticar usuários no front-end e proteger a API backend via JWT. Garante que somente usuários autorizados disparem fluxos.
 
 
-Fluxo Básico: O usuário realiza uma ação no front-end (por exemplo, envia uma solicitação ou carrega um documento). Essa ação é capturada como um evento .aje e enviada ao backend. O runtime IREAJE.NET registra esse evento (por exemplo, no Cosmos DB) e verifica se há monitores .ire relevantes (que detectam padrões ou correlações de eventos). Em seguida, aciona um fluxo .e (previamente definido ou dinâmico) correspondente à ação. O orquestrador .e então executa passo a passo as operações definidas (chamando serviços Azure, funções ou lógica interna) e retorna os resultados ao front-end, possivelmente gerando novos eventos ou notificações de saída. Todo o processo ocorre em tempo real, com baixa latência, graças à execução em memória pelo ExecutionRuntime integrado.
+Fluxo Básico: O usuário realiza uma ação no front-end (por exemplo, envia uma solicitação ou carrega um documento). Essa ação é capturada como um evento .aje e enviada ao backend. O runtime IREAJE.CLOUD registra esse evento (por exemplo, no Cosmos DB) e verifica se há monitores .ire relevantes (que detectam padrões ou correlações de eventos). Em seguida, aciona um fluxo .e (previamente definido ou dinâmico) correspondente à ação. O orquestrador .e então executa passo a passo as operações definidas (chamando serviços Azure, funções ou lógica interna) e retorna os resultados ao front-end, possivelmente gerando novos eventos ou notificações de saída. Todo o processo ocorre em tempo real, com baixa latência, graças à execução em memória pelo ExecutionRuntime integrado.
 
 
 **Passo 1: Configurar Autenticação (Microsoft Entra ID)**
@@ -1166,7 +1165,7 @@ Este exemplo ilustra como o runtime atua como “cola” entre diversas capacida
 A arquitetura proposta prioriza a facilidade de expansão para incorporar agentes inteligentes, novas ferramentas e handlers baseados em linguagem natural no futuro. Algumas considerações para expansão:
 
 - Novos Fluxos .e: Para adicionar uma nova capacidade, basta criar um novo arquivo .e definindo a sequência de operações, implementar os handlers correspondentes no orquestrador e implantá-lo. Por exemplo, poderíamos criar um fluxo AgenteSuporteTI.e que escuta eventos de chat do usuário e executa diagnósticos automáticos, chamando ferramentas específicas. A estrutura modular permite isso sem alterar os fluxos existentes.
-- Novos Eventos .aje e Monitores .ire: Da mesma forma, podemos introduzir novos tipos de eventos no sistema (basta começar a capturá-los do front-end ou outras fontes) e definir monitores de correlação. O núcleo do runtime já suporta parsing genérico; apenas acrescentamos classes de modelo se necessário e lógica de tratamento/monitoramento. Isso é útil para construir agentes proativos: e.g., um agente de viagem (VINTRA citado para fase posterior) poderia registrar eventos de itinerário, e monitores .ire detectariam combinações (voo atrasado + compromisso próximo) e disparariam fluxos .e de remarcação automática.
+- Novos Eventos .aje e Monitores .ire: Da mesma forma, podemos introduzir novos tipos de eventos no sistema (basta começar a capturá-los do front-end ou outras fontes) e definir monitores de correlação. O núcleo do runtime já suporta parsing genérico; apenas acrescentamos classes de modelo se necessário e lógica de tratamento/monitoramento. Isso é útil para construir agentes proativos: e.g., um agente de viagem (HEALTH/HEALTH citado para fase posterior) poderia registrar eventos de itinerário, e monitores .ire detectariam combinações (voo atrasado + compromisso próximo) e disparariam fluxos .e de remarcação automática.
 - Integração de Ferramentas Externas: Os handlers podem chamar APIs externas ou microserviços adicionais facilmente. Por exemplo, um handler “ConsultarClima” poderia chamar uma API de previsão do tempo para informar um agente. A adição de uma ferramenta significa adicionar um handler no dicionário do orquestrador e seu uso em fluxos .e.
 - Aprimoramento do Motor de Linguagem Natural: Atualmente, os fluxos .e são acionados por eventos discretos. Podemos evoluir para interpretar comandos de linguagem natural do usuário diretamente em intenções/fluxos:
 
@@ -1189,8 +1188,8 @@ A arquitetura proposta prioriza a facilidade de expansão para incorporar agente
 - 
 
 
-Por fim, a integração do runtime IREAJE.NET no GoPilot Client demonstrou como um sistema modular de DSLs pode orquestrar interações complexas entre usuário e serviços de nuvem de maneira transparente. Temos uma base sólida para evoluir tanto a aplicação atual quanto para construir o projeto VINTRA e outros agentes inteligentes aproveitando a mesma infraestrutura. Basta adicionar novos blocos (fluxos/eventos/ações) que o mecanismo central já os conectará de forma eficiente e consistente.
+Por fim, a integração do runtime IREAJE.CLOUD no GoPilot Client demonstrou como um sistema modular de DSLs pode orquestrar interações complexas entre usuário e serviços de nuvem de maneira transparente. Temos uma base sólida para evoluir tanto a aplicação atual quanto para construir o projeto HEALTH/HEALTH e outros agentes inteligentes aproveitando a mesma infraestrutura. Basta adicionar novos blocos (fluxos/eventos/ações) que o mecanismo central já os conectará de forma eficiente e consistente.
 
 
 
-Referências técnicas selecionadas: O design do runtime e DSLs IREAJE.NET baseia-se nos princípios de separação de camadas e eficiência euleriana. A utilização do Azure seguiu recomendações de serviços adequados a cada componente (ex.: Cosmos DB para grafo de eventos, Azure Functions para processamento de eventos, cache Redis para estado de runtime). A autenticação emprega Microsoft Entra ID conforme guia oficial da Microsoft para Blazor WebAssembly protegido por Azure AD .
+Referências técnicas selecionadas: O design do runtime e DSLs IREAJE.CLOUD baseia-se nos princípios de separação de camadas e eficiência euleriana. A utilização do Azure seguiu recomendações de serviços adequados a cada componente (ex.: Cosmos DB para grafo de eventos, Azure Functions para processamento de eventos, cache Redis para estado de runtime). A autenticação emprega Microsoft Entra ID conforme guia oficial da Microsoft para Blazor WebAssembly protegido por Azure AD .

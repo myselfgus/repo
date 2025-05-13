@@ -51,7 +51,7 @@ O CodeCanvas seria uma evolução dos conceitos do ClaudeCode e GitHub Copilot E
 
 ## 4. Runtime .Re (DSL Euleriana)
 
-A ideia do ".Re" como runtime euleriano é fascinante e poderia funcionar assim:
+A ideia do ".Re" como runtime euleriano (*vinculado à IREAJE.CLOUD) é fascinante e poderia funcionar assim:
 
 - **Conceito de Grafo:** Todo o sistema opera como um grafo onde ações, dados e agentes são nós conectados
 - **DSL Natural:** Comandos em linguagem natural são traduzidos para operações no grafo
