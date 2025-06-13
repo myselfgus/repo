@@ -25,7 +25,7 @@
   
   <!-- Título do diagrama -->
   <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Framework de Decisão para Seleção de Modelos</text>
-  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Otimização de Agentes IA para Processamento HH</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Otimização de Agentes IA para Processamento ZeoCare</text>
   
   <!-- Input Inicial -->
   <rect x="350" y="100" width="300" height="70" rx="10" fill="url(#gradientInput)" opacity="0.8"/>

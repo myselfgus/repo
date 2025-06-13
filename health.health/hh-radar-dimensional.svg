@@ -20,7 +20,7 @@
   </defs>
   
   <!-- Título do diagrama -->
-  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Radar Dimensional HH</text>
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Radar Dimensional ZeoCare</text>
   <text x="400" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Visualização Integrada de 10 Dimensões</text>
   
   <!-- Círculos de referência concêntricos -->

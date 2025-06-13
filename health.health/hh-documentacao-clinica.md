@@ -1,4 +1,4 @@
-# FORMATO HEALTH/HEALTH
+# FORMATO ZEOCARE
 
 ## DADOS DO PACIENTE
 - Nome: Erasmo
@@ -54,7 +54,7 @@ Expressões verbais limitadas do paciente devido à condição. Acompanhante afi
 **Informações Metodológicas:**
 - Documento elaborado com consentimento informado do paciente
 - Transcrição de áudio realizada através do modelo Whisper (OpenAI - openai.com)
-- Framework HEALTH/HEALTH em fase de validação clínica (hh.vav.re)
+- Framework ZEOCARE em fase de validação clínica (hh.vav.re)
 - Análise assistida por Claude (Anthropic - anthropic.com)
 - Revisão e validação clínica: Dr. Gustavo Mendes e Silva
 

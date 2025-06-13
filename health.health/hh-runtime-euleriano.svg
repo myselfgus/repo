@@ -24,7 +24,7 @@
   </defs>
   
   <!-- Título do diagrama -->
-  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Runtime Euleriano e Sistema de Handlers HH</text>
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Runtime Euleriano e Sistema de Handlers ZeoCare</text>
   <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Arquitetura Multi-Agente para Processamento Dimensional</text>
   
   <!-- Kernel Central -->

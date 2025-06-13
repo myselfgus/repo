@@ -1,7 +1,7 @@
 <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
   <!-- Fundo e título -->
   <rect width="800" height="600" fill="#f8fafc" rx="5" ry="5"/>
-  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#0f172a">Runtime Euleriano IREAJE.cloud</text>
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#0f172a">Runtime Euleriano VOITHER</text>
   
   <!-- Container principal -->
   <rect x="50" y="80" width="700" height="440" rx="10" ry="10" fill="#EFF6FF" stroke="#1E3A8A" stroke-width="2"/>
@@ -118,7 +118,7 @@
   
   <!-- Interfaces externas -->
   <rect x="50" y="540" width="700" height="40" rx="5" ry="5" fill="#E0E7FF" stroke="#312E81" stroke-width="1.5"/>
-  <text x="400" y="565" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#312E81">Aplicações HEALTH/HEALTH (Interface Clínica, Dashboard, Ferramentas de Análise)</text>
+  <text x="400" y="565" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#312E81">Aplicações ZEOCARE (Interface Clínica, Dashboard, Ferramentas de Análise)</text>
   
   <!-- Conector para interfaces externas -->
   <line x1="400" y1="480" x2="400" y2="540" stroke="#64748b" stroke-width="2"/>

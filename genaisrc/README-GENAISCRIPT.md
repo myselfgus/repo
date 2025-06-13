@@ -1,12 +1,12 @@
-# GenAIScript para HEALTH/HEALTH & IREAJE.cloud
+# GenAIScript para ZEOCARE & VOITHER
 
-Este repositório contém um conjunto de ferramentas para trabalhar com o framework HEALTH/HEALTH e as DSLs do IREAJE.cloud através do GenAIScript - uma interface especializada para consulta e processamento de conhecimento dimensional.
+Este repositório contém um conjunto de ferramentas para trabalhar com o framework ZEOCARE e as DSLs do VOITHER através do GenAIScript - uma interface especializada para consulta e processamento de conhecimento dimensional.
 
 ## 📋 Componentes Principais
 
 - **GenAIScript**: Interface de consulta vetorial-dimensional via comandos prefixados com `$`
 - **Runtime Euleriano**: Orquestrador de fluxo para processamento multi-agente
-- **DSLs IREAJE.cloud**: Linguagens específicas de domínio para representação de eventos e interações:
+- **DSLs VOITHER**: Linguagens específicas de domínio para representação de eventos e interações:
   - `.aje`: Formato JSON estruturado para eventos
   - `.ire`: Formato JSON para interações detalhadas
   - `.e`: Formato pipe-delimitado para eventos simplificados
@@ -64,11 +64,11 @@ main();
 
 ### Comandos Disponíveis
 
-- `$fundamentos:` - Informações sobre fundamentos do framework HEALTH/HEALTH
+- `$fundamentos:` - Informações sobre fundamentos do framework ZEOCARE
 - `$dimensoes:` - Explicações sobre as 10 dimensões do espaço mental
 - `$visualizacao:` - Detalhes sobre o sistema de visualização (radar dimensional, etc.)
 - `$processamento:` - Informações sobre o pipeline de processamento
-- `$documentacao:` - Acesso à documentação do HEALTH/HEALTH
+- `$documentacao:` - Acesso à documentação do ZEOCARE
 - `$matematica:` - Explicações sobre os fundamentos matemáticos
 - `$ia:` - Informações sobre integração com IA
 - `$clinica:` - Detalhes de aplicação clínica
@@ -98,7 +98,7 @@ node runtime-euleriano.mjs --save-logs ./logs
 
 Os logs serão salvos automaticamente no diretório `./logs` nos formatos `.aje`, `.ire` e `.e`.
 
-## 🔄 DSLs IREAJE.cloud
+## 🔄 DSLs VOITHER
 
 O sistema usa três DSLs complementares para registro e processamento de eventos:
 
@@ -152,15 +152,15 @@ O sistema integra múltiplos componentes:
 1. **GenAIScript**: Interface para comandos e consultas
 2. **Runtime Euleriano**: Orquestrador de fluxo e processamento
 3. **Handlers Especializados**: Processadores para diferentes tipos de consultas
-4. **DSLs IREAJE.cloud**: Linguagens para representação e persistência
+4. **DSLs VOITHER**: Linguagens para representação e persistência
 5. **Compilador Dimensional-DSL**: Ponte entre representações vetoriais e DSLs
 
 ## 📚 Recursos Adicionais
 
-- [Documentação Completa do HEALTH/HEALTH](health.health/hh-manual-tecnico.md)
+- [Documentação Completa do ZEOCARE](health.health/hh-manual-tecnico.md)
 - [Especificações Técnicas](health.health/hh-especificacoes-tecnicas.md)
 - [Pipeline de Processamento](health.health/hh-pipeline-embeddings-ontologias-grafos.md)
-- [Manual do IREAJE.cloud](ireaje.cloud.summary/ireaje.cloud.mathexplain/IREAJE.CLOUD.md)
+- [Manual do VOITHER](Voither.summary/Voither.mathexplain/IREAJE.CLOUD.md)
 
 ## 🤝 Contribuição
 

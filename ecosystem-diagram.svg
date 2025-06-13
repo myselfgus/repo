@@ -49,16 +49,16 @@
   
   <!-- Título -->
   <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0f172a">
-    Ecossistema Completo HEALTH/HEALTH &amp; IREAJE.cloud
+    Ecossistema Completo ZEOCARE &amp; VOITHER
   </text>
   
   <!-- Legenda -->
   <g transform="translate(30, 530)">
     <rect width="20" height="10" fill="url(#healthGradient)" rx="2" ry="2" />
-    <text x="30" y="10" font-family="Arial, sans-serif" font-size="12" fill="#0f172a">HEALTH/HEALTH</text>
+    <text x="30" y="10" font-family="Arial, sans-serif" font-size="12" fill="#0f172a">ZEOCARE</text>
     
     <rect x="150" width="20" height="10" fill="url(#ireajeGradient)" rx="2" ry="2" />
-    <text x="180" y="10" font-family="Arial, sans-serif" font-size="12" fill="#0f172a">IREAJE.cloud</text>
+    <text x="180" y="10" font-family="Arial, sans-serif" font-size="12" fill="#0f172a">VOITHER</text>
     
     <rect x="300" width="20" height="10" fill="url(#vidiriaGradient)" rx="2" ry="2" />
     <text x="330" y="10" font-family="Arial, sans-serif" font-size="12" fill="#0f172a">VIDIRIA</text>
@@ -84,7 +84,7 @@
         Radar Dimensional
       </text>
       <text x="70" y="50" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">
-        Visualização HH
+        Visualização ZeoCare
       </text>
     </g>
     

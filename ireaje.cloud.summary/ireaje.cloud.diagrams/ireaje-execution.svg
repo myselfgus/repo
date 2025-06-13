@@ -10,7 +10,7 @@
   <rect width="800" height="580" fill="#f8f9fa"/>
   
   <!-- Title -->
-  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Fluxo de Execução Euleriano do IREAJE.NET</text>
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Fluxo de Execução Euleriano do VOITHER</text>
   
   <!-- Execution Context Container -->
   <rect x="50" y="70" width="700" height="60" rx="10" ry="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>

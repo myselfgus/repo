@@ -1,7 +1,7 @@
 <svg viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
   <!-- Definição de gradientes -->
   <defs>
-    <linearGradient id="gradientHH" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="gradientZeoCare" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#1E3A8A" />
       <stop offset="100%" stop-color="#3B82F6" />
     </linearGradient>
@@ -24,21 +24,21 @@
   </defs>
   
   <!-- Título do diagrama -->
-  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Integração IREAJE.NET e HEALTH/HEALTH</text>
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Integração VOITHER e ZEOCARE</text>
   <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Arquitetura de Interoperabilidade e Fluxo de Dados</text>
   
-  <!-- Sistema HEALTH/HEALTH -->
-  <rect x="50" y="150" width="350" height="300" rx="15" fill="url(#gradientHH)" opacity="0.15" stroke="#1E3A8A" stroke-width="2"/>
-  <text x="225" y="180" font-family="Arial" font-size="22" text-anchor="middle" font-weight="bold" fill="#1E3A8A">HEALTH/HEALTH</text>
+  <!-- Sistema ZEOCARE -->
+  <rect x="50" y="150" width="350" height="300" rx="15" fill="url(#gradientZeoCare)" opacity="0.15" stroke="#1E3A8A" stroke-width="2"/>
+  <text x="225" y="180" font-family="Arial" font-size="22" text-anchor="middle" font-weight="bold" fill="#1E3A8A">ZEOCARE</text>
   <text x="225" y="205" font-family="Arial" font-size="14" text-anchor="middle" font-style="italic" fill="#1E3A8A">Framework Dimensional-Trajetorial</text>
   
-  <!-- Sistema IREAJE.NET -->
+  <!-- Sistema VOITHER -->
   <rect x="600" y="150" width="350" height="300" rx="15" fill="url(#gradientIreaje)" opacity="0.15" stroke="#7E1D5F" stroke-width="2"/>
-  <text x="775" y="180" font-family="Arial" font-size="22" text-anchor="middle" font-weight="bold" fill="#7E1D5F">IREAJE.NET</text>
+  <text x="775" y="180" font-family="Arial" font-size="22" text-anchor="middle" font-weight="bold" fill="#7E1D5F">VOITHER</text>
   <text x="775" y="205" font-family="Arial" font-size="14" text-anchor="middle" font-style="italic" fill="#7E1D5F">Plataforma de Intervenção Integrativa</text>
   
-  <!-- Componentes HEALTH/HEALTH -->
-  <rect x="80" y="230" width="290" height="50" rx="10" fill="url(#gradientHH)" opacity="0.8"/>
+  <!-- Componentes ZEOCARE -->
+  <rect x="80" y="230" width="290" height="50" rx="10" fill="url(#gradientZeoCare)" opacity="0.8"/>
   <text x="225" y="260" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Kernel Euleriano</text>
   
   <rect x="80" y="290" width="135" height="40" rx="5" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="1.5"/>
@@ -56,7 +56,7 @@
   <rect x="80" y="390" width="290" height="40" rx="5" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="1.5"/>
   <text x="225" y="415" font-family="Arial" font-size="12" text-anchor="middle" fill="#1E3A8A">Persistência Vetorial e Representação Dimensional</text>
   
-  <!-- Componentes IREAJE.NET -->
+  <!-- Componentes VOITHER -->
   <rect x="630" y="230" width="290" height="50" rx="10" fill="url(#gradientIreaje)" opacity="0.8"/>
   <text x="775" y="260" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Núcleo de Intervenção</text>
   
@@ -94,13 +94,13 @@
   
   <!-- Fluxo 1 -->
   <rect x="220" y="530" width="250" height="80" rx="5" fill="#F8FAFC" stroke="#92400E" stroke-width="1.5"/>
-  <text x="345" y="550" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#92400E">HEALTH/HEALTH → IREAJE.NET</text>
+  <text x="345" y="550" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#92400E">ZEOCARE → VOITHER</text>
   <text x="345" y="570" font-family="Arial" font-size="12" text-anchor="middle" fill="#92400E">• Perfis Dimensionais</text>
   <text x="345" y="590" font-family="Arial" font-size="12" text-anchor="middle" fill="#92400E">• Trajetórias e Pontos Críticos</text>
   
   <!-- Fluxo 2 -->
   <rect x="530" y="530" width="250" height="80" rx="5" fill="#F8FAFC" stroke="#92400E" stroke-width="1.5"/>
-  <text x="655" y="550" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#92400E">IREAJE.NET → HEALTH/HEALTH</text>
+  <text x="655" y="550" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#92400E">VOITHER → ZEOCARE</text>
   <text x="655" y="570" font-family="Arial" font-size="12" text-anchor="middle" fill="#92400E">• Resultados de Intervenções</text>
   <text x="655" y="590" font-family="Arial" font-size="12" text-anchor="middle" fill="#92400E">• Feedbacks Adaptativos</text>
   

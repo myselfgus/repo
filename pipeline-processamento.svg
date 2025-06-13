@@ -1,7 +1,7 @@
 <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
   <!-- Fundo e título -->
   <rect width="800" height="600" fill="#f8fafc" rx="5" ry="5"/>
-  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#0f172a">Pipeline de Processamento HEALTH/HEALTH</text>
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#0f172a">Pipeline de Processamento ZEOCARE</text>
   
   <!-- Retângulos de fundo para as fases -->
   <rect x="50" y="100" width="700" height="80" rx="10" ry="10" fill="#EFF6FF" stroke="#1E3A8A" stroke-width="2"/>
@@ -101,7 +101,7 @@
   
   <!-- Conexão com Runtime Euleriano -->
   <rect x="50" y="560" width="700" height="30" rx="5" ry="5" fill="#E0E7FF" stroke="#312E81" stroke-width="1.5"/>
-  <text x="400" y="580" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#312E81">Runtime Euleriano IREAJE.cloud</text>
+  <text x="400" y="580" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#312E81">Runtime Euleriano VOITHER</text>
   
   <!-- Conectores verticais para Runtime -->
   <line x1="120" y1="540" x2="120" y2="560" stroke="#64748b" stroke-width="2"/>
