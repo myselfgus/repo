@@ -1,12 +1,12 @@
 <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
   <!-- Título -->
-  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1E3A8A">Arquitetura de Integração HEALTH/HEALTH & IREAJE.cloud</text>
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1E3A8A">Arquitetura de Integração ZEOCARE & VOITHER</text>
   
-  <!-- Camada HEALTH/HEALTH - Topo -->
+  <!-- Camada ZEOCARE - Topo -->
   <rect x="100" y="90" width="600" height="80" rx="5" fill="#EFF6FF" stroke="#1E40AF" stroke-width="2"/>
-  <text x="400" y="135" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1E40AF">HEALTH/HEALTH Framework</text>
+  <text x="400" y="135" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1E40AF">ZEOCARE Framework</text>
   
-  <!-- Componentes HEALTH/HEALTH -->
+  <!-- Componentes ZEOCARE -->
   <rect x="120" y="190" width="170" height="60" rx="5" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
   <text x="205" y="225" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1E3A8A">Espaço Vetorial</text>
   
@@ -33,12 +33,12 @@
   <text x="585" y="410" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#065F46">.e</text>
   <text x="585" y="425" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#065F46">Eulerian Runtime Language</text>
   
-  <!-- IREAJE.cloud Runtime Camada Inferior -->
+  <!-- VOITHER Runtime Camada Inferior -->
   <rect x="100" y="460" width="600" height="80" rx="5" fill="#FDF2F8" stroke="#7E1D5F" stroke-width="2"/>
-  <text x="400" y="505" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#7E1D5F">Runtime Euleriano IREAJE.cloud</text>
+  <text x="400" y="505" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#7E1D5F">Runtime Euleriano VOITHER</text>
   
   <!-- Setas de Conexão -->
-  <!-- HEALTH/HEALTH para DSLs -->
+  <!-- ZEOCARE para DSLs -->
   <line x1="205" y1="250" x2="205" y2="280" stroke="#64748B" stroke-width="2" stroke-dasharray="5,5"/>
   <polygon points="205,290 200,280 210,280" fill="#64748B"/>
   

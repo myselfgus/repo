@@ -2,12 +2,12 @@
 
 **Data:** 13 de maio de 2025  
 **Usuário:** GUS  
-**Sistema:** HEALTH/HEALTH & IREAJE.cloud  
-**Sessão ID:** HH-GENAISCRIPT-20250513  
+**Sistema:** ZEOCARE & VOITHER  
+**Sessão ID:** ZeoCare-GENAISCRIPT-20250513  
 
 ## Resumo da Interação
 
-Esta sessão de interação envolveu a explicação, implementação e compreensão do GenAIScript e sua integração com o framework HEALTH/HEALTH e as DSLs do IREAJE.cloud através do Runtime Euleriano.
+Esta sessão de interação envolveu a explicação, implementação e compreensão do GenAIScript e sua integração com o framework ZEOCARE e as DSLs do VOITHER através do Runtime Euleriano.
 
 ## Sequência de Interações
 
@@ -18,10 +18,10 @@ Esta sessão de interação envolveu a explicação, implementação e compreens
 **Conteúdo da Requisição:** "nos exatavamos organizando um genaiscr para health health. por favor, analise todoo material healthhealth e do ireajecloud, o runtime euleriano, as dsl .aje .ire .e e me explique como o GenAIScript pode ser util e como usar?"
 
 **Resposta:**  
-Análise completa do GenAIScript e sua utilidade no contexto do Health/Health e IREAJE.cloud. Explicação sobre os componentes principais do sistema, incluindo:
-- HEALTH/HEALTH Framework (sistema dimensional-vetorial)
+Análise completa do GenAIScript e sua utilidade no contexto do Health/Health e VOITHER. Explicação sobre os componentes principais do sistema, incluindo:
+- ZEOCARE Framework (sistema dimensional-vetorial)
 - Runtime Euleriano (kernel de orquestração)
-- DSLs do IREAJE.cloud (.aje, .ire, .e)
+- DSLs do VOITHER (.aje, .ire, .e)
 - GenAIScript (interface de comandos $)
 
 Explicação sobre como usar o GenAIScript com comandos como `$fundamentos:`, `$dimensoes:`, etc.
@@ -30,7 +30,7 @@ Explicação sobre como usar o GenAIScript com comandos como `$fundamentos:`, `$
 
 **Timestamp:** 2025-05-13T10:32:40Z  
 **Tipo:** Implementação  
-**Conteúdo da Requisição:** "vc pode implantar? ha outros scripts para usarmos? e os scripts para ireaje.cloud?"
+**Conteúdo da Requisição:** "vc pode implantar? ha outros scripts para usarmos? e os scripts para Voither?"
 
 **Resposta:**  
 Implementação de múltiplos scripts para facilitar o uso do GenAIScript:
@@ -49,7 +49,7 @@ Implementação de múltiplos scripts para facilitar o uso do GenAIScript:
 **Resposta:**  
 Explicação detalhada dos benefícios práticos:
 - Consultas inteligentes com roteamento automático
-- Acesso unificado ao conhecimento HEALTH/HEALTH
+- Acesso unificado ao conhecimento ZEOCARE
 - Documentação automática de sessões
 - Integração entre representações vetoriais e DSLs
 - Processamento especializado por handlers
@@ -100,6 +100,6 @@ Implementação de registros da sessão em múltiplos formatos:
 
 ## Conclusão
 
-Esta sessão de interação demonstrou o poder da integração entre o framework HEALTH/HEALTH, as DSLs do IREAJE.cloud, e o GenAIScript através do Runtime Euleriano. O sistema criado funciona como uma ponte triangular entre o criador do sistema, outros usuários/colaboradores, e sistemas de IA, facilitando a comunicação, compreensão e desenvolvimento colaborativo.
+Esta sessão de interação demonstrou o poder da integração entre o framework ZEOCARE, as DSLs do VOITHER, e o GenAIScript através do Runtime Euleriano. O sistema criado funciona como uma ponte triangular entre o criador do sistema, outros usuários/colaboradores, e sistemas de IA, facilitando a comunicação, compreensão e desenvolvimento colaborativo.
 
 A implementação dos scripts e ferramentas fornece benefícios práticos significativos, incluindo acesso unificado ao conhecimento, roteamento inteligente de consultas, documentação automática, e integração entre representações vetoriais e DSLs.

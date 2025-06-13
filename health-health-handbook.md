@@ -1,4 +1,4 @@
-# HEALTH/HEALTH & IREAJE.cloud
+# ZEOCARE & VOITHER
 ## Handbook Teórico-Prático: Materialização do Framework Dimensional
 
 ---
@@ -15,7 +15,7 @@
    - [As 10 Dimensões Fundamentais](#22-as-10-dimensões-fundamentais)
    - [Formalização Matemática](#23-formalização-matemática)
 
-3. [Integração HEALTH/HEALTH & IREAJE.cloud](#3-integração-healthhealth--ireajecloud)
+3. [Integração ZEOCARE & VOITHER](#3-integração-healthhealth--ireajecloud)
    - [Runtime Euleriano](#31-runtime-euleriano)
    - [DSLs de Integração](#32-dsls-de-integração)
    - [Fluxo de Dados Dimensional](#33-fluxo-de-dados-dimensional)
@@ -63,7 +63,7 @@
 
 ### 1.1 Ruptura Paradigmática
 
-O HEALTH/HEALTH (Visualização INtegrativa TRAjetorial) representa uma transformação fundamental na conceptualização e abordagem da experiência psíquica humana. Essa ruptura ocorre em três níveis:
+O ZEOCARE (Visualização INtegrativa TRAjetorial) representa uma transformação fundamental na conceptualização e abordagem da experiência psíquica humana. Essa ruptura ocorre em três níveis:
 
 #### Epistemológico
 - **De**: Modelo categorial (DSM/CID) baseado em síndromes discretas
@@ -81,7 +81,7 @@ Essa ruptura não representa apenas uma evolução, mas uma transformação radi
 
 ### 1.2 Framework Dimensional-Vetorial
 
-O HEALTH/HEALTH estabelece um novo paradigma para compreender e representar a experiência psíquica:
+O ZEOCARE estabelece um novo paradigma para compreender e representar a experiência psíquica:
 
 ![Radar Dimensional](https://example.com/hh-radar-dimensional.svg)
 
@@ -92,11 +92,11 @@ O HEALTH/HEALTH estabelece um novo paradigma para compreender e representar a ex
 4. **Narratividade Integrada**: Fusão de dados quantitativos e expressão qualitativa
 5. **Processamento Linguístico Multinível**: Análise em camadas morfossintáticas, semânticas e pragmáticas
 
-O HEALTH/HEALTH não é apenas um sistema de classificação alternativo, mas um framework completo que integra teoria, metodologia e ferramentas operacionais.
+O ZEOCARE não é apenas um sistema de classificação alternativo, mas um framework completo que integra teoria, metodologia e ferramentas operacionais.
 
 ### 1.3 Materialismo Existencial
 
-A base filosófica do HEALTH/HEALTH transcende a falsa dicotomia entre abordagens materialistas e existencialistas:
+A base filosófica do ZEOCARE transcende a falsa dicotomia entre abordagens materialistas e existencialistas:
 
 #### Materialismo Existencial
 - Reconhece a inseparabilidade entre corporeidade material e consciência intencional
@@ -116,7 +116,7 @@ Esta fundamentação filosófica se manifesta na própria estrutura dimensional 
 
 ### 2.1 Espaço Vetorial da Mente
 
-O HEALTH/HEALTH conceitua a experiência mental como um espaço vetorial multidimensional ℳ, onde cada experiência subjetiva E representa uma posição específica:
+O ZEOCARE conceitua a experiência mental como um espaço vetorial multidimensional ℳ, onde cada experiência subjetiva E representa uma posição específica:
 
 ```
 E ∈ ℳ
@@ -139,7 +139,7 @@ Onde ⊕ representa a soma direta de subespaços.
 
 ### 2.2 As 10 Dimensões Fundamentais
 
-O espaço mental no HEALTH/HEALTH é composto por 10 dimensões fundamentais distribuídas em três metadimensões:
+O espaço mental no ZEOCARE é composto por 10 dimensões fundamentais distribuídas em três metadimensões:
 
 #### 2.2.1 Dimensão Emocional
 - **Valência Emocional (v₁)**: Polaridade hedônica da experiência, de -5 (extremamente negativa) a +5 (extremamente positiva)
@@ -195,11 +195,11 @@ Esta formalização permite análises avançadas, incluindo:
 
 ---
 
-## 3. Integração HEALTH/HEALTH & IREAJE.cloud
+## 3. Integração ZEOCARE & VOITHER
 
 ### 3.1 Runtime Euleriano
 
-O Runtime Euleriano é o núcleo do IREAJE.cloud que permite a execução orquestrada de fluxos com suporte para as DSLs específicas:
+O Runtime Euleriano é o núcleo do VOITHER que permite a execução orquestrada de fluxos com suporte para as DSLs específicas:
 
 ![Runtime Euleriano](https://example.com/hh-runtime-euleriano.svg)
 
@@ -216,11 +216,11 @@ O Runtime Euleriano é o núcleo do IREAJE.cloud que permite a execução orques
 - **Sistema de Eventos**: Gerencia comunicação entre componentes
 - **Armazenamento de Estado**: Persiste estado do runtime
 
-O Runtime Euleriano fornece a infraestrutura técnica necessária para operacionalizar os conceitos teóricos do HEALTH/HEALTH em um sistema computacional prático.
+O Runtime Euleriano fornece a infraestrutura técnica necessária para operacionalizar os conceitos teóricos do ZEOCARE em um sistema computacional prático.
 
 ### 3.2 DSLs de Integração
 
-O IREAJE.cloud utiliza três DSLs (Domain Specific Languages) complementares para representar eventos, padrões e fluxos:
+O VOITHER utiliza três DSLs (Domain Specific Languages) complementares para representar eventos, padrões e fluxos:
 
 #### 3.2.1 .aje (Actions & Journey Events)
 Formato JSON estruturado para eventos discretos:
@@ -291,7 +291,7 @@ Utilizado para:
 
 ### 3.3 Fluxo de Dados Dimensional
 
-A integração entre HEALTH/HEALTH e IREAJE.cloud cria um sistema de fluxo de dados dimensional completo:
+A integração entre ZEOCARE e VOITHER cria um sistema de fluxo de dados dimensional completo:
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -301,7 +301,7 @@ A integração entre HEALTH/HEALTH e IREAJE.cloud cria um sistema de fluxo de da
         │                      │                      │                       │
         ▼                      ▼                      ▼                       ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
-│                            Runtime Euleriano IREAJE.cloud                           │
+│                            Runtime Euleriano VOITHER                           │
 └─────────────────────────────────────────────────────────────────────────────────────┘
         │                      │                      │                       │
         ▼                      ▼                      ▼                       ▼
@@ -323,9 +323,9 @@ A integração entre HEALTH/HEALTH e IREAJE.cloud cria um sistema de fluxo de da
 
 ### 4.1 Ontologias e Grafos de Conhecimento
 
-O HEALTH/HEALTH utiliza ontologias formais e grafos de conhecimento para representar relações conceituais e integrar dados heterogêneos:
+O ZEOCARE utiliza ontologias formais e grafos de conhecimento para representar relações conceituais e integrar dados heterogêneos:
 
-#### 4.1.1 Ontologia Dimensional HEALTH/HEALTH (ODV)
+#### 4.1.1 Ontologia Dimensional ZEOCARE (ODV)
 - Define formalmente as dimensões e suas relações
 - Estabelece vocabulário controlado para fenômenos clínicos
 - Mapeia correlações entre dimensões
@@ -432,7 +432,7 @@ A extração e análise dimensional automatizada é realizada através de um sis
 #### 4.3.2 Prompts Especializados para Extração Dimensional
 Exemplo de prompt estruturado para Claude:
 ```
-Analise a seguinte transcrição e extraia valores para as dimensões HEALTH/HEALTH:
+Analise a seguinte transcrição e extraia valores para as dimensões ZEOCARE:
 
 Transcrição:
 "[texto do paciente]"
@@ -456,7 +456,7 @@ Para cada dimensão, atribua valores na escala indicada e justifique brevemente:
 
 ### 4.4 Visualização e Interfaces
 
-A visualização dimensional é elemento central do HEALTH/HEALTH, não meramente ilustrativa:
+A visualização dimensional é elemento central do ZEOCARE, não meramente ilustrativa:
 
 #### 4.4.1 Radar Dimensional
 - Representa as 10 dimensões em gráfico radar
@@ -489,7 +489,7 @@ Implementação técnica:
 
 ### 5.1 Estrutura e Comandos
 
-O GenAIScript serve como interface de conhecimento e acesso ao framework HEALTH/HEALTH:
+O GenAIScript serve como interface de conhecimento e acesso ao framework ZEOCARE:
 
 #### 5.1.1 Arquitetura de Scripts
 
@@ -546,7 +546,7 @@ O GenAIScript funciona como ponte entre diferentes componentes do conhecimento:
 
 ### 5.3 Execução e Deployment
 
-O GenAIScript HEALTH/HEALTH pode ser executado de diferentes formas:
+O GenAIScript ZEOCARE pode ser executado de diferentes formas:
 
 #### 5.3.1 Via Linha de Comando
 ```bash
@@ -690,7 +690,7 @@ O RCD é estruturado em cinco seções:
 
 ### 7.1 Avaliação Clínica
 
-O HEALTH/HEALTH transforma o processo de avaliação clínica:
+O ZEOCARE transforma o processo de avaliação clínica:
 
 #### 7.1.1 Fluxo de Avaliação Dimensional
 
@@ -702,7 +702,7 @@ O HEALTH/HEALTH transforma o processo de avaliação clínica:
         │                      │                      │                       │
         ▼                      ▼                      ▼                       ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
-│                            Runtime Euleriano IREAJE.cloud                           │
+│                            Runtime Euleriano VOITHER                           │
 └─────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -726,7 +726,7 @@ Eventos .aje envolvidos:
 
 ### 7.2 Monitoramento Longitudinal
 
-O HEALTH/HEALTH facilita o acompanhamento continuado:
+O ZEOCARE facilita o acompanhamento continuado:
 
 #### 7.2.1 Captura Contínua de Dados
 - **Avaliações Periódicas**: Reavaliação dimensional em intervalos definidos
@@ -748,7 +748,7 @@ O HEALTH/HEALTH facilita o acompanhamento continuado:
 
 ### 7.3 Pesquisa e Análise Populacional
 
-O HEALTH/HEALTH cria novas possibilidades para pesquisa:
+O ZEOCARE cria novas possibilidades para pesquisa:
 
 #### 7.3.1 Agregação de Dados Dimensionais
 - **Data Lake VIDIRIA**: Armazenamento anonimizado de dados dimensionais
@@ -774,7 +774,7 @@ O HEALTH/HEALTH cria novas possibilidades para pesquisa:
 
 ### 8.1 MVP: Componentes Essenciais
 
-Para materializar o HEALTH/HEALTH, um MVP (Minimum Viable Product) deve incluir:
+Para materializar o ZEOCARE, um MVP (Minimum Viable Product) deve incluir:
 
 #### 8.1.1 Componentes de Backend
 - **Runtime Euleriano**: Núcleo de execução de fluxos
@@ -872,7 +872,7 @@ A VIDIRIA funciona como data lake anonimizado para dados de saúde:
 - **Pipeline de Anonimização**: Processo para remoção de identificadores
 - **Sistema de Auditoria**: Rastreabilidade de acessos e operações
 
-#### 9.1.2 Integração HEALTH/HEALTH & VIDIRIA
+#### 9.1.2 Integração ZEOCARE & VIDIRIA
 - **Fluxo de Dados**: Transferência segura de dados dimensionais
 - **Padrões de API**: Endpoints padronizados para operações
 - **Sincronização**: Mecanismos para atualização de dados
@@ -918,7 +918,7 @@ O IREAJE Framework articula os componentes do ecossistema:
 - **JSON-E**: Formato de intercâmbio de dados
 - **Euler Graphs**: Representação de fluxos de processamento
 
-#### 9.3.2 Integração com HEALTH/HEALTH
+#### 9.3.2 Integração com ZEOCARE
 - **Mapeamento Ontológico**: Alinhamento de conceitos entre sistemas
 - **Eventos Dimensionais**: Representação de transições como eventos IREAJE
 - **Agentes Especializados**: Componentes para análise dimensional
@@ -938,9 +938,9 @@ O IREAJE Framework articula os componentes do ecossistema:
 
 ### 10.1 Glossário de Termos
 
-**Termos Fundamentais do HEALTH/HEALTH**
+**Termos Fundamentais do ZEOCARE**
 
-- **Visualização INtegrativa TRAjetorial (HEALTH/HEALTH)**: Framework dimensional-vetorial para mapeamento e análise da experiência mental.
+- **Visualização INtegrativa TRAjetorial (ZEOCARE)**: Framework dimensional-vetorial para mapeamento e análise da experiência mental.
 
 - **Framework Dimensional-Vetorial**: Abordagem que representa estados mentais como posições em um espaço multidimensional contínuo.
 
@@ -956,13 +956,13 @@ O IREAJE Framework articula os componentes do ecossistema:
 
 - **Ponto Crítico**: Momento de transição significativa, instabilidade ou mudança em uma trajetória dimensional.
 
-- **Registro Clínico Dimensional (RCD)**: Formato de documentação estruturada do HEALTH/HEALTH.
+- **Registro Clínico Dimensional (RCD)**: Formato de documentação estruturada do ZEOCARE.
 
 - **Expressão Ipsissima**: Transcrição literal de segmentos relevantes do discurso do paciente.
 
 **Termos do Ecossistema Tecnológico**
 
-- **IREAJE.cloud**: Sistema para orquestração e integração baseado no Runtime Euleriano.
+- **VOITHER**: Sistema para orquestração e integração baseado no Runtime Euleriano.
 
 - **Runtime Euleriano**: Núcleo de execução que implementa a política de visitação única em fluxos.
 
@@ -974,7 +974,7 @@ O IREAJE Framework articula os componentes do ecossistema:
 
 - **.e (Eulerian Runtime Language)**: DSL para definição de fluxos de execução.
 
-- **GenAIScript**: Interface de conhecimento e acesso ao framework HEALTH/HEALTH.
+- **GenAIScript**: Interface de conhecimento e acesso ao framework ZEOCARE.
 
 - **VIDIRIA**: Data lake anonimizado para dados de saúde.
 
@@ -1011,24 +1011,24 @@ O IREAJE Framework articula os componentes do ecossistema:
 
 **Documentação Técnica**
 
-- [Manual Técnico HEALTH/HEALTH](https://example.com/hh-manual-tecnico.pdf)
+- [Manual Técnico ZEOCARE](https://example.com/hh-manual-tecnico.pdf)
 - [Especificações do Runtime Euleriano](https://example.com/runtime-euleriano-specs.pdf)
-- [Guia de DSLs IREAJE.cloud](https://example.com/ireaje-dsl-guide.pdf)
+- [Guia de DSLs VOITHER](https://example.com/ireaje-dsl-guide.pdf)
 - [Documentação da API VIDIRIA](https://example.com/vidiria-api-docs.pdf)
 - [Manual do Desenvolvedor GenAIScript](https://example.com/genaiscript-dev-manual.pdf)
 
 **Ferramentas de Desenvolvimento**
 
 - [VS Code Extension para GenAIScript](https://marketplace.visualstudio.com/items?itemName=genaiscript.genaiscript-vscode)
-- [SDK IREAJE.cloud](https://github.com/ireaje-cloud/sdk)
+- [SDK VOITHER](https://github.com/ireaje-cloud/sdk)
 - [Templates de Fluxo .e](https://github.com/ireaje-cloud/e-templates)
 - [Biblioteca de Visualização Dimensional](https://github.com/health-health/dimensional-viz)
 - [Framework de NLP Dimensional](https://github.com/health-health/nlp-dimensional)
 
 **Recursos de Aprendizado**
 
-- [Curso: Fundamentos do HEALTH/HEALTH](https://academy.health-health.org/fundamentos)
-- [Tutorial: Implementando o Runtime Euleriano](https://academy.ireaje.cloud/runtime-tutorial)
+- [Curso: Fundamentos do ZEOCARE](https://academy.health-health.org/fundamentos)
+- [Tutorial: Implementando o Runtime Euleriano](https://academy.Voither/runtime-tutorial)
 - [Guia: Análise Dimensional na Prática Clínica](https://academy.health-health.org/clinica)
-- [Webinars: Integração HEALTH/HEALTH & IREAJE.cloud](https://academy.ireaje.cloud/webinars)
+- [Webinars: Integração ZEOCARE & VOITHER](https://academy.Voither/webinars)
 - [Comunidade: Fórum de Desenvolvedores](https://community.health-health.org)

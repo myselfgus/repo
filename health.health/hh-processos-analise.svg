@@ -24,7 +24,7 @@
   </defs>
   
   <!-- Título do diagrama -->
-  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Processos Paralelos de Análise HEALTH/HEALTH</text>
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Processos Paralelos de Análise ZEOCARE</text>
   <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Arquitetura de Análise Multiprocessual</text>
   
   <!-- Entrada de dados -->

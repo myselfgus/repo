@@ -7,9 +7,9 @@
 
 ## 1. VISÃO GERAL DO SISTEMA
 
-### 1.1 O que é o IREAJE.cloud
+### 1.1 O que é o VOITHER
 
-O IREAJE.cloud é um runtime euleriano de nova geração que funciona como um kernel de orquestração para sistemas complexos, com foco especial em fluxos de dados, correlações e processamento multi-agente. Diferente de sistemas tradicionais de logging ou middleware, o IREAJE.cloud opera como um backend-as-an-agent, orquestrando fluxos de informações através de uma arquitetura baseada em três linguagens de domínio específico (DSLs) interconectadas:
+O VOITHER é um runtime euleriano de nova geração que funciona como um kernel de orquestração para sistemas complexos, com foco especial em fluxos de dados, correlações e processamento multi-agente. Diferente de sistemas tradicionais de logging ou middleware, o VOITHER opera como um backend-as-an-agent, orquestrando fluxos de informações através de uma arquitetura baseada em três linguagens de domínio específico (DSLs) interconectadas:
 
 - **`.aje` (Actions & Journey Events)**: Captura e estrutura eventos
 - **`.ire` (Intelligent Relational Events)**: Monitora correlações entre eventos
@@ -30,7 +30,7 @@ O sistema é fundamentado no conceito matemático de "Caminhos Eulerianos" - per
 
 #### 1.2.2 Teoria de Sistemas Multi-Agente
 
-O IREAJE.cloud implementa um modelo de inteligência coletiva onde múltiplos agentes especializados cooperam para processar informações e tomar decisões:
+O VOITHER implementa um modelo de inteligência coletiva onde múltiplos agentes especializados cooperam para processar informações e tomar decisões:
 
 - **Handlers Especializados**: Processadores dedicados para diferentes tipos de dados e operações
 - **Orquestração Centralizada**: Coordenação eficiente através do runtime euleriano
@@ -46,16 +46,16 @@ A arquitetura foi projetada desde o início para integração nativa com modelos
 - **Raciocínio Simbólico-Subsimbólico**: Ponte entre processamento simbólico e representações vetoriais
 - **Cognição Aumentada**: Ampliação das capacidades humanas através de orquestração inteligente
 
-### 1.3 Relação com o HEALTH/HEALTH
+### 1.3 Relação com o ZEOCARE
 
-O IREAJE.cloud serve como backbone crítico para o framework HEALTH/HEALTH, fornecendo a infraestrutura necessária para:
+O VOITHER serve como backbone crítico para o framework ZEOCARE, fornecendo a infraestrutura necessária para:
 
 - **Processamento Dimensional**: Manipulação eficiente das 10 dimensões do espaço mental
 - **Análise Trajetorial**: Rastreamento e análise de trajetórias no espaço dimensional
 - **Correlação Fenomenológica**: Identificação de padrões clínicos significativos
 - **Documentação Contextual**: Geração e gerenciamento de documentação clínica estruturada
 
-A implementação do IREAJE.cloud é essencial para realizar a visão completa do HEALTH/HEALTH, permitindo a operacionalização da abordagem dimensional-vetorial à saúde mental em ambientes clínicos reais.
+A implementação do VOITHER é essencial para realizar a visão completa do ZEOCARE, permitindo a operacionalização da abordagem dimensional-vetorial à saúde mental em ambientes clínicos reais.
 
 ## 2. ARQUITETURA DO SISTEMA
 
@@ -132,7 +132,7 @@ Este fluxo assegura que:
 
 ### 2.4 Integração com Cloud Services
 
-O IREAJE.cloud foi projetado para integração nativa com serviços de nuvem, particularmente Azure:
+O VOITHER foi projetado para integração nativa com serviços de nuvem, particularmente Azure:
 
 - **Azure Cosmos DB**: Armazenamento de eventos em grafo (API Gremlin)
 - **Azure OpenAI**: Processamento de linguagem natural e geração de conteúdo
@@ -143,7 +143,7 @@ O IREAJE.cloud foi projetado para integração nativa com serviços de nuvem, pa
 
 ## 3. LINGUAGENS DE DOMÍNIO ESPECÍFICO (DSLs)
 
-O IREAJE.cloud implementa três DSLs complementares, cada uma servindo a um propósito específico no ecossistema:
+O VOITHER implementa três DSLs complementares, cada uma servindo a um propósito específico no ecossistema:
 
 ### 3.1 `.aje` - Actions & Journey Events
 
@@ -160,7 +160,7 @@ Re{TipoEvento}.aje:{
 }
 ```
 
-#### 3.1.2 Exemplo para HEALTH/HEALTH
+#### 3.1.2 Exemplo para ZEOCARE
 
 ```
 Re{RegisterSymptom}.aje:{
@@ -198,7 +198,7 @@ MonitorEvento.ire:{
 }
 ```
 
-#### 3.2.2 Exemplo para HEALTH/HEALTH
+#### 3.2.2 Exemplo para ZEOCARE
 
 ```
 MonitorEvento.ire:{
@@ -244,7 +244,7 @@ AcoesAoFinalizar:
   - Acao2
 ```
 
-#### 3.3.2 Exemplo para HEALTH/HEALTH
+#### 3.3.2 Exemplo para ZEOCARE
 
 ```
 Fluxo: AnaliseDimensionalCompleta
@@ -296,7 +296,7 @@ A integração entre as três DSLs ocorre através de interfaces bem definidas:
 
 ### 4.1 Tecnologias Recomendadas
 
-A implementação eficiente do IREAJE.cloud requer uma stack tecnológica específica:
+A implementação eficiente do VOITHER requer uma stack tecnológica específica:
 
 #### 4.1.1 Backend
 
@@ -320,7 +320,7 @@ A implementação eficiente do IREAJE.cloud requer uma stack tecnológica espec�
 ### 4.2 Arquitetura Detalhada
 
 ```csharp
-// Simplified C# architecture for IREAJE.cloud Runtime
+// Simplified C# architecture for VOITHER Runtime
 
 // Core Runtime System
 public class EulerianRuntime
@@ -407,11 +407,11 @@ public class PatternMonitor
 
 ### 4.3 Handlers Especializados
 
-A implementação requer handlers específicos para cada domínio. Para o HEALTH/HEALTH:
+A implementação requer handlers específicos para cada domínio. Para o ZEOCARE:
 
 #### 4.3.1 DimensionalAnalysisHandler
 
-Responsável pela análise dimensional conforme o modelo HEALTH/HEALTH:
+Responsável pela análise dimensional conforme o modelo ZEOCARE:
 
 ```csharp
 public class DimensionalAnalysisHandler
@@ -457,7 +457,7 @@ public class DimensionalAnalysisHandler
 
 #### 4.3.2 VisualizationHandler
 
-Responsável pela geração de visualizações para o modelo HEALTH/HEALTH:
+Responsável pela geração de visualizações para o modelo ZEOCARE:
 
 ```csharp
 public class VisualizationHandler
@@ -540,7 +540,7 @@ public class DocumentationHandler
 
 ### 4.4 Performance Optimization
 
-A implementação do IREAJE.cloud requer otimizações específicas para garantir desempenho adequado:
+A implementação do VOITHER requer otimizações específicas para garantir desempenho adequado:
 
 #### 4.4.1 Paralelização de Handlers
 
@@ -608,11 +608,11 @@ public class OptimizedEventStore : EventStore
 
 ### 5.1 Necessidade de GenAIScript
 
-O GenAIScript da Microsoft representa uma tecnologia crucial para a implementação efetiva do IREAJE.cloud, especialmente para o ecossistema HEALTH/HEALTH, pelos seguintes motivos:
+O GenAIScript da Microsoft representa uma tecnologia crucial para a implementação efetiva do VOITHER, especialmente para o ecossistema ZEOCARE, pelos seguintes motivos:
 
 #### 5.1.1 Orquestração de Prompts Complexos
 
-O IREAJE.cloud requer geração e processamento sofisticado de linguagem natural para:
+O VOITHER requer geração e processamento sofisticado de linguagem natural para:
 - Análise dimensional de narrativas clínicas
 - Extração de expressões ipsissima relevantes
 - Geração de documentação contextualmente apropriada
@@ -622,7 +622,7 @@ O GenAIScript fornece um framework estruturado para definir, testar e executar p
 
 #### 5.1.2 Integração com Linguagens DSL Proprietárias
 
-A implementação do IREAJE.cloud requer ponte entre as DSLs proprietárias (.aje, .ire, .e) e os modelos de linguagem. O GenAIScript facilita esta integração através de:
+A implementação do VOITHER requer ponte entre as DSLs proprietárias (.aje, .ire, .e) e os modelos de linguagem. O GenAIScript facilita esta integração através de:
 
 ```javascript
 // Exemplo de GenAIScript para processamento de eventos .aje
@@ -636,7 +636,7 @@ export default async function(ajeEvent) {
     
     ${EVENT}
     
-    Para cada dimensão do HEALTH/HEALTH, atribua um valor numérico baseado no conteúdo:
+    Para cada dimensão do ZEOCARE, atribua um valor numérico baseado no conteúdo:
     - Valência Emocional (-5 a +5): ?
     - Excitação Emocional (0-10): ?
     - Dominância Emocional (0-10): ?
@@ -666,7 +666,7 @@ O GenAIScript oferece mecanismos robustos para manutenção de contexto entre ch
 - Preservação de contexto clínico em sessões longitudinais
 - Rastreamento de evolução dimensional ao longo do tempo
 - Análise trajetorial com consciência histórica
-- Acesso a conhecimento especializado do domínio HEALTH/HEALTH
+- Acesso a conhecimento especializado do domínio ZEOCARE
 
 #### 5.1.4 Desenvolvimento Iterativo e Testes
 
@@ -678,7 +678,7 @@ O ambiente de desenvolvimento do GenAIScript facilita:
 
 ### 5.2 Integração com Outras Tecnologias DeepTech
 
-Além do GenAIScript, a implementação completa do IREAJE.cloud para o HEALTH/HEALTH se beneficia de outras tecnologias avançadas:
+Além do GenAIScript, a implementação completa do VOITHER para o ZEOCARE se beneficia de outras tecnologias avançadas:
 
 #### 5.2.1 Processamento Vetorial com ONNX Runtime
 
@@ -816,11 +816,11 @@ public class MultiAgentOrchestrator
 }
 ```
 
-## 6. IMPLEMENTAÇÃO PARA O HEALTH/HEALTH
+## 6. IMPLEMENTAÇÃO PARA O ZEOCARE
 
 ### 6.1 Fluxo de Trabalho Típico
 
-A implementação do IREAJE.cloud permite os seguintes fluxos essenciais para o HEALTH/HEALTH:
+A implementação do VOITHER permite os seguintes fluxos essenciais para o ZEOCARE:
 
 #### 6.1.1 Análise Dimensional Completa
 
@@ -839,7 +839,7 @@ Passo 5: Integração Dimensional (Gráfico Radar)
 ↓
 Passo 6: Análise Trajetorial
 ↓
-Passo 7: Geração de Documento HEALTH/HEALTH
+Passo 7: Geração de Documento ZEOCARE
 ↓
 Passo 8: Armazenamento em Repositório Clínico
 ↓
@@ -864,9 +864,9 @@ Documentação: Atualização de Perfil e Trajetória
 Fim: Notificação a Equipe Clínica (se necessário)
 ```
 
-### 6.2 Benefícios para o HEALTH/HEALTH
+### 6.2 Benefícios para o ZEOCARE
 
-A implementação do IREAJE.cloud proporciona benefícios específicos para o framework HEALTH/HEALTH:
+A implementação do VOITHER proporciona benefícios específicos para o framework ZEOCARE:
 
 1. **Operacionalização da Abordagem Dimensional**:
    - Processamento matemático rigoroso das dimensões
@@ -888,14 +888,14 @@ A implementação do IREAJE.cloud proporciona benefícios específicos para o fr
    - Visualizações padronizadas para comunicação entre profissionais
    - Auditabilidade completa de decisões clínicas
 
-### 6.3 Customização para o HEALTH/HEALTH
+### 6.3 Customização para o ZEOCARE
 
-A implementação do IREAJE.cloud para o HEALTH/HEALTH requer customizações específicas:
+A implementação do VOITHER para o ZEOCARE requer customizações específicas:
 
 #### 6.3.1 Handlers Especializados
 
 ```csharp
-// Exemplo de handler especializado para HEALTH/HEALTH
+// Exemplo de handler especializado para ZEOCARE
 public class HealthHealthHandlers
 {
     // Analisador de Valência Emocional (v₁)
@@ -945,10 +945,10 @@ public class HealthHealthHandlers
         ctx.Set("TrajectoryVisualization", visualization);
     }
     
-    // Gerador de Documento HEALTH/HEALTH
+    // Gerador de Documento ZEOCARE
     public async Task GenerateDocumentAsync(ExecutionContext ctx)
     {
-        // Estruturar documento conforme especificação HEALTH/HEALTH
+        // Estruturar documento conforme especificação ZEOCARE
         var document = new HealthHealthDocument
         {
             // Seção 1: Narrativa
@@ -1017,7 +1017,7 @@ public class HealthHealthHandlers
 }
 ```
 
-#### 6.3.2 Monitores Específicos para o HEALTH/HEALTH
+#### 6.3.2 Monitores Específicos para o ZEOCARE
 
 ```json
 // Exemplo de monitor .ire para detecção de risco de crise
@@ -1047,7 +1047,7 @@ public class HealthHealthHandlers
 
 ## 7. ROADMAP DE IMPLEMENTAÇÃO
 
-Para implementar com sucesso o IREAJE.cloud e validar sua eficácia para o HEALTH/HEALTH, recomenda-se o seguinte plano em fases:
+Para implementar com sucesso o VOITHER e validar sua eficácia para o ZEOCARE, recomenda-se o seguinte plano em fases:
 
 ### 7.1 Fase 1: Foundation (2-3 meses)
 
@@ -1066,10 +1066,10 @@ Para implementar com sucesso o IREAJE.cloud e validar sua eficácia para o HEALT
    - Sistema de handlers e orquestração
    - Testes de conceito com fluxos simples
 
-### 7.2 Fase 2: HEALTH/HEALTH Integration (3-4 meses)
+### 7.2 Fase 2: ZEOCARE Integration (3-4 meses)
 
 1. **Handlers Dimensionais Especializados**:
-   - Implementação de handlers para cada dimensão HEALTH/HEALTH
+   - Implementação de handlers para cada dimensão ZEOCARE
    - Integração com modelos de IA via GenAIScript
    - Calibração e validação com datasets de teste
 
@@ -1079,7 +1079,7 @@ Para implementar com sucesso o IREAJE.cloud e validar sua eficácia para o HEALT
    - Interface para interação com visualizações
 
 3. **Documentação Clínica**:
-   - Gerador de documentos HEALTH/HEALTH
+   - Gerador de documentos ZEOCARE
    - Templates para diferentes contextos clínicos
    - Exportação para formatos padrão
 
@@ -1119,13 +1119,13 @@ Para implementar com sucesso o IREAJE.cloud e validar sua eficácia para o HEALT
 
 ## 8. CONCLUSÃO
 
-O IREAJE.cloud representa uma inovação significativa como runtime euleriano para sistemas complexos, oferecendo uma abordagem matemática rigorosa para processamento de eventos, detecção de correlações e orquestração de fluxos. Sua arquitetura baseada em DSLs complementares (.aje, .ire, .e) proporciona separação clara de responsabilidades enquanto mantém integração coesa.
+O VOITHER representa uma inovação significativa como runtime euleriano para sistemas complexos, oferecendo uma abordagem matemática rigorosa para processamento de eventos, detecção de correlações e orquestração de fluxos. Sua arquitetura baseada em DSLs complementares (.aje, .ire, .e) proporciona separação clara de responsabilidades enquanto mantém integração coesa.
 
-Para o framework HEALTH/HEALTH, o IREAJE.cloud é absolutamente essencial, fornecendo a infraestrutura necessária para operacionalizar a abordagem dimensional-vetorial à saúde mental. Através da implementação deste runtime, o HEALTH/HEALTH pode evoluir de um modelo teórico para uma ferramenta clínica prática, oferecendo análise dimensional precisa, visualizações intuitivas, documentação estruturada e monitoramento longitudinal.
+Para o framework ZEOCARE, o VOITHER é absolutamente essencial, fornecendo a infraestrutura necessária para operacionalizar a abordagem dimensional-vetorial à saúde mental. Através da implementação deste runtime, o ZEOCARE pode evoluir de um modelo teórico para uma ferramenta clínica prática, oferecendo análise dimensional precisa, visualizações intuitivas, documentação estruturada e monitoramento longitudinal.
 
-A integração com GenAIScript e outras tecnologias deeptech potencializa as capacidades do sistema, permitindo análise sofisticada de linguagem natural, processamento vetorial de alta performance e orquestração eficiente de agentes especializados. Esta combinação de tecnologias cria um ecossistema completo para transformar a abordagem à saúde mental, alinhando-se perfeitamente com a visão do HEALTH/HEALTH.
+A integração com GenAIScript e outras tecnologias deeptech potencializa as capacidades do sistema, permitindo análise sofisticada de linguagem natural, processamento vetorial de alta performance e orquestração eficiente de agentes especializados. Esta combinação de tecnologias cria um ecossistema completo para transformar a abordagem à saúde mental, alinhando-se perfeitamente com a visão do ZEOCARE.
 
-O desenvolvimento e implementação do IREAJE.cloud, embora ambicioso, é tecnicamente viável com as tecnologias atuais e representa um passo significativo na evolução dos sistemas de saúde mental baseados em evidências e orientados por dados.
+O desenvolvimento e implementação do VOITHER, embora ambicioso, é tecnicamente viável com as tecnologias atuais e representa um passo significativo na evolução dos sistemas de saúde mental baseados em evidências e orientados por dados.
 
 ---
 
@@ -1232,8 +1232,8 @@ export default async function analyzeNarrative(narrative) {
   
   // Consulta ao modelo para análise dimensional
   const response = await $`
-    Você é um especialista em análise dimensional do framework HEALTH/HEALTH.
-    Analise o seguinte relato clínico e extraia valores para cada dimensão conforme o modelo HEALTH/HEALTH:
+    Você é um especialista em análise dimensional do framework ZEOCARE.
+    Analise o seguinte relato clínico e extraia valores para cada dimensão conforme o modelo ZEOCARE:
     
     """
     ${NARRATIVE}

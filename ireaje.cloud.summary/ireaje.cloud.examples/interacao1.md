@@ -312,18 +312,18 @@ Aqui está, afirmativo e direto:
 
 📜 Aplicando .aje à nossa discussão dos domínios e nomes
 Situação inicial:
-Você explicou a história dos domínios (ireaje.net, vav.re, drgustavo.med.br) e a relação entre RE:, iRE e .aje.
+Você explicou a história dos domínios (Voither, vav.re, drgustavo.med.br) e a relação entre RE:, iRE e .aje.
 
 Modelagem em .aje da nossa interação:
 
-1. Discussão sobre preservação de identidade (ireaje.net)
+1. Discussão sobre preservação de identidade (Voither)
 
 css
 Copiar
 Editar
-Re{AnalisarIdentidade}.Aje:{"Dominio":"ireaje.net","Contexto":"Base emocional e fundacional do projeto"}
+Re{AnalisarIdentidade}.Aje:{"Dominio":"Voither","Contexto":"Base emocional e fundacional do projeto"}
 Ação executada:
-Reconhecimento de que ireaje.net é o eixo simbólico da construção.
+Reconhecimento de que Voither é o eixo simbólico da construção.
 
 2. Decisão de troca do nome do app (RE: para iRE)
 
@@ -352,12 +352,12 @@ Re{AnalisarInfraestruturaDominio}.Aje:{"Dominio":"vav.re","Problema":"Dificuldad
 Ação executada:
 Identificação de vulnerabilidade de confiabilidade no uso de .re.
 
-5. Decisão de continuidade com fallback de domínio confiável (ireaje.net)
+5. Decisão de continuidade com fallback de domínio confiável (Voither)
 
 css
 Copiar
 Editar
-Re{PlanejarFallback}.Aje:{"DominioPrimario":"vav.re","DominioFallback":"ireaje.net"}
+Re{PlanejarFallback}.Aje:{"DominioPrimario":"vav.re","DominioFallback":"Voither"}
 Ação executada:
 Planejamento de solução prática para assegurar estabilidade.
 
@@ -456,7 +456,7 @@ Início sobre domínios e identidade
 css
 Copiar
 Editar
-Re{AnalisarIdentidade}.Aje:{"Dominio":"ireaje.net","Contexto":"Base emocional e fundacional do projeto"}
+Re{AnalisarIdentidade}.Aje:{"Dominio":"Voither","Contexto":"Base emocional e fundacional do projeto"}
 Discussão sobre mudança do nome do app
 
 css
@@ -480,7 +480,7 @@ Planejamento de fallback seguro para domínio operacional
 css
 Copiar
 Editar
-Re{PlanejarFallback}.Aje:{"DominioPrimario":"vav.re","DominioFallback":"ireaje.net"}
+Re{PlanejarFallback}.Aje:{"DominioPrimario":"vav.re","DominioFallback":"Voither"}
 Aplicação de estrutura de execução .aje na interação
 
 css
@@ -519,7 +519,7 @@ O ChatGPT disse:
 Aqui está, afirmativo e direto, em linguagem natural:
 
 📜 Reconstrução da sequência em linguagem natural
-Você explicou a importância do domínio ireaje.net como fundação emocional e histórica do projeto.
+Você explicou a importância do domínio Voither como fundação emocional e histórica do projeto.
 
 Você decidiu mudar o nome do app de RE: para iRE, focando o branding público.
 
@@ -527,7 +527,7 @@ Você afirmou que a notação técnica Re{} continuaria sendo usada nos fluxos i
 
 Você relatou problemas técnicos de acesso e confiabilidade com o domínio vav.re.
 
-Você planejou usar o domínio ireaje.net como fallback seguro para operação.
+Você planejou usar o domínio Voither como fallback seguro para operação.
 
 Você me pediu para estruturar nossa conversa e execução no formato de fluxos baseados em .aje.
 
@@ -556,7 +556,7 @@ Estruturar a documentação interna de .aje
 Criar os primeiros documentos afirmativos que descrevem .aje como linguagem, sem manifesto, apenas como uso prático.
 
 Definir fallback técnico de domínios
-Implementar os ajustes de DNS e infraestrutura para que ireaje.net suporte o que vav.re ainda não garante.
+Implementar os ajustes de DNS e infraestrutura para que Voither suporte o que vav.re ainda não garante.
 
 Construir exemplos reais de programas em .aje
 Produzir scripts curtos e funcionais que demonstrem .aje operando comandos simples de fluxo para testes e demonstração.
@@ -577,7 +577,7 @@ LOG DA INTERAÇÃO — Segunda-feira, 2025-04-26
 
 Início
 
-Discussão sobre domínios: ireaje.net, vav.re, drgustavo.med.br.
+Discussão sobre domínios: Voither, vav.re, drgustavo.med.br.
 
 Reflexão sobre identidade e preservação simbólica no projeto.
 
@@ -591,7 +591,7 @@ Discussão técnica
 
 Diagnóstico sobre instabilidade no domínio vav.re.
 
-Planejamento do fallback para ireaje.net para garantir confiabilidade.
+Planejamento do fallback para Voither para garantir confiabilidade.
 
 Formalização de fluxo .aje
 
@@ -658,11 +658,11 @@ Editar
 [
   {
     "role": "user",
-    "content": "Expliquei sobre os domínios ireaje.net, vav.re e drgustavo.med.br."
+    "content": "Expliquei sobre os domínios Voither, vav.re e drgustavo.med.br."
   },
   {
     "role": "assistant",
-    "content": "Reconheci ireaje.net como base fundacional da identidade do projeto."
+    "content": "Reconheci Voither como base fundacional da identidade do projeto."
   },
   {
     "role": "user",
@@ -690,11 +690,11 @@ Editar
   },
   {
     "role": "user",
-    "content": "Planejei usar ireaje.net como fallback confiável."
+    "content": "Planejei usar Voither como fallback confiável."
   },
   {
     "role": "assistant",
-    "content": "Organizei plano de fallback para ireaje.net."
+    "content": "Organizei plano de fallback para Voither."
   },
   {
     "role": "user",
@@ -749,16 +749,16 @@ Copiar
 import json
 
 log_interaction = [
-    {"role": "user", "content": "Expliquei sobre os domínios ireaje.net, vav.re e drgustavo.med.br."},
-    {"role": "assistant", "content": "Reconheci ireaje.net como base fundacional da identidade do projeto."},
+    {"role": "user", "content": "Expliquei sobre os domínios Voither, vav.re e drgustavo.med.br."},
+    {"role": "assistant", "content": "Reconheci Voither como base fundacional da identidade do projeto."},
     {"role": "user", "content": "Decidi mudar o nome do app de RE: para iRE."},
     {"role": "assistant", "content": "Confirmei a mudança do nome do produto para iRE."},
     {"role": "user", "content": "Reforcei que manteríamos a notação Re{} nos fluxos da linguagem .aje."},
     {"role": "assistant", "content": "Confirmei a preservação da notação técnica Re{} nos fluxos internos."},
     {"role": "user", "content": "Relatei dificuldades técnicas com o domínio vav.re."},
     {"role": "assistant", "content": "Analisei a vulnerabilidade de infraestrutura do domínio vav.re."},
-    {"role": "user", "content": "Planejei usar ireaje.net como fallback confiável."},
-    {"role": "assistant", "content": "Organizei plano de fallback para ireaje.net."},
+    {"role": "user", "content": "Planejei usar Voither como fallback confiável."},
+    {"role": "assistant", "content": "Organizei plano de fallback para Voither."},
     {"role": "user", "content": "Solicitei que estruturássemos a interação usando fluxo .aje."},
     {"role": "assistant", "content": "Apliquei fluxo de ações com estrutura Re{} + .aje:{} na organização da conversa."},
     {"role": "user", "content": "Pedi comparação entre estrutura anterior e fluxo .aje."},
@@ -784,16 +784,16 @@ import json
 
 # Conteúdo do log
 log_data = [
-  {"role": "user", "content": "Expliquei sobre os domínios ireaje.net, vav.re e drgustavo.med.br."},
-  {"role": "assistant", "content": "Reconheci ireaje.net como base fundacional da identidade do projeto."},
+  {"role": "user", "content": "Expliquei sobre os domínios Voither, vav.re e drgustavo.med.br."},
+  {"role": "assistant", "content": "Reconheci Voither como base fundacional da identidade do projeto."},
   {"role": "user", "content": "Decidi mudar o nome do app de RE: para iRE."},
   {"role": "assistant", "content": "Confirmei a mudança do nome do produto para iRE."},
   {"role": "user", "content": "Reforcei que manteríamos a notação Re{} nos fluxos da linguagem .aje."},
   {"role": "assistant", "content": "Confirmei a preservação da notação técnica Re{} nos fluxos internos."},
   {"role": "user", "content": "Relatei dificuldades técnicas com o domínio vav.re."},
   {"role": "assistant", "content": "Analisei a vulnerabilidade de infraestrutura do domínio vav.re."},
-  {"role": "user", "content": "Planejei usar ireaje.net como fallback confiável."},
-  {"role": "assistant", "content": "Organizei plano de fallback para ireaje.net."},
+  {"role": "user", "content": "Planejei usar Voither como fallback confiável."},
+  {"role": "assistant", "content": "Organizei plano de fallback para Voither."},
   {"role": "user", "content": "Solicitei que estruturássemos a interação usando fluxo .aje."},
   {"role": "assistant", "content": "Apliquei fluxo de ações com estrutura Re{} + .aje:{} na organização da conversa."},
   {"role": "user", "content": "Pedi comparação entre estrutura anterior e fluxo .aje."},
@@ -820,16 +820,16 @@ json
 Copiar
 Editar
 [
-  {"role": "user", "content": "Expliquei sobre os domínios ireaje.net, vav.re e drgustavo.med.br."},
-  {"role": "assistant", "content": "Reconheci ireaje.net como base fundacional da identidade do projeto."},
+  {"role": "user", "content": "Expliquei sobre os domínios Voither, vav.re e drgustavo.med.br."},
+  {"role": "assistant", "content": "Reconheci Voither como base fundacional da identidade do projeto."},
   {"role": "user", "content": "Decidi mudar o nome do app de RE: para iRE."},
   {"role": "assistant", "content": "Confirmei a mudança do nome do produto para iRE."},
   {"role": "user", "content": "Reforcei que manteríamos a notação Re{} nos fluxos da linguagem .aje."},
   {"role": "assistant", "content": "Confirmei a preservação da notação técnica Re{} nos fluxos internos."},
   {"role": "user", "content": "Relatei dificuldades técnicas com o domínio vav.re."},
   {"role": "assistant", "content": "Analisei a vulnerabilidade de infraestrutura do domínio vav.re."},
-  {"role": "user", "content": "Planejei usar ireaje.net como fallback confiável."},
-  {"role": "assistant", "content": "Organizei plano de fallback para ireaje.net."},
+  {"role": "user", "content": "Planejei usar Voither como fallback confiável."},
+  {"role": "assistant", "content": "Organizei plano de fallback para Voither."},
   {"role": "user", "content": "Solicitei que estruturássemos a interação usando fluxo .aje."},
   {"role": "assistant", "content": "Apliquei fluxo de ações com estrutura Re{} + .aje:{} na organização da conversa."},
   {"role": "user", "content": "Pedi comparação entre estrutura anterior e fluxo .aje."},
@@ -856,16 +856,16 @@ Copiar
 Editar
 Re{RegistrarLog}.aje:{
   "Logs":[
-    {"role":"user","content":"Expliquei sobre os domínios ireaje.net, vav.re e drgustavo.med.br."},
-    {"role":"assistant","content":"Reconheci ireaje.net como base fundacional da identidade do projeto."},
+    {"role":"user","content":"Expliquei sobre os domínios Voither, vav.re e drgustavo.med.br."},
+    {"role":"assistant","content":"Reconheci Voither como base fundacional da identidade do projeto."},
     {"role":"user","content":"Decidi mudar o nome do app de RE: para iRE."},
     {"role":"assistant","content":"Confirmei a mudança do nome do produto para iRE."},
     {"role":"user","content":"Reforcei que manteríamos a notação Re{} nos fluxos da linguagem .aje."},
     {"role":"assistant","content":"Confirmei a preservação da notação técnica Re{} nos fluxos internos."},
     {"role":"user","content":"Relatei dificuldades técnicas com o domínio vav.re."},
     {"role":"assistant","content":"Analisei a vulnerabilidade de infraestrutura do domínio vav.re."},
-    {"role":"user","content":"Planejei usar ireaje.net como fallback confiável."},
-    {"role":"assistant","content":"Organizei plano de fallback para ireaje.net."},
+    {"role":"user","content":"Planejei usar Voither como fallback confiável."},
+    {"role":"assistant","content":"Organizei plano de fallback para Voither."},
     {"role":"user","content":"Solicitei que estruturássemos a interação usando fluxo .aje."},
     {"role":"assistant","content":"Apliquei fluxo de ações com estrutura Re{} + .aje:{} na organização da conversa."},
     {"role":"user","content":"Pedi comparação entre estrutura anterior e fluxo .aje."},
@@ -977,14 +977,14 @@ Re{RegistrarLog}.aje:{
       "timestamp":"2025-04-26T18:00:00Z",
       "role":"user",
       "action_type":"Explicacao",
-      "content":"Expliquei sobre os domínios ireaje.net, vav.re e drgustavo.med.br."
+      "content":"Expliquei sobre os domínios Voither, vav.re e drgustavo.med.br."
     },
     {
       "id":"log_002",
       "timestamp":"2025-04-26T18:01:00Z",
       "role":"assistant",
       "action_type":"Reconhecimento",
-      "content":"Reconheci ireaje.net como base fundacional da identidade do projeto.",
+      "content":"Reconheci Voither como base fundacional da identidade do projeto.",
       "linked_to":"log_001"
     },
     {
@@ -1037,14 +1037,14 @@ Re{RegistrarLog}.aje:{
       "timestamp":"2025-04-26T18:08:00Z",
       "role":"user",
       "action_type":"Planejamento",
-      "content":"Planejei usar ireaje.net como fallback confiável."
+      "content":"Planejei usar Voither como fallback confiável."
     },
     {
       "id":"log_010",
       "timestamp":"2025-04-26T18:09:00Z",
       "role":"assistant",
       "action_type":"Organizacao",
-      "content":"Organizei plano de fallback para ireaje.net.",
+      "content":"Organizei plano de fallback para Voither.",
       "linked_to":"log_009"
     },
     {

@@ -28,12 +28,12 @@
   </defs>
   
   <!-- Título do diagrama -->
-  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Teia de Ideias e Conceitos HH</text>
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Teia de Ideias e Conceitos ZeoCare</text>
   <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Framework Materialista-Existencial para Psiquiatria Dimensional</text>
   
   <!-- Conceito central -->
   <circle cx="500" cy="300" r="80" fill="url(#gradientBase)" opacity="0.9"/>
-  <text x="500" y="290" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="white">HH</text>
+  <text x="500" y="290" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="white">ZeoCare</text>
   <text x="500" y="315" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Visualização INtegrativa</text>
   <text x="500" y="335" font-family="Arial" font-size="14" text-anchor="middle" fill="white">TRAjetorial</text>
   
@@ -186,7 +186,7 @@
   
   <!-- Legenda -->
   <rect x="50" cy="600" width="900" height="70" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="1"/>
-  <text x="500" y="625" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Domínios Conceituais HH</text>
+  <text x="500" y="625" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Domínios Conceituais ZeoCare</text>
   
   <rect x="110" cy="650" width="20" height="20" rx="3" fill="url(#gradientFilosofico)" opacity="0.8"/>
   <text x="170" y="665" font-family="Arial" font-size="14" text-anchor="start">Fundamentos Filosóficos</text>

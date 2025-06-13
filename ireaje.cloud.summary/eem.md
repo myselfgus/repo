@@ -240,7 +240,7 @@ namespace EEm
                     // Criar novo evento .aje
                     string ajeEvent = $@"
 Re{{{activity.Type}}}.aje:{{
-  ""Timestamp"":""{activity.Timestamp:yyyy-MM-ddTHH:mm:ss.fffffffZ}"",
+  ""Timestamp"":""{activity.Timestamp:yyyy-MM-ddTZeoCare:mm:ss.fffffffZ}"",
   ""Conteudo"":""{activity.Content}"",
   ""Sequencia"":{currentSequence}
 }}";
@@ -282,7 +282,7 @@ Re{{{activity.Type}}}.aje:{{
                     
                     // Adicionar nova entrada no formato .md
                     string mdEntry = $@"
-### Log {currentSequence} - {activity.Timestamp:yyyy-MM-dd HH:mm:ss}
+### Log {currentSequence} - {activity.Timestamp:yyyy-MM-dd ZeoCare:mm:ss}
 
 #### [Evento] {activity.Type}
 

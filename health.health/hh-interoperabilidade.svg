@@ -24,13 +24,13 @@
   </defs>
   
   <!-- Título do diagrama -->
-  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Arquitetura de Interoperabilidade HEALTH/HEALTH</text>
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Arquitetura de Interoperabilidade ZEOCARE</text>
   <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Integração com Sistemas Externos e Fluxo de Dados</text>
   
-  <!-- Núcleo HEALTH/HEALTH -->
+  <!-- Núcleo ZEOCARE -->
   <circle cx="500" cy="250" r="100" fill="url(#gradientCore)" opacity="0.8"/>
-  <text x="500" y="240" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="white">Núcleo HEALTH/HEALTH</text>
-  <text x="500" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="white">API HH Core</text>
+  <text x="500" y="240" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="white">Núcleo ZEOCARE</text>
+  <text x="500" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="white">API ZeoCare Core</text>
   
   <!-- Camadas Internas -->
   <circle cx="500" cy="250" r="80" fill="none" stroke="white" stroke-width="2" stroke-dasharray="5,5"/>

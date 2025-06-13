@@ -1,7 +1,7 @@
 <svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
   <!-- Definição de gradientes -->
   <defs>
-    <linearGradient id="gradientHH" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="gradientZeoCare" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#1E3A8A" />
       <stop offset="100%" stop-color="#3B82F6" />
     </linearGradient>
@@ -28,36 +28,36 @@
   </defs>
   
   <!-- Título do diagrama -->
-  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Integração HEALTH/HEALTH e IREAJE.NET</text>
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Integração ZEOCARE e VOITHER</text>
   <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Arquitetura de Integração de Sistemas Dimensionais com DSLs e Runtime Euleriano</text>
   
-  <!-- HEALTH/HEALTH -->
-  <rect x="30" y="100" width="390" height="500" rx="15" fill="url(#gradientHH)" opacity="0.1" stroke="#1E3A8A" stroke-width="2"/>
-  <text x="225" y="125" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#1E3A8A">HEALTH/HEALTH</text>
+  <!-- ZEOCARE -->
+  <rect x="30" y="100" width="390" height="500" rx="15" fill="url(#gradientZeoCare)" opacity="0.1" stroke="#1E3A8A" stroke-width="2"/>
+  <text x="225" y="125" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#1E3A8A">ZEOCARE</text>
   
-  <!-- Componentes HEALTH/HEALTH -->
-  <rect x="50" y="150" width="350" height="90" rx="10" fill="url(#gradientHH)" opacity="0.8"/>
+  <!-- Componentes ZEOCARE -->
+  <rect x="50" y="150" width="350" height="90" rx="10" fill="url(#gradientZeoCare)" opacity="0.8"/>
   <text x="225" y="180" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Espaço Vetorial da Mente</text>
   <text x="225" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Representação Dimensional (v₁-v₁₀)</text>
   <text x="225" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="white">ℳ = ℳₑₘₒcᵢₒₙₐₗ ⊕ ℳcₒₙgᵢₜᵢᵥₐ ⊕ ℳₐᵤₜₒₙₒₘᵢₐ</text>
   
-  <rect x="50" y="260" width="350" height="75" rx="10" fill="url(#gradientHH)" opacity="0.8"/>
+  <rect x="50" y="260" width="350" height="75" rx="10" fill="url(#gradientZeoCare)" opacity="0.8"/>
   <text x="225" y="290" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Análise Trajetorial</text>
   <text x="225" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Identificação de Pontos Críticos e Bifurcações</text>
   
-  <rect x="50" y="355" width="350" height="75" rx="10" fill="url(#gradientHH)" opacity="0.8"/>
+  <rect x="50" y="355" width="350" height="75" rx="10" fill="url(#gradientZeoCare)" opacity="0.8"/>
   <text x="225" y="385" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Motor Analítico Preditivo</text>
   <text x="225" y="410" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Modelagem de Incerteza e Predição de Trajetórias</text>
   
-  <rect x="50" y="450" width="350" height="75" rx="10" fill="url(#gradientHH)" opacity="0.8"/>
+  <rect x="50" y="450" width="350" height="75" rx="10" fill="url(#gradientZeoCare)" opacity="0.8"/>
   <text x="225" y="480" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">Sistema de Visualização</text>
   <text x="225" y="505" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Radar Dimensional e Visualização Trajetorial</text>
   
-  <!-- IREAJE.NET -->
+  <!-- VOITHER -->
   <rect x="580" y="100" width="390" height="500" rx="15" fill="#F8FAFC" opacity="0.8" stroke="#0F172A" stroke-width="2"/>
-  <text x="775" y="125" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#0F172A">IREAJE.NET</text>
+  <text x="775" y="125" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#0F172A">VOITHER</text>
   
-  <!-- DSLs IREAJE.NET -->
+  <!-- DSLs VOITHER -->
   <rect x="600" y="150" width="350" height="75" rx="10" fill="url(#gradientAje)" opacity="0.8"/>
   <text x="775" y="175" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">.aje (Actions & Journey Events)</text>
   <text x="775" y="200" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Captura e Estruturação de Eventos</text>
@@ -80,7 +80,7 @@
   <text x="500" y="170" font-family="Arial" font-size="14" text-anchor="middle" transform="rotate(90 500,170)" fill="#0F172A" font-weight="bold">Camada de Integração</text>
   
   <!-- Conectores de Integração -->
-  <!-- HH -> DSLs -->
+  <!-- ZeoCare -> DSLs -->
   <line x1="400" y1="195" x2="440" y2="195" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
   <line x1="460" y1="195" x2="600" y2="195" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
   
@@ -90,7 +90,7 @@
   <line x1="400" y1="385" x2="440" y1="385" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
   <line x1="460" y1="385" x2="600" y2="385" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
   
-  <!-- DSLs -> HH -->
+  <!-- DSLs -> ZeoCare -->
   <line x1="600" y1="175" x2="460" y2="175" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
   <line x1="440" y1="175" x2="400" y2="175" stroke="#64748B" stroke-width="2" marker-end="url(#arrowhead)"/>
   
@@ -107,8 +107,8 @@
   <!-- Exemplos de Código -->
   <rect x="100" y="620" width="800" height="60" rx="10" fill="#F1F5F9" stroke="#0F172A" stroke-width="1"/>
   
-  <!-- HH Dimension Vector -->
-  <text x="220" y="645" font-family="monospace" font-size="12" text-anchor="middle" fill="#1E3A8A">Estado HH: E = (v₁: -3.2, v₂: 7.5, v₄: 8.2, v₆: 4.1, v₉: [7.2, 3.1, 2.8])</text>
+  <!-- ZeoCare Dimension Vector -->
+  <text x="220" y="645" font-family="monospace" font-size="12" text-anchor="middle" fill="#1E3A8A">Estado ZeoCare: E = (v₁: -3.2, v₂: 7.5, v₄: 8.2, v₆: 4.1, v₉: [7.2, 3.1, 2.8])</text>
   
   <!-- Transformação -->
   <text x="500" y="645" font-family="monospace" font-size="12" text-anchor="middle" fill="#0F172A">→</text>
@@ -119,7 +119,7 @@
   <!-- Casos de Uso -->
   <rect x="100" y="550" width="800" height="60" rx="10" fill="#F8FAFC" stroke="#0F172A" stroke-width="1"/>
   <text x="210" y="575" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#1E3A8A">Identificação Dimensional</text>
-  <text x="210" y="595" font-family="Arial" font-size="12" text-anchor="middle" fill="#1E3A8A">HH → .aje</text>
+  <text x="210" y="595" font-family="Arial" font-size="12" text-anchor="middle" fill="#1E3A8A">ZeoCare → .aje</text>
   
   <text x="500" y="575" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#7E1D5F">Detecção de Padrões</text>
   <text x="500" y="595" font-family="Arial" font-size="12" text-anchor="middle" fill="#7E1D5F">.ire ↔ Trajetórias</text>

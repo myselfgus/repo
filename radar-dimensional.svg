@@ -1,7 +1,7 @@
 <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
   <!-- Fundo e título -->
   <rect width="800" height="600" fill="#f8fafc" rx="5" ry="5"/>
-  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#0f172a">Radar Dimensional HEALTH/HEALTH</text>
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#0f172a">Radar Dimensional ZEOCARE</text>
   
   <!-- Linhas de referência do radar -->
   <circle cx="400" cy="300" r="50" fill="none" stroke="#64748b" stroke-width="1" stroke-dasharray="5,5"/>

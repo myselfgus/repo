@@ -24,7 +24,7 @@
   </defs>
   
   <!-- Título do diagrama -->
-  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">HEALTH/HEALTH - Pipeline Geral</text>
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">ZEOCARE - Pipeline Geral</text>
   <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Visualização INtegrativa TRAjetorial</text>
   
   <!-- Caixa de Fundamentação -->

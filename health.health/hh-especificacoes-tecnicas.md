@@ -1,4 +1,4 @@
-# HH: Especificações Técnicas Completas
+# ZeoCare: Especificações Técnicas Completas
 **Visualização INtegrativa TRAjetorial**
 
 *Um framework materialista-existencial para diagnóstico dimensional e intervenção trajetorial em psiquiatria*
@@ -24,7 +24,7 @@
 
 ### 1.1 Ruptura Paradigmática
 
-O HEALTH/HEALTH (Visualização INtegrativa TRAjetorial) representa uma ruptura epistemológica com a tradição diagnóstica psiquiátrica contemporânea. Enquanto os sistemas categoriais predominantes, como o DSM-5 (APA, 2013) e CID-11 (WHO, 2019), operam a partir do que Hacking (1999) denomina "nominalismo dinâmico" – processo pelo qual categorias nosológicas não apenas descrevem, mas ativamente moldam a experiência subjetiva – o HEALTH/HEALTH fundamenta-se em uma abordagem dimensional-vetorial que reconhece a inseparabilidade entre experiência vivida e substrato material.
+O ZEOCARE (Visualização INtegrativa TRAjetorial) representa uma ruptura epistemológica com a tradição diagnóstica psiquiátrica contemporânea. Enquanto os sistemas categoriais predominantes, como o DSM-5 (APA, 2013) e CID-11 (WHO, 2019), operam a partir do que Hacking (1999) denomina "nominalismo dinâmico" – processo pelo qual categorias nosológicas não apenas descrevem, mas ativamente moldam a experiência subjetiva – o ZEOCARE fundamenta-se em uma abordagem dimensional-vetorial que reconhece a inseparabilidade entre experiência vivida e substrato material.
 
 Esta ruptura se alinha ao que Kuhn (1962/2020) caracterizou como "mudança de paradigma" – uma transformação nas pressuposições fundamentais que estruturam a investigação científica. O paradigma dimensional não representa mera evolução do modelo categorial, mas sua transcendência dialética, preservando o rigor científico enquanto incorpora a complexidade fenomenológica da experiência humana.
 
@@ -32,15 +32,15 @@ Como observa Canguilhem (1966/2009):
 
 > "O patológico não é a ausência de norma biológica, mas uma norma diferente, que foi comparativamente desvalorizada."
 
-O HEALTH/HEALTH operacionaliza esta intuição, substituindo dicotomias normal/patológico por posicionamentos dimensionais em um espaço vetorial contínuo. Esta abordagem responde diretamente às críticas de Bracken et al. (2012) sobre o reducionismo da psiquiatria tecnológica contemporânea, oferecendo o que eles denominam "uma psiquiatria para além do paradigma técnico".
+O ZEOCARE operacionaliza esta intuição, substituindo dicotomias normal/patológico por posicionamentos dimensionais em um espaço vetorial contínuo. Esta abordagem responde diretamente às críticas de Bracken et al. (2012) sobre o reducionismo da psiquiatria tecnológica contemporânea, oferecendo o que eles denominam "uma psiquiatria para além do paradigma técnico".
 
 ### 1.2 Bases Filosóficas do Materialismo Existencial
 
-O HEALTH/HEALTH fundamenta-se no materialismo existencial – perspectiva filosófica que transcende a falsa dicotomia entre abordagens materialistas (que reduzem a experiência a mecanismos neurobiológicos) e existencialistas (que privilegiam a experiência subjetiva à custa do substrato biológico).
+O ZEOCARE fundamenta-se no materialismo existencial – perspectiva filosófica que transcende a falsa dicotomia entre abordagens materialistas (que reduzem a experiência a mecanismos neurobiológicos) e existencialistas (que privilegiam a experiência subjetiva à custa do substrato biológico).
 
 O materialismo existencial reconhece, como articulado por Merleau-Ponty (1945/2012), a "corporeidade intencional" – a inseparabilidade entre corporeidade material e consciência intencional. Esta perspectiva encontra respaldo contemporâneo no trabalho de Varela et al. (1991/2016) sobre a mente incorporada e na "neurofenomenologia" – abordagem que integra análise fenomenológica e neurobiológica da experiência consciente.
 
-A epistemologia do HEALTH/HEALTH incorpora elementos de:
+A epistemologia do ZEOCARE incorpora elementos de:
 
 1. **Fenomenologia da Corporalidade** (Merleau-Ponty, 1945/2012): Reconhecimento da experiência vivida como fundamentalmente incorporada
 
@@ -54,11 +54,11 @@ Como observa Thompson (2007):
 
 > "A experiência vivida e os processos fisiológicos são mutuamente irredutíveis, mas devem ser entendidos como dimensões complementares de uma mesma natureza."
 
-Esta perspectiva filosófica manifesta-se na arquitetura do HEALTH/HEALTH através da integração sistemática entre dados quantitativos objetivos e descrições qualitativas em primeira pessoa.
+Esta perspectiva filosófica manifesta-se na arquitetura do ZEOCARE através da integração sistemática entre dados quantitativos objetivos e descrições qualitativas em primeira pessoa.
 
 ### 1.3 Crítica aos Sistemas Categoriais
 
-A abordagem dimensional do HEALTH/HEALTH emerge como resposta às limitações fundamentais dos sistemas categoriais, articuladas por diversos críticos:
+A abordagem dimensional do ZEOCARE emerge como resposta às limitações fundamentais dos sistemas categoriais, articuladas por diversos críticos:
 
 1. **Reificação de Construtos Provisionais**: Como observa Hyman (2010), categorias psiquiátricas são frequentemente tratadas como "tipos naturais" (*natural kinds*) quando representam, na realidade, construtos heurísticos com fronteiras arbitrárias.
 
@@ -74,13 +74,13 @@ Como sintetiza Kendler (2016):
 
 > "A presunção de que nossos diagnósticos psiquiátricos representam 'tipos naturais' é, na grande maioria dos casos, incorreta. A alternativa mais plausível é que representem 'tipos práticos' definidos por alta ordem, características complexas e parcialmente sobrepostas."
 
-O HEALTH/HEALTH não apenas critica estas limitações, mas oferece uma alternativa operacional que preserva o rigor científico enquanto transcende o reducionismo categorial.
+O ZEOCARE não apenas critica estas limitações, mas oferece uma alternativa operacional que preserva o rigor científico enquanto transcende o reducionismo categorial.
 
 ## 2. Arquitetura Dimensional
 
 ### 2.1 Espaço Vetorial da Mente
 
-No framework HEALTH/HEALTH, a experiência mental é conceituada como um espaço vetorial multidimensional ℳ, onde cada experiência subjetiva E representa uma posição específica determinada por coordenadas nas dimensões constituintes:
+No framework ZEOCARE, a experiência mental é conceituada como um espaço vetorial multidimensional ℳ, onde cada experiência subjetiva E representa uma posição específica determinada por coordenadas nas dimensões constituintes:
 
 ```
 E ∈ ℳ
@@ -117,7 +117,7 @@ Esta arquitetura dimensional é congruente com o que Sass et al. (2017) denomina
 
 ### 2.2 Dimensão Emocional
 
-A dimensão emocional do HEALTH/HEALTH compreende quatro subdimensões fundamentais, derivadas de pesquisas em psicologia afetiva (Russell, 2003; Scherer, 2009):
+A dimensão emocional do ZEOCARE compreende quatro subdimensões fundamentais, derivadas de pesquisas em psicologia afetiva (Russell, 2003; Scherer, 2009):
 
 #### 2.2.1 Valência Emocional (v₁)
 - **Definição**: Polaridade hedônica da experiência afetiva (prazer-desprazer)
@@ -205,7 +205,7 @@ A dimensão de autonomia representa o que Frankfurt (1971) denominou "capacidade
 
 ### 2.5 Propriedades Matemáticas
 
-O espaço dimensional HEALTH/HEALTH possui propriedades matemáticas específicas que são clinicamente significativas:
+O espaço dimensional ZEOCARE possui propriedades matemáticas específicas que são clinicamente significativas:
 
 #### 2.5.1 Distância e Similaridade
 A distância euclidiana entre estados mentais (E₁, E₂) é definida como:
@@ -216,7 +216,7 @@ d(E₁, E₂) = √(Σᵢ(e₁ᵢ - e₂ᵢ)²)
 Esta métrica permite a quantificação de mudanças no estado mental ao longo do tempo, bem como similaridade entre estados diferentes.
 
 #### 2.5.2 Regiões Clínicas
-Certos padrões psicopatológicos são definidos como regiões específicas no espaço HEALTH/HEALTH:
+Certos padrões psicopatológicos são definidos como regiões específicas no espaço ZEOCARE:
 ```
 R = {E ∈ ℳ | P(E) = true}
 ```
@@ -255,11 +255,11 @@ Terapias específicas criam campos vetoriais característicos, influenciando dif
 
 ### 3.1 Fundamentos do Sistema de Captura de Dados
 
-A operacionalização efetiva do framework HEALTH/HEALTH depende fundamentalmente de um sistema robusto de captura de dados que transcenda as limitações dos métodos tradicionais de documentação clínica. A experiência subjetiva, como fenômeno multidimensional e dinâmico, exige modalidades de captura que preservem sua complexidade estrutural e nuances temporais.
+A operacionalização efetiva do framework ZEOCARE depende fundamentalmente de um sistema robusto de captura de dados que transcenda as limitações dos métodos tradicionais de documentação clínica. A experiência subjetiva, como fenômeno multidimensional e dinâmico, exige modalidades de captura que preservem sua complexidade estrutural e nuances temporais.
 
 #### 3.1.1 O Imperativo da Gravação e Transcrição Enriquecida
 
-A captura de dados no HEALTH/HEALTH é fundamentada no que designamos **Transcrição Fenomenologicamente Enriquecida (TFE)**, que consiste na gravação completa das sessões clínicas seguida de transcrição automatizada com anotações contextuais. Este método é necessário por razões epistemológicas e técnicas:
+A captura de dados no ZEOCARE é fundamentada no que designamos **Transcrição Fenomenologicamente Enriquecida (TFE)**, que consiste na gravação completa das sessões clínicas seguida de transcrição automatizada com anotações contextuais. Este método é necessário por razões epistemológicas e técnicas:
 
 1. **Preservação da Temporalidade Experiencial**: 
    - A experiência subjetiva é inerentemente temporal, com ritmos, pausas e acelerações que carregam significado fenomenológico
@@ -280,7 +280,7 @@ Como observa Petitmengin (2006):
 
 #### 3.1.2 Arquitetura de Captura Multimodal
 
-O sistema de captura HEALTH/HEALTH implementa uma arquitetura modular e escalonável:
+O sistema de captura ZEOCARE implementa uma arquitetura modular e escalonável:
 
 1. **Núcleo de Captura de Áudio**:
    - Gravação multicanal de alta fidelidade (≥48kHz, 24-bit)
@@ -300,7 +300,7 @@ O sistema de captura HEALTH/HEALTH implementa uma arquitetura modular e escalon�
 
 ### 3.2 Pipeline de Processamento Linguístico-Fenomenológico
 
-A transformação dos dados brutos em representações dimensionais vetoriais constitui o núcleo técnico do HEALTH/HEALTH, operacionalizada através de um pipeline sofisticado de processamento:
+A transformação dos dados brutos em representações dimensionais vetoriais constitui o núcleo técnico do ZEOCARE, operacionalizada através de um pipeline sofisticado de processamento:
 
 #### 3.2.1 Transcrição Avançada e Anotação Contextual
 
@@ -353,7 +353,7 @@ O núcleo algorítmico que traduz análises linguísticas em coordenadas dimensi
    - Mecanismos de self-attention para capturar dependências de longa distância no discurso
 
 2. **Calibração Dimensional Adaptativa**:
-   - Sistemas de mapeamento entre marcadores linguísticos e dimensões HEALTH/HEALTH
+   - Sistemas de mapeamento entre marcadores linguísticos e dimensões ZEOCARE
    - Algoritmos de ajuste dinâmico baseados em feedback clínico
    - Normalização contextual específica para paciente
 
@@ -366,11 +366,11 @@ Esta abordagem está alinhada com o que Gallagher (2019) denomina "análise feno
 
 ### 3.3 Arquitetura de Armazenamento e Recuperação
 
-O armazenamento, proteção e acesso eficiente aos dados dimensionais constitui um desafio técnico e ético que o HEALTH/HEALTH aborda através de uma arquitetura de dados especializada:
+O armazenamento, proteção e acesso eficiente aos dados dimensionais constitui um desafio técnico e ético que o ZEOCARE aborda através de uma arquitetura de dados especializada:
 
 #### 3.3.1 Sistema de Banco de Dados Híbrido
 
-A natureza multidimensional e relacional dos dados HEALTH/HEALTH exige uma abordagem de armazenamento que transcenda os modelos convencionais:
+A natureza multidimensional e relacional dos dados ZEOCARE exige uma abordagem de armazenamento que transcenda os modelos convencionais:
 
 1. **Núcleo Vetorial-Dimensional**:
    - Base vetorial para representações dimensionais de alta dimensionalidade
@@ -387,11 +387,11 @@ A natureza multidimensional e relacional dos dados HEALTH/HEALTH exige uma abord
    - Armazenamento de dados brutos (áudio, transcrições) com acesso controlado
    - Camadas derivadas (análises dimensionais, visualizações) com maior acessibilidade
 
-Esta arquitetura implementa o que Prigogine e Stengers (1984) denominam "perspectiva processual" - o reconhecimento da primazia de processos sobre estados, alinhando-se assim ao princípio de trajetorialidade do HEALTH/HEALTH.
+Esta arquitetura implementa o que Prigogine e Stengers (1984) denominam "perspectiva processual" - o reconhecimento da primazia de processos sobre estados, alinhando-se assim ao princípio de trajetorialidade do ZEOCARE.
 
 #### 3.3.2 Privacidade e Segurança por Design
 
-A natureza sensível dos dados clínicos exige proteções robustas que o HEALTH/HEALTH implementa através de:
+A natureza sensível dos dados clínicos exige proteções robustas que o ZEOCARE implementa através de:
 
 1. **Vetorização Diferencial Privada**:
    - Transformação de dados sensíveis em representações vetoriais com garantias matemáticas de privacidade
@@ -413,7 +413,7 @@ Como observa Nissenbaum (2019):
 
 #### 3.3.3 Recuperação Contextual e Navegação Trajetorial
 
-O acesso aos dados HEALTH/HEALTH é estruturado para facilitar insights clínicos:
+O acesso aos dados ZEOCARE é estruturado para facilitar insights clínicos:
 
 1. **Navegação Visuo-Espacial**:
    - Interface visual para exploração do espaço dimensional
@@ -434,7 +434,7 @@ O acesso aos dados HEALTH/HEALTH é estruturado para facilitar insights clínico
 
 ### 4.1 Fundamentos Técnicos
 
-A visualização no HEALTH/HEALTH não é meramente representacional, mas constitutiva da experiência clínica, operacionalizando o princípio da "visualização significativa". A arquitetura adota uma abordagem de renderização progressiva multicamada:
+A visualização no ZEOCARE não é meramente representacional, mas constitutiva da experiência clínica, operacionalizando o princípio da "visualização significativa". A arquitetura adota uma abordagem de renderização progressiva multicamada:
 
 ```
 │ Camada de Renderização 3D │ → │ Camada de Interação │ → │ Camada de Narrativa │
@@ -455,7 +455,7 @@ A visualização no HEALTH/HEALTH não é meramente representacional, mas consti
 
 ### 4.2 Interfaces de Visualização Especializadas
 
-#### 4.2.1 Cartografia Dimensional (HHMap)
+#### 4.2.1 Cartografia Dimensional (ZeoCareMap)
 
 - **Superfícies de Densidade**: Representações isomórficas de frequência de estados
 - **Mapeamento Topológico**: Visualização de "elevações" e "depressões" no espaço experiencial
@@ -503,7 +503,7 @@ A visualização no HEALTH/HEALTH não é meramente representacional, mas consti
 
 ### 5.1 Fundamentos do Sistema Preditivo
 
-O Motor Analítico HEALTH/HEALTH (MAV) implementa modelos de aprendizado de máquina especializados em séries temporais multidimensionais não-estacionárias:
+O Motor Analítico ZEOCARE (MAV) implementa modelos de aprendizado de máquina especializados em séries temporais multidimensionais não-estacionárias:
 
 #### 5.1.1 Arquitetura de Modelagem
 
@@ -569,7 +569,7 @@ O Motor Analítico HEALTH/HEALTH (MAV) implementa modelos de aprendizado de máq
 
 ### 6.1 Framework de Interoperabilidade
 
-#### 6.1.1 API HEALTH/HEALTH Core
+#### 6.1.1 API ZEOCARE Core
 
 - **Camada de Serviços RESTful**: Endpoints para todas as funcionalidades principais
 - **GraphQL Endpoint**: Interface flexível para consultas complexas multi-dimensionais
@@ -738,7 +738,7 @@ Como observa Porter (2010):
 
 #### 8.2.1 Dissolução da Fronteira Diagnóstico-Terapêutico
 
-No paradigma HEALTH/HEALTH, a distinção entre momentos diagnósticos e terapêuticos se dissolve:
+No paradigma ZEOCARE, a distinção entre momentos diagnósticos e terapêuticos se dissolve:
 - O próprio processo de mapeamento dimensional é simultaneamente diagnóstico e terapêutico
 - A visualização compartilhada torna-se um "terceiro espaço" onde paciente e clínico co-habitam
 - A intervenção começa no primeiro momento do mapeamento trajetorial
@@ -783,7 +783,7 @@ Como observou Don Ihde, filósofo da tecnologia:
 
 #### 8.3.2 Considerações Éticas Adicionais
 
-A implementação do sistema HEALTH/HEALTH exige consideração cuidadosa de questões éticas que transcendem o cumprimento básico de normas de privacidade:
+A implementação do sistema ZEOCARE exige consideração cuidadosa de questões éticas que transcendem o cumprimento básico de normas de privacidade:
 
 1. **Consentimento Informado Esclarecido**:
    - Explicação não-técnica do processo de captura e análise

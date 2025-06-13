@@ -1,11 +1,11 @@
-# MANUAL TÉCNICO DO HH - MVP
+# MANUAL TÉCNICO DO ZeoCare - MVP
 ### Visualização INtegrativa TRAjetorial
 **Versão 1.0**
 
 ## I. VISÃO GERAL DO SISTEMA
 
 ### 1.1 Definição
-O HEALTH/HEALTH (Visualização INtegrativa TRAjetorial) é um sistema inovador de análise clínica que rompe com diagnósticos psiquiátricos puramente categoriais. Em vez de rotular o paciente em categorias fixas (como no DSM-5 ou CID-11), o HEALTH/HEALTH adota uma abordagem dimensional-vetorial, na qual cada experiência psíquica é representada como uma posição num espaço multidimensional contínuo.
+O ZEOCARE (Visualização INtegrativa TRAjetorial) é um sistema inovador de análise clínica que rompe com diagnósticos psiquiátricos puramente categoriais. Em vez de rotular o paciente em categorias fixas (como no DSM-5 ou CID-11), o ZEOCARE adota uma abordagem dimensional-vetorial, na qual cada experiência psíquica é representada como uma posição num espaço multidimensional contínuo.
 
 ### 1.2 Princípios Fundamentais
 - **Abordagem Dimensional-Vetorial**: Representa experiências mentais como posições em um espaço multidimensional
@@ -15,7 +15,7 @@ O HEALTH/HEALTH (Visualização INtegrativa TRAjetorial) é um sistema inovador 
 - **Trajetorialidade**: Mapeia a evolução temporal do estado mental como caminho no espaço dimensional
 
 ### 1.3 Metadimensões Fundamentais
-O HEALTH/HEALTH estrutura a experiência mental em três metadimensões principais:
+O ZEOCARE estrutura a experiência mental em três metadimensões principais:
 
 1. **Dimensão Emocional**:
    - Valência Emocional (v₁): Polaridade hedônica (-5 a +5)
@@ -33,13 +33,13 @@ O HEALTH/HEALTH estrutura a experiência mental em três metadimensões principa
    - Perspectiva Temporal (v₉): Orientação no contínuo temporal [passado, presente, futuro]
    - Autocontrole (v₁₀): Capacidade de autorregulação comportamental (0-10)
 
-## II. ARQUITETURA DO MVP HH
+## II. ARQUITETURA DO MVP ZeoCare
 
 ### 2.1 Visão Geral da Arquitetura
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                        ARQUITETURA HH                               │
+│                        ARQUITETURA ZeoCare                               │
 └─────────────────────────────────────────────────────────────────────┘
           │                        │                       │
           ▼                        ▼                       ▼
@@ -61,7 +61,7 @@ O HEALTH/HEALTH estrutura a experiência mental em três metadimensões principa
 #### 2.2.2 Backend (Processamento)
 - API REST para orquestração do pipeline de processamento
 - Lógica de extração dimensional a partir de narrativas
-- Geração de documentação clínica (SOAP, Análise Narrativa, HH)
+- Geração de documentação clínica (SOAP, Análise Narrativa, ZeoCare)
 - Armazenamento e gestão de sessões de pacientes
 - Integração com o sistema VORON para enriquecimento contextual
 
@@ -91,7 +91,7 @@ O HEALTH/HEALTH estrutura a experiência mental em três metadimensões principa
 
 ### 3.1 Interface do Usuário
 
-A interface do MVP HH é organizada em três componentes principais:
+A interface do MVP ZeoCare é organizada em três componentes principais:
 
 #### 3.1.1 Autenticação e Gestão de Pacientes
 - Login seguro para controle de acesso
@@ -106,10 +106,10 @@ A interface do MVP HH é organizada em três componentes principais:
 - Formulário para dados básicos da sessão (queixa, data)
 
 #### 3.1.3 Visualização Dimensional
-- Gráfico radar interativo mostrando as 10 dimensões HH
+- Gráfico radar interativo mostrando as 10 dimensões ZeoCare
 - Coloração por grupos dimensionais (emocional, cognitiva, autonomia)
 - Tooltips com detalhes sobre cada dimensão
-- Visualização de documentos gerados (SOAP, Análise, HH)
+- Visualização de documentos gerados (SOAP, Análise, ZeoCare)
 
 ### 3.2 Tecnologias do Frontend
 
@@ -240,14 +240,14 @@ function createDimensionalRadar(dimensionalData, containerId) {
 
 #### 4.2.3 Processador Dimensional
 - Orquestração da análise dimensional via Claude
-- Extração e normalização das 10 dimensões HH
+- Extração e normalização das 10 dimensões ZeoCare
 - Validação e calibração de valores dimensionais
 - Integração com VORON para enriquecimento contextual
 
 #### 4.2.4 Gerador de Documentos
 - Produção de documentação SOAP para prontuários
 - Geração de análise narrativa em HTML
-- Criação de documento HH estruturado
+- Criação de documento ZeoCare estruturado
 - Formatação e estilização para visualização/impressão
 
 ### 4.3 Modelo de Dados
@@ -283,7 +283,7 @@ class Transcricao:
     timestamps: List[Dict]      # Marcadores de tempo por segmento
     versao: int                 # Controle de versão (edições)
     
-class AnaliseHH:
+class AnaliseZeoCare:
     sessao_id: str              # Referência à sessão
     dimensoes: Dict             # Valores dimensionais
     sintese_narrativa: str      # Síntese narrativa (ipsissima)
@@ -293,7 +293,7 @@ class AnaliseHH:
     
 class Documento:
     sessao_id: str              # Referência à sessão
-    tipo: str                   # Tipo (SOAP, Análise Narrativa, HH)
+    tipo: str                   # Tipo (SOAP, Análise Narrativa, ZeoCare)
     conteudo: str               # Conteúdo do documento
     formato: str                # Formato (html, md, txt)
     data_geracao: timestamp     # Data de geração
@@ -337,21 +337,21 @@ async def transcrever_audio(audio_id: str, current_user: User = Depends(get_curr
     """Inicia transcrição de um áudio com Whisper"""
     # Implementação
 
-# Análise HH
-@app.post("/api/hh/analisar/{sessao_id}", response_model=AnaliseHH)
+# Análise ZeoCare
+@app.post("/api/hh/analisar/{sessao_id}", response_model=AnaliseZeoCare)
 async def analisar_transcricao(sessao_id: str, opcoes: OpcoesAnalise, current_user: User = Depends(get_current_user)):
-    """Realiza análise dimensional HH da transcrição"""
+    """Realiza análise dimensional ZeoCare da transcrição"""
     # Implementação
 
-@app.get("/api/hh/analise/{sessao_id}", response_model=AnaliseHH)
+@app.get("/api/hh/analise/{sessao_id}", response_model=AnaliseZeoCare)
 async def obter_analise(sessao_id: str, current_user: User = Depends(get_current_user)):
-    """Obtém análise HH existente para uma sessão"""
+    """Obtém análise ZeoCare existente para uma sessão"""
     # Implementação
 
 # Documentos
 @app.post("/api/documentos/gerar/{sessao_id}/{tipo}", response_model=Documento)
 async def gerar_documento(sessao_id: str, tipo: str, current_user: User = Depends(get_current_user)):
-    """Gera um documento clínico (SOAP, Análise Narrativa, HH)"""
+    """Gera um documento clínico (SOAP, Análise Narrativa, ZeoCare)"""
     # Implementação
 
 @app.put("/api/documentos/{documento_id}", response_model=Documento)
@@ -426,7 +426,7 @@ class ClaudeAnalysisService:
             patient_context: Contexto opcional do paciente
             
         Returns:
-            dict: Análise dimensional HH completa
+            dict: Análise dimensional ZeoCare completa
         """
         # 1. Construir o prompt para Claude
         prompt = self._build_dimensional_prompt(transcription, patient_context)
@@ -448,7 +448,7 @@ class ClaudeAnalysisService:
     
     def _build_dimensional_prompt(self, transcription, patient_context):
         """Constrói prompt para análise dimensional"""
-        # Implementação baseada no prompt HH atual
+        # Implementação baseada no prompt ZeoCare atual
         
     def _enrich_with_voron(self, prompt, patient_context):
         """Enriquece o prompt com conhecimento contextual do VORON"""
@@ -472,7 +472,7 @@ class ClaudeAnalysisService:
         
         Args:
             analysis: Análise dimensional
-            document_type: Tipo de documento (SOAP, Análise Narrativa, HH)
+            document_type: Tipo de documento (SOAP, Análise Narrativa, ZeoCare)
             transcription: Transcrição original
             
         Returns:
@@ -622,7 +622,7 @@ class StorageManager:
         # Implementação
         
     async def store_hh_analysis(self, session_id, analysis_data):
-        """Armazena análise dimensional HH"""
+        """Armazena análise dimensional ZeoCare"""
         # Implementação
         
     async def store_document(self, session_id, document_data):
@@ -723,12 +723,12 @@ class EvolutionManager:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    INTEGRAÇÃO HH-VORON                              │
+│                    INTEGRAÇÃO ZeoCare-VORON                              │
 └─────────────────────────────────────────────────────────────────────┘
           │                                                 │
           ▼                                                 ▼
 ┌──────────────────┐                               ┌──────────────────┐
-│ HH → VORON       │                               │ VORON → HH       │
+│ ZeoCare → VORON       │                               │ VORON → ZeoCare       │
 │ (Contribuição)   │                               │ (Enriquecimento) │
 └──────────────────┘                               └──────────────────┘
           │                                                 │
@@ -755,10 +755,10 @@ class VoronIntegration:
         
     async def contribute_correlations(self, hh_analysis, session_metadata):
         """
-        Extrai correlações da análise HH e contribui para o VORON
+        Extrai correlações da análise ZeoCare e contribui para o VORON
         
         Args:
-            hh_analysis: Análise dimensional do HH
+            hh_analysis: Análise dimensional do ZeoCare
             session_metadata: Metadados anonimizados da sessão
             
         Returns:
@@ -777,7 +777,7 @@ class VoronIntegration:
         return result
     
     def _extract_correlations(self, hh_analysis):
-        """Extrai correlações potenciais da análise HH"""
+        """Extrai correlações potenciais da análise ZeoCare"""
         # Implementação
         
     def _anonymize_correlations(self, correlations, metadata):
@@ -868,7 +868,7 @@ class VoronIntegration:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    ARQUITETURA GCP - HH                             │
+│                    ARQUITETURA GCP - ZeoCare                             │
 └─────────────────────────────────────────────────────────────────────┘
                                     │
                                     ▼
@@ -887,7 +887,7 @@ class VoronIntegration:
 ### 8.2 Configuração de Serviços
 
 ```python
-# Exemplo de configuração Terraform para HH
+# Exemplo de configuração Terraform para ZeoCare
 
 # Cloud Run - API Backend
 resource "google_cloud_run_service" "hh_api" {
@@ -970,7 +970,7 @@ resource "google_firestore_database" "hh_database" {
 resource "google_vertex_ai_index" "hh_vectors" {
   region      = var.region
   display_name = "hh-dimensional-vectors"
-  description = "Vetores dimensionais HH"
+  description = "Vetores dimensionais ZeoCare"
   
   metadata {
     contents_delta_uri = "gs://${google_storage_bucket.hh_storage.name}/vector-data"
@@ -987,7 +987,7 @@ resource "google_vertex_ai_index" "hh_vectors" {
 
 ```
 ┌───────────────────────────────────────────────────────────────────────┐
-│                       PIPELINE CI/CD - HH                             │
+│                       PIPELINE CI/CD - ZeoCare                             │
 └───────────────────────────────────────────────────────────────────────┘
        │                  │                  │                  │
        ▼                  ▼                  ▼                  ▼
@@ -1088,7 +1088,7 @@ class DataPrivacyManager:
 
 ```
 ┌────────────────────────────────────────────────────────────┐
-│                    ROADMAP HH MVP                          │
+│                    ROADMAP ZeoCare MVP                          │
 └────────────────────────────────────────────────────────────┘
        │
        ├─────► Fase 1: Core de Processamento (4 semanas)
@@ -1106,7 +1106,7 @@ class DataPrivacyManager:
        ├─────► Fase 3: Documentação Clínica (2 semanas)
        │        • Geração de documentos SOAP
        │        • Geração de análise narrativa
-       │        • Geração de documento HH
+       │        • Geração de documento ZeoCare
        │        • Exportação e compartilhamento
        │
        └─────► Fase 4: Integração VORON (3 semanas)
@@ -1157,7 +1157,7 @@ class DataPrivacyManager:
 
 ## XI. CONCLUSÃO
 
-O MVP do HH representa uma abordagem revolucionária para análise clínica, substituindo o paradigma categorial por um modelo dimensional-vetorial baseado em materialismo existencial. Esta implementação inicial estabelece a infraestrutura fundamental para capturar, processar e visualizar a experiência mental em suas dimensões constituintes.
+O MVP do ZeoCare representa uma abordagem revolucionária para análise clínica, substituindo o paradigma categorial por um modelo dimensional-vetorial baseado em materialismo existencial. Esta implementação inicial estabelece a infraestrutura fundamental para capturar, processar e visualizar a experiência mental em suas dimensões constituintes.
 
 A integração com tecnologias de IA avançadas (Whisper, Claude) permite automatizar o processo de extração dimensional enquanto mantém o clínico no centro da interpretação. A visualização intuitiva através do radar dimensional facilita a compreensão imediata do estado mental do paciente.
 

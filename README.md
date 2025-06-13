@@ -1,10 +1,10 @@
-# HEALTH/HEALTH & Health/Health
+# ZEOCARE & Health/Health
 
-![Logo HH](health-health-radar-dimensional.svg)
+![Logo ZeoCare](health-health-radar-dimensional.svg)
 
 ## Visão Geral
 
-O HEALTH/HEALTH (Visualização INtegrativa TRAjetorial) é um framework revolucionário para documentação clínica em saúde mental que substitui os diagnósticos categoriais tradicionais por uma abordagem vetorial-dimensional. Este repositório contém a documentação técnica, especificações e recursos visuais do sistema HEALTH/HEALTH e do app Health/Health.
+O ZEOCARE (Visualização INtegrativa TRAjetorial) é um framework revolucionário para documentação clínica em saúde mental que substitui os diagnósticos categoriais tradicionais por uma abordagem vetorial-dimensional. Este repositório contém a documentação técnica, especificações e recursos visuais do sistema ZEOCARE e do app Health/Health.
 
 ### Características Principais
 
@@ -16,7 +16,7 @@ O HEALTH/HEALTH (Visualização INtegrativa TRAjetorial) é um framework revoluc
 
 ## Arquitetura Dimensional
 
-O HEALTH/HEALTH organiza a experiência mental em 10 dimensões fundamentais agrupadas em três metadimensões:
+O ZEOCARE organiza a experiência mental em 10 dimensões fundamentais agrupadas em três metadimensões:
 
 ### Dimensão Emocional
 
@@ -39,7 +39,7 @@ O HEALTH/HEALTH organiza a experiência mental em 10 dimensões fundamentais agr
 
 ## Componentes do Sistema
 
-### HEALTH/HEALTH (Framework de Documentação)
+### ZEOCARE (Framework de Documentação)
 
 O framework base para avaliação, registro e visualização dimensional, que inclui:
 
@@ -73,7 +73,7 @@ O repositório contém os seguintes documentos essenciais:
 - [Manual Técnico](health-health-technical-manual.md): Instruções detalhadas para implementação
 - [Especificações Técnicas](health-health-technical-specifications.md): Documentação formal do sistema
 - [Pipeline de Processamento](HEALTH_HEALTH_pipeline_embeddings_ontologias_grafos.md): Detalhes do fluxo de processamento de dados
-- [Documento HEALTH/HEALTH](health-health-document-pt.md): Visão geral do sistema em português
+- [Documento ZEOCARE](health-health-document-pt.md): Visão geral do sistema em português
 
 ## Visualizações
 
@@ -85,7 +85,7 @@ O sistema utiliza diversas visualizações para representar dados dimensionais:
 
 ## Implementação
 
-Para implementar o sistema HEALTH/HEALTH:
+Para implementar o sistema ZEOCARE:
 
 1. Consulte o [Manual Técnico](health-health-technical-manual.md) para requisitos e procedimentos
 2. Utilize o [prompt atualizado](health-health-prompt-atualizado.md) como modelo para documentação

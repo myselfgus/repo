@@ -1,4 +1,4 @@
-# HH – Pipeline de Embeddings, Ontologias, Parsings e Grafos
+# ZeoCare – Pipeline de Embeddings, Ontologias, Parsings e Grafos
 
 > Versão gerada automaticamente em 2025-04-22.
 
@@ -8,7 +8,7 @@ Documentar o fluxo interno que converte a matéria‑prima de uma sessão clíni
 ---
 
 ## 1. Captura & Ingestão  
-* **Ponto de origem:** Interface HH (Web/Tablet) grava áudio PCM 48 kHz, anexa metadados (`patientId`, carimbo de data/hora, local).  
+* **Ponto de origem:** Interface ZeoCare (Web/Tablet) grava áudio PCM 48 kHz, anexa metadados (`patientId`, carimbo de data/hora, local).  
 * **Transporte:** WebSocket seguro (`wss://api.hh.ai/ingest`) → Event Grid → Blob Storage (`raw-audio`).
 
 ```mermaid
@@ -64,7 +64,7 @@ A ontologia reside em **Cosmos DB Gremlin** como vértices `Dimension` conectad
 ---
 
 ## 5. Parsing Linguístico  
-Pipeline spaCy + transformers: tokenização, POS, chunks, atos de fala e mapeamento de metáforas → slots HH.
+Pipeline spaCy + transformers: tokenização, POS, chunks, atos de fala e mapeamento de metáforas → slots ZeoCare.
 
 ---
 

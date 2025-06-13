@@ -10,7 +10,7 @@
   <rect width="800" height="600" fill="#f8f9fa"/>
   
   <!-- Title -->
-  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Arquitetura do IREAJE.NET Runtime</text>
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Arquitetura do VOITHER Runtime</text>
   
   <!-- User Interface Container -->
   <rect x="50" y="90" width="700" height="100" rx="10" ry="10" fill="#e1f5fe" stroke="#0288d1" stroke-width="2"/>
@@ -19,7 +19,7 @@
   
   <!-- IREAJE Runtime Container -->
   <rect x="50" y="240" width="700" height="160" rx="10" ry="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
-  <text x="400" y="270" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Runtime Euleriano IREAJE.NET (Middleware)</text>
+  <text x="400" y="270" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Runtime Euleriano VOITHER (Middleware)</text>
   
   <!-- DSL Parsers Container -->
   <rect x="80" y="290" width="200" height="90" rx="5" ry="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>

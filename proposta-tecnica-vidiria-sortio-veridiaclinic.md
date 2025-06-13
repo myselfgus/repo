@@ -2,7 +2,7 @@
 
 ## Sumário Executivo
 
-Este documento apresenta a proposta técnica para a arquitetura integrada dos sistemas VIDIRIA (data lake anonimizado de correlações clínicas), SORTIO (sistema de gestão de fluxos da saúde pública) e VERIDIACLINIC (app pessoal de controle de dados e acompanhamento terapêutico). A arquitetura proposta utiliza o framework IREAJE.cloud como espinha dorsal e o GenAIScript da Microsoft como ferramenta de produtividade e integração.
+Este documento apresenta a proposta técnica para a arquitetura integrada dos sistemas VIDIRIA (data lake anonimizado de correlações clínicas), SORTIO (sistema de gestão de fluxos da saúde pública) e VERIDIACLINIC (app pessoal de controle de dados e acompanhamento terapêutico). A arquitetura proposta utiliza o framework VOITHER como espinha dorsal e o GenAIScript da Microsoft como ferramenta de produtividade e integração.
 
 A solução apresentada visa estabelecer um ecossistema de saúde que protege a privacidade dos pacientes, otimiza fluxos assistenciais e potencializa a análise de dados, fundamentando-se nos princípios da eficiência euleriana, privacidade por design e operação baseada em correlações dimensionais.
 
@@ -241,7 +241,7 @@ SORTIO é um sistema para saúde pública dedicado à gestão eficiente de fluxo
 #### 3.3.2 Orquestrador de Fluxos (.e)
 
 - **Núcleo do Sistema**:
-  - Baseado na linguagem .e do IREAJE.cloud
+  - Baseado na linguagem .e do VOITHER
   - Implementa o Runtime Euleriano para máxima eficiência
   - Orquestra cada etapa do fluxo assistencial
 - **Funcionalidades**:
@@ -770,7 +770,7 @@ A integração do GenAIScript da Microsoft no ecossistema VIDIRIA-SORTIO-VERIDIA
   - Seleção do modelo mais adequado para cada tarefa
   - Chaveamento automático baseado em performance
 
-### 7.3 Agilidade para IREAJE.cloud
+### 7.3 Agilidade para VOITHER
 
 - **Manipulação Simplificada das DSLs**:
   - Geração e validação de arquivos .aje, .ire e .e
@@ -813,7 +813,7 @@ A integração do GenAIScript da Microsoft no ecossistema VIDIRIA-SORTIO-VERIDIA
   - Configuração de segurança e governança
   - Estabelecimento de ambientes de desenvolvimento
 
-- **Implementação do Runtime IREAJE.cloud**:
+- **Implementação do Runtime VOITHER**:
   - Parsers para .aje, .ire e .e
   - Runtime Euleriano básico
   - Armazenamento de eventos no Cosmos DB
@@ -897,7 +897,7 @@ A arquitetura proposta para o ecossistema VIDIRIA-SORTIO-VERIDIACLINIC represent
 
 - **Privacidade por Design**: Mantém os dados sensíveis sob controle do paciente, enquanto permite análises populacionais através de anonimização robusta.
 
-- **Eficiência Euleriana**: Utiliza o Runtime Euleriano do IREAJE.cloud para garantir processamento otimizado de fluxos assistenciais, reduzindo redundâncias e ineficiências.
+- **Eficiência Euleriana**: Utiliza o Runtime Euleriano do VOITHER para garantir processamento otimizado de fluxos assistenciais, reduzindo redundâncias e ineficiências.
 
 - **Inteligência Aumentada**: Combina a expertise humana com sistemas inteligentes para decisões melhores e mais rápidas, sem substituir o julgamento clínico.
 

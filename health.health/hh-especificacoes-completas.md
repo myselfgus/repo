@@ -1,4 +1,4 @@
-# HH: Visualização INtegrativa TRAjetorial
+# ZeoCare: Visualização INtegrativa TRAjetorial
 ## Fundamentação Científica, Especificações Técnicas e Aplicações Clínicas
 
 *Um framework materialista-existencial para diagnóstico dimensional e intervenção trajetorial em psiquiatria*
@@ -19,7 +19,7 @@
    4. [Dimensão Autonomia](#24-dimensão-autonomia)
    5. [Propriedades Matemáticas](#25-propriedades-matemáticas)
 
-3. [Metodologia HH](#3-metodologia-hh)
+3. [Metodologia ZeoCare](#3-metodologia-hh)
    1. [Princípios Clínicos Fundamentais](#31-princípios-clínicos-fundamentais)
    2. [Protocolo de Avaliação Dimensional](#32-protocolo-de-avaliação-dimensional)
    3. [Registro Clínico Dimensional (RCD)](#33-registro-clínico-dimensional-rcd)
@@ -60,7 +60,7 @@
 
 ### 1.1 Ruptura Paradigmática
 
-O HH (Visualização INtegrativa TRAjetorial) representa uma ruptura epistemológica com a tradição diagnóstica psiquiátrica contemporânea. Enquanto os sistemas categoriais predominantes, como o DSM-5 (APA, 2013) e CID-11 (WHO, 2019), operam a partir do que Hacking (1999) denomina "nominalismo dinâmico" – processo pelo qual categorias nosológicas não apenas descrevem, mas ativamente moldam a experiência subjetiva – o HH fundamenta-se em uma abordagem dimensinal-vetorial que reconhece a inseparabilidade entre experiência vivida e substrato material.
+O ZeoCare (Visualização INtegrativa TRAjetorial) representa uma ruptura epistemológica com a tradição diagnóstica psiquiátrica contemporânea. Enquanto os sistemas categoriais predominantes, como o DSM-5 (APA, 2013) e CID-11 (WHO, 2019), operam a partir do que Hacking (1999) denomina "nominalismo dinâmico" – processo pelo qual categorias nosológicas não apenas descrevem, mas ativamente moldam a experiência subjetiva – o ZeoCare fundamenta-se em uma abordagem dimensinal-vetorial que reconhece a inseparabilidade entre experiência vivida e substrato material.
 
 Esta ruptura se alinha ao que Kuhn (1962/2020) caracterizou como "mudança de paradigma" – uma transformação nas pressuposições fundamentais que estruturam a investigação científica. O paradigma dimensional não representa mera evolução do modelo categorial, mas sua transcendência dialética, preservando o rigor científico enquanto incorpora a complexidade fenomenológica da experiência humana.
 
@@ -68,15 +68,15 @@ Como observa Canguilhem (1966/2009):
 
 > "O patológico não é a ausência de norma biológica, mas uma norma diferente, que foi comparativamente desvalorizada."
 
-O HH operacionaliza esta intuição, substituindo dicotomias normal/patológico por posicionamentos dimensionais em um espaço vetorial contínuo. Esta abordagem responde diretamente às críticas de Bracken et al. (2012) sobre o reducionismo da psiquiatria tecnológica contemporânea, oferecendo o que eles denominam "uma psiquiatria para além do paradigma técnico".
+O ZeoCare operacionaliza esta intuição, substituindo dicotomias normal/patológico por posicionamentos dimensionais em um espaço vetorial contínuo. Esta abordagem responde diretamente às críticas de Bracken et al. (2012) sobre o reducionismo da psiquiatria tecnológica contemporânea, oferecendo o que eles denominam "uma psiquiatria para além do paradigma técnico".
 
 ### 1.2 Bases Filosóficas do Materialismo Existencial
 
-O HH fundamenta-se no materialismo existencial – perspectiva filosófica que transcende a falsa dicotomia entre abordagens materialistas (que reduzem a experiência a mecanismos neurobiológicos) e existencialistas (que privilegiam a experiência subjetiva à custa do substrato biológico).
+O ZeoCare fundamenta-se no materialismo existencial – perspectiva filosófica que transcende a falsa dicotomia entre abordagens materialistas (que reduzem a experiência a mecanismos neurobiológicos) e existencialistas (que privilegiam a experiência subjetiva à custa do substrato biológico).
 
 O materialismo existencial reconhece, como articulado por Merleau-Ponty (1945/2012), a "corporeidade intencional" – a inseparabilidade entre corporeidade material e consciência intencional. Esta perspectiva encontra respaldo contemporâneo no trabalho de Varela et al. (1991/2016) sobre a mente incorporada e na "neurofenomenologia" – abordagem que integra análise fenomenológica e neurobiológica da experiência consciente.
 
-A epistemologia do HH incorpora elementos de:
+A epistemologia do ZeoCare incorpora elementos de:
 
 1. **Fenomenologia da Corporalidade** (Merleau-Ponty, 1945/2012): Reconhecimento da experiência vivida como fundamentalmente incorporada
 
@@ -90,11 +90,11 @@ Como observa Thompson (2007):
 
 > "A experiência vivida e os processos fisiológicos são mutuamente irredutíveis, mas devem ser entendidos como dimensões complementares de uma mesma natureza."
 
-Esta perspectiva filosófica manifesta-se na arquitetura do HH através da integração sistemática entre dados quantitativos objetivos e descrições qualitativas em primeira pessoa.
+Esta perspectiva filosófica manifesta-se na arquitetura do ZeoCare através da integração sistemática entre dados quantitativos objetivos e descrições qualitativas em primeira pessoa.
 
 ### 1.3 Crítica aos Sistemas Categoriais
 
-A abordagem dimensional do HH emerge como resposta às limitações fundamentais dos sistemas categoriais, articuladas por diversos críticos:
+A abordagem dimensional do ZeoCare emerge como resposta às limitações fundamentais dos sistemas categoriais, articuladas por diversos críticos:
 
 1. **Reificação de Construtos Provisionais**: Como observa Hyman (2010), categorias psiquiátricas são frequentemente tratadas como "tipos naturais" (*natural kinds*) quando representam, na realidade, construtos heurísticos com fronteiras arbitrárias.
 
@@ -110,13 +110,13 @@ Como sintetiza Kendler (2016):
 
 > "A presunção de que nossos diagnósticos psiquiátricos representam 'tipos naturais' é, na grande maioria dos casos, incorreta. A alternativa mais plausível é que representem 'tipos práticos' definidos por alta ordem, características complexas e parcialmente sobrepostas."
 
-O HH não apenas critica estas limitações, mas oferece uma alternativa operacional que preserva o rigor científico enquanto transcende o reducionismo categorial.
+O ZeoCare não apenas critica estas limitações, mas oferece uma alternativa operacional que preserva o rigor científico enquanto transcende o reducionismo categorial.
 
 ## 2. Arquitetura Dimensional
 
 ### 2.1 Espaço Vetorial da Mente
 
-No framework HH, a experiência mental é conceituada como um espaço vetorial multidimensional ℳ, onde cada experiência subjetiva E representa uma posição específica determinada por coordenadas nas dimensões constituintes:
+No framework ZeoCare, a experiência mental é conceituada como um espaço vetorial multidimensional ℳ, onde cada experiência subjetiva E representa uma posição específica determinada por coordenadas nas dimensões constituintes:
 
 ```
 E ∈ ℳ
@@ -153,7 +153,7 @@ Esta arquitetura dimensional é congruente com o que Sass et al. (2017) denomina
 
 ### 2.2 Dimensão Emocional
 
-A dimensão emocional do HH compreende quatro subdimensões fundamentais, derivadas de pesquisas em psicologia afetiva (Russell, 2003; Scherer, 2009):
+A dimensão emocional do ZeoCare compreende quatro subdimensões fundamentais, derivadas de pesquisas em psicologia afetiva (Russell, 2003; Scherer, 2009):
 
 #### 2.2.1 Valência Emocional (v₁)
 - **Definição**: Polaridade hedônica da experiência afetiva (prazer-desprazer)
@@ -241,7 +241,7 @@ A dimensão de autonomia representa o que Frankfurt (1971) denominou "capacidade
 
 ### 2.5 Propriedades Matemáticas
 
-O espaço dimensional HH possui propriedades matemáticas específicas que são clinicamente significativas:
+O espaço dimensional ZeoCare possui propriedades matemáticas específicas que são clinicamente significativas:
 
 #### 2.5.1 Distância e Similaridade
 A distância euclidiana entre estados mentais (E₁, E₂) é definida como:
@@ -252,7 +252,7 @@ d(E₁, E₂) = √(Σᵢ(e₁ᵢ - e₂ᵢ)²)
 Esta métrica permite a quantificação de mudanças no estado mental ao longo do tempo, bem como similaridade entre estados diferentes.
 
 #### 2.5.2 Regiões Clínicas
-Certos padrões psicopatológicos são definidos como regiões específicas no espaço HH:
+Certos padrões psicopatológicos são definidos como regiões específicas no espaço ZeoCare:
 ```
 R = {E ∈ ℳ | P(E) = true}
 ```
@@ -289,11 +289,11 @@ Terapias específicas criam campos vetoriais característicos, influenciando dif
 
 Estas propriedades matemáticas formalizam a intuição clínica sobre mudança terapêutica como movimento intencional no espaço da experiência psicológica.
 
-## 3. Metodologia HH
+## 3. Metodologia ZeoCare
 
 ### 3.1 Princípios Clínicos Fundamentais
 
-A metodologia HH fundamenta-se em quatro princípios clínicos fundamentais:
+A metodologia ZeoCare fundamenta-se em quatro princípios clínicos fundamentais:
 
 #### 3.1.1 Vetorialidade
 O princípio da vetorialidade estabelece que estados mentais são compreendidos não como categorias discretas, mas como posições em um espaço multidimensional contínuo. Como observa Kendler (2005):
@@ -339,14 +339,14 @@ A visualização significativa permite:
 - Monitoramento visual de mudanças longitudinais
 - Democratização do conhecimento técnico através de interfaces acessíveis
 
-Estes princípios fundamentais são operacionalizados no protocolo HH para avaliação, documentação e intervenção clínica.
+Estes princípios fundamentais são operacionalizados no protocolo ZeoCare para avaliação, documentação e intervenção clínica.
 
 ### 3.2 Protocolo de Avaliação Dimensional
 
-A avaliação dimensional HH integra múltiplas fontes de informação em um processo estruturado:
+A avaliação dimensional ZeoCare integra múltiplas fontes de informação em um processo estruturado:
 
 #### 3.2.1 Entrevista Dimensional Semiestruturada
-A Entrevista Dimensional HH (EDH) consiste em módulos específicos para cada dimensão:
+A Entrevista Dimensional ZeoCare (EDH) consiste em módulos específicos para cada dimensão:
 
 1. **Módulo Emocional**:
    - Exploração fenomenológica da experiência afetiva
@@ -391,17 +391,17 @@ Esta análise utiliza algoritmos validados de processamento de linguagem natural
 #### 3.2.3 Avaliação Psicométrica Multidimensional
 Instrumentos psicométricos complementam a avaliação clínica e linguística:
 
-1. **Escala Afetiva HH (EAH)**:
+1. **Escala Afetiva ZeoCare (EAH)**:
    - Mensuração de valência, excitação, dominância e intensidade
    - Itens com base em escalas validadas (PANAS, POMS, SAM)
    - Formato de diferencial semântico e escalas visuais analógicas
 
-2. **Inventário Cognitivo HH (ICH)**:
+2. **Inventário Cognitivo ZeoCare (ICH)**:
    - Avaliação de complexidade, coerência, flexibilidade e dissonância
    - Combinação de auto-relato e tarefas de desempenho
    - Incorporação de elementos de escalas metacognitivas validadas
 
-3. **Perfil de Autonomia HH (PAH)**:
+3. **Perfil de Autonomia ZeoCare (PAH)**:
    - Mensuração de perspectiva temporal e autocontrole
    - Adaptação de instrumentos validados (ZTPI, UPPS, SSRQ)
    - Complementação com medidas implícitas de preferência temporal
@@ -410,7 +410,7 @@ Esta abordagem multi-método permite triangulação entre diferentes fontes de d
 
 ### 3.3 Registro Clínico Dimensional (RCD)
 
-O Registro Clínico Dimensional (RCD) é o formato documental central do HH, estruturado em cinco seções:
+O Registro Clínico Dimensional (RCD) é o formato documental central do ZeoCare, estruturado em cinco seções:
 
 #### 3.3.1 Narrativa (Captura fenomenológica)
 1. **Expressão Ipsissima**: Transcrição literal de segmentos relevantes do discurso do paciente, com marcação temporal
@@ -441,10 +441,10 @@ O RCD substitui formatos de documentação categorial, permitindo descrição ma
 
 ### 3.4 Análise Trajetorial e Pontos Críticos
 
-A análise trajetorial constitui elemento central da metodologia HH, focando em padrões dinâmicos de mudança:
+A análise trajetorial constitui elemento central da metodologia ZeoCare, focando em padrões dinâmicos de mudança:
 
 #### 3.4.1 Tipos de Trajetória
-O HH identifica padrões trajetoriais clinicamente significativos:
+O ZeoCare identifica padrões trajetoriais clinicamente significativos:
 
 1. **Trajetórias Cíclicas**: Movimentos orbitais repetitivos ao redor de atratores específicos
    - Exemplo: Oscilações entre estados ansiosos e depressivos em padrão previsível
@@ -492,7 +492,7 @@ Esta análise fundamenta-se na teoria de sistemas dinâmicos aplicada a processo
 
 ### 4.1 Bases Neurais das Dimensões
 
-O HH integra descobertas neurocientíficas contemporâneas, estabelecendo correlatos neurobiológicos para as dimensões centrais:
+O ZeoCare integra descobertas neurocientíficas contemporâneas, estabelecendo correlatos neurobiológicos para as dimensões centrais:
 
 #### 4.1.1 Correlatos da Dimensão Emocional
 
@@ -564,7 +564,7 @@ A integração destes correlatos neurobiológicos permite o que Insel e Cuthbert
 
 ### 4.2 Biomarcadores Linguísticos
 
-O HH incorpora análise sistemática de padrões linguísticos como marcadores objetivos de posicionamento dimensional:
+O ZeoCare incorpora análise sistemática de padrões linguísticos como marcadores objetivos de posicionamento dimensional:
 
 #### 4.2.1 Marcadores Lexicais
 1. **Proporção de Termos Emocionais**:
@@ -609,9 +609,9 @@ Estes biomarcadores linguísticos operacionalizam o que Cohn et al. (2004) denom
 
 ### 4.3 Correlação com Sistemas Funcionais
 
-O HH estabelece conexões sistemáticas com sistemas funcionais neurobiológicos, permitindo a "tradução" entre diferentes níveis explicativos:
+O ZeoCare estabelece conexões sistemáticas com sistemas funcionais neurobiológicos, permitindo a "tradução" entre diferentes níveis explicativos:
 
-#### 4.3.1 Circuitos RDoC e Dimensões HH
+#### 4.3.1 Circuitos RDoC e Dimensões ZeoCare
 1. **Sistema de Valência Negativa**:
    - Correlação primária: Valência (v₁), Intensidade (v₄)
    - Correlação secundária: Dominância (v₃), Autocontrole (v₁₀)
@@ -632,7 +632,7 @@ O HH estabelece conexões sistemáticas com sistemas funcionais neurobiológicos
    - Correlação secundária: Dominância (v₃), Intensidade (v₄)
 
 #### 4.3.2 Implicações para Intervenções Biológicas
-A correlação entre dimensões HH e sistemas neurobiológicos permite direcionar intervenções biológicas com maior precisão:
+A correlação entre dimensões ZeoCare e sistemas neurobiológicos permite direcionar intervenções biológicas com maior precisão:
 
 1. **Intervenções Farmacológicas Dimensionalmente Orientadas**:
    - Modulação serotoninérgica para alterações em valência (v₁) e flexibilidade (v₇)
@@ -655,7 +655,7 @@ Esta integração entre dimensões experienciais e sistemas neurobiológicos per
 
 ### 5.1 Entrevista Dimensional Estruturada
 
-A Entrevista Dimensional HH (EDH) operacionaliza a avaliação multidimensional em um formato clinicamente viável:
+A Entrevista Dimensional ZeoCare (EDH) operacionaliza a avaliação multidimensional em um formato clinicamente viável:
 
 #### 5.1.1 Estrutura e Administração
 A EDH é organizada em três módulos dimensionais (emocional, cognitivo, autonomia), com duração total de 60-90 minutos:
@@ -671,7 +671,7 @@ A EDH é organizada em três módulos dimensionais (emocional, cognitivo, autono
 3. **Fechamento Integrativo**: Síntese colaborativa e verificação (15 minutos)
    - "Baseado no que conversamos, parece que você está experimentando uma combinação de [resumo dimensional]. Isso parece preciso para você?"
 
-A EDH é projetada para ser administrada por clínicos com treinamento específico na metodologia HH, complementada por análise computacional posterior.
+A EDH é projetada para ser administrada por clínicos com treinamento específico na metodologia ZeoCare, complementada por análise computacional posterior.
 
 #### 5.1.2 Técnicas de Elicitação Dimensional
 A EDH incorpora técnicas específicas para acessar informação dimensional precisa:
@@ -716,10 +716,10 @@ Estes protocolos asseguram a implementação consistente e válida do framework 
 
 ### 5.2 Visualização e Comunicação Médico-Paciente
 
-O HH utiliza visualizações específicas para facilitar a comunicação entre profissional e paciente:
+O ZeoCare utiliza visualizações específicas para facilitar a comunicação entre profissional e paciente:
 
 #### 5.2.1 Radar Dimensional
-O Radar Dimensional é a visualização central do HH:
+O Radar Dimensional é a visualização central do ZeoCare:
 
 1. **Estrutura**: Gráfico radar decagonal representando as 10 dimensões
    - Eixos distribuídos em três setores (emocional, cognitivo, autonomia)
@@ -755,7 +755,7 @@ A visualização de trajetória permite análise dinâmica do movimento no espa�
    - Projeção de trajetórias potenciais futuras
 
 #### 5.2.3 Relatório Dimensional para Pacientes
-O HH inclui um formato de relatório especificamente projetado para pacientes:
+O ZeoCare inclui um formato de relatório especificamente projetado para pacientes:
 
 1. **Estrutura**:
    - Resumo visual do perfil dimensional atual
@@ -778,7 +778,7 @@ Estas visualizações operacionalizam o princípio da visualização significati
 
 ### 5.3 Intervenções Dimensionalmente Orientadas
 
-O framework HH orienta intervenções específicas para diferentes dimensões:
+O framework ZeoCare orienta intervenções específicas para diferentes dimensões:
 
 #### 5.3.1 Intervenções para Dimensão Emocional
 
@@ -840,7 +840,7 @@ Esta organização dimensional de intervenções permite o que Hayes et al. (201
 
 ### 5.4 Monitoramento Longitudinal
 
-O HH implementa protocolos específicos para monitoramento longitudinal:
+O ZeoCare implementa protocolos específicos para monitoramento longitudinal:
 
 #### 5.4.1 Avaliação de Trajetórias
 O monitoramento sistemático de trajetórias dimensionais permite:
@@ -861,7 +861,7 @@ O monitoramento sistemático de trajetórias dimensionais permite:
    - Personalização de intervenções baseada em história trajetorial
 
 #### 5.4.2 Instrumentos de Monitoramento
-O HH utiliza instrumentos específicos para monitoramento contínuo:
+O ZeoCare utiliza instrumentos específicos para monitoramento contínuo:
 
 1. **Rastreamento Dimensional Diário (RDD)**:
    - Aplicativo móvel para avaliação rápida (1-3 minutos)
@@ -905,7 +905,7 @@ Este sistema de monitoramento operacionaliza o que Schiepek et al. (2015) denomi
 
 ### 6.1 Filosofia de Design e Identidade Visual
 
-O sistema visual HH fundamenta-se em uma filosofia de design denominada "Minimalismo Significativo", que incorpora princípios específicos:
+O sistema visual ZeoCare fundamenta-se em uma filosofia de design denominada "Minimalismo Significativo", que incorpora princípios específicos:
 
 #### 6.1.1 Princípios Fundamentais
 1. **Clareza Sem Simplificação**: Comunicar complexidade de forma acessível, sem reducionismo
@@ -923,8 +923,8 @@ O sistema visual HH fundamenta-se em uma filosofia de design denominada "Minimal
    - Transições suaves entre elementos técnicos e narrativos
    - Integração de precisão matemática com expressividade humana
 
-#### 6.1.2 Identidade Visual HH
-A identidade visual do HH é construída em torno de elementos simbólicos centrais:
+#### 6.1.2 Identidade Visual ZeoCare
+A identidade visual do ZeoCare é construída em torno de elementos simbólicos centrais:
 
 1. **Logotipo Triangular**:
    - Triângulo invertido representando as três metadimensões
@@ -946,7 +946,7 @@ Esta identidade visual materializa o framework conceitual, tornando-o imediatame
 ### 6.2 Sistema Cromático e Tipográfico
 
 #### 6.2.1 Paleta Cromática
-O HH utiliza um sistema cromático preciso com significado dimensional:
+O ZeoCare utiliza um sistema cromático preciso com significado dimensional:
 
 1. **Cores Dimensionais Primárias**:
    - **Dimensão Emocional**: Gradiente azul ultramarino (#1E3A8A) → azul céu (#3B82F6)
@@ -977,7 +977,7 @@ O HH utiliza um sistema cromático preciso com significado dimensional:
    - Combinações dimensionais em representações integradas (síntese)
 
 #### 6.2.2 Sistema Tipográfico
-A tipografia do HH cria distinção clara entre diferentes tipos de conteúdo:
+A tipografia do ZeoCare cria distinção clara entre diferentes tipos de conteúdo:
 
 1. **Família Primária Serifada: Freight Display Pro**
    - Aplicação: Títulos principais, citações diretas do paciente, narrativa ipsissima
@@ -1000,11 +1000,11 @@ A tipografia do HH cria distinção clara entre diferentes tipos de conteúdo:
    - Métricas: 14/12pt, com espacejamento monospace para alinhamento
    - Aplicação consistente da razão áurea (1:1.618) para relações proporcionais
 
-Este sistema tipográfico operacionaliza a dualidade material-existencial central ao HH, diferenciando claramente conteúdo técnico de expressão experiencial.
+Este sistema tipográfico operacionaliza a dualidade material-existencial central ao ZeoCare, diferenciando claramente conteúdo técnico de expressão experiencial.
 
 ### 6.3 Visualização de Dados Clínicos
 
-O HH utiliza visualizações específicas para diferentes aspectos da informação clínica:
+O ZeoCare utiliza visualizações específicas para diferentes aspectos da informação clínica:
 
 #### 6.3.1 Radar Dimensional
 Visualização central do perfil dimensional do paciente:
@@ -1070,10 +1070,10 @@ Estas visualizações operacionalizam o princípio da visualização significati
 
 ### 6.4 Interface Digital e Física
 
-O HH implementa um ecossistema integrado de interfaces físicas e digitais:
+O ZeoCare implementa um ecossistema integrado de interfaces físicas e digitais:
 
 #### 6.4.1 Interface Digital
-O HH Digital é um sistema de software integrado para operacionalização do framework:
+O ZeoCare Digital é um sistema de software integrado para operacionalização do framework:
 
 1. **Arquitetura da Plataforma**:
    - Aplicativo primário para profissionais (tablet/desktop)
@@ -1096,9 +1096,9 @@ O HH Digital é um sistema de software integrado para operacionalização do fra
    - Revelação progressiva de complexidade conforme necessário
 
 #### 6.4.2 Interface Física
-O HH incorpora elementos físicos para integração no ambiente clínico:
+O ZeoCare incorpora elementos físicos para integração no ambiente clínico:
 
-1. **Espaço Clínico HH**:
+1. **Espaço Clínico ZeoCare**:
    - Configuração otimizada para visualização compartilhada
    - Integração sutil de elementos visuais no ambiente
    - Posicionamento estratégico de ferramentas interativas
@@ -1117,7 +1117,7 @@ O HH incorpora elementos físicos para integração no ambiente clínico:
    - Iluminação que complementa a experiência visual
 
 #### 6.4.3 Princípios de Design de Experiência
-O ecossistema HH é guiado por princípios específicos de experiência:
+O ecossistema ZeoCare é guiado por princípios específicos de experiência:
 
 1. **Transparência Significativa**:
    - Visibilidade de processos relevantes para compreensão
@@ -1143,7 +1143,7 @@ Esta abordagem integrada materializa a filosofia do materialismo existencial, cr
 
 ### 7.1 Estudos Preliminares e Protocolos de Validação
 
-O HH encontra-se em processo sistemático de validação científica, com estudos preliminares e protocolos delineados:
+O ZeoCare encontra-se em processo sistemático de validação científica, com estudos preliminares e protocolos delineados:
 
 #### 7.1.1 Estudos de Validação de Construto
 1. **Validação da Estrutura Dimensional**:
@@ -1191,7 +1191,7 @@ O HH encontra-se em processo sistemático de validação científica, com estudo
    - Status: Expansão para contextos adicionais
 
 2. **Impacto na Comunicação Clínica**:
-   - Análise de consultas pré/pós implementação HH (n=60 díades)
+   - Análise de consultas pré/pós implementação ZeoCare (n=60 díades)
    - Hipótese: Melhoria em compreensão mútua, satisfação e concordância sobre plano
    - Resultados preliminares: Aumento significativo em medidas de compreensão compartilhada
    - Status: Análise final em andamento
@@ -1204,7 +1204,7 @@ O HH encontra-se em processo sistemático de validação científica, com estudo
 
 ### 7.2 Limitações e Desafios
 
-O framework HH enfrenta limitações e desafios significativos que devem ser reconhecidos:
+O framework ZeoCare enfrenta limitações e desafios significativos que devem ser reconhecidos:
 
 #### 7.2.1 Limitações Conceituais
 1. **Redução Dimensional da Experiência**:
@@ -1254,11 +1254,11 @@ O framework HH enfrenta limitações e desafios significativos que devem ser rec
    - Potenciais barreiras linguísticas e educacionais
    - Necessidade de implementações flexíveis adaptadas a diversos contextos
 
-Estas limitações informam a agenda de pesquisa contínua e desenvolvimento do framework HH.
+Estas limitações informam a agenda de pesquisa contínua e desenvolvimento do framework ZeoCare.
 
 ### 7.3 Agenda de Pesquisa
 
-A agenda de pesquisa para contínuo desenvolvimento e refinamento do HH inclui:
+A agenda de pesquisa para contínuo desenvolvimento e refinamento do ZeoCare inclui:
 
 #### 7.3.1 Desenvolvimento Conceitual
 1. **Refinamento Dimensional**:
@@ -1267,7 +1267,7 @@ A agenda de pesquisa para contínuo desenvolvimento e refinamento do HH inclui:
    - Validação transcultural de construtos dimensionais
 
 2. **Integração Teórica**:
-   - Estudo de isomorfismos entre HH e outros frameworks dimensionais (HiTOP, RDoC)
+   - Estudo de isomorfismos entre ZeoCare e outros frameworks dimensionais (HiTOP, RDoC)
    - Desenvolvimento de modelos integrando níveis de análise biológico, psicológico e social
    - Exploração da relação entre dimensões experienciais e mecanismos neurobiológicos
 
@@ -1308,16 +1308,16 @@ A agenda de pesquisa para contínuo desenvolvimento e refinamento do HH inclui:
    - Estudos microprocessuais de mudança em tempo real
    - Pesquisa sobre mecanismos neurobiológicos subjacentes à mudança dimensional
 
-Esta agenda de pesquisa ilustra o compromisso com desenvolvimento contínuo e refinamento empírico do framework HH, representando não um produto final, mas um programa científico em evolução.
+Esta agenda de pesquisa ilustra o compromisso com desenvolvimento contínuo e refinamento empírico do framework ZeoCare, representando não um produto final, mas um programa científico em evolução.
 
 ## 8. Considerações Éticas
 
 ### 8.1 Implicações para Autonomia do Paciente
 
-O framework HH tem implicações significativas para a autonomia do paciente:
+O framework ZeoCare tem implicações significativas para a autonomia do paciente:
 
 #### 8.1.1 Ampliação da Participação
-O HH potencialmente amplia a participação do paciente através de:
+O ZeoCare potencialmente amplia a participação do paciente através de:
 
 1. **Transparência Conceitual**: 
    - Visualizações dimensionais tornam explícitos os fundamentos da avaliação
@@ -1338,7 +1338,7 @@ Como observa Munthe et al. (2012):
 > "A autonomia em contextos médicos não se limita à não-interferência, mas requer capacitação ativa através de informação acessível e significativa."
 
 #### 8.1.2 Tensões e Desafios
-O HH também apresenta tensões relacionadas à autonomia:
+O ZeoCare também apresenta tensões relacionadas à autonomia:
 
 1. **Complexidade Técnica**:
    - Sofisticação dimensional pode intimidar ou alienar alguns pacientes
@@ -1356,7 +1356,7 @@ O HH também apresenta tensões relacionadas à autonomia:
    - Necessidade de protocolos explícitos para controle de dados pelo paciente
 
 #### 8.1.3 Protocolos para Autonomia Relacional
-O HH implementa protocolos específicos para promover autonomia relacional:
+O ZeoCare implementa protocolos específicos para promover autonomia relacional:
 
 1. **Consentimento Esclarecido Dimensional**:
    - Processo estruturado para explicar implicações do framework
@@ -1377,7 +1377,7 @@ Estes protocolos operacionalizam o que Entwistle et al. (2010) denominam "autono
 
 ### 8.2 Despatologização e Humanização
 
-O HH representa uma abordagem potencialmente despatologizante à experiência psicológica:
+O ZeoCare representa uma abordagem potencialmente despatologizante à experiência psicológica:
 
 #### 8.2.1 Mecanismos de Despatologização
 O framework opera através de vários mecanismos despatologizantes:

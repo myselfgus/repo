@@ -28,7 +28,7 @@
   </defs>
   
   <!-- Título do diagrama -->
-  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Validações Matemáticas do HH</text>
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Validações Matemáticas do ZeoCare</text>
   <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Formalização Rigorosa para Kernel Dimensional</text>
   
   <!-- Definição do Espaço Dimensional -->

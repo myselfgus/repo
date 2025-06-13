@@ -10,7 +10,7 @@
   <rect width="800" height="650" fill="#f8f9fa"/>
   
   <!-- Title -->
-  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Fluxo de Dados IREAJE.NET</text>
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Fluxo de Dados VOITHER</text>
 
   <!-- User Input Section -->
   <rect x="100" y="90" width="600" height="80" rx="10" ry="10" fill="#e3f2fd" stroke="#0288d1" stroke-width="2"/>
