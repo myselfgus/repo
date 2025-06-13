@@ -1,10 +1,10 @@
-# ZEOCARE & Health/Health
+# ZEOCARE & ZeoCare
 
-![Logo ZeoCare](health-health-radar-dimensional.svg)
+![Logo ZeoCare](zc-radar-dimensional.svg)
 
 ## Visão Geral
 
-O ZEOCARE (Visualização INtegrativa TRAjetorial) é um framework revolucionário para documentação clínica em saúde mental que substitui os diagnósticos categoriais tradicionais por uma abordagem vetorial-dimensional. Este repositório contém a documentação técnica, especificações e recursos visuais do sistema ZEOCARE e do app Health/Health.
+O ZEOCARE (Visualização INtegrativa TRAjetorial) é um framework revolucionário para documentação clínica em saúde mental que substitui os diagnósticos categoriais tradicionais por uma abordagem vetorial-dimensional. Este repositório contém a documentação técnica, especificações e recursos visuais do sistema ZEOCARE e do app ZeoCare.
 
 ### Características Principais
 
@@ -70,26 +70,26 @@ Infraestrutura de dados que proporciona:
 
 O repositório contém os seguintes documentos essenciais:
 
-- [Manual Técnico](health-health-technical-manual.md): Instruções detalhadas para implementação
-- [Especificações Técnicas](health-health-technical-specifications.md): Documentação formal do sistema
-- [Pipeline de Processamento](HEALTH_HEALTH_pipeline_embeddings_ontologias_grafos.md): Detalhes do fluxo de processamento de dados
-- [Documento ZEOCARE](health-health-document-pt.md): Visão geral do sistema em português
+- [Manual Técnico](zeocare/zc-manual-tecnico.md): Instruções detalhadas para implementação
+- [Especificações Técnicas](zeocare/zc-especificacoes-tecnicas.md): Documentação formal do sistema
+- [Pipeline de Processamento](zeocare/zc-pipeline-embeddings-ontologias-grafos.md): Detalhes do fluxo de processamento de dados
+- [Documento ZEOCARE](zeocare-handbook.md): Visão geral do sistema em português
 
 ## Visualizações
 
 O sistema utiliza diversas visualizações para representar dados dimensionais:
 
-- [Radar Dimensional](health-health-radar-dimensional.svg): Perfil das 10 dimensões
-- [Mapa de Dimensões](health-health-10-dimensoes.svg): Organização das dimensões e metadimensões
-- [Trajetórias e Pontos Críticos](health-health-trajetoria-pontos-criticos.svg): Análise de movimento no espaço dimensional
+- [Radar Dimensional](zeocare/zc-radar-dimensional.svg): Perfil das 10 dimensões
+- [Mapa de Dimensões](zeocare/zc-10-dimensoes.svg): Organização das dimensões e metadimensões
+- [Trajetórias e Pontos Críticos](zeocare/zc-trajetoria-pontos-criticos.svg): Análise de movimento no espaço dimensional
 
 ## Implementação
 
 Para implementar o sistema ZEOCARE:
 
-1. Consulte o [Manual Técnico](health-health-technical-manual.md) para requisitos e procedimentos
-2. Utilize o [prompt atualizado](health-health-prompt-atualizado.md) como modelo para documentação
-3. Implemente o componente de [visualização](health-health-visualization.tsx) em sua aplicação
+1. Consulte o [Manual Técnico](zeocare/zc-manual-tecnico.md) para requisitos e procedimentos
+2. Utilize o [prompt atualizado](zeocare/zc-prompt-atualizado.md) como modelo para documentação
+3. Implemente o componente de [visualização](zeocare/zc-visualization.tsx) em sua aplicação
 
 ## Contribuição
 
