@@ -1,4 +1,4 @@
-# Proposta Técnica: Ecossistema VIDIRIA, SORTIO e VERIDIACLINIC
+# Proposta Técnica: Ecossistema DataLake, SORTIO e VERIDIACLINIC
 
 ## Sumário Executivo
 
@@ -18,7 +18,7 @@ A solução apresentada visa estabelecer um ecossistema de saúde que protege a 
          ┌──────────────────────────┼──────────────────────────┐
          ▼                          ▼                          ▼
 ┌──────────────────┐      ┌──────────────────┐      ┌──────────────────┐
-│     VIDIRIA      │      │     SORTIO       │      │  VERIDIACLINIC   │
+│     <name>       │      │     SORTIO       │      │  VERIDIACLINIC   │
 │  Data Lake de    │◄────►│ Gestão de Fluxos │◄────►│ App Pessoal de   │
 │   Correlações    │      │  Saúde Pública   │      │     Saúde        │
 └────────┬─────────┘      └────────┬─────────┘      └────────┬─────────┘
@@ -33,13 +33,13 @@ A solução apresentada visa estabelecer um ecossistema de saúde que protege a 
 
 ### 1.2 Princípios Arquiteturais
 
-- **Privacidade por Design**: Dados sensíveis permanecem sob controle do usuário no VERIDIACLINIC, enquanto apenas correlações anonimizadas são compartilhadas com o VIDIRIA
+- **Privacidade por Design**: Dados sensíveis permanecem sob controle do usuário no VERIDIACLINIC, enquanto apenas correlações anonimizadas são compartilhadas com o DataLake
 - **Eficiência Euleriana**: Todos os fluxos de processamento seguem o princípio euleriano de visitar cada nó exatamente uma vez quando possível
 - **Interoperabilidade Federada**: Sistemas comunicam-se através de interfaces bem definidas, preservando autonomia
 - **Escalabilidade Horizontal**: Cada componente pode escalar independentemente conforme demanda
 - **Resiliência Distribuída**: Falhas em componentes individuais não comprometem o ecossistema inteiro
 
-## 2. VIDIRIA: Data Lake Anonimizado
+## 2. <name>: Data Lake Anonimizado
 
 ### 2.1 Visão Geral
 
@@ -49,7 +49,7 @@ VIDIRIA é um data lake anonimizado que armazena correlações clínicas sem ide
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│                           VIDIRIA                                │
+│                           <datalake>                             │
 └────────────────────────────────┬─────────────────────────────────┘
                                  │
          ┌─────────────────────┬─┴──────────────────┬──────────────┐
@@ -74,7 +74,7 @@ VIDIRIA é um data lake anonimizado que armazena correlações clínicas sem ide
   - Geração de identificadores correlacionáveis não-reversíveis
 
 ```
-// Exemplo de evento .aje anonimizado recebido pelo VIDIRIA
+// Exemplo de evento .aje anonimizado recebido pelo Lake
 Re{RegistrarSintoma}.aje:{
   "Sintoma": "Dor torácica",
   "Duracao": "2 dias",
