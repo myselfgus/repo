@@ -1,4 +1,4 @@
-# MANUAL TÉCNICO DO IREAJE.CLOUD
+# MANUAL TÉCNICO DO VOITHER (former: IREAJE.CLOUD)
 ## Runtime Euleriano: O Kernel para Sistemas Complexos, Multi-Agent e AI-Native
 
 **Versão 1.0** | Maio 2025
