@@ -1,8 +1,8 @@
-# Proposta Técnica: Ecossistema DataLake, SORTIO e VERIDIACLINIC
+# Proposta Técnica: Ecossistema DataWeaver, SORTIO e Veridia
 
 ## Sumário Executivo
 
-Este documento apresenta a proposta técnica para a arquitetura integrada dos sistemas VIDIRIA (data lake anonimizado de correlações clínicas), SORTIO (sistema de gestão de fluxos da saúde pública) e VERIDIACLINIC (app pessoal de controle de dados e acompanhamento terapêutico). A arquitetura proposta utiliza o framework VOITHER como espinha dorsal e o GenAIScript da Microsoft como ferramenta de produtividade e integração.
+Este documento apresenta a proposta técnica para a arquitetura integrada dos sistemas DataWeaver (data lake anonimizado de correlações clínicas), SORTIO (sistema de gestão de fluxos da saúde pública) e Veridia (app pessoal de controle de dados e acompanhamento terapêutico). A arquitetura proposta utiliza o framework VOITHER como espinha dorsal e o GenAIScript da Microsoft como ferramenta de produtividade e integração.
 
 A solução apresentada visa estabelecer um ecossistema de saúde que protege a privacidade dos pacientes, otimiza fluxos assistenciais e potencializa a análise de dados, fundamentando-se nos princípios da eficiência euleriana, privacidade por design e operação baseada em correlações dimensionais.
 
@@ -18,7 +18,7 @@ A solução apresentada visa estabelecer um ecossistema de saúde que protege a 
          ┌──────────────────────────┼──────────────────────────┐
          ▼                          ▼                          ▼
 ┌──────────────────┐      ┌──────────────────┐      ┌──────────────────┐
-│     <name>       │      │     SORTIO       │      │  VERIDIACLINIC   │
+│     DataWeaver      │      │     SORTIO       │      │     Veridia      │
 │  Data Lake de    │◄────►│ Gestão de Fluxos │◄────►│ App Pessoal de   │
 │   Correlações    │      │  Saúde Pública   │      │     Saúde        │
 └────────┬─────────┘      └────────┬─────────┘      └────────┬─────────┘
@@ -33,23 +33,23 @@ A solução apresentada visa estabelecer um ecossistema de saúde que protege a 
 
 ### 1.2 Princípios Arquiteturais
 
-- **Privacidade por Design**: Dados sensíveis permanecem sob controle do usuário no VERIDIACLINIC, enquanto apenas correlações anonimizadas são compartilhadas com o DataLake
+- **Privacidade por Design**: Dados sensíveis permanecem sob controle do usuário no Veridia, enquanto apenas correlações anonimizadas são compartilhadas com o DataWeaver
 - **Eficiência Euleriana**: Todos os fluxos de processamento seguem o princípio euleriano de visitar cada nó exatamente uma vez quando possível
 - **Interoperabilidade Federada**: Sistemas comunicam-se através de interfaces bem definidas, preservando autonomia
 - **Escalabilidade Horizontal**: Cada componente pode escalar independentemente conforme demanda
 - **Resiliência Distribuída**: Falhas em componentes individuais não comprometem o ecossistema inteiro
 
-## 2. <name>: Data Lake Anonimizado
+## 2. DataWeaver: Data Lake Anonimizado
 
 ### 2.1 Visão Geral
 
-VIDIRIA é um data lake anonimizado que armazena correlações clínicas sem identificadores pessoais, permitindo análises populacionais e insights para saúde pública enquanto preserva a privacidade individual.
+DataWeaver é um data lake anonimizado que armazena correlações clínicas sem identificadores pessoais, permitindo análises populacionais e insights para saúde pública enquanto preserva a privacidade individual.
 
 ### 2.2 Arquitetura Detalhada
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│                           <datalake>                             │
+│                           DataWeaver                                │
 └────────────────────────────────┬─────────────────────────────────┘
                                  │
          ┌─────────────────────┬─┴──────────────────┬──────────────┐
@@ -66,7 +66,7 @@ VIDIRIA é um data lake anonimizado que armazena correlações clínicas sem ide
 
 #### 2.3.1 Ingestão .aje Anonimizado
 
-- **Função**: Receber eventos .aje anonimizados de várias fontes (VERIDIACLINIC, SORTIO)
+- **Função**: Receber eventos .aje anonimizados de várias fontes (Veridia, SORTIO)
 - **Processo**:
   - Validação de conformidade dos eventos .aje
   - Verificação de anonimização adequada
@@ -74,7 +74,7 @@ VIDIRIA é um data lake anonimizado que armazena correlações clínicas sem ide
   - Geração de identificadores correlacionáveis não-reversíveis
 
 ```
-// Exemplo de evento .aje anonimizado recebido pelo Lake
+// Exemplo de evento .aje anonimizado recebido pelo DataWeaver
 Re{RegistrarSintoma}.aje:{
   "Sintoma": "Dor torácica",
   "Duracao": "2 dias",
@@ -159,7 +159,7 @@ CompletionActions:
   - AtualizarMetricasUtilizacao
 ```
 
-### 2.5 Implementação do GenAIScript para VIDIRIA
+### 2.5 Implementação do GenAIScript para DataWeaver
 
 O GenAIScript da Microsoft será utilizado para:
 
@@ -178,7 +178,7 @@ O GenAIScript da Microsoft será utilizado para:
    - Enriquecimento semântico de correlações
    - Sugestão de insights baseados em dados
 
-**Exemplo de GenAIScript para VIDIRIA**:
+**Exemplo de GenAIScript para DataWeaver**:
 
 ```javascript
 // Script para análise de correlações de sintomas
@@ -284,7 +284,7 @@ CompletionActions:
 - **Implementação**:
   - Baseado em regras definidas por especialistas
   - Complementado por modelos de ML
-  - Integração com VIDIRIA para insights populacionais
+  - Integração com DataWeaver para insights populacionais
 
 #### 3.3.4 Painel de Monitoramento
 
@@ -387,17 +387,17 @@ $`Analisar capacidade de atendimento para ${ESPECIALIDADE} na região ${REGIAO} 
 // 4. Gerar recomendações específicas para equalização
 ```
 
-## 4. VERIDIACLINIC: App Pessoal de Saúde
+## 4. Veridia: App Pessoal de Saúde
 
 ### 4.1 Visão Geral
 
-VERIDIACLINIC é um aplicativo pessoal de saúde que concede ao paciente controle sobre seus próprios dados, funcionando como repositório local seguro e como um acompanhante terapêutico digital. O aplicativo conecta-se ao ecossistema mais amplo apenas mediante autorização explícita do usuário.
+Veridia é um aplicativo pessoal de saúde que concede ao paciente controle sobre seus próprios dados, funcionando como repositório local seguro e como um acompanhante terapêutico digital. O aplicativo conecta-se ao ecossistema mais amplo apenas mediante autorização explícita do usuário.
 
 ### 4.2 Arquitetura Detalhada
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│                       VERIDIACLINIC                              │
+│                       Veridia                              │
 └────────────────────────────────┬─────────────────────────────────┘
                                  │
       ┌────────────────────────┬─┴───────────────┬─────────────────┐
@@ -451,7 +451,7 @@ VERIDIACLINIC é um aplicativo pessoal de saúde que concede ao paciente control
 #### 4.3.4 Controlador de Privacidade
 
 - **Funcionalidades**:
-  - Anonimização para compartilhamento com VIDIRIA
+  - Anonimização para compartilhamento com DataWeaver
   - Controle sobre quais dados são compartilhados
   - Visibilidade de como os dados são utilizados
   - Opção de retirada de consentimento
@@ -524,7 +524,7 @@ MonitorEvent.ire:{
 }
 ```
 
-### 4.5 Implementação do GenAIScript para VERIDIACLINIC
+### 4.5 Implementação do GenAIScript para Veridia
 
 O GenAIScript da Microsoft será utilizado para:
 
@@ -539,11 +539,11 @@ O GenAIScript da Microsoft será utilizado para:
    - Preparação de dados para consultas médicas
 
 3. **Integração com o Ecossistema**:
-   - Scripts para compartilhamento seletivo com VIDIRIA
+   - Scripts para compartilhamento seletivo com DataWeaver
    - Facilitação de encaminhamentos via SORTIO
    - Preparação de relatórios para profissionais de saúde
 
-**Exemplo de GenAIScript para VERIDIACLINIC**:
+**Exemplo de GenAIScript para Veridia**:
 
 ```javascript
 // Script para análise personalizada de padrões
@@ -572,7 +572,7 @@ $`Analisar meus dados de ${FOCO} nos ${PERIODO}.
 
 ### 5.1 Fluxos de Integração Principais
 
-#### 5.1.1 VERIDIACLINIC → VIDIRIA
+#### 5.1.1 Veridia → DataWeaver
 
 ```
 Flow: CompartilhamentoAnonimizado
@@ -592,7 +592,7 @@ CompletionActions:
   - AtualizarPaineisTransparencia
 ```
 
-#### 5.1.2 VERIDIACLINIC → SORTIO
+#### 5.1.2 Veridia → SORTIO
 
 ```
 Flow: SolicitacaoEncaminhamento
@@ -613,7 +613,7 @@ CompletionActions:
   - NotificarUsuario
 ```
 
-#### 5.1.3 SORTIO → VIDIRIA
+#### 5.1.3 SORTIO → DataWeaver
 
 ```
 Flow: AnaliseTendenciasSistemicas
@@ -623,7 +623,7 @@ Sequence:
   - RemoverDadosIdentificaveis
   - AgregarPorRegiao
   - NormalizarDados
-  - TransmitirParaVIDIRIA
+  - TransmitirParaDataWeaver
 VisitPolicy: SingleTraversal
 CompletionActions:
   - AtualizarDashboardsGerenciais
@@ -706,8 +706,8 @@ CompletionActions:
 #### 6.2.3 Governança de Dados
 
 - **Classificação**:
-  - Dados identificáveis (VERIDIACLINIC)
-  - Dados anonimizados (VIDIRIA)
+  - Dados identificáveis (Veridia)
+  - Dados anonimizados (DataWeaver)
   - Dados operacionais (SORTIO)
 
 - **Políticas de Retenção**:
@@ -734,7 +734,7 @@ CompletionActions:
 
 ## 7. Vantagens do GenAIScript
 
-A integração do GenAIScript da Microsoft no ecossistema VIDIRIA-SORTIO-VERIDIACLINIC traz diversas vantagens significativas:
+A integração do GenAIScript da Microsoft no ecossistema DataWeaver-SORTIO-Veridia traz diversas vantagens significativas:
 
 ### 7.1 Produtividade e Consistência
 
@@ -823,7 +823,7 @@ A integração do GenAIScript da Microsoft no ecossistema VIDIRIA-SORTIO-VERIDIA
   - Autenticação e autorização
   - Mecanismos de anonimização
 
-### 8.2 Fase 2: VIDIRIA (2 meses)
+### 8.2 Fase 2: DataWeaver (2 meses)
 
 - **Data Lake Anonimizado**:
   - Estrutura de armazenamento em grafo
@@ -857,7 +857,7 @@ A integração do GenAIScript da Microsoft no ecossistema VIDIRIA-SORTIO-VERIDIA
   - Análise de gargalos
   - Simulações de cenários
 
-### 8.4 Fase 4: VERIDIACLINIC (3 meses)
+### 8.4 Fase 4: Veridia (3 meses)
 
 - **App Móvel Seguro**:
   - Repositório local criptografado
@@ -893,7 +893,7 @@ A integração do GenAIScript da Microsoft no ecossistema VIDIRIA-SORTIO-VERIDIA
 
 ## 9. Conclusão
 
-A arquitetura proposta para o ecossistema VIDIRIA-SORTIO-VERIDIACLINIC representa uma abordagem inovadora e pragmática para os desafios da saúde contemporânea:
+A arquitetura proposta para o ecossistema DataWeaver-SORTIO-Veridia representa uma abordagem inovadora e pragmática para os desafios da saúde contemporânea:
 
 - **Privacidade por Design**: Mantém os dados sensíveis sob controle do paciente, enquanto permite análises populacionais através de anonimização robusta.
 
@@ -909,4 +909,4 @@ Esta proposta técnica estabelece o caminho para um sistema de saúde mais intel
 
 ---
 
-© 2025 | Proposta Técnica | VIDIRIA, SORTIO e VERIDIACLINIC
+© 2025 | Proposta Técnica | DataWeaver, SORTIO e Veridia

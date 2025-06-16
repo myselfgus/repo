@@ -10,52 +10,80 @@
    - [Framework Dimensional-Vetorial](#12-framework-dimensional-vetorial)
    - [Materialismo Existencial](#13-materialismo-existencial)
 
-2. [Arquitetura Dimensional](#2-arquitetura-dimensional)
-   - [Espaço Vetorial da Mente](#21-espaço-vetorial-da-mente)
-   - [As 10 Dimensões Fundamentais](#22-as-10-dimensões-fundamentais)
-   - [Formalização Matemática](#23-formalização-matemática)
+2. [Arquitetura Linguístico-Hiperdimensionalizada](#2-arquitetura-linguístico-hiperdimensionalizada)
+   - [Linguagem como Espelho da Mente](#2a-linguagem-como-espelho-da-mente-num-campo-espaço-hiperdimensionalizado)
+     - [Representação Vetorial de Estados Linguístico-Mentais](#2a1-representação-vetorial-de-estados-linguístico-mentais)
+     - [Sistema de Equações Dinâmicas](#2a2-sistema-de-equações-dinâmicas-para-interação-dimensional)
+     - [Superfície Geométrica da Linguagem-Emoção](#2a3-superfície-geométrica-da-linguagem-emoção-como-visualização-topológica)
+     - [Análise Espectral via Transformada de Fourier](#2a4-análise-espectral-de-padrões-dimensionais-via-transformada-de-fourier)
+     - [Modelo Polinomial para Carga Cognitiva](#2a5-modelo-polinomial-para-carga-cognitiva)
+   - [Análises Sistêmicas de Linguagem](#2b-análises-sistêmicas-de-linguagem-organizadas)
+     - [Análise Sintática Estrutural](#2b1-análise-sintática-estrutural)
+     - [Análise Semântica Multidimensional](#2b2-análise-semântica-multidimensional)
+     - [Análise Pragmática e Atos de Fala](#2b3-análise-pragmática-e-atos-de-fala)
+     - [Risk-Stratification e Risk-Prediction](#2b5-risk-stratification-e-risk-prediction)
+     - [Digital Phenotyping Linguístico](#2b6-análise-de-rede-social-e-digital-phenotyping)
+     - [Accountability e Rastreabilidade](#2b7-accountability-e-rastreabilidade)
+   - [As 3 Meta-Dimensões e os 10 Vetores-Campo](#2c-as-3-meta-dimensões-e-os-10-vetores-campo)
+     - [Meta-Dimensão Emocional](#2c1-meta-dimensão-emocional-ℳ_emocional)
+     - [Meta-Dimensão Cognitiva](#2c2-meta-dimensão-cognitiva-ℳ_cognitiva)
+     - [Meta-Dimensão Autonomia](#2c3-meta-dimensão-autonomia-ℳ_autonomia)
 
-3. [Integração ZEOCARE & VOITHER](#3-integração-healthhealth--ireajecloud)
-   - [Runtime Euleriano](#31-runtime-euleriano)
-   - [DSLs de Integração](#32-dsls-de-integração)
-   - [Fluxo de Dados Dimensional](#33-fluxo-de-dados-dimensional)
+3. [Empowering-Emergenable Care-Pathway (EEmCare)](#3-empowering-emergenable-care-pathway-eemcare)
+   - [Fundamentação Teórica: Potência Emergenável](#31-fundamentação-teórica-potência-emergenável-vs-intervenção-imposta)
+     - [Teoria da Potência Emergenável](#311-teoria-da-potência-emergenável-em-sistemas-humanos)
+     - [Campo de Potenciais Emergenáveis](#312-o-campo-de-potenciais-emergenáveis)
+   - [Formulação Integrativa-Trajetorial](#32-formulação-integrativa-trajetorial-além-do-diagnóstico-categórico)
+     - [Estrutura da Formulação](#321-estrutura-da-formulação)
+     - [Exemplo Aplicado](#322-exemplo-aplicado-de-formulação-integrativa-trajetorial)
+   - [Análise Narrativa: Ipsissima e Dissonante](#33-análise-narrativa-ipsissima-e-dissonante)
+     - [Narrativa Ipsissima](#331-narrativa-ipsissima-a-voz-autêntica-emergente)
+     - [Narrativa Dissonante](#332-narrativa-dissonante-mapeamento-de-conflitos-criativos)
+     - [Síntese Narrativa Integrativa](#333-síntese-narrativa-integrativa)
+   - [Implementação Algorítmica](#34-implementação-algoritmica-do-eemcare)
+   - [Métricas de Eficácia](#35-métricas-de-eficácia-do-eemcare)
 
-4. [Implementação Técnica](#4-implementação-técnica)
-   - [Ontologias e Grafos de Conhecimento](#41-ontologias-e-grafos-de-conhecimento)
-   - [Processamento de Linguagem Natural](#42-processamento-de-linguagem-natural)
-   - [Análise Dimensional Automatizada](#43-análise-dimensional-automatizada)
-   - [Visualização e Interfaces](#44-visualização-e-interfaces)
+4. [Integração ZEOCARE & VOITHER](#4-integração-zeocare--voither)
+   - [Runtime Euleriano](#41-runtime-euleriano)
+   - [DSLs de Integração](#42-dsls-de-integração)
+   - [Fluxo de Dados Dimensional](#43-fluxo-de-dados-dimensional)
 
-5. [GenAIScript: Interface de Conhecimento Dimensional](#5-genaiscript-interface-de-conhecimento-dimensional)
-   - [Estrutura e Comandos](#51-estrutura-e-comandos)
-   - [Knowledge Bridge](#52-knowledge-bridge)
-   - [Execução e Deployment](#53-execução-e-deployment)
+5. [Implementação Técnica](#5-implementação-técnica)
+   - [Ontologias e Grafos de Conhecimento](#51-ontologias-e-grafos-de-conhecimento)
+   - [Processamento de Linguagem Natural](#52-processamento-de-linguagem-natural)
+   - [Análise Dimensional Automatizada](#53-análise-dimensional-automatizada)
+   - [Visualização e Interfaces](#54-visualização-e-interfaces)
 
-6. [Pipeline de Processamento](#6-pipeline-de-processamento)
-   - [Captura e Transcrição](#61-captura-e-transcrição)
-   - [Extração Dimensional](#62-extração-dimensional)
-   - [Análise Trajetorial](#63-análise-trajetorial)
-   - [Geração de Documentação](#64-geração-de-documentação)
+6. [GenAIScript: Interface de Conhecimento Dimensional](#6-genaiscript-interface-de-conhecimento-dimensional)
+   - [Estrutura e Comandos](#61-estrutura-e-comandos)
+   - [Knowledge Bridge](#62-knowledge-bridge)
+   - [Execução e Deployment](#63-execução-e-deployment)
 
-7. [Casos de Uso e Fluxos Operacionais](#7-casos-de-uso-e-fluxos-operacionais)
-   - [Avaliação Clínica](#71-avaliação-clínica)
-   - [Monitoramento Longitudinal](#72-monitoramento-longitudinal)
-   - [Pesquisa e Análise Populacional](#73-pesquisa-e-análise-populacional)
+7. [Pipeline de Processamento](#7-pipeline-de-processamento)
+   - [Captura e Transcrição](#71-captura-e-transcrição)
+   - [Extração Dimensional](#72-extração-dimensional)
+   - [Análise Trajetorial](#73-análise-trajetorial)
+   - [Geração de Documentação](#74-geração-de-documentação)
 
-8. [Especificações para Materialização](#8-especificações-para-materialização)
-   - [MVP: Componentes Essenciais](#81-mvp-componentes-essenciais)
-   - [Modelos e Tecnologias](#82-modelos-e-tecnologias)
-   - [Roadmap de Implementação](#83-roadmap-de-implementação)
+8. [Casos de Uso e Fluxos Operacionais](#8-casos-de-uso-e-fluxos-operacionais)
+   - [Avaliação Clínica](#81-avaliação-clínica)
+   - [Monitoramento Longitudinal](#82-monitoramento-longitudinal)
+   - [Pesquisa e Análise Populacional](#83-pesquisa-e-análise-populacional)
 
-9. [Integração com Ecossistema VIDIRIA](#9-integração-com-ecossistema-vidiria)
-   - [Data Lake Anonimizado](#91-data-lake-anonimizado)
-   - [Vetorização e Busca Semântica](#92-vetorização-e-busca-semântica)
-   - [IREAJE Framework](#93-ireaje-framework)
+9. [Especificações para Materialização](#9-especificações-para-materialização)
+   - [MVP: Componentes Essenciais](#91-mvp-componentes-essenciais)
+   - [Modelos e Tecnologias](#92-modelos-e-tecnologias)
+   - [Roadmap de Implementação](#93-roadmap-de-implementação)
 
-10. [Apêndices](#10-apêndices)
-    - [Glossário de Termos](#101-glossário-de-termos)
-    - [Diagramas de Referência](#102-diagramas-de-referência)
-    - [Recursos e Ferramentas](#103-recursos-e-ferramentas)
+10. [Integração com Ecossistema DataWeaver](#10-integração-com-ecossistema-dataweaver)
+    - [Data Lake Anonimizado](#101-data-lake-anonimizado)
+    - [Vetorização e Busca Semântica](#102-vetorização-e-busca-semântica)
+    - [IREAJE Framework](#103-ireaje-framework)
+
+11. [Apêndices](#11-apêndices)
+    - [Glossário de Termos](#111-glossário-de-termos)
+    - [Diagramas de Referência](#112-diagramas-de-referência)
+    - [Recursos e Ferramentas](#113-recursos-e-ferramentas)
 
 ---
 
@@ -111,6 +139,789 @@ A base filosófica do ZEOCARE transcende a falsa dicotomia entre abordagens mate
 Esta fundamentação filosófica se manifesta na própria estrutura dimensional do sistema, onde cada dimensão tem tanto expressão fenomenológica quanto correlatos neurobiológicos identificáveis.
 
 ---
+
+## 2. Arquitetura Linguístico-Hiperdimensionalizada
+
+### 2.A Linguagem como Espelho da Mente num Campo-Espaço Hiperdimensionalizado
+
+A linguagem, como estrutura fundante da psique e espelho multifacetado da mente, opera no ZEOCARE através de um campo-espaço hiperdimensionalizado onde cada manifestação linguística corresponde a um posicionamento específico no espaço vetorial da experiência mental. Esta abordagem fundamenta-se na compreensão de que a linguagem não é meramente um sistema de comunicação, mas o próprio tecido através do qual a consciência organiza, estrutura e compreende a experiência.
+
+#### 2.A.1 Representação Vetorial de Estados Linguístico-Mentais
+
+Seguindo o modelo desenvolvido na Análise Sistêmica da Linguagem na Psiquiatria, cada manifestação linguística pode ser mapeada para um vetor no espaço multidimensional ℝⁿ, onde cada dimensão representa uma característica específica da linguagem-mente:
+
+**Estado Linguístico-Mental Instantâneo**:
+```
+Ψ(t) = [v₁(t), v₂(t), v₃(t), ..., v₁₀(t)] ∈ ℝ¹⁰
+```
+
+**Produto Escalar para Similaridade**:
+```
+Sim(Ψᵢ, Ψⱼ) = Ψᵢ · Ψⱼ = Σₖ vₖᵢ · vₖⱼ
+```
+
+**Distância Euclidiana para Divergência**:
+```
+d(Ψᵢ, Ψⱼ) = √(Σₖ(vₖᵢ - vₖⱼ)²)
+```
+
+#### 2.A.2 Sistema de Equações Dinâmicas para Interação Dimensional
+
+A evolução temporal dos estados linguístico-mentais pode ser **modelada** através de sistemas de equações diferenciais que capturam a interação dinâmica entre as meta-dimensões. Esta modelagem baseia-se na observação de que mudanças em uma meta-dimensão frequentemente correlacionam-se com mudanças em outras:
+
+**Modelo de Evolução Interdimensional**:
+```
+dE⃗(t)/dt = A_E · E⃗(t) + B_E · X⃗(t) + C_E · C⃗(t)
+dC⃗(t)/dt = A_C · C⃗(t) + B_C · Y⃗(t) + C_C · E⃗(t)
+dA⃗(t)/dt = A_A · A⃗(t) + B_A · Z⃗(t) + C_A · [E⃗(t) ⊗ C⃗(t)]
+```
+
+Onde:
+- **E⃗(t)**: Meta-dimensão emocional [v₁, v₂, v₃, v₄]
+- **C⃗(t)**: Meta-dimensão cognitiva [v₅, v₆, v₇, v₈]  
+- **A⃗(t)**: Meta-dimensão autonomia [v₉, v₁₀]
+- **X⃗(t), Y⃗(t), Z⃗(t)**: Estímulos externos específicos para cada meta-dimensão
+- **A_E, A_C, A_A**: Matrizes de dinâmica interna
+- **C_E, C_C, C_A**: Matrizes de acoplamento interdimensional
+
+**Nota**: Este é um modelo teórico baseado na observação clínica de correlações entre dimensões. Os parâmetros das matrizes precisariam ser determinados empiricamente através de dados longitudinais.
+
+#### 2.A.3 Superfície Geométrica da Linguagem-Emoção como Visualização Topológica
+
+A representação da evolução linguístico-mental pode ser **visualizada** como uma topologia gerada pelas 3 meta-dimensões e seus 10 vetores-campo. Esta superfície não é uma entidade física, mas uma **ferramenta de visualização** que permite mapear a jornada da pessoa no espaço dimensional.
+
+**Topologia Dimensional Visualizável**:
+A partir dos valores das 10 dimensões, podemos **gerar visualizações** que mostram:
+
+- **Paisagem emocional**: Elevações e depressões baseadas nas dimensões emocionais [v₁, v₂, v₃, v₄]
+- **Relevo cognitivo**: Contornos baseados nas dimensões cognitivas [v₅, v₆, v₇, v₈]  
+- **Orientação autonômica**: Direcionamento baseado nas dimensões de autonomia [v₉, v₁₀]
+
+**Análise de Trajetórias Visuais**:
+- **Caminhos percorridos**: Sequência de posições dimensionais ao longo do tempo
+- **Momentos de transição**: Mudanças abruptas na topologia dimensional
+- **Regiões de estabilidade**: Áreas onde a pessoa tende a permanecer
+- **Pontos críticos**: Locais de alta variabilidade dimensional
+
+Esta visualização topológica serve como **ferramenta clínica** para:
+1. **Comunicar com o paciente** sobre sua jornada dimensional
+2. **Identificar padrões visuais** de estabilidade e instabilidade  
+3. **Mapear territórios emocionais e cognitivos** familiares e desconhecidos
+4. **Orientar intervenções** baseadas na topologia individual
+
+#### 2.A.4 Análise Espectral de Padrões Dimensionais via Transformada de Fourier
+
+A **Transformada de Fourier** pode ser aplicada às séries temporais dimensionais para revelar **frequências subjacentes** e **oscilações ocultas** nos padrões emocionais e cognitivos:
+
+**Aplicação da Transformada de Fourier aos Dados Dimensionais**:
+```
+F_dimensão(ω) = ∫₋∞⁺∞ v_dimensão(t) e⁻ⁱωᵗ dt
+```
+
+**Identificação de Padrões Temporais**:
+- **Alta frequência**: Oscilações emocionais rápidas, mudanças cognitivas abruptas
+- **Baixa frequência**: Padrões emocionais lentos, tendências cognitivas de longo prazo
+- **Frequências médias**: Ciclos adaptativos, ritmos regulatórios
+
+**Aplicação Prática**: 
+Esta análise é especialmente útil para identificar **ciclos emocionais** em transtornos de humor ou **padrões de ruminação** em ansiedade/depressão.
+
+#### 2.A.5 Modelo Polinomial para Carga Cognitiva
+
+A relação entre **complexidade linguística** e **esforço mental** pode ser modelada através de funções polinomiais, permitindo quantificar quando um paciente se aproxima de sobrecarga cognitiva:
+
+**Carga Cognitiva Total**:
+```
+C(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₁x + a₀
+```
+
+Onde **x** representa a complexidade linguística agregada (sintática + semântica + pragmática).
+
+**Taxa de Variação da Carga**:
+```
+C'(x) = naₙxⁿ⁻¹ + (n-1)aₙ₋₁xⁿ⁻² + ... + a₁
+```
+
+**Detecção de Sobrecarga Cognitiva**:
+Pontos críticos onde C'(x) é máximo indicam **risco de sobrecarga**, permitindo intervenções preventivas através da redução da complexidade linguística na interação terapêutica.
+
+**Aplicação Clínica**: Este modelo permite ao terapeuta **ajustar dinamicamente** a complexidade de suas intervenções baseado na capacidade de processamento atual do paciente.
+
+### 2.B Análises Sistêmicas de Linguagem Organizadas
+
+As análises sistêmicas de linguagem no ZEOCARE compreendem um conjunto estruturado de processamentos computacionais que extraem informações multidimensionais da expressão linguística, operando através de machine learning e modelos de linguagem especializados.
+
+#### 2.B.1 Análise Sintática Estrutural
+
+**Processamento Morfossintático**:
+- **Tokenização e segmentação** semântica
+- **Etiquetagem morfossintática** (POS tagging) avançada
+- **Parsing de dependências** para estruturas hierárquicas
+- **Análise de profundidade arbórea** sintática
+
+**Extração de Complexidade Sintática (v₅)**:
+```python
+def calculate_syntactic_complexity(text):
+    parsed = nlp_parser(text)
+    tree_depth = max_dependency_depth(parsed)
+    subordination_ratio = count_subordinate_clauses(parsed) / total_clauses(parsed)
+    complexity_score = log2(tree_depth) + entropy(syntactic_patterns) + λ * subordination_ratio
+    return normalize_to_scale(complexity_score, 0, 10)
+```
+
+#### 2.B.2 Análise Semântica Multidimensional
+
+**Processamento Semântico**:
+- **Extração de entidades** e conceitos clínicos
+- **Desambiguação de sentido** contextual
+- **Análise de papéis semânticos** (agente, paciente, tema)
+- **Mapeamento de campos semânticos** emocionais e cognitivos
+
+**Análise de Valência Emocional (v₁)**:
+```python
+def extract_emotional_valence(text):
+    sentiment_scores = sentiment_analyzer(text)
+    emotional_markers = extract_emotion_words(text)
+    contextual_modifiers = identify_intensifiers_negations(text)
+    valence = weighted_sum(sentiment_scores, emotional_markers, contextual_modifiers)
+    return scale_to_range(valence, -5, +5)
+```
+
+**Análise de Coerência Narrativa (v₆)**:
+```python
+def calculate_narrative_coherence(text_segments):
+    embeddings = [sentence_embedding(segment) for segment in text_segments]
+    coherence_scores = []
+    for i in range(len(embeddings)-1):
+        similarity = cosine_similarity(embeddings[i], embeddings[i+1])
+        coherence_scores.append(similarity)
+    overall_coherence = mean(coherence_scores) * temporal_consistency_factor
+    return normalize_to_scale(overall_coherence, 0, 10)
+```
+
+#### 2.B.3 Análise Pragmática e Atos de Fala
+
+**Classificação de Atos de Fala**:
+- **Assertivos**: Afirmações sobre a realidade
+- **Diretivos**: Tentativas de influenciar comportamento
+- **Compromissivos**: Comprometimentos com ações futuras
+- **Expressivos**: Manifestações de estados psicológicos
+- **Declarativos**: Alterações do status quo através da fala
+
+**Análise de Dominância Emocional (v₃)**:
+```python
+def analyze_emotional_dominance(text):
+    speech_acts = classify_speech_acts(text)
+    assertive_ratio = count_assertives(speech_acts) / total_acts(speech_acts)
+    directive_strength = measure_directive_intensity(speech_acts)
+    agency_markers = count_agency_expressions(text)
+    dominance = combine_weighted(assertive_ratio, directive_strength, agency_markers)
+    return normalize_to_scale(dominance, 0, 10)
+```
+
+#### 2.B.4 Análise de Consistência e Dissonância
+
+**Detecção de Inconsistências Narrativas**:
+- **Contradições semânticas** dentro de segmentos
+- **Incongruências emocionais** entre expressão e conteúdo
+- **Descontinuidades temporais** na narrativa
+- **Conflitos entre valores declarados e comportamentos descritos**
+
+**Cálculo de Dissonância Cognitiva (v₈)**:
+```python
+def calculate_cognitive_dissonance(text):
+    contradictions = detect_semantic_contradictions(text)
+    emotional_incongruences = find_emotion_content_mismatches(text)
+    value_behavior_conflicts = identify_value_behavior_gaps(text)
+    
+    dissonance_score = (
+        weight_contradictions * sum(contradictions) +
+        weight_incongruences * sum(emotional_incongruences) +
+        weight_conflicts * sum(value_behavior_conflicts)
+    )
+    return normalize_to_scale(dissonance_score, 0, 10)
+```
+
+#### 2.B.5 Risk-Stratification e Risk-Prediction
+
+**Estratificação de Risco Dimensional**:
+- **Análise de padrões linguísticos** associados a crises
+- **Detecção de marcadores de instabilidade** emocional
+- **Identificação de sinais de deterioração** cognitiva
+- **Avaliação de fatores protetivos** na linguagem
+
+**Modelo Preditivo de Risco**:
+```python
+def predict_crisis_risk(dimensional_trajectory, current_state):
+    # Características extraídas da trajetória
+    trajectory_features = extract_trajectory_features(dimensional_trajectory)
+    
+    # Estado atual como vetor
+    current_vector = current_state
+    
+    # Modelo treinado em dados clínicos
+    risk_score = trained_model.predict_proba([
+        *trajectory_features,
+        *current_vector
+    ])
+    
+    return {
+        'overall_risk': risk_score[1],  # Probabilidade de crise
+        'dimensional_contributors': identify_risk_dimensions(current_vector),
+        'trajectory_patterns': classify_risk_trajectory(trajectory_features),
+        'time_to_event': estimate_time_to_crisis(trajectory_features)
+    }
+```
+
+#### 2.B.6 Análise de Rede Social e Digital Phenotyping
+
+**Mapeamento de Redes Relacionais**:
+- **Extração de entidades sociais** mencionadas
+- **Análise de qualidade relacional** expressa
+- **Padrões de suporte social** identificados
+- **Dinâmicas de conflito e cooperação**
+
+**Digital Phenotyping Linguístico**:
+- **Padrões temporais** de expressão emocional
+- **Variabilidade dimensional** ao longo do tempo
+- **Marcadores digitais** de bem-estar psicológico
+- **Assinaturas linguísticas** de diferentes estados mentais
+
+#### 2.B.7 Accountability e Rastreabilidade
+
+**Sistema de Auditoria Dimensional**:
+```python
+class DimensionalAuditTrail:
+    def __init__(self):
+        self.extraction_logs = []
+        self.confidence_scores = {}
+        self.source_evidence = {}
+        
+    def log_extraction(self, dimension, value, evidence, confidence):
+        self.extraction_logs.append({
+            'timestamp': datetime.now(),
+            'dimension': dimension,
+            'extracted_value': value,
+            'source_evidence': evidence,
+            'confidence_score': confidence,
+            'extraction_method': self.get_method_info()
+        })
+    
+    def generate_accountability_report(self):
+        return {
+            'extraction_reliability': self.calculate_reliability(),
+            'evidence_traceability': self.map_evidence_to_values(),
+            'confidence_distribution': self.analyze_confidence_patterns(),
+            'method_consistency': self.validate_method_consistency()
+        }
+```
+
+### 2.C As 3 Meta-Dimensões e os 10 Vetores-Campo
+
+#### 2.C.1 Meta-Dimensão Emocional (ℳ_Emocional)
+
+A meta-dimensão emocional organiza-se como um campo vetorial tetradimensional baseado no modelo circumplex expandido, onde cada vetor-campo possui fundamentação matemática específica:
+
+**Valência Emocional (v₁)**
+```
+Justificativa Matemática: v₁ ∈ [-5, +5]
+v₁(t) = Σᵢ wᵢ · sentiment_score(utterance_i) · temporal_decay(t-tᵢ)
+
+Onde: wᵢ = peso baseado na intensidade emocional
+      temporal_decay = e^(-λ(t-tᵢ)) para memória emocional
+```
+
+**Base Teórica**: Modelo Circumplex de Russell (1980), formalizando a dimensão hedônica como eixo fundamental do espaço afetivo. A valência representa a projeção do estado emocional no eixo prazer-desprazer.
+
+**Excitação Emocional (v₂)**
+```
+Justificativa Matemática: v₂ ∈ [0, 10]
+v₂(t) = α·frequency_energy(speech) + β·arousal_markers(text) + γ·physiological_correlates
+
+Onde: frequency_energy = análise espectral da prosódia
+      arousal_markers = densidade de palavras de alta excitação
+      physiological_correlates = correlatos autonômicos inferidos
+```
+
+**Base Teórica**: Teoria da Ativação de Berlyne, onde excitação representa energia disponível para processamento. Correlaciona-se com ativação do sistema nervoso simpático.
+
+**Dominância Emocional (v₃)**
+```
+Justificativa Matemática: v₃ ∈ [0, 10]
+v₃(t) = Σⱼ agency_score(utterance_j) · control_perception(context_j)
+
+Onde: agency_score = produto escalar entre marcadores de agência
+      control_perception = avaliação cognitiva de controle situacional
+```
+
+**Base Teórica**: Teoria de Mehrabian sobre dominância no espaço PAD (Pleasure-Arousal-Dominance), representando o grau de controle percebido sobre o ambiente emocional.
+
+**Intensidade Afetiva (v₄)**
+```
+Justificativa Matemática: v₄ ∈ [0, 10]
+v₄(t) = ||[v₁(t), v₂(t), v₃(t)]|| = √(v₁² + v₂² + v₃²)
+
+Magnitude do vetor emocional no espaço tridimensional VAD
+```
+
+**Base Teórica**: Norma euclidiana do vetor emocional, capturando a magnitude total da experiência afetiva independente de sua qualidade específica.
+
+#### 2.C.2 Meta-Dimensão Cognitiva (ℳ_Cognitiva)
+
+A meta-dimensão cognitiva modela processos de pensamento como fluxos informacionais em redes semânticas distribuídas:
+
+**Complexidade Sintática (v₅)**
+```
+Justificativa Matemática: v₅ ∈ [0, 10]
+v₅(t) = log₂(tree_depth) + H(syntactic_patterns) + λ·subordination_density
+
+Onde: H(syntactic_patterns) = -Σᵢ p(pattern_i) log₂ p(pattern_i)
+      (Entropia de Shannon das estruturas sintáticas)
+```
+
+**Base Teórica**: Teoria da Informação aplicada à sintaxe, onde complexidade correlaciona-se com demanda de processamento e organização executiva.
+
+**Coerência Narrativa (v₆)**
+```
+Justificativa Matemática: v₆ ∈ [0, 10]
+v₆(t) = Π_{i=1}^{n-1} cos(θᵢ) · temporal_consistency(narrative)
+
+Onde: cos(θᵢ) = similaridade cossenoidal entre embeddings consecutivos
+      temporal_consistency = coerência temporal da narrativa
+```
+
+**Base Teórica**: Geometria vetorial aplicada à semântica, onde coerência representa a manutenção de direção no espaço semântico multidimensional.
+
+**Flexibilidade Cognitiva (v₇)**
+```
+Justificativa Matemática: v₇ ∈ [0, 10]
+v₇(t) = H(transitions|context) = -Σᵢⱼ P(transition_j|state_i) log₂ P(transition_j|state_i)
+
+Entropia condicional das transições cognitivas
+```
+
+**Base Teórica**: Teoria dos Sistemas Dinâmicos aplicada à cognição, onde flexibilidade representa a capacidade de explorar diferentes regiões do espaço de estados cognitivos.
+
+**Dissonância Cognitiva (v₈)**
+```
+Justificativa Matemática: v₈ ∈ [0, 10]
+v₈(t) = Σᵢⱼ |belief_vectorᵢ - behavior_vectorⱼ|² + inconsistency_penalty
+
+Norma L2 das discrepâncias entre representações vetoriais de crenças e comportamentos
+```
+
+**Base Teórica**: Teoria da Dissonância Cognitiva de Festinger, formalizada como distância euclidiana entre representações vetoriais de elementos cognitivos inconsistentes.
+
+#### 2.C.3 Meta-Dimensão Autonomia (ℳ_Autonomia)
+
+A meta-dimensão autonomia captura capacidades autorregulatórias e orientação existencial:
+
+**Perspectiva Temporal (v₉)**
+```
+Justificativa Matemática: v₉ = [v₉_past, v₉_present, v₉_future] ∈ [0,10]³
+v₉(t) = softmax([temporal_attention_past, temporal_attention_present, temporal_attention_future])
+
+Onde: softmax normaliza a distribuição de atenção temporal
+      Σ v₉ᵢ = 10 (conservação da atenção temporal total)
+```
+
+**Base Teórica**: Teoria da Perspectiva Temporal de Zimbardo, formalizada como distribuição probabilística sobre orientações temporais com restrição de conservação.
+
+**Autocontrole (v₁₀)**
+```
+Justificativa Matemática: v₁₀ ∈ [0, 10]
+v₁₀(t) = regulatory_strength(t) / (regulatory_strength(t) + impulse_magnitude(t))
+
+Função sigmoidal representando eficácia regulatória relativa
+```
+
+**Base Teórica**: Teoria do Controle Dual, onde autocontrole emerge da razão entre força regulatória (sistema reflexivo) e magnitude impulsiva (sistema impulsivo).
+
+## 3. Empowering-Emergenable Care-Pathway (EEmCare)
+
+### 3.1 Fundamentação Teórica: Potência Emergenável vs. Intervenção Imposta
+
+O EEmCare (Empowering-Emergenable Care-Pathway) representa uma transformação paradigmática na abordagem clínica, fundamentada na compreensão de que cada pessoa carrega em si uma **Potência Emergenável** - uma capacidade inerente de transformação que não precisa ser criada ou imposta, mas reconhecida, honrada e facilitada.
+
+#### 3.1.1 Teoria da Potência Emergenável em Sistemas Humanos
+
+**Princípio da Potência Inerente**: Cada pessoa possui capacidades latentes e recursos internos que, quando adequadamente reconhecidos e facilitados, podem se manifestar como transformações profundas e sustentáveis.
+
+**Condições de Manifestação da Potência Emergenável**:
+```
+Potência_Emergenável = f(Reconhecimento × Facilitação × Ambiente_Adequado)
+
+Onde: Reconhecimento ∈ identificação_de_recursos_latentes
+      Facilitação ∈ [criação_de_condições_propícias]
+      Ambiente_Adequado ∈ contexto_de_segurança_e_suporte
+```
+
+#### 3.1.2 O Campo de Potenciais Emergenáveis
+
+O Campo de Potenciais Emergenáveis não é uma equação matemática, mas um **conceito clínico** que reconhece que cada pessoa carrega consigo capacidades latentes, recursos internos e possibilidades de transformação que existem como potencialidades inerentes à sua experiência.
+
+Este campo representa o **espaço conceitual** onde residem:
+- **Recursos internos não manifestos**: Capacidades que a pessoa possui mas ainda não reconhece ou utiliza
+- **Experiências transformadoras latentes**: Possibilidades de crescimento baseadas na história e características únicas da pessoa  
+- **Pontos de alavancagem natural**: Aspectos da experiência que, quando adequadamente apoiados, podem gerar mudanças significativas
+- **Padrões de autorrecuperação**: Tendências naturais da pessoa para encontrar equilíbrio e bem-estar
+
+**Identificação de Potenciais Emergenáveis**:
+O mapeamento destes potenciais ocorre através da análise dimensional e narrativa, identificando:
+```
+- Recursos_Latentes = análise_narrativa_ipsissima + padrões_históricos_recuperação
+- Pontos_Alavancagem = correlações_dimensionais + momentos_estabilização_natural  
+- Capacidades_Não_Manifestas = discrepâncias_entre_potencial_observado_e_expressão_atual
+```
+
+### 3.2 Formulação Integrativa-Trajetorial: Além do Diagnóstico Categórico
+
+A Formulação Integrativa-Trajetorial substitui o paradigma diagnóstico categórico por uma compreensão dimensional, dinâmica e potencial-centrada da experiência humana.
+
+#### 3.2.1 Estrutura da Formulação
+
+**Mapeamento Dimensional Atual**:
+```
+Ψ_atual = [v₁(t₀), v₂(t₀), ..., v₁₀(t₀)] + δΨ_incerteza
+```
+
+**Análise Trajetorial Histórica**:
+```
+Γ_histórica = {γ(t) : t ∈ [t₋ₙ, t₀]}
+onde γ(t) = trajetória no espaço dimensional
+```
+
+**Identificação de Atratores e Repulsores**:
+```
+dγ/dt = F⃗(γ) = Σᵢ αᵢ∇Vᵢ(γ)
+
+Onde: Vᵢ(γ) = potenciais (atratores negativos, repulsores positivos)
+      αᵢ = intensidades dos fatores sistêmicos
+```
+
+**Campo de Possibilidades Futuras**:
+A partir do estado atual e da análise trajetorial, podemos **mapear** as possibilidades futuras considerando os potenciais emergenáveis identificados, sem equações determinísticas mas através de **análise de padrões** e **correlações históricas**.
+
+#### 3.2.2 Exemplo Aplicado de Formulação Integrativa-Trajetorial
+
+**Caso: Pessoa de 34 anos com padrão de instabilidade emocional recorrente**
+
+**Mapeamento Dimensional Atual**:
+```
+Ψ_atual = [
+  v₁: -1.8,  # Valência moderadamente negativa
+  v₂: 8.2,   # Excitação elevada
+  v₃: 2.1,   # Dominância reduzida
+  v₄: 7.9,   # Intensidade alta
+  v₅: 6.8,   # Complexidade sintática preservada
+  v₆: 3.4,   # Coerência narrativa fragmentada
+  v₇: 4.2,   # Flexibilidade cognitiva moderada
+  v₈: 7.1,   # Dissonância cognitiva elevada
+  v₉: [8.1, 1.9, 3.7],  # Perspectiva: passado dominante
+  v₁₀: 3.3   # Autocontrole comprometido
+]
+```
+
+**Análise Trajetorial**:
+- **Padrão cíclico identificado**: Escaladas em v₂ (excitação) precedem quedas em v₁ (valência)
+- **Correlação temporal**: Fragmentação narrativa (v₆ ↓) durante picos de dissonância (v₈ ↑)
+- **Ponto de alavancagem**: Quando v₃ (dominância) > 4.0, ciclos se estabilizam naturalmente
+
+**Potenciais Emergenáveis Detectados**:
+1. **Capacidade metacognitiva latente**: v₅ preservado sugere recursos cognitivos disponíveis
+2. **Sensibilidade como recurso**: v₄ elevado indica riqueza experiencial potencial
+3. **Padrão de autorrecuperação**: Análise histórica mostra episódios de estabilização espontânea
+4. **Resiliência relacional**: Melhoria dimensional correlacionada com suporte social
+
+**Formulação Integrativa**:
+*"Pessoa com sistema emocional altamente sensível e responsivo (v₂, v₄ elevados), atualmente em padrão de desregulação cíclica caracterizado por alta reatividade emocional e fragmentação narrativa. Apresenta recursos cognitivos preservados e histórico de capacidade de autorrecuperação. A dissonância cognitiva elevada indica conflito entre autopercepção e experiência vivida, sugerindo processo de transformação em andamento. Potenciais emergentes incluem desenvolvimento de regulação emocional sofisticada e integração narrativa através do reconhecimento da sensibilidade como força, não vulnerabilidade."*
+
+### 3.3 Análise Narrativa: Ipsissima e Dissonante
+
+A análise narrativa no EEmCare reconhece que cada pessoa é simultaneamente autora e protagonista de múltiplas narrativas que coexistem, se contradizem e evoluem, revelando a complexidade intrínseca da experiência humana.
+
+#### 3.3.1 Narrativa Ipsissima: A Voz Autêntica Emergente
+
+A Narrativa Ipsissima captura momentos de expressão autêntica onde a pessoa acessa e articula sua experiência mais genuína, livre de elaborações defensivas ou construções socialmente mediadas.
+
+**Marcadores de Autenticidade Linguística**:
+- **Espontaneidade prosódica**: Variações naturais de ritmo e entonação
+- **Marcadores fenomenológicos**: Descrições experienciais diretas ("é como se...", "sinto que...")
+- **Pausas reflexivas**: Momentos de acesso experiencial em tempo real
+- **Linguagem corporal integrada**: Congruência gesto-palavra-emoção
+- **Singularidades expressivas**: Idiossincrasias linguísticas que revelam unicidade
+
+**Algoritmo de Detecção de Segmentos Ipsissima**:
+```python
+def detect_ipsissima_segments(transcript, multimodal_data):
+    authenticity_scores = []
+    
+    for segment in transcript.segments:
+        # Marcadores prosódicos
+        prosodic_score = analyze_prosodic_naturalness(segment.audio)
+        
+        # Marcadores fenomenológicos
+        phenomenological_score = count_experiential_markers(segment.text)
+        
+        # Congruência multimodal
+        congruence_score = measure_gesture_word_emotion_alignment(
+            segment.text, segment.gestures, segment.facial_expressions
+        )
+        
+        # Ausência de marcadores defensivos
+        defensive_penalty = detect_defensive_language(segment.text)
+        
+        authenticity = (
+            0.3 * prosodic_score +
+            0.25 * phenomenological_score +
+            0.25 * congruence_score -
+            0.2 * defensive_penalty
+        )
+        
+        authenticity_scores.append(authenticity)
+    
+    # Seleciona segmentos acima do threshold
+    ipsissima_segments = [
+        segment for segment, score in zip(transcript.segments, authenticity_scores)
+        if score > AUTHENTICITY_THRESHOLD
+    ]
+    
+    return ipsissima_segments
+```
+
+**Exemplo de Segmento Ipsissima**:
+*"Sabe aquela sensação... [pausa] quando você está numa festa e de repente é como se você fosse observar tudo de fora? Como se você não fosse... real? [toca o peito] É aqui, é uma coisa física mesmo. Como se eu fosse... evaporar."*
+
+**Análise do Segmento**:
+- **Busca de conexão**: "Sabe aquela sensação..." - tentativa de universalizar experiência íntima
+- **Acesso experiencial direto**: Pausa indicando busca por palavras para experiência interna
+- **Metáfora corporal**: "observar de fora", "evaporar" - linguagem metafórica autêntica
+- **Marcação somática**: "é aqui, é uma coisa física" - integração corpo-experiência
+- **Vulnerabilidade expressa**: Compartilhamento de experiência dissociativa de forma direta
+
+#### 3.3.2 Narrativa Dissonante: Mapeamento de Conflitos Criativos
+
+A Narrativa Dissonante identifica tensões, contradições e inconsistências entre diferentes versões da história pessoal, reconhecendo essas dissonâncias como indicadores de crescimento potencial e pontos de alavancagem terapêutica.
+
+**Tipos de Dissonância Narrativa**:
+
+1. **Dissonância Temporal**:
+```python
+def analyze_temporal_dissonance(life_narrative):
+    temporal_selves = extract_temporal_self_concepts(life_narrative)
+    dissonance_matrix = np.zeros((len(temporal_selves), len(temporal_selves)))
+    
+    for i, self_i in enumerate(temporal_selves):
+        for j, self_j in enumerate(temporal_selves):
+            dissonance_matrix[i][j] = semantic_distance(self_i, self_j)
+    
+    return {
+        'max_dissonance': np.max(dissonance_matrix),
+        'dissonance_pattern': identify_dissonance_pattern(dissonance_matrix),
+        'temporal_conflicts': find_major_temporal_conflicts(dissonance_matrix)
+    }
+```
+
+2. **Dissonância Contextual**:
+```python
+def map_contextual_dissonance(narrative_contexts):
+    context_presentations = {}
+    
+    for context in ['trabalho', 'família', 'relacionamentos', 'terapia']:
+        context_presentations[context] = extract_self_presentation(
+            narrative_contexts[context]
+        )
+    
+    contextual_variance = calculate_variance(context_presentations.values())
+    
+    return {
+        'variance_score': contextual_variance,
+        'conflicting_contexts': identify_conflicting_presentations(context_presentations),
+        'integrated_aspects': find_consistent_elements(context_presentations)
+    }
+```
+
+3. **Dissonância Cognitivo-Emocional**:
+```python
+def detect_cognitive_emotional_dissonance(statements):
+    dissonances = []
+    
+    for statement in statements:
+        cognitive_content = extract_cognitive_claims(statement)
+        emotional_expression = analyze_emotional_subtext(statement)
+        
+        alignment_score = measure_cognitive_emotional_alignment(
+            cognitive_content, emotional_expression
+        )
+        
+        if alignment_score < DISSONANCE_THRESHOLD:
+            dissonances.append({
+                'statement': statement,
+                'cognitive_claim': cognitive_content,
+                'emotional_subtext': emotional_expression,
+                'dissonance_magnitude': 1 - alignment_score
+            })
+    
+    return dissonances
+```
+
+**Exemplo de Análise Dissonante**:
+
+**Narrativa Manifesta**: *"Eu sou muito independente, sempre fui. Nunca precisei de ninguém para nada."*
+
+**Dissonâncias Detectadas**:
+1. **Linguística**: Uso repetido de marcadores de validação ("né?", "entende?") indicando busca por aprovação
+2. **Prosódica**: Elevação da pitch ao falar de "independência" sugere insegurança
+3. **Contextual**: Em outros contextos, expressa necessidades relacionais claras
+4. **Temporal**: Contrasta com narrativas anteriores sobre vulnerabilidade na infância
+5. **Somática**: Tensão corporal ao afirmar independência vs. relaxamento ao falar de conexões
+
+**Análise Integrativa da Dissonância**:
+Esta dissonância revela não uma "mentira" ou "resistência", mas um processo de desenvolvimento onde a pessoa está negociando entre necessidades autônomas genuínas e medos de dependência baseados em experiências prévias. A dissonância indica movimento: a pessoa está se movendo em direção a uma compreensão mais integrada de autonomia que inclui capacidade de interdependência saudável.
+
+#### 3.3.3 Síntese Narrativa Integrativa
+
+A síntese entre Narrativa Ipsissima e Dissonante cria um mapa tridimensional da experiência da pessoa que honra tanto sua autenticidade quanto sua complexidade:
+
+**Modelo de Integração Narrativa**:
+```
+Narrativa_Integrada = Core_Autêntico ⊕ Tensões_Criativas ⊕ Potenciais_Emergenáveis
+
+Onde:
+⊕ = operação de síntese que preserva diversidade interna
+Core_Autêntico = elementos mais consistentes da narrativa ipsissima
+Tensões_Criativas = dissonâncias que indicam crescimento ativo
+Potenciais_Emergenáveis = capacidades latentes de transformação
+```
+
+**Processo de Co-Criação Narrativa**:
+
+1. **Reconhecimento do Núcleo Autêntico**: Identificação dos elementos mais espontâneos e consistentes da expressão da pessoa
+2. **Honrar as Tensões**: Reconhecimento das dissonâncias como sinais de vitalidade e movimento, não patologia
+3. **Mapeamento de Recursos Ocultos**: Identificação de forças negadas ou minimizadas
+4. **Visualização de Trajetórias Possíveis**: Co-criação de visões de desenvolvimento futuro
+5. **Emergência de Nova Narrativa**: Síntese que integra complexidade e potencial
+
+**Exemplo de Síntese Integrativa**:
+
+*Pessoa com dissonância entre independência declarada e necessidades relacionais manifestas*:
+
+**Núcleo Ipsissima**: "Eu sinto profundamente... as vezes é até demais. Mas quando eu confio em alguém de verdade, é como se eu pudesse ser quem eu realmente sou."
+
+**Tensões Dissonantes**: Conflito entre autonomia proclamada e vulnerabilidade experienciada; medo de dependência vs. necessidade de conexão autêntica.
+
+**Síntese Emergente**: "Sou uma pessoa profundamente sensível que desenvolveu força através de experiências desafiadoras. Estou descobrindo que verdadeira independência inclui a capacidade de escolher quando e com quem ser vulnerável. Minha sensibilidade, que às vezes vejo como fraqueza, é na verdade uma forma refinada de perceber e conectar com o mundo."
+
+### 3.4 Implementação Algoritmica do EEmCare
+
+#### 3.4.1 Sistema de Detecção de Potência Emergenável
+
+```python
+class EmergentPotentialDetectionSystem:
+    def __init__(self):
+        self.pattern_recognizer = PatternRecognizer()
+        self.potential_mapper = PotentialMapper()
+        self.narrative_analyzer = NarrativeAnalyzer()
+    
+    def detect_emergeable_potential(self, session_data):
+        # Análise dimensional
+        current_state = self.extract_dimensional_state(session_data)
+        trajectory = self.analyze_trajectory_patterns(session_data.history)
+        
+        # Análise narrativa
+        ipsissima_segments = self.narrative_analyzer.extract_ipsissima(session_data)
+        dissonance_map = self.narrative_analyzer.map_dissonances(session_data)
+        
+        # Identificação de potenciais emergenáveis
+        latent_resources = self.identify_latent_resources(ipsissima_segments)
+        growth_opportunities = self.map_dissonance_to_potential(dissonance_map)
+        
+        # Síntese
+        emergeable_potential = self.synthesize_potential(
+            current_state, trajectory, latent_resources, growth_opportunities
+        )
+        
+        return emergeable_potential
+    
+    def generate_facilitation_strategy(self, emergeable_potential):
+        # Gera estratégia de facilitação baseada nos potenciais detectados
+        strategy = FacilitationStrategy()
+        
+        for potential in emergeable_potential.high_probability:
+            intervention = self.design_minimal_sufficient_intervention(potential)
+            strategy.add_intervention(intervention)
+        
+        return strategy
+```
+
+#### 3.4.2 Monitor de Pathway Adaptativo
+
+```python
+class AdaptivePathwayMonitor:
+    def __init__(self):
+        self.dimensional_tracker = DimensionalTracker()
+        self.emergeable_detector = EmergeablePotentialDetector()
+        self.pathway_adapter = PathwayAdapter()
+    
+    def monitor_pathway_evolution(self, pathway, current_session):
+        # Monitora evolução do pathway
+        dimensional_progress = self.dimensional_tracker.assess_progress(
+            pathway.target_dimensions, current_session
+        )
+        
+        # Detecta potenciais emergenáveis não previstos
+        unexpected_potentials = self.emergeable_detector.scan_unexpected(
+            current_session, pathway.expected_patterns
+        )
+        
+        # Adapta pathway se necessário
+        if self.requires_adaptation(dimensional_progress, unexpected_potentials):
+            adapted_pathway = self.pathway_adapter.adapt(
+                pathway, dimensional_progress, unexpected_potentials
+            )
+            return adapted_pathway
+        
+        return pathway
+```
+
+### 3.5 Métricas de Eficácia do EEmCare
+
+#### 3.5.1 Índices de Potência Emergenável
+
+**Índice de Potencial Emergenável (IPE)**:
+```
+IPE = Σᵢ P(manifestação_i) × potência_i × sustainability_i
+
+Onde:
+P(manifestação_i) = probabilidade de manifestação do potencial i
+potência_i = magnitude do potencial emergenável
+sustainability_i = probabilidade de sustentação da transformação
+```
+
+**Índice de Facilitação Efetiva (IFE)**:
+```
+IFE = Δ(bem-estar_dimensional) / minimal_intervention_applied
+
+Mede eficiência da facilitação: máxima manifestação com mínima intervenção
+```
+
+#### 3.5.2 Métricas de Integração Narrativa
+
+**Coeficiente de Integração Narrativa (CIN)**:
+```
+CIN = 1 - (dissonâncias_destrutivas / dissonâncias_totais)
+
+Distingue dissonâncias criativas (que promovem crescimento) de destrutivas
+```
+
+**Índice de Autenticidade Crescente (IAC)**:
+```
+IAC = Σₜ autenticidade(t) × temporal_weight(t)
+
+Mede aumento da expressão autêntica ao longo do tempo
+```
+
+O EEmCare representa assim uma evolução paradigmática que honra a complexidade humana enquanto facilita processos naturais de manifestação de potenciais emergenáveis, reconhecendo cada pessoa como portadora de capacidades únicas que podem se manifestar quando condições adequadas são criadas.
 
 ## 2. Arquitetura Dimensional
 
@@ -273,7 +1084,7 @@ Sequencia:
   - AnalisarDimensional
   - GerarVisualizaçãoRadar
   - DocumentarAnáliseClínica
-  - ArmazenarEmVIDIRIA
+  - ArmazenarEmDataWeaver
   - NotificarClínico
 PoliticaVisita: PercorrerUnico
 CondicoesInterrupcao:
@@ -307,7 +1118,7 @@ A integração entre ZEOCARE e VOITHER cria um sistema de fluxo de dados dimensi
         ▼                      ▼                      ▼                       ▼
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │ Persistência    │    │ Monitoramento   │    │ Análise         │    │ Integração      │
-│ em VIDIRIA      │    │ Longitudinal    │    │ Trajetorial     │    │ Terapêutica     │
+│ em DataWeaver   │    │ Longitudinal    │    │ Trajetorial     │    │ Terapêutica     │
 └─────────────────┘    └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
@@ -355,7 +1166,7 @@ Classe: DimensãoAutonomia
 - Armazenamento: Triplas RDF ou banco de dados de grafo (Neo4j, CosmosDB Gremlin)
 - Linguagem de consulta: SPARQL para ontologias, Cypher para Neo4j
 - Frameworks: OWL, RDF Schema
-- Integração: Conectores para VIDIRIA e Runtime Euleriano
+- Integração: Conectores para DataWeaver e Runtime Euleriano
 
 ### 4.2 Processamento de Linguagem Natural
 
@@ -751,7 +1562,7 @@ O ZEOCARE facilita o acompanhamento continuado:
 O ZEOCARE cria novas possibilidades para pesquisa:
 
 #### 7.3.1 Agregação de Dados Dimensionais
-- **Data Lake VIDIRIA**: Armazenamento anonimizado de dados dimensionais
+- **Data Lake DataWeaver**: Armazenamento anonimizado de dados dimensionais
 - **Análise de Clusters**: Identificação de agrupamentos naturais no espaço dimensional
 - **Correlação com Variáveis Clínicas**: Associação entre dimensões e desfechos
 - **Mapeamento de Trajetórias Típicas**: Identificação de padrões evolutivos comuns
@@ -846,8 +1657,8 @@ O desenvolvimento pode seguir estas fases:
 - Geração de análise narrativa
 - Exportação e compartilhamento
 
-#### Fase 4: Integração VIDIRIA (3 semanas)
-- Conexão com sistema VIDIRIA
+#### Fase 4: Integração DataWeaver (3 semanas)
+- Conexão com sistema DataWeaver
 - Implementação de análise populacional
 - Busca semântica e vetorial
 - Validação dimensional com conhecimento coletivo
@@ -860,19 +1671,19 @@ O desenvolvimento pode seguir estas fases:
 
 ---
 
-## 9. Integração com Ecossistema VIDIRIA
+## 9. Integração com Ecossistema DataWeaver
 
 ### 9.1 Data Lake Anonimizado
 
-A VIDIRIA funciona como data lake anonimizado para dados de saúde:
+O DataWeaver funciona como data lake anonimizado para dados de saúde:
 
-#### 9.1.1 Arquitetura da VIDIRIA
+#### 9.1.1 Arquitetura do DataWeaver
 - **Armazenamento Seguro**: Infraestrutura para dados anonimizados
 - **Modelo de Acesso**: Controles granulares de permissão
 - **Pipeline de Anonimização**: Processo para remoção de identificadores
 - **Sistema de Auditoria**: Rastreabilidade de acessos e operações
 
-#### 9.1.2 Integração ZEOCARE & VIDIRIA
+#### 9.1.2 Integração ZEOCARE & DataWeaver
 - **Fluxo de Dados**: Transferência segura de dados dimensionais
 - **Padrões de API**: Endpoints padronizados para operações
 - **Sincronização**: Mecanismos para atualização de dados
@@ -976,7 +1787,7 @@ O IREAJE Framework articula os componentes do ecossistema:
 
 - **GenAIScript**: Interface de conhecimento e acesso ao framework ZEOCARE.
 
-- **VIDIRIA**: Data lake anonimizado para dados de saúde.
+- **DataWeaver**: Data lake anonimizado para dados de saúde.
 
 - **Radar Dimensional**: Visualização que representa as 10 dimensões em gráfico radar.
 
@@ -1004,7 +1815,7 @@ O IREAJE Framework articula os componentes do ecossistema:
 - [MVP: Componentes](https://example.com/hh-mvp-componentes.svg)
 - [Arquitetura Técnica](https://example.com/hh-arquitetura-tecnica.svg)
 - [Fluxo de Avaliação Clínica](https://example.com/hh-fluxo-avaliacao.svg)
-- [Integração VIDIRIA](https://example.com/hh-integracao-vidiria.svg)
+- [Integração DataWeaver](https://example.com/hh-integracao-dataweaver.svg)
 - [IREAJE Framework](https://example.com/hh-Ireaje-framework.svg)
 
 ### 10.3 Recursos e Ferramentas
@@ -1014,7 +1825,7 @@ O IREAJE Framework articula os componentes do ecossistema:
 - [Manual Técnico ZEOCARE](https://example.com/hh-manual-tecnico.pdf)
 - [Especificações do Runtime Euleriano](https://example.com/runtime-euleriano-specs.pdf)
 - [Guia de DSLs VOITHER](https://example.com/ireaje-dsl-guide.pdf)
-- [Documentação da API VIDIRIA](https://example.com/vidiria-api-docs.pdf)
+- [Documentação da API DataWeaver](https://example.com/dataweaver-api-docs.pdf)
 - [Manual do Desenvolvedor GenAIScript](https://example.com/genaiscript-dev-manual.pdf)
 
 **Ferramentas de Desenvolvimento**
