@@ -12,7 +12,7 @@ O ZEOCARE (Visualização INtegrativa TRAjetorial) é um framework revolucionár
 - **Vetorialidade**: Representação matemática dos estados mentais em um espaço multidimensional
 - **Análise Trajetorial**: Foco em padrões de movimento dimensional ao longo do tempo
 - **Visualização Significativa**: Representações visuais intuitivas de dados complexos
-- **Integração com VIDIRIA**: Conexão com data lake anonimizado para processamento em escala
+- **Integração com DataWeaver**: Conexão com data lake anonimizado para processamento em escala
 
 ## Arquitetura Dimensional
 
@@ -57,7 +57,7 @@ Aplicativo móvel para pacientes que oferece:
 - **Registro seguro de dados**
 - **Interface com profissionais autorizados**
 
-### VIDIRIA (Data Lake)
+### DataWeaver (Data Lake)
 
 Infraestrutura de dados que proporciona:
 
