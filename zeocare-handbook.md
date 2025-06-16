@@ -142,6 +142,89 @@ Esta fundamentação filosófica se manifesta na própria estrutura dimensional 
 
 ## 2. Arquitetura Linguístico-Hiperdimensionalizada
 
+## 2.1 Arquitetura Dimensional
+
+### 2.1.1 Espaço Vetorial da Mente
+
+O ZEOCARE conceitua a experiência mental como um espaço vetorial multidimensional ℳ, onde cada experiência subjetiva E representa uma posição específica:
+
+```
+E ∈ ℳ
+E = (e₁, e₂, e₃, ..., e₁₀)
+```
+
+Este espaço é estruturado em três metadimensões fundamentais:
+
+```
+ℳ = ℳₑₘₒcᵢₒₙₐₗ ⊕ ℳcₒₙgᵢₜᵢᵥₐ ⊕ ℳₐᵤₜₒₙₒₘᵢₐ
+```
+
+Onde ⊕ representa a soma direta de subespaços.
+
+#### Propriedades do Espaço Vetorial
+- **Completude**: Qualquer experiência subjetiva pode ser representada
+- **Continuidade**: Transições entre estados ocorrem como trajetórias contínuas
+- **Métrica**: A distância entre estados mentais pode ser quantificada
+- **Campo Vetorial**: Tendências dinâmicas representadas como vetores
+
+### 2.1.2 As 10 Dimensões Fundamentais
+
+O espaço mental no ZEOCARE é composto por 10 dimensões fundamentais distribuídas em três metadimensões:
+
+#### 2.1.2.1 Dimensão Emocional
+- **Valência Emocional (v₁)**: Polaridade hedônica da experiência, de -5 (extremamente negativa) a +5 (extremamente positiva)
+- **Excitação Emocional (v₂)**: Grau de ativação neurofisiológica, de 0 (mínima) a 10 (extrema)
+- **Dominância Emocional (v₃)**: Percepção de controle sobre emoções, de 0 (dominado) a 10 (no controle)
+- **Intensidade Afetiva (v₄)**: Magnitude experiencial da emoção, de 0 (embotamento) a 10 (sobrecarga)
+
+#### 2.1.2.2 Dimensão Cognitiva
+- **Complexidade Sintática (v₅)**: Elaboração estrutural do pensamento, de 0 a 10
+- **Coerência Narrativa (v₆)**: Integração lógico-temporal, de 0 a 10
+- **Flexibilidade Cognitiva (v₇)**: Capacidade de alterar esquemas mentais, de 0 a 10
+- **Dissonância Cognitiva (v₈)**: Tensão entre elementos incompatíveis, de 0 a 10
+
+#### 2.1.2.3 Dimensão Autonomia
+- **Perspectiva Temporal (v₉)**: Orientação no contínuo temporal [passado, presente, futuro], cada um de 0 a 10
+- **Autocontrole (v₁₀)**: Capacidade de autorregulação comportamental, de 0 a 10
+
+### 2.1.3 Formalização Matemática
+
+A representação matemática do espaço dimensional permite operações e análises precisas:
+
+#### 2.1.3.1 Distância e Similaridade
+A distância euclidiana entre estados mentais (E₁, E₂) é definida como:
+```
+d(E₁, E₂) = √(Σᵢ(e₁ᵢ - e₂ᵢ)²)
+```
+
+#### 2.1.3.2 Regiões Clínicas
+Certos padrões psicopatológicos são definidos como regiões específicas:
+```
+R = {E ∈ ℳ | P(E) = true}
+```
+Onde P(E) é um predicado definindo características regionais.
+
+#### 2.1.3.3 Trajetórias
+Mudanças temporais são representadas como trajetórias:
+```
+γ: [a,b] → ℳ
+t ↦ γ(t)
+```
+
+#### 2.1.3.4 Campo Vetorial Terapêutico
+Intervenções terapêuticas configuram um campo vetorial:
+```
+V: ℳ → T(ℳ)
+```
+Onde T(ℳ) é o espaço tangente de ℳ.
+
+Esta formalização permite análises avançadas, incluindo:
+- Identificação de atratores e pontos críticos
+- Análise de estabilidade de estados
+- Previsão de trajetórias potenciais
+
+---
+
 ### 2.A Linguagem como Espelho da Mente num Campo-Espaço Hiperdimensionalizado
 
 A linguagem, como estrutura fundante da psique e espelho multifacetado da mente, opera no ZEOCARE através de um campo-espaço hiperdimensionalizado onde cada manifestação linguística corresponde a um posicionamento específico no espaço vetorial da experiência mental. Esta abordagem fundamenta-se na compreensão de que a linguagem não é meramente um sistema de comunicação, mas o próprio tecido através do qual a consciência organiza, estrutura e compreende a experiência.
@@ -923,212 +1006,6 @@ Mede aumento da expressão autêntica ao longo do tempo
 
 O EEmCare representa assim uma evolução paradigmática que honra a complexidade humana enquanto facilita processos naturais de manifestação de potenciais emergenáveis, reconhecendo cada pessoa como portadora de capacidades únicas que podem se manifestar quando condições adequadas são criadas.
 
-## 2. Arquitetura Dimensional
-
-### 2.1 Espaço Vetorial da Mente
-
-O ZEOCARE conceitua a experiência mental como um espaço vetorial multidimensional ℳ, onde cada experiência subjetiva E representa uma posição específica:
-
-```
-E ∈ ℳ
-E = (e₁, e₂, e₃, ..., e₁₀)
-```
-
-Este espaço é estruturado em três metadimensões fundamentais:
-
-```
-ℳ = ℳₑₘₒcᵢₒₙₐₗ ⊕ ℳcₒₙgᵢₜᵢᵥₐ ⊕ ℳₐᵤₜₒₙₒₘᵢₐ
-```
-
-Onde ⊕ representa a soma direta de subespaços.
-
-#### Propriedades do Espaço Vetorial
-- **Completude**: Qualquer experiência subjetiva pode ser representada
-- **Continuidade**: Transições entre estados ocorrem como trajetórias contínuas
-- **Métrica**: A distância entre estados mentais pode ser quantificada
-- **Campo Vetorial**: Tendências dinâmicas representadas como vetores
-
-### 2.2 As 10 Dimensões Fundamentais
-
-O espaço mental no ZEOCARE é composto por 10 dimensões fundamentais distribuídas em três metadimensões:
-
-#### 2.2.1 Dimensão Emocional
-- **Valência Emocional (v₁)**: Polaridade hedônica da experiência, de -5 (extremamente negativa) a +5 (extremamente positiva)
-- **Excitação Emocional (v₂)**: Grau de ativação neurofisiológica, de 0 (mínima) a 10 (extrema)
-- **Dominância Emocional (v₃)**: Percepção de controle sobre emoções, de 0 (dominado) a 10 (no controle)
-- **Intensidade Afetiva (v₄)**: Magnitude experiencial da emoção, de 0 (embotamento) a 10 (sobrecarga)
-
-#### 2.2.2 Dimensão Cognitiva
-- **Complexidade Sintática (v₅)**: Elaboração estrutural do pensamento, de 0 a 10
-- **Coerência Narrativa (v₆)**: Integração lógico-temporal, de 0 a 10
-- **Flexibilidade Cognitiva (v₇)**: Capacidade de alterar esquemas mentais, de 0 a 10
-- **Dissonância Cognitiva (v₈)**: Tensão entre elementos incompatíveis, de 0 a 10
-
-#### 2.2.3 Dimensão Autonomia
-- **Perspectiva Temporal (v₉)**: Orientação no contínuo temporal [passado, presente, futuro], cada um de 0 a 10
-- **Autocontrole (v₁₀)**: Capacidade de autorregulação comportamental, de 0 a 10
-
-### 2.3 Formalização Matemática
-
-A representação matemática do espaço dimensional permite operações e análises precisas:
-
-#### 2.3.1 Distância e Similaridade
-A distância euclidiana entre estados mentais (E₁, E₂) é definida como:
-```
-d(E₁, E₂) = √(Σᵢ(e₁ᵢ - e₂ᵢ)²)
-```
-
-#### 2.3.2 Regiões Clínicas
-Certos padrões psicopatológicos são definidos como regiões específicas:
-```
-R = {E ∈ ℳ | P(E) = true}
-```
-Onde P(E) é um predicado definindo características regionais.
-
-#### 2.3.3 Trajetórias
-Mudanças temporais são representadas como trajetórias:
-```
-γ: [a,b] → ℳ
-t ↦ γ(t)
-```
-
-#### 2.3.4 Campo Vetorial Terapêutico
-Intervenções terapêuticas configuram um campo vetorial:
-```
-V: ℳ → T(ℳ)
-```
-Onde T(ℳ) é o espaço tangente de ℳ.
-
-Esta formalização permite análises avançadas, incluindo:
-- Identificação de atratores e pontos críticos
-- Análise de estabilidade de estados
-- Previsão de trajetórias potenciais
-
----
-
-## 3. Integração ZEOCARE & VOITHER
-
-### 3.1 Runtime Euleriano
-
-O Runtime Euleriano é o núcleo do VOITHER que permite a execução orquestrada de fluxos com suporte para as DSLs específicas:
-
-![Runtime Euleriano](https://example.com/hh-runtime-euleriano.svg)
-
-#### 3.1.1 Princípios Operacionais
-- **Visita Única**: Garante que cada nó no grafo de execução seja visitado uma única vez
-- **Ordenação Eficiente**: Minimiza o custo de transição entre operações
-- **Paralelização Estratégica**: Permite execução concorrente quando apropriado
-- **Interruptibilidade**: Suporta condições de interrupção e recuperação
-
-#### 3.1.2 Componentes do Runtime
-- **Orquestrador de Execução**: Gerencia o fluxo de operações
-- **Parsers DSL**: Interpretam arquivos .aje, .ire e .e
-- **Handlers Especializados**: Implementam operações específicas
-- **Sistema de Eventos**: Gerencia comunicação entre componentes
-- **Armazenamento de Estado**: Persiste estado do runtime
-
-O Runtime Euleriano fornece a infraestrutura técnica necessária para operacionalizar os conceitos teóricos do ZEOCARE em um sistema computacional prático.
-
-### 3.2 DSLs de Integração
-
-O VOITHER utiliza três DSLs (Domain Specific Languages) complementares para representar eventos, padrões e fluxos:
-
-#### 3.2.1 .aje (Actions & Journey Events)
-Formato JSON estruturado para eventos discretos:
-
-```javascript
-Re{RegisterSymptom}.aje:{
-  "Symptom": "Chest pain",
-  "Duration": "2 days",
-  "Intensity": "Moderate",
-  "Timestamp": "2025-04-26T10:15:30Z",
-  "ContextId": "consultation-123"
-}
-```
-
-Utilizado para:
-- Registro de eventos clínicos
-- Captura de observações
-- Registro de interações
-- Documentação de transições dimensionais
-
-#### 3.2.2 .ire (Intelligent Relational Events)
-Define correlações de eventos e respostas automatizadas:
-
-```javascript
-MonitorarEvento.ire:{
-  "NomeFluxo": "MonitoramentoSintomas",
-  "CorrelacoesDetectadas": ["RegisterSymptom", "IntensityChange", "NewMedication"],
-  "NivelCriticidade": "Médio",
-  "AcoesAutomatizadas": ["NotificarClínico", "RegistrarAlerta"],
-  "PoliticaDeResposta": "NotificaçãoImediata",
-  "Persistencia": "30Dias",
-  "Parametros": { "LimiarIntensidade": 7 }
-}
-```
-
-Utilizado para:
-- Detecção de padrões significativos
-- Automação de respostas a padrões
-- Monitoramento contínuo
-
-#### 3.2.3 .e (Eulerian Runtime Language)
-Define fluxos de execução e orquestração:
-
-```yaml
-Fluxo: ProcessamentoConsultaClínica
-Inicio: IniciarConsulta
-Sequencia:
-  - CapturarNarrativa
-  - TranscreverÁudio
-  - AnalisarDimensional
-  - GerarVisualizaçãoRadar
-  - DocumentarAnáliseClínica
-  - ArmazenarEmDataWeaver
-  - NotificarClínico
-PoliticaVisita: PercorrerUnico
-CondicoesInterrupcao:
-  - ErroTranscrição
-  - FalhaAnálise
-AcoesAoFinalizar:
-  - RegistrarLogProcessamento
-  - AtualizarEstatisticas
-```
-
-Utilizado para:
-- Definição de fluxos de trabalho clínicos
-- Orchestração de processamento
-- Automação de tarefas
-
-### 3.3 Fluxo de Dados Dimensional
-
-A integração entre ZEOCARE e VOITHER cria um sistema de fluxo de dados dimensional completo:
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│ Captura de      │───►│ Processamento   │───►│ Análise         │───►│ Visualização    │
-│ Dados Clínicos  │    │ Linguístico     │    │ Dimensional     │    │ & Documentação  │
-└─────────────────┘    └─────────────────┘    └─────────────────┘    └─────────────────┘
-        │                      │                      │                       │
-        ▼                      ▼                      ▼                       ▼
-┌─────────────────────────────────────────────────────────────────────────────────────┐
-│                            Runtime Euleriano VOITHER                           │
-└─────────────────────────────────────────────────────────────────────────────────────┘
-        │                      │                      │                       │
-        ▼                      ▼                      ▼                       ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│ Persistência    │    │ Monitoramento   │    │ Análise         │    │ Integração      │
-│ em DataWeaver   │    │ Longitudinal    │    │ Trajetorial     │    │ Terapêutica     │
-└─────────────────┘    └─────────────────┘    └─────────────────┘    └─────────────────┘
-```
-
-#### Elementos de Integração
-- **Eventos .aje**: Capturam dados clínicos e transições dimensionais
-- **Monitores .ire**: Detectam padrões significativos em sequências de eventos
-- **Fluxos .e**: Orquestram processamento dimensional e análise trajetorial
-- **GenAIScript**: Fornece interface de conhecimento e automação para o sistema
-
----
 
 ## 4. Implementação Técnica
 
@@ -1177,7 +1054,7 @@ O processamento linguístico multinível é essencial para extrair informações
 ```
 ┌───────────────┐    ┌───────────────┐    ┌───────────────┐    ┌───────────────┐
 │ Análise       │───►│ Análise       │───►│ Análise       │───►│ Extração      │
-│ Morfossintática│    │ Semântica     │    │ Pragmática    │    │ Dimensional   │
+│ Morfossintática│   │ Semântica     │    │ Pragmática    │    │ Dimensional   │
 └───────────────┘    └───────────────┘    └───────────────┘    └───────────────┘
 ```
 
@@ -1269,31 +1146,6 @@ Para cada dimensão, atribua valores na escala indicada e justifique brevemente:
 
 A visualização dimensional é elemento central do ZEOCARE, não meramente ilustrativa:
 
-#### 4.4.1 Radar Dimensional
-- Representa as 10 dimensões em gráfico radar
-- Codificação cromática por metadimensão
-- Permite comparação de múltiplos estados
-- Visualiza mudanças ao longo do tempo
-
-```
-Implementação técnica:
-- Frontend: React/Chart.js ou D3.js
-- Backend: API para dados dimensionais
-- Interatividade: Tooltips, seleção, zoom
-```
-
-#### 4.4.2 Visualização Trajetorial
-- Representação 3D ou 2D de trajetórias no espaço dimensional
-- Identificação visual de pontos críticos
-- Codificação temporal por cores ou animação
-- Projeção de trajetórias potenciais
-
-#### 4.4.3 Interfaces Clínicas
-- **Dashboard Clínico**: Visão integrada de pacientes e trajetórias
-- **Interface de Avaliação**: Suporte à entrevista dimensional estruturada
-- **Visualizador de Documento Dimensional**: Integra narrativa e posicionamento
-- **Ferramenta de Planejamento Terapêutico**: Facilita definição de alvos dimensionais
-
 ---
 
 ## 5. GenAIScript: Interface de Conhecimento Dimensional
@@ -1313,9 +1165,9 @@ O GenAIScript serve como interface de conhecimento e acesso ao framework ZEOCARE
         ┌───────────────┴───────────────┐
         │                               │
 ┌───────────────────┐         ┌───────────────────┐
-│health-health-     │         │health-health-     │
+│zeo-               │         │zeo-               │
 │commands.mts       │         │knowledge.mts      │
-│(Bridge de comandos)│         │(Assistente de     │
+│(Bridge de comandos)│        │(Assistente de     │
 └───────────────────┘         │conhecimento)      │
                               └───────────────────┘
 ```
@@ -1359,7 +1211,7 @@ O GenAIScript funciona como ponte entre diferentes componentes do conhecimento:
 
 O GenAIScript ZEOCARE pode ser executado de diferentes formas:
 
-#### 5.3.1 Via Linha de Comando
+#### 5.3.1 Via Linha de Comando (nao preferencial)
 ```bash
 node cli.mjs "$dimensoes: Explique a Valência Emocional"
 ```
@@ -1392,7 +1244,6 @@ O processo de captura e transcrição é o ponto de entrada para a análise dime
 #### 6.1.1 Captura de Áudio
 - **Interface de Gravação**: Aplicação web/mobile para captura
 - **Upload de Arquivos**: Suporte para arquivos de áudio existentes
-- **Streaming em Tempo Real**: Opção para processamento contínuo
 - **Metadados de Contexto**: Captura de informações adicionais relevantes
 
 #### 6.1.2 Transcrição Automática
@@ -1411,23 +1262,6 @@ O processo de captura e transcrição é o ponto de entrada para a análise dime
 
 A extração dimensional converte narrativas em posicionamentos no espaço vetorial:
 
-#### 6.2.1 Análise Automatizada
-- **Processamento do Texto**: Aplicação do pipeline NLP descrito anteriormente
-- **Extração Via LLM**: Uso de Claude com prompts específicos para dimensões
-- **Análise de Biomarcadores Linguísticos**: Correlação entre padrões linguísticos e estados dimensionais
-- **Geração de Perfil Dimensional**: Criação do vetor (e₁, e₂, ..., e₁₀)
-
-#### 6.2.2 Revisão e Ajuste
-- **Interface de Validação**: Permite revisão dos valores dimensionais
-- **Ajuste Baseado em Expertise**: Clínico pode refinar valores
-- **Anotação de Justificativas**: Documentação de razões para ajustes
-- **Feedback para Aprendizado**: Ajustes alimentam sistema de melhoria contínua
-
-#### 6.2.3 Contextualização
-- **Enriquecimento com VORON**: Sistema VORON fornece conhecimento contextual
-- **Comparação com Histórico**: Contraste com estados anteriores do paciente
-- **Análise Populacional**: Comparação com distribuições típicas e atípicas
-- **Identificação de Padrões**: Reconhecimento de agrupamentos dimensionais conhecidos
 
 ### 6.3 Análise Trajetorial
 
@@ -1458,42 +1292,6 @@ A documentação dimensional estrutura e formaliza a análise:
 #### 6.4.1 Registro Clínico Dimensional (RCD)
 O RCD é estruturado em cinco seções:
 
-1. **Narrativa (Captura fenomenológica)**
-   - Expressão Ipsissima: Transcrição literal de segmentos relevantes
-   - Contexto Experiencial: Precipitantes situacionais, contexto biográfico
-   - Marcadores Corporais: Manifestações somáticas observadas
-
-2. **Dimensionalização (Mapeamento vetorial)**
-   - Perfil Emocional: Valores de valência, excitação, dominância e intensidade
-   - Perfil Cognitivo: Valores de complexidade, coerência, flexibilidade e dissonância
-   - Perfil de Autonomia: Perspectiva temporal e autocontrole
-
-3. **Trajetória (Análise dinâmica)**
-   - Vetor de Mudança: Principal dimensão de alteração, magnitude e direção
-   - Pontos Críticos: Limiares, gatilhos, padrões de desestabilização
-   - Recursos Adaptativos: Fatores protetivos, estratégias eficazes
-
-4. **Análise Integrativa (Síntese clínica)**
-   - Posição no Espaço Vetorial: Região primária, atratores identificados
-   - Análise de Padrões: Estruturas narrativas recorrentes, metáforas centrais
-   - Hipótese Sistêmica: Formulação dinâmica, mecanismos mantenedores
-
-5. **Resposta Terapêutica (Intervenção dimensional)**
-   - Alvos Dimensionais: Dimensões prioritárias, métricas de progresso
-   - Intervenções Específicas: Abordagens cognitivo-linguísticas, modulações emocionais
-   - Plano Longitudinal: Objetivos de curto, médio e longo prazo
-
-#### 6.4.2 Formatos de Documentação
-- **Documento Estruturado**: Formato principal RCD
-- **Formato SOAP**: Versão adaptada para integração com prontuários tradicionais
-- **Relatório Visual**: Versão centrada em visualizações com texto explicativo
-- **Versão para Pacientes**: Adaptada para compreensão e uso pelo paciente
-
-#### 6.4.3 Geração Automatizada
-- **Templates Dinâmicos**: Base para geração automatizada
-- **Geração via LLM**: Uso de Claude para elaboração de texto narrativo
-- **Personalização**: Adaptação ao contexto clínico e preferências
-- **Verificação de Qualidade**: Controle automático de completude e consistência
 
 ---
 
