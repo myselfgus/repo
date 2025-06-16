@@ -18,7 +18,7 @@ A solução apresentada visa estabelecer um ecossistema de saúde que protege a 
          ┌──────────────────────────┼──────────────────────────┐
          ▼                          ▼                          ▼
 ┌──────────────────┐      ┌──────────────────┐      ┌──────────────────┐
-│     DataWeaver      │      │     SORTIO       │      │  Veridia   │
+│     DataWeaver      │      │     SORTIO       │      │     Veridia      │
 │  Data Lake de    │◄────►│ Gestão de Fluxos │◄────►│ App Pessoal de   │
 │   Correlações    │      │  Saúde Pública   │      │     Saúde        │
 └────────┬─────────┘      └────────┬─────────┘      └────────┬─────────┘
