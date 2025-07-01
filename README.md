@@ -1,10 +1,10 @@
-# ZEOCARE & ZeoCare
+# Voither
 
 ![Logo ZeoCare](zc-radar-dimensional.svg)
 
 ## Visão Geral
 
-O ZEOCARE (Visualização INtegrativa TRAjetorial) é um framework revolucionário para documentação clínica em saúde mental que substitui os diagnósticos categoriais tradicionais por uma abordagem vetorial-dimensional. Este repositório contém a documentação técnica, especificações e recursos visuais do sistema ZEOCARE e do app ZeoCare.
+O Voither (Visualização INtegrativa TRAjetorial) é um framework revolucionário para documentação clínica em saúde mental que substitui os diagnósticos categoriais tradicionais por uma abordagem vetorial-dimensional. Este repositório contém a documentação técnica, especificações e recursos visuais do sistema ZEOCARE e do app ZeoCare.
 
 ### Características Principais
 
@@ -16,7 +16,7 @@ O ZEOCARE (Visualização INtegrativa TRAjetorial) é um framework revolucionár
 
 ## Arquitetura Dimensional
 
-O ZEOCARE organiza a experiência mental em 10 dimensões fundamentais agrupadas em três metadimensões:
+O Voither organiza a experiência mental em 10 dimensões fundamentais agrupadas em três metadimensões:
 
 ### Dimensão Emocional
 
@@ -39,7 +39,7 @@ O ZEOCARE organiza a experiência mental em 10 dimensões fundamentais agrupadas
 
 ## Componentes do Sistema
 
-### ZEOCARE (Framework de Documentação)
+### Voither (Framework de Documentação)
 
 O framework base para avaliação, registro e visualização dimensional, que inclui:
 
@@ -48,7 +48,7 @@ O framework base para avaliação, registro e visualização dimensional, que in
 - **Sistema de Visualização Radar & Trajetorial**
 - **Pipeline de Processamento Linguístico**
 
-### Health/Health (Aplicativo)
+### Voither/Zeo (Aplicativo)
 
 Aplicativo móvel para pacientes que oferece:
 
@@ -85,7 +85,7 @@ O sistema utiliza diversas visualizações para representar dados dimensionais:
 
 ## Implementação
 
-Para implementar o sistema ZEOCARE:
+Para implementar o sistema Voither:
 
 1. Consulte o [Manual Técnico](zeocare/zc-manual-tecnico.md) para requisitos e procedimentos
 2. Utilize o [prompt atualizado](zeocare/zc-prompt-atualizado.md) como modelo para documentação
