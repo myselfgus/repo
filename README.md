@@ -4,7 +4,7 @@
 
 ## Visão Geral
 
-O Voither (Visualização INtegrativa TRAjetorial) é um framework revolucionário para documentação clínica em saúde mental que substitui os diagnósticos categoriais tradicionais por uma abordagem vetorial-dimensional. Este repositório contém a documentação técnica, especificações e recursos visuais do sistema ZEOCARE e do app ZeoCare.
+O Voither (Visualização INtegrativa TRAjetorial) é um framework revolucionário para documentação clínica em saúde mental que substitui os diagnósticos categoriais tradicionais por uma abordagem vetorial-dimensional. Este repositório contém a documentação técnica, especificações e recursos visuais do sistema Voither e do app Zeo.
 
 ### Características Principais
 
