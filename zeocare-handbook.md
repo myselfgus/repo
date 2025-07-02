@@ -1,4 +1,4 @@
-# ZEOCARE & VOITHER
+# VOITHER & VOITHER
 ## Handbook Teórico-Prático: Materialização do Framework Dimensional
 
 ---
@@ -43,7 +43,7 @@
    - [Implementação Algorítmica](#34-implementação-algoritmica-do-eemcare)
    - [Métricas de Eficácia](#35-métricas-de-eficácia-do-eemcare)
 
-4. [Integração ZEOCARE & VOITHER](#4-integração-zeocare--voither)
+4. [Integração VOITHER & VOITHER](#4-integração-voither--voither)
    - [Runtime Euleriano](#41-runtime-euleriano)
    - [DSLs de Integração](#42-dsls-de-integração)
    - [Fluxo de Dados Dimensional](#43-fluxo-de-dados-dimensional)
@@ -91,7 +91,7 @@
 
 ### 1.1 Ruptura Paradigmática
 
-O ZEOCARE (Visualização INtegrativa TRAjetorial) representa uma transformação fundamental na conceptualização e abordagem da experiência psíquica humana. Essa ruptura ocorre em três níveis:
+O VOITHER (Visualização INtegrativa TRAjetorial) representa uma transformação fundamental na conceptualização e abordagem da experiência psíquica humana. Essa ruptura ocorre em três níveis:
 
 #### Epistemológico
 - **De**: Modelo categorial (DSM/CID) baseado em síndromes discretas
@@ -109,7 +109,7 @@ Essa ruptura não representa apenas uma evolução, mas uma transformação radi
 
 ### 1.2 Framework Dimensional-Vetorial
 
-O ZEOCARE estabelece um novo paradigma para compreender e representar a experiência psíquica:
+O VOITHER estabelece um novo paradigma para compreender e representar a experiência psíquica:
 
 ![Radar Dimensional](https://example.com/hh-radar-dimensional.svg)
 
@@ -120,11 +120,11 @@ O ZEOCARE estabelece um novo paradigma para compreender e representar a experiê
 4. **Narratividade Integrada**: Fusão de dados quantitativos e expressão qualitativa
 5. **Processamento Linguístico Multinível**: Análise em camadas morfossintáticas, semânticas e pragmáticas
 
-O ZEOCARE não é apenas um sistema de classificação alternativo, mas um framework completo que integra teoria, metodologia e ferramentas operacionais.
+O VOITHER não é apenas um sistema de classificação alternativo, mas um framework completo que integra teoria, metodologia e ferramentas operacionais.
 
 ### 1.3 Materialismo Existencial
 
-A base filosófica do ZEOCARE transcende a falsa dicotomia entre abordagens materialistas e existencialistas:
+A base filosófica do VOITHER transcende a falsa dicotomia entre abordagens materialistas e existencialistas:
 
 #### Materialismo Existencial
 - Reconhece a inseparabilidade entre corporeidade material e consciência intencional
@@ -146,7 +146,7 @@ Esta fundamentação filosófica se manifesta na própria estrutura dimensional 
 
 ### 2.1.1 Espaço Vetorial da Mente
 
-O ZEOCARE conceitua a experiência mental como um espaço vetorial multidimensional ℳ, onde cada experiência subjetiva E representa uma posição específica:
+O VOITHER conceitua a experiência mental como um espaço vetorial multidimensional ℳ, onde cada experiência subjetiva E representa uma posição específica:
 
 ```
 E ∈ ℳ
@@ -169,7 +169,7 @@ Onde ⊕ representa a soma direta de subespaços.
 
 ### 2.1.2 As 10 Dimensões Fundamentais
 
-O espaço mental no ZEOCARE é composto por 10 dimensões fundamentais distribuídas em três metadimensões:
+O espaço mental no VOITHER é composto por 10 dimensões fundamentais distribuídas em três metadimensões:
 
 #### 2.1.2.1 Dimensão Emocional
 - **Valência Emocional (v₁)**: Polaridade hedônica da experiência, de -5 (extremamente negativa) a +5 (extremamente positiva)
@@ -227,7 +227,7 @@ Esta formalização permite análises avançadas, incluindo:
 
 ### 2.A Linguagem como Espelho da Mente num Campo-Espaço Hiperdimensionalizado
 
-A linguagem, como estrutura fundante da psique e espelho multifacetado da mente, opera no ZEOCARE através de um campo-espaço hiperdimensionalizado onde cada manifestação linguística corresponde a um posicionamento específico no espaço vetorial da experiência mental. Esta abordagem fundamenta-se na compreensão de que a linguagem não é meramente um sistema de comunicação, mas o próprio tecido através do qual a consciência organiza, estrutura e compreende a experiência.
+A linguagem, como estrutura fundante da psique e espelho multifacetado da mente, opera no VOITHER através de um campo-espaço hiperdimensionalizado onde cada manifestação linguística corresponde a um posicionamento específico no espaço vetorial da experiência mental. Esta abordagem fundamenta-se na compreensão de que a linguagem não é meramente um sistema de comunicação, mas o próprio tecido através do qual a consciência organiza, estrutura e compreende a experiência.
 
 #### 2.A.1 Representação Vetorial de Estados Linguístico-Mentais
 
@@ -332,7 +332,7 @@ Pontos críticos onde C'(x) é máximo indicam **risco de sobrecarga**, permitin
 
 ### 2.B Análises Sistêmicas de Linguagem Organizadas
 
-As análises sistêmicas de linguagem no ZEOCARE compreendem um conjunto estruturado de processamentos computacionais que extraem informações multidimensionais da expressão linguística, operando através de machine learning e modelos de linguagem especializados.
+As análises sistêmicas de linguagem no VOITHER compreendem um conjunto estruturado de processamentos computacionais que extraem informações multidimensionais da expressão linguística, operando através de machine learning e modelos de linguagem especializados.
 
 #### 2.B.1 Análise Sintática Estrutural
 
@@ -1011,9 +1011,9 @@ O EEmCare representa assim uma evolução paradigmática que honra a complexidad
 
 ### 4.1 Ontologias e Grafos de Conhecimento
 
-O ZEOCARE utiliza ontologias formais e grafos de conhecimento para representar relações conceituais e integrar dados heterogêneos:
+O VOITHER utiliza ontologias formais e grafos de conhecimento para representar relações conceituais e integrar dados heterogêneos:
 
-#### 4.1.1 Ontologia Dimensional ZEOCARE (ODV)
+#### 4.1.1 Ontologia Dimensional VOITHER (ODV)
 - Define formalmente as dimensões e suas relações
 - Estabelece vocabulário controlado para fenômenos clínicos
 - Mapeia correlações entre dimensões
@@ -1120,7 +1120,7 @@ A extração e análise dimensional automatizada é realizada através de um sis
 #### 4.3.2 Prompts Especializados para Extração Dimensional
 Exemplo de prompt estruturado para Claude:
 ```
-Analise a seguinte transcrição e extraia valores para as dimensões ZEOCARE:
+Analise a seguinte transcrição e extraia valores para as dimensões VOITHER:
 
 Transcrição:
 "[texto do paciente]"
@@ -1144,7 +1144,7 @@ Para cada dimensão, atribua valores na escala indicada e justifique brevemente:
 
 ### 4.4 Visualização e Interfaces
 
-A visualização dimensional é elemento central do ZEOCARE, não meramente ilustrativa:
+A visualização dimensional é elemento central do VOITHER, não meramente ilustrativa:
 
 ---
 
@@ -1152,7 +1152,7 @@ A visualização dimensional é elemento central do ZEOCARE, não meramente ilus
 
 ### 5.1 Estrutura e Comandos
 
-O GenAIScript serve como interface de conhecimento e acesso ao framework ZEOCARE:
+O GenAIScript serve como interface de conhecimento e acesso ao framework VOITHER:
 
 #### 5.1.1 Arquitetura de Scripts
 
@@ -1209,7 +1209,7 @@ O GenAIScript funciona como ponte entre diferentes componentes do conhecimento:
 
 ### 5.3 Execução e Deployment
 
-O GenAIScript ZEOCARE pode ser executado de diferentes formas:
+O GenAIScript VOITHER pode ser executado de diferentes formas:
 
 #### 5.3.1 Via Linha de Comando (nao preferencial)
 ```bash
@@ -1299,7 +1299,7 @@ O RCD é estruturado em cinco seções:
 
 ### 7.1 Avaliação Clínica
 
-O ZEOCARE transforma o processo de avaliação clínica:
+O VOITHER transforma o processo de avaliação clínica:
 
 #### 7.1.1 Fluxo de Avaliação Dimensional
 
@@ -1335,7 +1335,7 @@ Eventos .aje envolvidos:
 
 ### 7.2 Monitoramento Longitudinal
 
-O ZEOCARE facilita o acompanhamento continuado:
+O VOITHER facilita o acompanhamento continuado:
 
 #### 7.2.1 Captura Contínua de Dados
 - **Avaliações Periódicas**: Reavaliação dimensional em intervalos definidos
@@ -1357,7 +1357,7 @@ O ZEOCARE facilita o acompanhamento continuado:
 
 ### 7.3 Pesquisa e Análise Populacional
 
-O ZEOCARE cria novas possibilidades para pesquisa:
+O VOITHER cria novas possibilidades para pesquisa:
 
 #### 7.3.1 Agregação de Dados Dimensionais
 - **Data Lake DataWeaver**: Armazenamento anonimizado de dados dimensionais
@@ -1383,7 +1383,7 @@ O ZEOCARE cria novas possibilidades para pesquisa:
 
 ### 8.1 MVP: Componentes Essenciais
 
-Para materializar o ZEOCARE, um MVP (Minimum Viable Product) deve incluir:
+Para materializar o VOITHER, um MVP (Minimum Viable Product) deve incluir:
 
 #### 8.1.1 Componentes de Backend
 - **Runtime Euleriano**: Núcleo de execução de fluxos
@@ -1481,7 +1481,7 @@ O DataWeaver funciona como data lake anonimizado para dados de saúde:
 - **Pipeline de Anonimização**: Processo para remoção de identificadores
 - **Sistema de Auditoria**: Rastreabilidade de acessos e operações
 
-#### 9.1.2 Integração ZEOCARE & DataWeaver
+#### 9.1.2 Integração VOITHER & DataWeaver
 - **Fluxo de Dados**: Transferência segura de dados dimensionais
 - **Padrões de API**: Endpoints padronizados para operações
 - **Sincronização**: Mecanismos para atualização de dados
@@ -1527,7 +1527,7 @@ O IREAJE Framework articula os componentes do ecossistema:
 - **JSON-E**: Formato de intercâmbio de dados
 - **Euler Graphs**: Representação de fluxos de processamento
 
-#### 9.3.2 Integração com ZEOCARE
+#### 9.3.2 Integração com VOITHER
 - **Mapeamento Ontológico**: Alinhamento de conceitos entre sistemas
 - **Eventos Dimensionais**: Representação de transições como eventos IREAJE
 - **Agentes Especializados**: Componentes para análise dimensional
@@ -1547,9 +1547,9 @@ O IREAJE Framework articula os componentes do ecossistema:
 
 ### 10.1 Glossário de Termos
 
-**Termos Fundamentais do ZEOCARE**
+**Termos Fundamentais do VOITHER**
 
-- **Visualização INtegrativa TRAjetorial (ZEOCARE)**: Framework dimensional-vetorial para mapeamento e análise da experiência mental.
+- **Visualização INtegrativa TRAjetorial (VOITHER)**: Framework dimensional-vetorial para mapeamento e análise da experiência mental.
 
 - **Framework Dimensional-Vetorial**: Abordagem que representa estados mentais como posições em um espaço multidimensional contínuo.
 
@@ -1565,7 +1565,7 @@ O IREAJE Framework articula os componentes do ecossistema:
 
 - **Ponto Crítico**: Momento de transição significativa, instabilidade ou mudança em uma trajetória dimensional.
 
-- **Registro Clínico Dimensional (RCD)**: Formato de documentação estruturada do ZEOCARE.
+- **Registro Clínico Dimensional (RCD)**: Formato de documentação estruturada do VOITHER.
 
 - **Expressão Ipsissima**: Transcrição literal de segmentos relevantes do discurso do paciente.
 
@@ -1583,7 +1583,7 @@ O IREAJE Framework articula os componentes do ecossistema:
 
 - **.e (Eulerian Runtime Language)**: DSL para definição de fluxos de execução.
 
-- **GenAIScript**: Interface de conhecimento e acesso ao framework ZEOCARE.
+- **GenAIScript**: Interface de conhecimento e acesso ao framework VOITHER.
 
 - **DataWeaver**: Data lake anonimizado para dados de saúde.
 
@@ -1620,7 +1620,7 @@ O IREAJE Framework articula os componentes do ecossistema:
 
 **Documentação Técnica**
 
-- [Manual Técnico ZEOCARE](https://example.com/hh-manual-tecnico.pdf)
+- [Manual Técnico VOITHER](https://example.com/hh-manual-tecnico.pdf)
 - [Especificações do Runtime Euleriano](https://example.com/runtime-euleriano-specs.pdf)
 - [Guia de DSLs VOITHER](https://example.com/ireaje-dsl-guide.pdf)
 - [Documentação da API DataWeaver](https://example.com/dataweaver-api-docs.pdf)
@@ -1636,8 +1636,8 @@ O IREAJE Framework articula os componentes do ecossistema:
 
 **Recursos de Aprendizado**
 
-- [Curso: Fundamentos do ZEOCARE](https://academy.health-health.org/fundamentos)
+- [Curso: Fundamentos do VOITHER](https://academy.health-health.org/fundamentos)
 - [Tutorial: Implementando o Runtime Euleriano](https://academy.Voither/runtime-tutorial)
 - [Guia: Análise Dimensional na Prática Clínica](https://academy.health-health.org/clinica)
-- [Webinars: Integração ZEOCARE & VOITHER](https://academy.Voither/webinars)
+- [Webinars: Integração VOITHER & VOITHER](https://academy.Voither/webinars)
 - [Comunidade: Fórum de Desenvolvedores](https://community.health-health.org)
