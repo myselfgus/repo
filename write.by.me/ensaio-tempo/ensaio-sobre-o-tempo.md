@@ -1,4 +1,4 @@
-# Ensaio sobre o Tempo
+# O Relojoeiro
 ## Gustavo Mendes e Silva
 
 ## Índice
@@ -8,7 +8,7 @@
 - [Capítulo 4 - Jardim do Tempo Perdido](#capítulo-4---jardim-do-tempo-perdido)
 - [Capítulo 5 - As Bacantes e Antígona encenam o Horologista](#capítulo-5---as-bacantes-e-antigona-encenam-o-horologista)
 - [Capítulo 6 - Revolução dos Ponteiros](#capítulo-6---revolução-dos-ponteiros)
-- [Capítulo 7] - O Horologista(#capítulo-7---o-horologista)
+- [Capítulo 7 - O Horologista](#capítulo-7---o-horologista)
 
 ## Capítulo 1 - O Relojoeiro
 
