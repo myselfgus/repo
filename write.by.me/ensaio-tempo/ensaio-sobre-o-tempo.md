@@ -8,7 +8,7 @@
 - [Capítulo 4 - Jardim do Tempo Perdido](#capítulo-4---jardim-do-tempo-perdido)
 - [Capítulo 5 - As Bacantes e Antígona encenam o Horologista](#capítulo-5---as-bacantes-e-antigona-encenam-o-horologista)
 - [Capítulo 6 - Revolução dos Ponteiros](#capítulo-6---revolução-dos-ponteiros)
-- [Capítulo 7](#capítulo-7)
+- [Capítulo 7] - O Horologista(#capítulo-7---o-horologista)
 
 ## Capítulo 1 - O Relojoeiro
 
@@ -328,7 +328,7 @@ E assim, caro leitor, continuamos nossa jornada, atravessando de margem a margem
 
 *A engrenagem quebrada da Revolução dos Ponteiros*
 
-## Capítulo 7
+## Capítulo 7 - O Horologista
 
 Voltando ao início uma última vez, o Relojoeiro reabre as cortinas da oficina, mas as mãos que realizam esse gesto já não lhe parecem próprias, como se pertencessem a outro homem, a outro tempo, a outra existência. A luz que invade o espaço não ilumina mais do que sombras sobre sombras, realidades palimpsestas sobrepostas em camadas de significado que já não consegue separar. Com um olhar que condensa tudo o que viu, tudo o que compreendeu e, principalmente, tudo o que jamais poderá compreender, ele contempla os cinco objetos dispostos sobre sua mesa de trabalho: a flor murcha da Cidade das Horas Invertidas, o fragmento de rocha do Vale da Imutabilidade, a folha do Jardim do Tempo Perdido, o cristal do Místico e a engrenagem quebrada da Revolução dos Ponteiros.
 
@@ -426,4 +426,4 @@ Ou talvez — e esta é a possibilidade mais vertiginosa, mais libertadora, mais
 
 E assim, sem fim porque nunca realmente começou, sem conclusão porque nunca realmente se desenvolveu, sem despedida porque nunca realmente nos encontramos, nossa história — que é a única história, que é todas as histórias — continua, perpetuamente presente, eternamente atual, infinitamente real no único momento que existe: agora.
 
-© 2025 Gustavo Mendes. Todos os direitos reservados.
+© 2025 Gustavo Mendes e Silva. Todos os direitos reservados.
