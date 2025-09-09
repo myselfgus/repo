@@ -3,11 +3,11 @@
 
 ## Índice
 - [Capítulo 1 - O Relojoeiro](#capítulo-1---o-relojoeiro)
-- [Capítulo 2 - Cidade das Horas Invertidas](#capítulo-2---cidade-das-horas-invertidas)
-- [Capítulo 3 - Vale da Imutabilidade](#capítulo-3---vale-da-imutabilidade)
-- [Capítulo 4 - Jardim do Tempo Perdido](#capítulo-4---jardim-do-tempo-perdido)
-- [Capítulo 5 - As Bacantes e Antígona encenam o Horologista](#capítulo-5---as-bacantes-e-antigona-encenam-o-horologista)
-- [Capítulo 6 - Revolução dos Ponteiros](#capítulo-6---revolução-dos-ponteiros)
+- [Capítulo 2 - A Cidade](#capítulo-2---a-cidade)
+- [Capítulo 3 - O Vale](#capítulo-3---o-vale)
+- [Capítulo 4 - O Jardim](#capítulo-4---o-jardim)
+- [Capítulo 5 - O Teatro](#capítulo-5---o-teatro)
+- [Capítulo 6 - A Praça](#capítulo-6---a-praca)
 - [Capítulo 7 - O Horologista](#capítulo-7---o-horologista)
 
 ## Capítulo 1 - O Relojoeiro
@@ -44,7 +44,7 @@ E enquanto o Relojoeiro caminha em direção ao horizonte sempre inalcançável,
 
 Era uma manhã como outra qualquer, ou assim parecia ao Relojoeiro, que, ao abrir as cortinas de sua oficina, deixou que os primeiros raios de sol invadissem o espaço repleto de relógios e sombras. Mas algo dentro dele havia mudado, uma inquietação, um formigamento de pensamentos que não se aquietavam, que não se contentavam com o tic-tac monótono dos ponteiros. E foi então que ele decidiu, com a mesma certeza com que se sabe que o dia segue a noite, que era hora de buscar respostas, era hora de entender o tempo, não como um conjunto de engrenagens e mostradores, mas como a essência que permeia tudo, que define a vida e a morte, o amor e a perda, o encontro e a despedida.
 
-## Capítulo 2 - Cidade das Horas Invertidas
+## Capítulo 2 - A Cidade
 
 O Relojoeiro, agora um peregrino do tempo, vagava por caminhos que só um louco ou um poeta ousaria trilhar, e quem, afinal, consegue distinguir entre os dois quando a razão já se desfez como açúcar em água quente?, ele caminhava por estradas que não constavam em mapa algum, que talvez nem mesmo existissem antes de seus pés tocarem o solo, criando-as no próprio ato de percorrê-las, assim como o tempo talvez só exista quando o nomeamos, quando o dissecamos em horas, minutos, segundos, essa taxonomia ridícula que pretende domesticar o indomesticável, classificar o inclassificável, dar nome ao que transcende a própria linguagem, e não seria isso, pensava ele com um sorriso de ironia que seus lábios finos mal conseguiam conter, a maior das presunções humanas? acreditar que podemos aprisionar em caixinhas mecânicas aquilo que nos contém, aquilo que nos engole, aquilo que, no fim, nos aniquila com a mesma indiferença com que o mar apaga pegadas na areia.
 
@@ -104,7 +104,7 @@ E assim, caro leitor, você percebe que estamos presos em um ciclo, um eterno re
 
 *A flor murcha da Cidade das Horas Invertidas*
 
-## Capítulo 3 - Vale da Imutabilidade
+## Capítulo 3 - O Vale
 
 Voltando ao início mais uma vez, nosso Relojoeiro reabre as cortinas da oficina com um olhar que agora mistura a curiosidade de um explorador e o cansaço de um velho marinheiro, ou talvez não seja realmente cansaço o que sente, mas aquela peculiar forma de lucidez que chega quando todas as ilusões começam a desmoronar, quando os alicerces que sustentavam sua compreensão do mundo revelam-se tão frágeis quanto casas de papel em uma tempestade, é mais um despojamento, uma nudez essencial que o deixa vulnerável às verdades que sempre estiveram ali, escondidas sob o véu da cotidianidade, da rotina, da certeza não examinada, e é com essa nova vulnerabilidade, esse novo estado de receptividade quase dolorosa, que ele decide seguir adiante, não para trás em direção à segurança ilusória das antigas crenças, não para os lados em tentativas desesperadas de evitar o inevitável, mas para um destino que promete, se não respostas, ao menos perguntas mais precisas, mais essenciais, e não é isso, afinal, o início de toda verdadeira sabedoria? não questionar mais, mas questionar melhor?
 
@@ -154,7 +154,7 @@ E assim, caro leitor, continuamos nossa jornada, sabendo que cada volta ao iníc
 
 *O fragmento de rocha do Vale da Imutabilidade*
 
-## Capítulo 4 - Jardim do Tempo Perdido
+## Capítulo 4 - O Jardim
 
 Voltando mais uma vez ao início, nosso Relojoeiro reabre as cortinas da oficina com um olhar que agora mistura a curiosidade de um explorador e o cansaço de um velho marinheiro, de um navegante que atravessou oceanos de possibilidades sem encontrar terra firme, ou talvez tenha encontrado terras demais, ilhas de verdades parciais que não formam um continente, um arquipélago de revelações fragmentadas que recusam organizar-se em um todo coerente, e mesmo assim ele persiste, pois que outra escolha teria, sabendo o que agora sabe, vendo o que agora vê, sentindo o que agora sente, este homem de meia-idade com as mãos calejadas pelo manuseio das horas e o coração arranhado pelas garras invisíveis do tempo, que é tigre e cordeiro, algoz e vítima, veneno e remédio, ele sente que cada volta ao começo o aproxima mais das respostas, ou talvez o empurre mais fundo nas perguntas, mas quem pode distinguir entre aproximação e afastamento quando o próprio sentido de direção foi subvertido, quando o mapa e o território trocaram de lugar, quando quem procura é também o procurado, quando quem pergunta é também a resposta que aguarda ser formulada no silêncio entre as palavras?
 
@@ -206,7 +206,7 @@ E assim, caro leitor, continuamos nossa jornada, sabendo que cada volta ao iníc
 
 *A folha do Jardim do Tempo Perdido*
 
-## Capítulo 5 - As Bacantes e Antígona encenam o Horologista
+## Capítulo 5 - O Teatro
 
 Voltando ao início mais uma vez, o Relojoeiro reabre as cortinas da oficina, agora com uma expressão que mistura cansaço e uma determinação quase teimosa, seu rosto iluminado pela luz oblíqua da manhã como um palco sob holofotes amarelados enquanto atores invisíveis se posicionam nas asas, aguardando sua deixa para entrar e pronunciar falas que, embora pareçam espontâneas, foram escritas muito antes de nascerem, muito antes mesmo que a ideia do teatro existisse, muito antes que a primeira palavra fosse pronunciada pela primeira garganta humana, ele sente que cada volta ao começo o empurra mais fundo em uma espiral de descobertas e perplexidades, cada retorno não é mera repetição, mas um novo começo que carrega em si a memória de todos os começos anteriores, (CORO: O tempo circular! O eterno retorno! A serpente que devora a própria cauda!), e assim, fechando a oficina novamente, ele segue em direção ao próximo destino: o Enigma Filosófico do Tempo, um lugar onde as certezas vão para morrer e as dúvidas se multiplicam como coelhos tirados da cartola de um mágico embriagado pela própria ilusão.
 
@@ -278,7 +278,7 @@ FIM DO QUINTO ATO
 
 *O cristal do Místico*
 
-## Capítulo 6 - Revolução dos Ponteiros
+## Capítulo 6 - A Praça
 
 Voltando ao início mais uma vez, o Relojoeiro reabre as cortinas da oficina, agora com uma determinação quase fanática, travessia permanente, terceiras margens cruzando, como se estivesse prestes a enfrentar o próprio Tempo em um duelo de morte — nonada! —, os objetos têm sombras que não lhes pertencem e o ar circula como uma guilhotina invisível entre passado e futuro, ele sente que cada volta ao começo o empurre mais fundo em espiral de descobertas e perplexidades, atravessando, ele atravessa, todas as coisas atravessa, cada retorno diferente do anterior como rio que nunca é o mesmo, nem para o rio nem para quem nele mergulha duas vezes, o Tempo é Sertão, vasto, traiçoeiro, sem começo definido nem fim verdadeiro, território onde Deus e o Diabo se encontram para negociar as horas, Fechando a oficina novamente, trancafio de mundos, ele segue em direção ao próximo destino: a Revolução dos Ponteiros, um lugar onde o tempo é questionado, desafiado e, finalmente, subvertido, como criança que desmonta brinquedo para entender seu funcionamento e o destrói exatamente por isso.
 
