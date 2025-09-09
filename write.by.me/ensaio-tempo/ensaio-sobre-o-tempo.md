@@ -2,15 +2,15 @@
 ## Gustavo Mendes e Silva
 
 ## Índice
-- [Capítulo 1 - O Despertar do Relojoeiro](#capítulo-1---o-despertar-do-relojoeiro)
+- [Capítulo 1 - O Relojoeiro](#capítulo-1---o-relojoeiro)
 - [Capítulo 2 - Cidade das Horas Invertidas](#capítulo-2---cidade-das-horas-invertidas)
 - [Capítulo 3 - Vale da Imutabilidade](#capítulo-3---vale-da-imutabilidade)
 - [Capítulo 4 - Jardim do Tempo Perdido](#capítulo-4---jardim-do-tempo-perdido)
-- [Capítulo 5 - Enigma Filosófico do Tempo](#capítulo-5---enigma-filosófico-do-tempo)
+- [Capítulo 5 - As Bacantes e Antígona encenam o Horologista](#capítulo-5---as-bacantes-e-antigona-encenam-o-horologista)
 - [Capítulo 6 - Revolução dos Ponteiros](#capítulo-6---revolução-dos-ponteiros)
 - [Capítulo 7](#capítulo-7)
 
-## Capítulo 1 - O Despertar do Relojoeiro
+## Capítulo 1 - O Relojoeiro
 
 Era uma manhã como outra qualquer, e nisso já se anunciava a primeira das infinitas mentiras que marcariam aquele dia, porque manhã alguma é como outra qualquer, cada uma carregando em sua luz particular o peso acumulado de todos os amanheceres que a precederam, cada raio de sol um fio invisível tecendo o que chamamos de presente com a trama desgastada do passado, cada movimento do ar uma premonição do futuro que já existe antes mesmo de chegar, e o Relojoeiro sabia disso, ou melhor, começava a saber disso enquanto abria as pesadas cortinas de veludo da oficina e deixava que a claridade invadisse o ambiente como uma multidão de pequenas revelações douradas, iluminando o que antes dormia nas sombras, a poeira suspensa no ar dançando como constelações microscópicas, cada partícula um universo completo girando em torno de seu próprio eixo invisível, e ele, parado à janela, sentiu pela primeira vez aquela inquietação que não tinha nome mas que crescia dentro dele como uma raiz antiga despertando de um longo sono, estendendo seus filamentos por entre as engrenagens de sua consciência, por entre os mecanismos precisos de sua razão, que até então funcionavam com a mesma exatidão implacável dos relógios que consertava.
 
@@ -206,7 +206,7 @@ E assim, caro leitor, continuamos nossa jornada, sabendo que cada volta ao iníc
 
 *A folha do Jardim do Tempo Perdido*
 
-## Capítulo 5 - Enigma Filosófico do Tempo
+## Capítulo 5 - As Bacantes e Antígona encenam o Horologista
 
 Voltando ao início mais uma vez, o Relojoeiro reabre as cortinas da oficina, agora com uma expressão que mistura cansaço e uma determinação quase teimosa, seu rosto iluminado pela luz oblíqua da manhã como um palco sob holofotes amarelados enquanto atores invisíveis se posicionam nas asas, aguardando sua deixa para entrar e pronunciar falas que, embora pareçam espontâneas, foram escritas muito antes de nascerem, muito antes mesmo que a ideia do teatro existisse, muito antes que a primeira palavra fosse pronunciada pela primeira garganta humana, ele sente que cada volta ao começo o empurra mais fundo em uma espiral de descobertas e perplexidades, cada retorno não é mera repetição, mas um novo começo que carrega em si a memória de todos os começos anteriores, (CORO: O tempo circular! O eterno retorno! A serpente que devora a própria cauda!), e assim, fechando a oficina novamente, ele segue em direção ao próximo destino: o Enigma Filosófico do Tempo, um lugar onde as certezas vão para morrer e as dúvidas se multiplicam como coelhos tirados da cartola de um mágico embriagado pela própria ilusão.
 
