@@ -1,5 +1,5 @@
 # Ensaio sobre o Tempo
-## Gustavo Mendes
+## Gustavo Mendes e Silva
 
 ## Índice
 - [Capítulo 1 - O Despertar do Relojoeiro](#capítulo-1---o-despertar-do-relojoeiro)
